@@ -273,3 +273,24 @@ Read:
 Core rule:
 
     Native closure is the erasure of obstruction potential, not merely reaching 1.
+
+## v1.9 evidence before translation
+
+Before returning to standard mathematics, map the evidence into native objects.
+
+Read:
+
+    docs/NATIVE_EVIDENCE_MAPPING.md
+    docs/EVIDENCE_TO_NATIVE_OBJECTS.md
+    docs/NATIVE_EVIDENCE_STATUS.md
+    docs/NATIVE_EVIDENCE_LIMITS.md
+    docs/NATIVE_TO_STANDARD_PREPARATION.md
+
+Then run:
+
+    python examples/build_native_evidence_map.py
+
+Core rule:
+
+    The evidence layer supports the native research path.
+    It does not replace proof.

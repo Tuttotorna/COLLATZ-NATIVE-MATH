@@ -557,3 +557,45 @@ New documents:
     docs/NATIVE_COMPENSATION_SUFFICIENCY.md
 
 This is not a proof of the Collatz conjecture. It defines the native closure target before standard mathematical translation.
+
+## v1.9 Native Evidence Mapping
+
+The repository now maps existing computational evidence into native objects.
+
+This step does not add a bigger scan.
+
+It maps:
+
+    frontier_stability_certificate
+    compensation_law_candidate_certificate
+    adversarial_compensation_certificate
+    hardness_metric_report
+
+into:
+
+    debt
+    shadow
+    compensation
+    regeneration
+    closure
+    obstruction
+
+Run:
+
+    python examples/build_native_evidence_map.py
+
+Outputs:
+
+    results/native_evidence_map.json
+    results/native_evidence_map.md
+
+Core rule:
+
+    Evidence is not proof.
+    Hardness is not obstruction.
+    Local recovery is not full native closure.
+    Standard mathematics remains deferred.
+
+Next:
+
+    v2.0 Native-to-Standard Translation Boundary

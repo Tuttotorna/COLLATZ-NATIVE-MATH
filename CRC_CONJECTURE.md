@@ -292,3 +292,31 @@ Therefore:
     closure = obstruction potential erased
 
 The next step is to map existing evidence artifacts into this native closure structure.
+
+## Native evidence mapping
+
+The existing computational artifacts are now mapped into native objects.
+
+The purpose is to avoid jumping back to standard mathematics too early.
+
+Mapped native objects:
+
+    debt
+    shadow
+    compensation
+    regeneration
+    closure
+    obstruction
+
+Current interpretation:
+
+    frontier stability = selected frontier evidence
+    compensation recovery = local recovery evidence
+    adversarial scan = finite obstruction-search evidence
+    hardness report = stress classification, not obstruction
+
+This does not prove the Collatz conjecture.
+
+It prepares the next phase:
+
+    native-to-standard translation boundary

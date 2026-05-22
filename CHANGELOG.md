@@ -340,3 +340,14 @@ v1.1 tests whether the v1.0 hard case is isolated or part of a wider frontier.
 - Defines debt erasure, shadow erasure, and compensation sufficiency.
 - Clarifies that local recovery is not automatically closure.
 - Sets v1.9 as Native Evidence Mapping.
+
+## v1.9 - Native Evidence Mapping
+
+- Adds a native evidence mapping layer.
+- Maps existing computational artifacts into native objects.
+- Separates evidence from proof.
+- Separates hardness from obstruction.
+- Separates local recovery from native closure.
+- Adds a native evidence map builder.
+- Writes results/native_evidence_map.json and results/native_evidence_map.md.
+- Prepares v2.0 Native-to-Standard Translation Boundary.

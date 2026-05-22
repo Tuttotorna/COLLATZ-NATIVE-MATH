@@ -1,0 +1,121 @@
+{
+  "closure_result_types_used": [
+    "EVIDENCE_FOR_LOCAL_CLOSURE_NOT_FULL_NATIVE_CLOSURE",
+    "LOCALLY_RECOVERED_NOT_FULLY_CLOSED",
+    "REGENERATED_BUT_COMPENSATED",
+    "UNDECIDED_BY_HARDNESS_ALONE"
+  ],
+  "evidence_count": 4,
+  "evidence_maps": [
+    {
+      "closure_status": "EVIDENCE_FOR_LOCAL_CLOSURE_NOT_FULL_NATIVE_CLOSURE",
+      "evidence_id": "frontier_stability_certificate",
+      "key_case": {
+        "minimum_surplus": 0.00275679752445801,
+        "n0": 9780657630,
+        "post_chain_recovery_distance": 114
+      },
+      "limits": "This artifact stabilizes a selected frontier case. It does not establish global native closure.",
+      "native_objects": {
+        "closure": "frontier_remained_stable_under_selected_scan",
+        "compensation": "detected_by_recovery_after_chain",
+        "debt": "detected_as_hard_frontier_recovery_structure",
+        "obstruction": "not_detected",
+        "regeneration": "not_primary_in_this_artifact",
+        "shadow": "represented_by_post_chain_recovery_distance"
+      },
+      "native_role": "frontier_anchor",
+      "obstruction_status": "NO_OBSTRUCTION_DETECTED_IN_SELECTED_FRONTIER",
+      "proof_status": "finite_evidence_not_proof",
+      "source": "results/frontier_stability_certificate.json"
+    },
+    {
+      "closure_status": "LOCALLY_RECOVERED_NOT_FULLY_CLOSED",
+      "evidence_id": "compensation_law_candidate_certificate",
+      "key_case": {
+        "max_hardness_score": null,
+        "max_post_recovery_blocks": null,
+        "min_combined_surplus": null,
+        "n0": null
+      },
+      "limits": "This artifact supports compensation behavior over selected candidates, but does not prove forced compensation for all admissible debt structures.",
+      "native_objects": {
+        "closure": "local_recovery_evidence_only",
+        "compensation": "all_detected_bad_windows_recovered",
+        "debt": "bad_windows_detected",
+        "obstruction": "not_detected",
+        "regeneration": "not_exhaustively_tested_by_this_artifact",
+        "shadow": "implicit_in_recovery_after_bad_windows"
+      },
+      "native_role": "compensation_recovery_evidence",
+      "obstruction_status": "NO_UNRECOVERED_BAD_WINDOW",
+      "proof_status": "finite_evidence_not_proof",
+      "source": "results/compensation_law_candidate_certificate.json",
+      "unrecovered_bad_windows": 0
+    },
+    {
+      "closure_status": "REGENERATED_BUT_COMPENSATED",
+      "counterexample_candidate_count": 0,
+      "evidence_id": "adversarial_compensation_certificate",
+      "key_case": {
+        "hardest_n0": 63728127,
+        "hardest_score": 14264423.973214354,
+        "tightest_surplus": 1.7736432994075457e-05,
+        "tightest_surplus_n0": 63728127
+      },
+      "limits": "This artifact is the strongest current finite adversarial evidence, but remains bounded and computational.",
+      "native_objects": {
+        "closure": "evidence_against_selected_obstruction_candidates",
+        "compensation": "all_adversarial_bad_windows_recovered",
+        "debt": "adversarial_bad_windows_detected",
+        "obstruction": "not_detected",
+        "regeneration": "stress_tested_by_adversarial_candidate_generation",
+        "shadow": "tested_through_extended_recovery_windows"
+      },
+      "native_role": "adversarial_obstruction_search",
+      "obstruction_status": "NO_COUNTEREXAMPLE_CANDIDATE_DETECTED",
+      "proof_status": "finite_evidence_not_proof",
+      "source": "results/adversarial_compensation_certificate.json"
+    },
+    {
+      "closure_status": "UNDECIDED_BY_HARDNESS_ALONE",
+      "evidence_id": "hardness_metric_report",
+      "key_cases": [
+        "63728127",
+        "670617279",
+        "837799",
+        "9780657630"
+      ],
+      "limits": "This artifact prevents the incorrect inference that the hardest case under one metric is automatically a native obstruction.",
+      "metric_count": 5,
+      "native_objects": {
+        "closure": "not_decided_by_hardness_alone",
+        "compensation": "metric_dependent",
+        "debt": "stress_measured_across_multiple_metrics",
+        "obstruction": "not_equivalent_to_hardness",
+        "regeneration": "metric_dependent",
+        "shadow": "metric_dependent"
+      },
+      "native_role": "hardness_is_stress_not_obstruction",
+      "obstruction_status": "HARDNESS_DOES_NOT_IMPLY_OBSTRUCTION",
+      "proof_status": "classification_not_proof",
+      "source": "results/hardness_metric_report.json"
+    }
+  ],
+  "layer": "native_evidence_mapping",
+  "native_objects": [
+    "debt",
+    "shadow",
+    "compensation",
+    "regeneration",
+    "closure",
+    "obstruction"
+  ],
+  "next_recommended_version": "v2.0 Native-to-Standard Translation Boundary",
+  "obstruction_detected": false,
+  "primary_claim": "Existing computational artifacts are evidence layers that can be mapped to native objects, but they are not proof.",
+  "proof_status": "not_a_proof",
+  "standard_translation_status": "deferred",
+  "status": "existing_evidence_mapped_into_native_objects",
+  "version": "v1.9"
+}

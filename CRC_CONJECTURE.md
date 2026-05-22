@@ -454,3 +454,28 @@ internal admissibility
 Boundary:
 
 No obstruction detected in a finite domain is not the same as no obstruction can exist.
+
+## Bounded obstruction search scanner
+
+v2.6 adds a finite scanner for the native obstruction signature.
+
+The target is:
+
+    persistent debt
+    non-erased shadow
+    dangerous regeneration
+    insufficient compensation
+    no closure event
+    internal admissibility
+
+The scanner does not try to prove the conjecture.
+
+It tests whether obstruction-preserving regeneration appears inside a bounded deterministic search domain.
+
+Correct interpretation:
+
+    No obstruction detected in this bounded search.
+
+Forbidden interpretation:
+
+    No obstruction can exist.

@@ -1,0 +1,42 @@
+{
+  "candidate_generation_rule": "range(1,128) plus neighborhoods around known anchors plus neighborhoods around powers of two",
+  "closure_result_counts": {
+    "DANGEROUS_REGENERATION_DETECTED": 127,
+    "DEBT_LOCALLY_RECOVERED": 46,
+    "NO_DEBT_DETECTED": 43,
+    "REGENERATED_BUT_COMPENSATED": 223
+  },
+  "dangerous_regeneration_count": 50137,
+  "debt_window_count": 256578,
+  "hardest_by_recovery": {
+    "closure_result_type": "DANGEROUS_REGENERATION_DETECTED",
+    "hardest_recovery_score": 74280320.99431963,
+    "max_post_recovery_blocks": 183,
+    "min_positive_surplus": 7.15128842860846e-05,
+    "n0": 9780657630
+  },
+  "max_bad_windows": {
+    "closure_result_type": "DANGEROUS_REGENERATION_DETECTED",
+    "debt_window_count": 10903,
+    "n0": 989345275647
+  },
+  "max_dangerous_regeneration": {
+    "closure_result_type": "DANGEROUS_REGENERATION_DETECTED",
+    "dangerous_regeneration_count": 4863,
+    "n0": 9780657630
+  },
+  "negative_result_boundary": "No obstruction detected in a finite domain is not the same as no obstruction can exist.",
+  "obstruction_candidate_count": 0,
+  "proof_status": "not_a_proof",
+  "regeneration_count": 255331,
+  "scanner": "bounded_obstruction_search_scanner",
+  "search_domain": "deterministic finite candidate set: small integers, known anchors, local neighborhoods, and power-of-two neighborhoods",
+  "tested_candidate_count": 439,
+  "theorem_status": "no_theorems_introduced",
+  "tightest_positive_surplus": {
+    "closure_result_type": "DANGEROUS_REGENERATION_DETECTED",
+    "min_positive_surplus": 7.15128842860846e-05,
+    "n0": 9780657630
+  },
+  "version": "v2.6"
+}

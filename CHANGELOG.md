@@ -410,3 +410,12 @@ v1.1 tests whether the v1.0 hard case is isolated or part of a wider frontier.
 - Defines obstruction search result types.
 - Defines minimum reporting fields for future scanners.
 - Sets v2.6 as Bounded Obstruction Search Scanner.
+
+## v2.6 - Bounded Obstruction Search Scanner
+
+- Adds a deterministic bounded scanner for obstruction-preserving regeneration.
+- Searches for native obstruction signatures, not merely long or hard trajectories.
+- Emits bounded rows, summary, and certificate artifacts.
+- Adds negative-result boundary: no obstruction detected in a finite domain is not proof of impossibility.
+- Adds tests for scanner artifacts, minimum report fields, known anchors, and result consistency.
+- Sets v2.7 as Obstruction Scanner Evidence Report.

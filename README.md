@@ -702,3 +702,32 @@ Core boundary:
 No obstruction detected in a finite domain is not the same as no obstruction can exist.
 
 This is a protocol layer, not a proof layer.
+
+## v2.6 Bounded Obstruction Search Scanner
+
+The repository now includes a bounded scanner for native obstruction search.
+
+The scanner searches for obstruction-preserving regeneration.
+
+It does not merely search for:
+
+    long trajectory
+    high hardness score
+    tight positive surplus
+    many bad windows
+
+Run:
+
+    python examples/bounded_obstruction_search_scanner.py
+
+Outputs:
+
+    results/bounded_obstruction_search_rows.jsonl
+    results/bounded_obstruction_search_summary.json
+    results/bounded_obstruction_search_certificate.json
+
+Boundary:
+
+    No obstruction detected in a finite domain is not the same as no obstruction can exist.
+
+This is not a proof layer.

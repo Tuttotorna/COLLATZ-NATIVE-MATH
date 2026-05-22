@@ -396,3 +396,22 @@ Core rule:
 A native obstruction candidate requires persistent debt, non-erased shadow, dangerous regeneration, insufficient compensation, no closure event, and internal admissibility.
 
 No finite negative search result is a proof.
+
+## v2.6 bounded obstruction scanner
+
+After defining the obstruction search protocol, run the bounded scanner:
+
+    python examples/bounded_obstruction_search_scanner.py
+
+Read:
+
+    docs/BOUNDED_OBSTRUCTION_SEARCH_SCANNER.md
+    docs/BOUNDED_OBSTRUCTION_SIGNATURE.md
+    docs/BOUNDED_SEARCH_NEGATIVE_RESULT.md
+    docs/BOUNDED_SEARCH_RESULT_TYPES.md
+    docs/BOUNDED_OBSTRUCTION_SEARCH_LIMITS.md
+    docs/BOUNDED_OBSTRUCTION_NEXT_STEPS.md
+
+Core rule:
+
+    bounded negative result != proof

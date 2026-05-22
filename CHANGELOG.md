@@ -123,3 +123,27 @@ Core addition:
     primary collapse cause
 
 v0.5 moves from detecting that chains collapse to classifying how they collapse.
+
+## v0.6.0
+
+Added unclassified collapse analysis and refined collapse taxonomy.
+
+New files:
+
+- docs/UNCLASSIFIED_COLLAPSE_ANALYSIS.md
+- docs/REFINED_COLLAPSE_TAXONOMY.md
+- docs/UNCLASSIFIED_RESULTS.md
+- examples/analyze_unclassified_collapses.py
+- tests/test_unclassified_collapse_analysis.py
+- results/unclassified_collapse_analysis.jsonl
+- results/unclassified_collapse_summary.json
+
+Core addition:
+
+    soft_debt_break
+    weak_regeneration
+    delayed_compensation
+    end_of_chain_without_escape
+    refined v0.6 primary collapse cause
+
+v0.6 targets the unclassified residue left by v0.5.

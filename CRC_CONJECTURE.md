@@ -86,3 +86,23 @@ A chain can collapse through:
 The CRC target becomes sharper:
 
     no infinite chain can avoid all collapse mechanisms forever.
+
+## v0.6 refined collapse form
+
+v0.6 refines the CRC obstruction vocabulary.
+
+A chain can now collapse through:
+
+    terminal_descent
+    post_chain_overcompensation
+    delayed_compensation
+    debt_spike
+    soft_debt_break
+    failed_regeneration
+    weak_regeneration
+    shadow_exhaustion
+    end_of_chain_without_escape
+
+The refined CRC target is:
+
+    no infinite chain can avoid the full collapse taxonomy forever.

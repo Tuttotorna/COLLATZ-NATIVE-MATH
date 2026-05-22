@@ -39,5 +39,8 @@ jobs:
       - name: Run collapse cause classification
         run: python examples/analyze_collapse_causes.py
 
+      - name: Run unclassified collapse analysis
+        run: python examples/analyze_unclassified_collapses.py
+
       - name: Run tests
         run: pytest -q

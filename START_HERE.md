@@ -85,3 +85,15 @@ This classifies how detected cheap regeneration chains collapse.
 The v0.5 question is:
 
     which native mechanism breaks the chain?
+
+## v0.6 step
+
+After v0.5, run:
+
+    python examples/analyze_unclassified_collapses.py
+
+This analyzes the unclassified collapse residue and applies a refined collapse taxonomy.
+
+The v0.6 question is:
+
+    can every finite cheap regeneration chain collapse be expressed in native Collatz terms?

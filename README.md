@@ -244,3 +244,20 @@ This does not prove Collatz.
 It sharpens the native target:
 
     every infinite cheap regeneration chain would need to avoid every known collapse mechanism forever.
+
+## v0.6: Unclassified collapse analysis
+
+v0.6 targets collapse episodes previously left unclassified.
+
+Run:
+
+    python examples/analyze_unclassified_collapses.py
+
+The refined taxonomy adds:
+
+    soft_debt_break
+    weak_regeneration
+    delayed_compensation
+    end_of_chain_without_escape
+
+The goal is to reduce unclassified collapse residue and sharpen the CRC obstruction language.

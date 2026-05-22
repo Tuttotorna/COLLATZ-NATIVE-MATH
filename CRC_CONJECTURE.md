@@ -193,3 +193,13 @@ It certifies that, within the selected finite frontier, the known critical case 
     hardness = 15.100955299032181
     post-chain recovery distance = 114
     minimum surplus = 0.00275679752445801
+
+## Compensation law candidate
+
+The v1.3 direction is not to claim a proof.
+
+The target candidate law is:
+
+    every structurally dangerous low-debt window must be followed by finite compensation.
+
+In v1.3 this is tested only over a finite frontier. A proof would require showing that compensation is forced by the arithmetic structure of 3n + 1 and v2(3n + 1).

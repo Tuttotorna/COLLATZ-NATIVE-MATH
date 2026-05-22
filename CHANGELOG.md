@@ -280,3 +280,11 @@ v1.1 tests whether the v1.0 hard case is isolated or part of a wider frontier.
 - Avoids false HARDER_THAN_PREVIOUS classification caused by rounded baseline 15.100955.
 - Records comparison_status, frontier_stable, and harder_than_previous_critical.
 - Adds regression tests for exact frontier stability.
+
+## v1.3 - Compensation law candidate
+
+- Adds a finite compensation-law candidate scanner.
+- Detects maximal bad debt windows where average debt is below log2(3).
+- Searches shortest post-window recovery restoring the combined average to log2(3).
+- Emits a finite compensation-law candidate certificate.
+- Adds regression tests for the v1.3 outputs.

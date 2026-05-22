@@ -178,3 +178,14 @@ Expected status:
 
     comparison_status = SAME_AS_PREVIOUS
     frontier_stable = true
+
+## v1.3 compensation law candidate
+
+Run:
+
+    python examples/analyze_compensation_law_candidate.py
+
+Then inspect:
+
+    results/compensation_law_candidate_summary.json
+    results/compensation_law_candidate_certificate.json

@@ -1,0 +1,20 @@
+{
+  "all_bad_windows_recovered": true,
+  "candidate_count": 302,
+  "certificate_type": "finite_compensation_law_candidate_certificate",
+  "claim_tested": "Every detected maximal bad debt window in the selected finite frontier has a later finite recovery window whose combined average debt reaches or exceeds log2(3).",
+  "comparison_tolerance": 1e-12,
+  "escape_threshold_log2_3": 1.584962500721156,
+  "hardest_case_n0": 670617279,
+  "hardest_case_score": 10922.491951698601,
+  "limits": "The scan is finite. A proof would require showing that every structurally possible bad window must admit finite compensation by arithmetic necessity.",
+  "longest_recovery_blocks": 1,
+  "longest_recovery_case_n0": 3,
+  "meaning": "This supports the compensation-law candidate on the selected finite frontier. It is a falsifiable computational certificate, not a proof.",
+  "tightest_surplus": 3.749927884388882e-05,
+  "tightest_surplus_case_n0": 670617279,
+  "total_bad_windows": 5674,
+  "total_recovered_bad_windows": 5674,
+  "total_unrecovered_bad_windows": 0,
+  "version": "v1.3"
+}

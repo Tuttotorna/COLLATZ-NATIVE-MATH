@@ -379,3 +379,19 @@ Important: the baseline hardness must not be rounded below the comparison tolera
 
 This is a finite computational certificate over the selected candidate frontier.
 It is not a proof of the Collatz conjecture.
+
+## v1.3 compensation law candidate
+
+The repository now includes a finite scanner for the compensation-law candidate:
+
+    python examples/analyze_compensation_law_candidate.py
+
+The scanner detects maximal bad debt windows and checks whether each has a finite recovery window.
+
+Generated outputs:
+
+    results/compensation_law_candidate_rows.jsonl
+    results/compensation_law_candidate_summary.json
+    results/compensation_law_candidate_certificate.json
+
+This is a falsifiable finite certificate. It is not a proof of the Collatz conjecture.

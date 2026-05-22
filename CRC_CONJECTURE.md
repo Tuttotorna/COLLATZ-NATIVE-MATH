@@ -217,3 +217,17 @@ Current intended reading:
     bad windows searched
     unrecovered windows counted
     no proof claim
+
+## Hardness metric boundary
+
+The current repository does not use a single universal meaning of hardness.
+
+It separates:
+
+- frontier recovery hardness
+- compensation-window hardness
+- adversarial compensation hardness
+- tightest positive surplus
+- known long-trajectory anchors
+
+Different hardest cases are expected when the metric changes.

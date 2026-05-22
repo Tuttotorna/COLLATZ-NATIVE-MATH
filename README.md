@@ -417,3 +417,23 @@ Meaning:
 Limit:
 
     this is not a proof of the Collatz conjecture.
+
+## v1.5 hardness metric report
+
+The repository now separates different meanings of "hardest Collatz case".
+
+Run:
+
+`python examples/build_hardness_metric_report.py`
+
+Outputs:
+
+`results/hardness_metric_report.json`
+
+`results/hardness_metric_report.md`
+
+Key point:
+
+`9780657630` can remain the hardest frontier-recovery case while `63728127` can be the hardest adversarial-compensation case.
+
+This is not a contradiction. They are different measurement lenses.

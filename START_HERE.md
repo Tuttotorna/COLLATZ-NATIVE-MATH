@@ -200,3 +200,15 @@ Then inspect:
 
     results/adversarial_compensation_summary.json
     results/adversarial_compensation_certificate.json
+
+## v1.5 hardness metrics
+
+Run the metric report:
+
+`python examples/build_hardness_metric_report.py`
+
+Then inspect:
+
+`results/hardness_metric_report.md`
+
+This explains why the repository can contain multiple hardest cases under different measurement lenses.

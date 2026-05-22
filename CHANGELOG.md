@@ -296,3 +296,12 @@ v1.1 tests whether the v1.0 hard case is isolated or part of a wider frontier.
 - Searches for unrecovered bad compensation windows.
 - Emits finite rows, summary, and certificate artifacts.
 - Adds regression tests for the adversarial certificate.
+
+## v1.5 - Hardness metric report
+
+- Adds a metric-unification report for Collatz hardness.
+- Separates frontier recovery hardness, compensation-window hardness, adversarial compensation hardness, tightest surplus, and known trajectory anchors.
+- Adds `examples/build_hardness_metric_report.py`.
+- Adds `docs/HARDNESS_METRICS.md`.
+- Adds generated reports in `results/hardness_metric_report.json` and `results/hardness_metric_report.md`.
+- Adds regression tests proving that multiple hardest cases are not treated as contradictions.

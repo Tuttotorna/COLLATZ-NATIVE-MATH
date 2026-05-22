@@ -328,3 +328,20 @@ Core rule:
     Every standard definition must remain reversible to the native object.
 
 No theorem is introduced in v2.1.
+
+## v2.2 lemma candidates before theorems
+
+Read:
+
+docs/LOCAL_DEBT_LEMMA_CANDIDATES.md
+docs/BAD_WINDOW_LEMMA_CANDIDATES.md
+docs/COMPENSATION_LEMMA_CANDIDATES.md
+docs/SURPLUS_LEMMA_CANDIDATES.md
+docs/HARDNESS_OBSTRUCTION_LEMMA_CANDIDATES.md
+docs/LEMMA_CANDIDATE_STATUS.md
+
+Core rule:
+
+Lemma candidates are not theorems.
+
+The next required step is to sharpen shadow and regeneration before attempting stronger closure claims.

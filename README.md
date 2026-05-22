@@ -629,3 +629,30 @@ Open candidate definitions:
 This is not a proof layer.
 
 It is a controlled definition layer before lemma candidates.
+
+## v2.2 Local Debt Lemma Candidates
+
+The repository now introduces lemma candidates.
+
+Core rule:
+
+native object -> standard definition -> lemma candidate -> native meaning retained
+
+Stable lemma candidates include:
+
+- odd block decomposition
+- discharge exponent uniqueness
+- local debt formation
+- cumulative debt over an interval
+- bad window equivalence
+- compensation recovery
+- positive surplus
+
+Boundary lemma candidates include:
+
+- local recovery is not native closure
+- hardness is not obstruction
+- tight surplus is not obstruction
+
+This is not a theorem layer.
+This is not a proof layer.

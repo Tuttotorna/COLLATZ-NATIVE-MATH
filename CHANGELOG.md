@@ -370,3 +370,13 @@ v1.1 tests whether the v1.0 hard case is isolated or part of a wider frontier.
 - Marks shadow, regeneration, obstruction, and closure as open candidates.
 - Adds definition status and next standardization steps.
 - Sets v2.2 as Local Debt Lemma Candidates.
+
+## v2.2 - Local Debt Lemma Candidates
+
+- Adds reversible local debt lemma candidates.
+- Converts stable v2.1 definitions into lemma candidates.
+- Adds bad-window, compensation, surplus, and hardness-obstruction lemma candidate documents.
+- Separates stable, boundary, and open lemma candidates.
+- Keeps proof_status = not_a_proof.
+- Keeps theorem_status = no_theorems_introduced.
+- Sets v2.3 as Shadow and Regeneration Definition Refinement.

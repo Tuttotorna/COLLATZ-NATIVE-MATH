@@ -1,0 +1,111 @@
+{
+  "boundary_candidate_count": 3,
+  "documents": [
+    "docs/LOCAL_DEBT_LEMMA_CANDIDATES.md",
+    "docs/BAD_WINDOW_LEMMA_CANDIDATES.md",
+    "docs/COMPENSATION_LEMMA_CANDIDATES.md",
+    "docs/SURPLUS_LEMMA_CANDIDATES.md",
+    "docs/HARDNESS_OBSTRUCTION_LEMMA_CANDIDATES.md",
+    "docs/LEMMA_CANDIDATE_STATUS.md"
+  ],
+  "forbidden_claims": [
+    "collatz_solved",
+    "global_closure_proved",
+    "lemma_candidate_treated_as_theorem",
+    "finite_evidence_implies_proof",
+    "hardness_implies_obstruction",
+    "local_recovery_equals_native_closure",
+    "positive_surplus_equals_full_closure",
+    "reaching_1_equals_native_closure"
+  ],
+  "layer": "local_debt_lemma_candidates",
+  "lemma_candidates": [
+    {
+      "candidate_statement": "Every odd positive integer n defines a unique odd block n -> m with 3n + 1 = 2^a m and m odd.",
+      "lemma_id": "odd_block_decomposition",
+      "native_meaning_retained": "one_expansion_followed_by_one_discharge",
+      "native_object": "odd_block",
+      "status": "stable_candidate"
+    },
+    {
+      "candidate_statement": "For every odd positive integer n, a(n) = v2(3n + 1) is uniquely determined.",
+      "lemma_id": "discharge_exponent_uniqueness",
+      "native_meaning_retained": "local_reduction_strength_after_expansion",
+      "native_object": "discharge",
+      "status": "stable_candidate"
+    },
+    {
+      "candidate_statement": "If d(n) = log2(3) - a(n) is positive, the block creates local debt.",
+      "lemma_id": "local_debt_formation",
+      "native_meaning_retained": "under_discharge_creates_structural_burden",
+      "native_object": "local_debt",
+      "status": "stable_candidate"
+    },
+    {
+      "candidate_statement": "D(I) = sum over i in I of (log2(3) - a_i) measures cumulative debt over a finite interval.",
+      "lemma_id": "cumulative_debt_interval",
+      "native_meaning_retained": "accumulated_structural_burden",
+      "native_object": "debt_chain",
+      "status": "stable_candidate"
+    },
+    {
+      "candidate_statement": "A finite interval is a bad window exactly when its average discharge is below log2(3), equivalently D(I) > 0.",
+      "lemma_id": "bad_window_equivalence",
+      "native_meaning_retained": "local_obstruction_candidate",
+      "native_object": "bad_window",
+      "status": "stable_candidate"
+    },
+    {
+      "candidate_statement": "A later interval compensates a bad window when the combined interval restores average discharge above log2(3).",
+      "lemma_id": "compensation_recovery",
+      "native_meaning_retained": "later_discharge_repairs_prior_debt",
+      "native_object": "compensation",
+      "status": "stable_candidate"
+    },
+    {
+      "candidate_statement": "S(K) = average discharge over K - log2(3) is positive when compensated structure exceeds expansion pressure.",
+      "lemma_id": "positive_surplus",
+      "native_meaning_retained": "positive_compensation_margin",
+      "native_object": "surplus",
+      "status": "stable_candidate"
+    },
+    {
+      "candidate_statement": "Local recovery of a bad window does not imply full native closure.",
+      "lemma_id": "local_recovery_not_native_closure",
+      "native_meaning_retained": "recovery_is_not_obstruction_erasure",
+      "native_object": "closure",
+      "status": "boundary_candidate"
+    },
+    {
+      "candidate_statement": "High hardness does not imply native obstruction.",
+      "lemma_id": "hardness_not_obstruction",
+      "native_meaning_retained": "stress_is_not_self_preserving_unclosed_debt",
+      "native_object": "obstruction",
+      "status": "boundary_candidate"
+    },
+    {
+      "candidate_statement": "Tight positive surplus identifies stress, not obstruction.",
+      "lemma_id": "tight_surplus_not_obstruction",
+      "native_meaning_retained": "near_failure_is_not_failure",
+      "native_object": "surplus",
+      "status": "boundary_candidate"
+    },
+    {
+      "candidate_statement": "A native obstruction candidate requires persistent debt, non-erased shadow, dangerous regeneration, insufficient compensation, and no closure event.",
+      "lemma_id": "obstruction_requires_persistence",
+      "native_meaning_retained": "persistent_unclosed_debt",
+      "native_object": "obstruction_candidate",
+      "status": "open_candidate"
+    }
+  ],
+  "next_recommended_version": "v2.3 Shadow and Regeneration Definition Refinement",
+  "open_candidate_count": 1,
+  "primary_claim": "Stable definitions can now be expressed as reversible lemma candidates, without proof or theorem claims.",
+  "proof_status": "not_a_proof",
+  "reversibility_rule": "native_object -> standard_definition -> lemma_candidate -> native_meaning_retained",
+  "stable_candidate_count": 7,
+  "standard_translation_status": "lemma_candidates_only",
+  "status": "lemma_candidates_defined",
+  "theorem_status": "no_theorems_introduced",
+  "version": "v2.2"
+}

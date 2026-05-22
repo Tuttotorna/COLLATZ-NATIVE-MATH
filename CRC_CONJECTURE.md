@@ -357,3 +357,27 @@ Current status:
     no global closure claim
 
 The next step is v2.2 Local Debt Lemma Candidates.
+
+## Local debt lemma candidates
+
+v2.2 introduces candidate lemmas.
+
+Current status:
+
+definitions -> lemma candidates
+
+Not yet:
+
+lemma candidates -> theorems
+lemma candidates -> proof
+finite evidence -> global closure
+
+Key boundaries:
+
+local debt != obstruction
+bad window != obstruction
+local recovery != native closure
+positive surplus != full closure
+hardness != obstruction
+
+The next step is v2.3 Shadow and Regeneration Definition Refinement.

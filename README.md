@@ -599,3 +599,33 @@ Core rule:
 Next:
 
     v2.0 Native-to-Standard Translation Boundary
+
+## v2.1 Standard Definition Candidates
+
+The repository now introduces candidate standard definitions.
+
+Core rule:
+
+    native object -> standard definition candidate -> native meaning retained
+
+Stable candidate definitions:
+
+    odd block
+    discharge exponent
+    expansion pressure
+    local debt
+    cumulative debt
+    bad window
+    compensation
+    surplus
+
+Open candidate definitions:
+
+    shadow
+    regeneration
+    obstruction candidate
+    closure candidate
+
+This is not a proof layer.
+
+It is a controlled definition layer before lemma candidates.

@@ -338,3 +338,22 @@ local recovery != closure
 finite evidence != proof
 
 The next phase is v2.1 Standard Definition Candidates.
+
+## Standard definition candidates
+
+v2.1 begins the controlled return to standard mathematics.
+
+The standard layer may now define objects, but only under this rule:
+
+    native object -> standard definition candidate -> native meaning retained
+
+This prevents premature collapse into classical framing.
+
+Current status:
+
+    definitions only
+    no theorem
+    no proof claim
+    no global closure claim
+
+The next step is v2.2 Local Debt Lemma Candidates.

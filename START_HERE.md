@@ -312,3 +312,19 @@ Core rule:
 
 text:
 Every standard statement must map back to a native object.
+
+## v2.1 definition candidates before lemmas
+
+Read:
+
+    docs/STANDARD_DEFINITION_CANDIDATES.md
+    docs/STANDARD_DEFINITION_REVERSIBILITY.md
+    docs/STANDARD_DEFINITION_TABLE.md
+    docs/DEFINITION_STATUS.md
+    docs/NEXT_STANDARDIZATION_STEPS.md
+
+Core rule:
+
+    Every standard definition must remain reversible to the native object.
+
+No theorem is introduced in v2.1.

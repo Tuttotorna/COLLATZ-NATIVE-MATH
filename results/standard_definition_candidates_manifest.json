@@ -1,0 +1,102 @@
+{
+  "definition_candidates": [
+    {
+      "native_meaning_retained": "one_expansion_event_followed_by_one_discharge_event",
+      "native_object": "odd_block",
+      "standard_definition_candidate": "For odd n, T(n) = (3n + 1) / 2^a where a = v2(3n + 1) and T(n) is odd.",
+      "status": "stable_candidate"
+    },
+    {
+      "native_meaning_retained": "local_reduction_strength_after_expansion",
+      "native_object": "discharge_exponent",
+      "standard_definition_candidate": "a(n) = v2(3n + 1)",
+      "status": "stable_candidate"
+    },
+    {
+      "native_meaning_retained": "upward_structural_force_from_multiplication_by_3",
+      "native_object": "expansion_pressure",
+      "standard_definition_candidate": "log2(3)",
+      "status": "stable_candidate"
+    },
+    {
+      "native_meaning_retained": "local_under_discharge",
+      "native_object": "local_debt",
+      "standard_definition_candidate": "d(n) = log2(3) - a(n)",
+      "status": "stable_candidate"
+    },
+    {
+      "native_meaning_retained": "accumulated_structural_burden",
+      "native_object": "cumulative_debt",
+      "standard_definition_candidate": "D(I) = sum over i in I of (log2(3) - a(ni))",
+      "status": "stable_candidate"
+    },
+    {
+      "native_meaning_retained": "local_obstruction_candidate",
+      "native_object": "bad_window",
+      "standard_definition_candidate": "An interval I is bad when average discharge over I is below log2(3), equivalently D(I) > 0.",
+      "status": "stable_candidate"
+    },
+    {
+      "native_meaning_retained": "repair_of_prior_debt",
+      "native_object": "compensation",
+      "standard_definition_candidate": "A later interval compensates a bad window when the combined interval restores average discharge above log2(3).",
+      "status": "stable_candidate"
+    },
+    {
+      "native_meaning_retained": "positive_margin_after_repair",
+      "native_object": "surplus",
+      "standard_definition_candidate": "S(K) = average discharge over K - log2(3)",
+      "status": "stable_candidate"
+    },
+    {
+      "native_meaning_retained": "memory_of_unresolved_danger",
+      "native_object": "shadow",
+      "standard_definition_candidate": "A prior debt interval has shadow if later instability remains dependent on the prior deficit structure.",
+      "status": "open_candidate"
+    },
+    {
+      "native_meaning_retained": "renewed_danger_after_apparent_recovery",
+      "native_object": "regeneration",
+      "standard_definition_candidate": "Regeneration occurs when a later interval again satisfies the bad-window condition after compensation.",
+      "status": "open_candidate"
+    },
+    {
+      "native_meaning_retained": "self_preserving_unclosed_debt",
+      "native_object": "obstruction_candidate",
+      "standard_definition_candidate": "An admissible structure where debt persists, shadow is not erased, regeneration continues, and sufficient compensation is never reached.",
+      "status": "open_candidate"
+    },
+    {
+      "native_meaning_retained": "obstruction_potential_erased",
+      "native_object": "closure_candidate",
+      "standard_definition_candidate": "A finite structural condition in which obstruction potential is erased.",
+      "status": "open_candidate"
+    }
+  ],
+  "documents": [
+    "docs/STANDARD_DEFINITION_CANDIDATES.md",
+    "docs/STANDARD_DEFINITION_REVERSIBILITY.md",
+    "docs/STANDARD_DEFINITION_TABLE.md",
+    "docs/DEFINITION_STATUS.md",
+    "docs/NEXT_STANDARDIZATION_STEPS.md"
+  ],
+  "forbidden_claims": [
+    "collatz_solved",
+    "global_closure_proved",
+    "finite_evidence_implies_proof",
+    "hardness_implies_obstruction",
+    "local_recovery_equals_native_closure",
+    "reaching_1_equals_native_closure"
+  ],
+  "layer": "standard_definition_candidates",
+  "next_recommended_version": "v2.2 Local Debt Lemma Candidates",
+  "open_candidate_count": 4,
+  "primary_claim": "Standard definition candidates are allowed only when reversible to native objects.",
+  "proof_status": "not_a_proof",
+  "reversibility_rule": "native_object -> standard_definition_candidate -> native_meaning_retained",
+  "stable_candidate_count": 8,
+  "standard_translation_status": "definition_candidates_only",
+  "status": "definition_candidates_defined",
+  "theorem_status": "no_theorems_introduced",
+  "version": "v2.1"
+}

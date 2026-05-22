@@ -361,3 +361,12 @@ v1.1 tests whether the v1.0 hard case is isolated or part of a wider frontier.
 - Separates native closure from reaching 1.
 - Separates hardness from obstruction.
 - Sets v2.1 as Standard Definition Candidates.
+
+## v2.1 - Standard Definition Candidates
+
+- Adds candidate standard definitions for native objects.
+- Keeps standard mathematics under the reversibility rule.
+- Defines stable candidates: odd block, discharge exponent, expansion pressure, debt, bad window, compensation, surplus.
+- Marks shadow, regeneration, obstruction, and closure as open candidates.
+- Adds definition status and next standardization steps.
+- Sets v2.2 as Local Debt Lemma Candidates.

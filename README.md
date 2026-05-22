@@ -222,3 +222,25 @@ The v0.4 target is:
 This is still not a proof of Collatz.
 
 It is a sharper operational form of the CRC target.
+
+## v0.5: Collapse cause classification
+
+v0.5 classifies why finite cheap regeneration chains collapse.
+
+Run:
+
+    python examples/analyze_collapse_causes.py
+
+The classifier marks collapse mechanisms such as:
+
+    debt_spike
+    shadow_exhaustion
+    failed_regeneration
+    post_chain_overcompensation
+    terminal_descent
+
+This does not prove Collatz.
+
+It sharpens the native target:
+
+    every infinite cheap regeneration chain would need to avoid every known collapse mechanism forever.

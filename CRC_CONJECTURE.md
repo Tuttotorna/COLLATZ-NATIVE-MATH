@@ -70,3 +70,19 @@ The long-term target becomes:
 
     every positive cheap regeneration chain is finite
     and every finite chain is eventually compensated by debt.
+
+## v0.5 classified collapse form
+
+v0.5 adds collapse cause classification.
+
+A chain can collapse through:
+
+    debt_spike
+    shadow_exhaustion
+    failed_regeneration
+    post_chain_overcompensation
+    terminal_descent
+
+The CRC target becomes sharper:
+
+    no infinite chain can avoid all collapse mechanisms forever.

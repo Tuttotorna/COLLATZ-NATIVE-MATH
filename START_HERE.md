@@ -73,3 +73,15 @@ This detects finite chain-compatible runs and measures where they collapse.
 The v0.4 question is:
 
     are finite cheap regeneration chains followed by debt compensation?
+
+## v0.5 step
+
+After v0.4, run:
+
+    python examples/analyze_collapse_causes.py
+
+This classifies how detected cheap regeneration chains collapse.
+
+The v0.5 question is:
+
+    which native mechanism breaks the chain?

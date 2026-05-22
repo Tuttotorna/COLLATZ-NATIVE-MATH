@@ -98,3 +98,28 @@ Core addition:
     chain average debt
 
 v0.4 moves from detecting chain-compatible segments to asking where and why those chains break.
+
+## v0.5.0
+
+Added collapse cause classification.
+
+New files:
+
+- docs/COLLAPSE_CAUSE_CLASSIFICATION.md
+- docs/COLLAPSE_MECHANISMS.md
+- docs/CLASSIFICATION_RESULTS.md
+- examples/analyze_collapse_causes.py
+- tests/test_collapse_cause_classification.py
+- results/collapse_cause_classification.jsonl
+- results/collapse_cause_summary.json
+
+Core addition:
+
+    debt spike classification
+    shadow exhaustion classification
+    failed regeneration classification
+    post-chain overcompensation classification
+    terminal descent classification
+    primary collapse cause
+
+v0.5 moves from detecting that chains collapse to classifying how they collapse.

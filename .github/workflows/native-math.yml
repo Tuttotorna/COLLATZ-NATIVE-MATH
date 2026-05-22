@@ -36,5 +36,8 @@ jobs:
       - name: Run chain collapse analysis
         run: python examples/analyze_chain_collapse.py
 
+      - name: Run collapse cause classification
+        run: python examples/analyze_collapse_causes.py
+
       - name: Run tests
         run: pytest -q

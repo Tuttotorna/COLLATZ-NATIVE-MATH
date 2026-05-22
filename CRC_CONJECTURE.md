@@ -155,3 +155,15 @@ Hard cases are ranked by:
     large chain deficit
     large recovery gap
     high combined hardness score
+
+## v1.0 critical case form
+
+v1.0 focuses the CRC target onto one critical recovered case.
+
+The refined question becomes:
+
+    can the critical recovery pattern be generalized or bounded?
+
+If the pattern can be made arbitrarily long without recovery, the CRC direction fails.
+
+If the pattern cannot be extended indefinitely, it may become a lemma candidate.

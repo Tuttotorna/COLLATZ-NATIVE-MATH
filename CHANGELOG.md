@@ -220,3 +220,30 @@ Core addition:
     largest recovery gap cases
 
 v0.9 identifies the structurally hardest recovered compensation cases.
+
+## v1.0.0
+
+Added critical case dissection.
+
+New files:
+
+- docs/CRITICAL_CASE_DISSECTION.md
+- docs/CRITICAL_CASE_RESULTS.md
+- docs/CRITICAL_PATTERN_NOTES.md
+- examples/analyze_critical_case.py
+- tests/test_critical_case.py
+- results/critical_case_dissection.json
+- results/critical_case_blocks.jsonl
+- results/critical_case_window.jsonl
+- results/critical_case_summary.json
+
+Core addition:
+
+    hard case n0 = 9780657630
+    block-by-block post-chain recovery window
+    first crossing above log2(3)
+    focused debt word
+    recovery surplus dissection
+    critical pattern notes
+
+v1.0 turns the hardest sampled recovered case into a concrete object for inspection.

@@ -322,3 +322,22 @@ It ranks cases by:
     recovery_distance_gap
 
 The purpose is to identify the most dangerous recovered cases for later structural inspection.
+
+## v1.0: Critical case dissection
+
+v1.0 opens the hardest recovered case found by v0.9:
+
+    n0 = 9780657630
+
+Run:
+
+    python examples/analyze_critical_case.py
+
+The script writes:
+
+    results/critical_case_dissection.json
+    results/critical_case_blocks.jsonl
+    results/critical_case_window.jsonl
+    results/critical_case_summary.json
+
+The purpose is to inspect the exact block structure behind the hardest known post-chain recovery case.

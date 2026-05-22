@@ -136,3 +136,17 @@ This isolates the hardest post-chain recovery cases.
 The v0.9 question is:
 
     which recovered chains are closest to failing compensation?
+
+## v1.0 step
+
+After v0.9, run:
+
+    python examples/analyze_critical_case.py
+
+This dissects:
+
+    n0 = 9780657630
+
+The v1.0 question is:
+
+    what exact block pattern produces the 114-block post-chain recovery distance?

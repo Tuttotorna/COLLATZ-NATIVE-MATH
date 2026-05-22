@@ -51,5 +51,8 @@ jobs:
       - name: Run hard recovery case analysis
         run: python examples/analyze_hard_recovery_cases.py
 
+      - name: Run critical case dissection
+        run: python examples/analyze_critical_case.py
+
       - name: Run tests
         run: pytest -q

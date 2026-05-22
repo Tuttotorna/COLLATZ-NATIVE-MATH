@@ -147,3 +147,28 @@ Core addition:
     refined v0.6 primary collapse cause
 
 v0.6 targets the unclassified residue left by v0.5.
+
+## v0.7.0
+
+Added compensation law search.
+
+New files:
+
+- docs/COMPENSATION_LAW_SEARCH.md
+- docs/RECOVERY_WINDOW.md
+- docs/COMPENSATION_RESULTS.md
+- examples/analyze_compensation_law.py
+- tests/test_compensation_law_search.py
+- results/compensation_law_search.jsonl
+- results/compensation_law_summary.json
+
+Core addition:
+
+    chain deficit
+    recovery window
+    recovery distance
+    recovery debt
+    recovery surplus
+    compensation law candidate search
+
+v0.7 moves from classifying collapse to measuring how fast low-debt chains are compensated.

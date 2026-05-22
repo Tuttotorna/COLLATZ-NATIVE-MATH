@@ -42,5 +42,8 @@ jobs:
       - name: Run unclassified collapse analysis
         run: python examples/analyze_unclassified_collapses.py
 
+      - name: Run compensation law search
+        run: python examples/analyze_compensation_law.py
+
       - name: Run tests
         run: pytest -q

@@ -261,3 +261,28 @@ The refined taxonomy adds:
     end_of_chain_without_escape
 
 The goal is to reduce unclassified collapse residue and sharpen the CRC obstruction language.
+
+## v0.7: Compensation law search
+
+v0.7 searches for quantitative compensation behavior.
+
+Run:
+
+    python examples/analyze_compensation_law.py
+
+This measures:
+
+    chain_deficit
+    recovery_distance_blocks
+    recovery_average_debt
+    recovery_surplus
+    recovery_to_chain_length_ratio
+
+The v0.7 question is:
+
+    after a low-debt cheap regeneration chain,
+    how long before the trajectory average from that chain start crosses back above log2(3)?
+
+This is not a proof.
+
+It is a search for a compensation law.

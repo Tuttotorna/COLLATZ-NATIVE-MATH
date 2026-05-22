@@ -106,3 +106,19 @@ A chain can now collapse through:
 The refined CRC target is:
 
     no infinite chain can avoid the full collapse taxonomy forever.
+
+## v0.7 compensation form
+
+v0.7 turns CRC into a compensation-window search.
+
+A dangerous chain has:
+
+    chain_average_debt <= log2(3)
+
+The compensating event is the first future window from the chain start with:
+
+    recovery_average_debt > log2(3)
+
+The refined CRC target becomes:
+
+    no infinite chain can avoid finite recovery above log2(3).

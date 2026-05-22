@@ -97,3 +97,15 @@ This analyzes the unclassified collapse residue and applies a refined collapse t
 The v0.6 question is:
 
     can every finite cheap regeneration chain collapse be expressed in native Collatz terms?
+
+## v0.7 step
+
+After v0.6, run:
+
+    python examples/analyze_compensation_law.py
+
+This searches for recovery windows after low-debt cheap regeneration chains.
+
+The v0.7 question is:
+
+    can every low-debt chain be shown to recover above log2(3) in finite time?

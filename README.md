@@ -656,3 +656,26 @@ Boundary lemma candidates include:
 
 This is not a theorem layer.
 This is not a proof layer.
+
+## v2.3 Shadow and Regeneration Definition Refinement
+
+The repository now refines the previously open shadow/regeneration definitions.
+
+Core distinctions:
+
+- regeneration is renewed debt after compensation;
+- benign regeneration is renewed debt that is compensated;
+- dangerous regeneration is renewed debt with persistent shadow or weakening compensation;
+- obstruction-preserving regeneration is renewed debt that keeps obstruction potential alive;
+- shadow erasure means prior debt loses obstruction-carrying power.
+
+Important boundary:
+
+regeneration alone is not obstruction.
+
+Obstruction requires:
+
+persistent debt + non-erased shadow + dangerous regeneration + insufficient compensation + no closure event + internal admissibility
+
+This is still not a proof layer.
+It prepares v2.4 Native Closure Lemma Candidates.

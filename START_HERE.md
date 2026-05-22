@@ -345,3 +345,20 @@ Core rule:
 Lemma candidates are not theorems.
 
 The next required step is to sharpen shadow and regeneration before attempting stronger closure claims.
+
+## v2.3 shadow and regeneration refinement
+
+Read:
+
+docs/SHADOW_DEFINITION_REFINEMENT.md
+docs/SHADOW_ERASURE_REFINEMENT.md
+docs/REGENERATION_DEFINITION_REFINEMENT.md
+docs/BENIGN_VS_DANGEROUS_REGENERATION.md
+docs/OBSTRUCTION_PRESERVING_REGENERATION.md
+docs/SHADOW_REGENERATION_STATUS.md
+
+Core rule:
+
+regeneration != obstruction
+
+Obstruction requires persistent debt, non-erased shadow, dangerous regeneration, insufficient compensation, no closure event, and internal admissibility.

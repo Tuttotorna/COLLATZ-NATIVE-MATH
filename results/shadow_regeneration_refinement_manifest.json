@@ -1,0 +1,84 @@
+{
+  "core_distinctions": {
+    "benign_regeneration": "renewed_debt_that_is_compensated",
+    "dangerous_regeneration": "renewed_debt_with_persistent_shadow_or_weakening_compensation",
+    "obstruction_preserving_regeneration": "renewed_debt_that_keeps_obstruction_potential_alive",
+    "regeneration": "renewed_debt_after_compensation",
+    "shadow_erasure": "prior_debt_loses_obstruction_carrying_power"
+  },
+  "documents": [
+    "docs/SHADOW_DEFINITION_REFINEMENT.md",
+    "docs/SHADOW_ERASURE_REFINEMENT.md",
+    "docs/REGENERATION_DEFINITION_REFINEMENT.md",
+    "docs/BENIGN_VS_DANGEROUS_REGENERATION.md",
+    "docs/OBSTRUCTION_PRESERVING_REGENERATION.md",
+    "docs/SHADOW_REGENERATION_STATUS.md"
+  ],
+  "forbidden_claims": [
+    "collatz_solved",
+    "global_closure_proved",
+    "obstruction_preserving_regeneration_impossible",
+    "shadow_always_erases",
+    "finite_evidence_implies_proof",
+    "regeneration_equals_obstruction",
+    "local_recovery_equals_shadow_erasure"
+  ],
+  "layer": "shadow_regeneration_definition_refinement",
+  "next_recommended_version": "v2.4 Native Closure Lemma Candidates",
+  "not_sufficient_for_obstruction": [
+    "regeneration_alone",
+    "repeated_bad_windows",
+    "high_hardness",
+    "long_recovery_distance",
+    "tight_positive_surplus",
+    "large_odd_block_count",
+    "local_recovery"
+  ],
+  "obstruction_threshold": [
+    "persistent_debt",
+    "non_erased_shadow",
+    "dangerous_regeneration",
+    "insufficient_compensation",
+    "no_closure_event",
+    "internal_admissibility"
+  ],
+  "primary_claim": "Regeneration is not obstruction unless it preserves unclosed debt through non-erased shadow and insufficient compensation.",
+  "proof_status": "not_a_proof",
+  "refined_definitions": [
+    {
+      "native_object": "shadow",
+      "refined_definition": "persistence_of_obstruction_relevant_prior_debt_influence",
+      "status": "refined_candidate"
+    },
+    {
+      "native_object": "shadow_erasure",
+      "refined_definition": "prior_debt_loses_obstruction_carrying_power",
+      "status": "refined_candidate"
+    },
+    {
+      "native_object": "regeneration",
+      "refined_definition": "renewed_bad_window_after_compensated_debt",
+      "status": "refined_candidate"
+    },
+    {
+      "native_object": "benign_regeneration",
+      "refined_definition": "renewed_debt_that_is_compensated_without_preserving_obstruction",
+      "status": "refined_candidate"
+    },
+    {
+      "native_object": "dangerous_regeneration",
+      "refined_definition": "renewed_debt_with_persistent_shadow_or_weakening_compensation",
+      "status": "refined_candidate"
+    },
+    {
+      "native_object": "obstruction_preserving_regeneration",
+      "refined_definition": "regeneration_that_keeps_debt_alive_as_obstruction",
+      "status": "open_candidate"
+    }
+  ],
+  "reversibility_rule": "native_object -> refined_definition -> native_meaning_retained",
+  "standard_translation_status": "refined_definition_candidates_only",
+  "status": "shadow_and_regeneration_refined",
+  "theorem_status": "no_theorems_introduced",
+  "version": "v2.3"
+}

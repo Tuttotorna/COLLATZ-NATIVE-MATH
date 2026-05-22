@@ -380,3 +380,13 @@ v1.1 tests whether the v1.0 hard case is isolated or part of a wider frontier.
 - Keeps proof_status = not_a_proof.
 - Keeps theorem_status = no_theorems_introduced.
 - Sets v2.3 as Shadow and Regeneration Definition Refinement.
+
+## v2.3 - Shadow and Regeneration Definition Refinement
+
+- Refines shadow as persistence of obstruction-relevant prior debt influence.
+- Refines shadow erasure as loss of obstruction-carrying power.
+- Separates regeneration, benign regeneration, dangerous regeneration, and obstruction-preserving regeneration.
+- Clarifies that regeneration alone is not obstruction.
+- Defines the obstruction threshold for regeneration chains.
+- Keeps proof and theorem claims forbidden.
+- Sets v2.4 as Native Closure Lemma Candidates.

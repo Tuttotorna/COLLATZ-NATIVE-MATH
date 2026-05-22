@@ -381,3 +381,24 @@ positive surplus != full closure
 hardness != obstruction
 
 The next step is v2.3 Shadow and Regeneration Definition Refinement.
+
+## Shadow and regeneration refinement
+
+v2.3 refines the open native definitions needed before closure lemmas.
+
+The project now separates:
+
+regeneration
+benign regeneration
+dangerous regeneration
+obstruction-preserving regeneration
+shadow erasure
+
+Critical boundary:
+
+regeneration alone is not obstruction.
+
+A native obstruction requires obstruction-preserving regeneration, not merely renewed debt.
+
+No proof claim is made.
+The next step is v2.4 Native Closure Lemma Candidates.

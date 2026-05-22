@@ -275,3 +275,20 @@ Therefore, the project must distinguish:
     tight surplus != counterexample
 
 The next step is native closure: showing whether such obstruction can or cannot exist.
+
+## Native closure conditions
+
+Native closure is not the same as reaching 1.
+
+The native closure target is:
+
+    debt can no longer preserve itself as obstruction
+
+Therefore:
+
+    local recovery != closure
+    positive surplus != closure
+    terminality != closure
+    closure = obstruction potential erased
+
+The next step is to map existing evidence artifacts into this native closure structure.

@@ -257,3 +257,19 @@ Core rule:
 
     Hardness measures stress.
     Obstruction requires self-preserving unclosed debt.
+
+## v1.8 closure before translation
+
+After defining native obstruction, define native closure.
+
+Read:
+
+    docs/NATIVE_CLOSURE_CONDITIONS.md
+    docs/NATIVE_CLOSURE_TEST.md
+    docs/NATIVE_DEBT_ERASURE.md
+    docs/NATIVE_SHADOW_ERASURE.md
+    docs/NATIVE_COMPENSATION_SUFFICIENCY.md
+
+Core rule:
+
+    Native closure is the erasure of obstruction potential, not merely reaching 1.

@@ -331,3 +331,12 @@ v1.1 tests whether the v1.0 hard case is isolated or part of a wider frontier.
 - Defines the opposite of native closure.
 - Adds hardness-vs-obstruction boundary.
 - Sets v1.8 as Native Closure Conditions.
+
+## v1.8 - Native Closure Conditions
+
+- Defines native closure as structural erasure of obstruction potential.
+- Separates native closure from reaching 1.
+- Defines the native closure test.
+- Defines debt erasure, shadow erasure, and compensation sufficiency.
+- Clarifies that local recovery is not automatically closure.
+- Sets v1.9 as Native Evidence Mapping.

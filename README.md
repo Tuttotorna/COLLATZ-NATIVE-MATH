@@ -521,3 +521,39 @@ New documents:
     docs/NATIVE_HARDNESS_VS_OBSTRUCTION.md
 
 This is not a proof of the Collatz conjecture. It defines the native obstruction target before standard mathematical translation.
+
+## v1.8 Native Closure Conditions
+
+The repository now defines native closure.
+
+Native closure is not reaching 1.
+
+Native closure is:
+
+    obstruction potential erased
+
+Closure sequence:
+
+    debt generated
+    -> debt shadow carried
+    -> compensation appears
+    -> compensation sufficiency holds
+    -> shadow erasure holds
+    -> regeneration does not preserve obstruction
+    -> closure declared
+
+Core distinction:
+
+    local recovery != native closure
+    reaching 1 != native closure
+    positive surplus != full closure
+
+New documents:
+
+    docs/NATIVE_CLOSURE_CONDITIONS.md
+    docs/NATIVE_CLOSURE_TEST.md
+    docs/NATIVE_DEBT_ERASURE.md
+    docs/NATIVE_SHADOW_ERASURE.md
+    docs/NATIVE_COMPENSATION_SUFFICIENCY.md
+
+This is not a proof of the Collatz conjecture. It defines the native closure target before standard mathematical translation.

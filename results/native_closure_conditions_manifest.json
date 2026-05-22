@@ -1,0 +1,49 @@
+{
+  "central_question": "When is debt no longer dangerous?",
+  "closure_result_types": [
+    "CLOSED",
+    "LOCALLY_RECOVERED_NOT_CLOSED",
+    "REGENERATED_BUT_COMPENSATED",
+    "OBSTRUCTION_CANDIDATE",
+    "UNDECIDED"
+  ],
+  "closure_test_stages": [
+    "detect_debt",
+    "track_debt_shadow",
+    "detect_compensation",
+    "measure_compensation_sufficiency",
+    "test_shadow_erasure",
+    "test_regeneration",
+    "decide_obstruction_erasure"
+  ],
+  "core_distinctions": {
+    "classical_terminality": "trajectory_reaches_1",
+    "full_closure": "debt_cannot_continue_as_obstruction",
+    "local_recovery": "specific_bad_window_compensated",
+    "native_closure": "obstruction_potential_erased"
+  },
+  "documents": [
+    "docs/NATIVE_CLOSURE_CONDITIONS.md",
+    "docs/NATIVE_CLOSURE_TEST.md",
+    "docs/NATIVE_DEBT_ERASURE.md",
+    "docs/NATIVE_SHADOW_ERASURE.md",
+    "docs/NATIVE_COMPENSATION_SUFFICIENCY.md"
+  ],
+  "layer": "native_closure_conditions",
+  "native_closure_definition": [
+    "debt_was_generated",
+    "debt_shadow_was_carried",
+    "compensation_appeared",
+    "compensation_was_sufficient",
+    "shadow_was_erased",
+    "regeneration_was_tested",
+    "regeneration_did_not_preserve_obstruction",
+    "no_self_preserving_debt_structure_remained"
+  ],
+  "next_recommended_version": "v1.9 Native Evidence Mapping",
+  "primary_claim": "Native closure is the structural erasure of obstruction potential, not merely reaching 1.",
+  "proof_status": "not_a_proof",
+  "standard_translation_status": "deferred_until_native_closure_is_structurally_complete",
+  "status": "closure_conditions_defined",
+  "version": "v1.8"
+}

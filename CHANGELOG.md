@@ -400,3 +400,13 @@ v1.1 tests whether the v1.0 hard case is isolated or part of a wider frontier.
 - Defines regeneration lemma candidates.
 - Keeps all statements as candidates, not theorems.
 - Sets v2.5 as Obstruction Search Protocol.
+
+## v2.5 - Obstruction Search Protocol
+
+- Defines the obstruction search protocol.
+- Defines obstruction-preserving regeneration as the search target.
+- Defines the six-part obstruction candidate signature.
+- Defines negative finite-result boundaries.
+- Defines obstruction search result types.
+- Defines minimum reporting fields for future scanners.
+- Sets v2.6 as Bounded Obstruction Search Scanner.

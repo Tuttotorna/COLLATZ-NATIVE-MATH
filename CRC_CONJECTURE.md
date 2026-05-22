@@ -426,3 +426,31 @@ no closure event
 internal admissibility
 
 The next step is v2.5 Obstruction Search Protocol.
+
+## Obstruction search protocol
+
+v2.5 defines the native obstruction search target.
+
+The target is not:
+
+long trajectory
+hard case
+tight surplus
+many bad windows
+
+The target is:
+
+obstruction-preserving regeneration
+
+A candidate requires:
+
+persistent debt
+non-erased shadow
+dangerous regeneration
+insufficient compensation
+no closure event
+internal admissibility
+
+Boundary:
+
+No obstruction detected in a finite domain is not the same as no obstruction can exist.

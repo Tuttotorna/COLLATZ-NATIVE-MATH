@@ -1,0 +1,79 @@
+{
+  "central_question": "How would we detect obstruction-preserving regeneration if it existed?",
+  "documents": [
+    "docs/OBSTRUCTION_SEARCH_PROTOCOL.md",
+    "docs/OBSTRUCTION_CANDIDATE_SIGNATURE.md",
+    "docs/NEGATIVE_SEARCH_RESULT_BOUNDARY.md",
+    "docs/OBSTRUCTION_SEARCH_RESULT_TYPES.md",
+    "docs/OBSTRUCTION_SEARCH_MINIMUM_REPORT.md",
+    "docs/OBSTRUCTION_SEARCH_NEXT_STEPS.md"
+  ],
+  "forbidden_claims": [
+    "collatz_solved",
+    "global_closure_proved",
+    "obstruction_preserving_regeneration_impossible",
+    "shadow_always_erases",
+    "debt_always_erases",
+    "finite_evidence_implies_proof",
+    "hard_case_equals_obstruction",
+    "local_recovery_equals_native_closure"
+  ],
+  "layer": "obstruction_search_protocol",
+  "minimum_report_fields": [
+    "version",
+    "search_domain",
+    "candidate_generation_rule",
+    "tested_candidate_count",
+    "debt_window_count",
+    "regeneration_count",
+    "dangerous_regeneration_count",
+    "obstruction_candidate_count",
+    "closure_result_counts",
+    "proof_status",
+    "negative_result_boundary"
+  ],
+  "negative_result_boundary": "No obstruction detected in a finite domain is not the same as no obstruction can exist.",
+  "next_recommended_version": "v2.6 Bounded Obstruction Search Scanner",
+  "not_sufficient_for_obstruction": [
+    "long_trajectory",
+    "high_odd_block_count",
+    "high_hardness_score",
+    "tight_positive_surplus",
+    "many_bad_windows",
+    "local_recovery",
+    "repeated_regeneration",
+    "late_reaching_1"
+  ],
+  "obstruction_signature": [
+    "persistent_debt",
+    "non_erased_shadow",
+    "dangerous_regeneration",
+    "insufficient_compensation",
+    "no_closure_event",
+    "internal_admissibility"
+  ],
+  "primary_claim": "The search target is obstruction-preserving regeneration, not merely long or hard trajectories.",
+  "proof_status": "not_a_proof",
+  "search_result_types": [
+    "NO_DEBT_DETECTED",
+    "DEBT_LOCALLY_RECOVERED",
+    "REGENERATED_BUT_COMPENSATED",
+    "DANGEROUS_REGENERATION_DETECTED",
+    "OBSTRUCTION_CANDIDATE_DETECTED",
+    "CLOSED",
+    "UNDECIDED"
+  ],
+  "search_stages": [
+    "generate_candidate_trajectories",
+    "detect_debt_windows",
+    "track_shadow_across_later_structure",
+    "detect_regeneration_after_compensation",
+    "classify_regeneration",
+    "test_closure_result_type",
+    "record_bounded_result"
+  ],
+  "standard_translation_status": "search_protocol_only",
+  "status": "protocol_defined",
+  "theorem_status": "no_theorems_introduced",
+  "version": "v2.5"
+}

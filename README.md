@@ -679,3 +679,26 @@ persistent debt + non-erased shadow + dangerous regeneration + insufficient comp
 
 This is still not a proof layer.
 It prepares v2.4 Native Closure Lemma Candidates.
+
+## v2.5 Obstruction Search Protocol
+
+The repository now defines how to search for obstruction-preserving regeneration.
+
+Search target:
+
+obstruction-preserving regeneration
+
+Required obstruction signature:
+
+persistent debt
+non-erased shadow
+dangerous regeneration
+insufficient compensation
+no closure event
+internal admissibility
+
+Core boundary:
+
+No obstruction detected in a finite domain is not the same as no obstruction can exist.
+
+This is a protocol layer, not a proof layer.

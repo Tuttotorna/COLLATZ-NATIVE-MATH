@@ -379,3 +379,20 @@ Core rule:
 Native closure requires debt erasure, shadow erasure, regeneration testing, and no self-preserving debt.
 
 No theorem is introduced in v2.4.
+
+## v2.5 obstruction search protocol
+
+Read:
+
+docs/OBSTRUCTION_SEARCH_PROTOCOL.md
+docs/OBSTRUCTION_CANDIDATE_SIGNATURE.md
+docs/NEGATIVE_SEARCH_RESULT_BOUNDARY.md
+docs/OBSTRUCTION_SEARCH_RESULT_TYPES.md
+docs/OBSTRUCTION_SEARCH_MINIMUM_REPORT.md
+docs/OBSTRUCTION_SEARCH_NEXT_STEPS.md
+
+Core rule:
+
+A native obstruction candidate requires persistent debt, non-erased shadow, dangerous regeneration, insufficient compensation, no closure event, and internal admissibility.
+
+No finite negative search result is a proof.

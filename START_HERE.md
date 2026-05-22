@@ -294,3 +294,21 @@ Core rule:
 
     The evidence layer supports the native research path.
     It does not replace proof.
+
+## v2.0 controlled translation
+
+After v1.9, standard mathematics may re-enter only under translation control.
+
+Read:
+
+text:
+docs/NATIVE_TO_STANDARD_TRANSLATION_BOUNDARY.md
+docs/TRANSLATION_TABLE.md
+docs/TRANSLATION_VALIDITY_RULES.md
+docs/STANDARD_PROOF_PREPARATION.md
+docs/NATIVE_STANDARD_GLOSSARY.md
+
+Core rule:
+
+text:
+Every standard statement must map back to a native object.

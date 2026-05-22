@@ -320,3 +320,21 @@ This does not prove the Collatz conjecture.
 It prepares the next phase:
 
     native-to-standard translation boundary
+
+## Native-to-standard translation boundary
+
+The project now enters controlled translation.
+
+The native source layer is preserved.
+
+The standard layer may express native objects, but must not replace them.
+
+Core distinction:
+
+text:
+native closure != reaching 1
+hardness != obstruction
+local recovery != closure
+finite evidence != proof
+
+The next phase is v2.1 Standard Definition Candidates.

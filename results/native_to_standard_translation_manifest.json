@@ -1,0 +1,78 @@
+{
+  "documents": [
+    "docs/NATIVE_TO_STANDARD_TRANSLATION_BOUNDARY.md",
+    "docs/TRANSLATION_TABLE.md",
+    "docs/TRANSLATION_VALIDITY_RULES.md",
+    "docs/STANDARD_PROOF_PREPARATION.md",
+    "docs/NATIVE_STANDARD_GLOSSARY.md"
+  ],
+  "forbidden_before_proof": [
+    "theorem_proved",
+    "conjecture_solved",
+    "global_closure_established",
+    "finite_evidence_treated_as_proof",
+    "hardness_treated_as_obstruction",
+    "reaching_1_treated_as_native_closure"
+  ],
+  "layer": "native_to_standard_translation_boundary",
+  "next_recommended_version": "v2.1 Standard Definition Candidates",
+  "primary_claim": "Standard mathematics may re-enter only as controlled reversible translation of native structure.",
+  "proof_status": "not_a_proof",
+  "reversibility_rule": "native_object -> standard_expression -> native_meaning_retained",
+  "standard_translation_status": "allowed_under_reversibility_rule",
+  "status": "translation_boundary_defined",
+  "translation_rule": "Every standard statement must map back to a native object.",
+  "translation_table": [
+    {
+      "native_meaning_retained": "one_expansion_followed_by_one_discharge_event",
+      "native_object": "odd_block",
+      "standard_expression": "odd n -> 3n + 1 -> divide by 2^a until odd"
+    },
+    {
+      "native_meaning_retained": "upward_structural_force",
+      "native_object": "expansion",
+      "standard_expression": "multiplication_pressure_from_3n_plus_1"
+    },
+    {
+      "native_meaning_retained": "local_reduction_strength_after_expansion",
+      "native_object": "discharge",
+      "standard_expression": "two_adic_removal_exponent_a"
+    },
+    {
+      "native_meaning_retained": "structural_burden_created_by_insufficient_discharge",
+      "native_object": "debt",
+      "standard_expression": "accumulated_deficit_of_discharge_against_expansion_pressure"
+    },
+    {
+      "native_meaning_retained": "local_obstruction_candidate",
+      "native_object": "bad_window",
+      "standard_expression": "contiguous_block_interval_with_average_discharge_below_escape_pressure"
+    },
+    {
+      "native_meaning_retained": "repair_of_prior_debt",
+      "native_object": "compensation",
+      "standard_expression": "later_discharge_restoring_positive_surplus"
+    },
+    {
+      "native_meaning_retained": "memory_of_unresolved_danger",
+      "native_object": "shadow",
+      "standard_expression": "persistence_of_prior_deficit_influence_beyond_local_recovery"
+    },
+    {
+      "native_meaning_retained": "renewed_danger_after_apparent_recovery",
+      "native_object": "regeneration",
+      "standard_expression": "recurrence_of_deficit_structures_after_compensation"
+    },
+    {
+      "native_meaning_retained": "self_preserving_unclosed_debt",
+      "native_object": "obstruction",
+      "standard_expression": "admissible_non_compensating_persistent_deficit_structure"
+    },
+    {
+      "native_meaning_retained": "obstruction_potential_erased",
+      "native_object": "closure",
+      "standard_expression": "impossibility_of_persistent_non_compensation"
+    }
+  ],
+  "version": "v2.0"
+}

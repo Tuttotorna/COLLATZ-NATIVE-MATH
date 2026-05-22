@@ -351,3 +351,13 @@ v1.1 tests whether the v1.0 hard case is isolated or part of a wider frontier.
 - Adds a native evidence map builder.
 - Writes results/native_evidence_map.json and results/native_evidence_map.md.
 - Prepares v2.0 Native-to-Standard Translation Boundary.
+
+## v2.0 - Native-to-Standard Translation Boundary
+
+- Defines the controlled boundary where standard mathematics may re-enter.
+- Adds reversible translation rule: native object -> standard expression -> native meaning retained.
+- Adds translation table for expansion, discharge, debt, bad window, compensation, shadow, regeneration, obstruction, and closure.
+- Prevents premature theorem/proof claims.
+- Separates native closure from reaching 1.
+- Separates hardness from obstruction.
+- Sets v2.1 as Standard Definition Candidates.

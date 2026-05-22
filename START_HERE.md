@@ -36,3 +36,15 @@ Read in this order:
     docs/DEBT_WORDS.md
     docs/TWO_ADIC_SHADOW.md
     docs/CHEAP_REGENERATION.md
+
+## v0.2 step
+
+After reading the core files, run:
+
+    python examples/analyze_regeneration_epochs.py
+
+This computes regeneration events and cheapness ratios.
+
+The v0.2 target is:
+
+    distinguish local cheap regeneration from infinite cheap regeneration chains.

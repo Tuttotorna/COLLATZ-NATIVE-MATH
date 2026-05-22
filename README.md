@@ -150,3 +150,30 @@ It claims only:
 Any result must be judged by one standard:
 
     does it reduce the unresolved state of the problem?
+
+## v0.2: Regeneration epochs
+
+v0.2 adds operational regeneration epochs.
+
+The repository now measures:
+
+    regenerated shadow
+    compression cost
+    cheapness ratio
+    future escape capacity
+
+Run:
+
+    python examples/analyze_regeneration_epochs.py
+
+The key clarification is:
+
+    cheap regeneration exists locally.
+
+Therefore the real target is not:
+
+    no cheap regeneration exists
+
+but:
+
+    no infinite cheap regeneration chain exists in positive odd Collatz dynamics.

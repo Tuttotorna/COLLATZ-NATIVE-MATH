@@ -27,5 +27,8 @@ jobs:
       - name: Run regeneration scan
         run: python examples/scan_regeneration_chains.py
 
+      - name: Run regeneration epoch analysis
+        run: python examples/analyze_regeneration_epochs.py
+
       - name: Run tests
         run: pytest -q

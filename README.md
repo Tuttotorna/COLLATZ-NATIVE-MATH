@@ -437,3 +437,13 @@ Key point:
 `9780657630` can remain the hardest frontier-recovery case while `63728127` can be the hardest adversarial-compensation case.
 
 This is not a contradiction. They are different measurement lenses.
+
+## v1.5.1 hardness report correction
+
+The hardness metric report now correctly records:
+
+    tightest_positive_surplus:
+      n0 = 63728127
+      min_surplus = 1.7736432994075457e-05
+
+This fixes a null extraction issue in v1.5.

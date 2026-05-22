@@ -212,3 +212,15 @@ Then inspect:
 `results/hardness_metric_report.md`
 
 This explains why the repository can contain multiple hardest cases under different measurement lenses.
+
+## v1.5.1 hardness report check
+
+Run:
+
+    python examples/build_hardness_metric_report.py
+
+Then check:
+
+    results/hardness_metric_report.json
+
+The `tightest_positive_surplus` metric must be non-null.

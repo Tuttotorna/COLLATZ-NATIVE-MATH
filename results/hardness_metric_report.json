@@ -1,56 +1,14 @@
 {
-  "boundary": "This report is finite, descriptive, and metric-based. It is not a proof of the Collatz conjecture.",
-  "contradiction_check": {
-    "hardest_n0_to_metrics": {
-      "63728127": [
-        "adversarial_compensation_hardness",
-        "tightest_positive_surplus"
-      ],
-      "670617279": [
-        "compensation_window_hardness"
-      ],
-      "837799": [
-        "known_long_trajectory_anchor"
-      ],
-      "9780657630": [
-        "frontier_recovery_hardness"
-      ]
-    },
-    "is_contradiction": false,
-    "multiple_hardness_lenses": true,
-    "reason": "Different metrics answer different questions. Different hardest_n0 values are expected unless two metrics define the same ordering rule.",
-    "unique_hardest_n0_values": [
-      "837799",
-      "63728127",
-      "670617279",
-      "9780657630"
-    ]
-  },
-  "input_status": {
-    "adversarial_certificate_missing": false,
-    "adversarial_summary_missing": false,
-    "compensation_certificate_missing": false,
-    "compensation_summary_missing": false,
-    "frontier_certificate_missing": false,
-    "frontier_summary_missing": false
-  },
-  "inputs": {
-    "adversarial_certificate": "results/adversarial_compensation_certificate.json",
-    "adversarial_summary": "results/adversarial_compensation_summary.json",
-    "compensation_certificate": "results/compensation_law_candidate_certificate.json",
-    "compensation_summary": "results/compensation_law_candidate_summary.json",
-    "frontier_certificate": "results/frontier_stability_certificate.json",
-    "frontier_summary": "results/critical_frontier_summary.json"
-  },
-  "meaning": "Unifies the repository's hardness vocabulary by separating distinct measurement lenses.",
+  "contradiction": false,
+  "limits": "This report summarizes finite computational scans. It is not a proof of the Collatz conjecture.",
+  "meaning": "Different hardness lenses identify different finite stress cases. This is not a contradiction. It means trajectory length, recovery distance, compensation surplus, and adversarial compensation hardness are distinct observables.",
+  "metric_count": 5,
   "metrics": [
     {
+      "description": "Longest post-chain recovery distance in the critical frontier scan.",
       "hardest_n0": 9780657630,
-      "limit": "This is a finite frontier metric. It is not a global Collatz proof and does not define the only possible meaning of hardness.",
-      "meaning": "Measures the hardest finite frontier case by post-chain recovery distance inside the critical frontier protocol.",
+      "interpretation": "Measures recovery distance after structurally cheap debt chains.",
       "metric_id": "frontier_recovery_hardness",
-      "metric_name": "Frontier recovery hardness",
-      "min_surplus": 0.00275679752445801,
       "primary_value": 114,
       "primary_value_name": "max_post_chain_recovery_distance",
       "secondary_value": 15.100955299032181,
@@ -58,13 +16,10 @@
       "source": "results/critical_frontier_summary.json"
     },
     {
-      "all_bad_windows_recovered": true,
-      "bad_windows": 82,
+      "description": "Largest finite compensation-window hardness score.",
       "hardest_n0": 670617279,
-      "limit": "This metric is window-protocol dependent. A larger value here does not automatically replace the frontier-recovery hardest case.",
-      "meaning": "Measures the hardest case under the finite compensation-window candidate protocol, where bad local windows must be recovered by later surplus.",
+      "interpretation": "Measures how hard a bad finite window is to compensate.",
       "metric_id": "compensation_window_hardness",
-      "metric_name": "Compensation-window hardness",
       "primary_value": 10922.491951698601,
       "primary_value_name": "max_hardness_score",
       "secondary_value": 3.749927884388882e-05,
@@ -72,40 +27,32 @@
       "source": "results/compensation_law_candidate_summary.json"
     },
     {
-      "all_bad_windows_recovered": true,
-      "counterexample_candidate_count": 0,
+      "description": "Largest hardness score under adversarial candidate generation.",
       "hardest_n0": 63728127,
-      "limit": "This is a stronger finite stress test than the basic compensation scan, but it remains finite and candidate-set dependent.",
-      "meaning": "Measures hardness under an adversarially generated finite candidate set, searching for bad compensation windows and counterexample candidates.",
+      "interpretation": "Measures the strongest adversarial finite compensation stress case.",
       "metric_id": "adversarial_compensation_hardness",
-      "metric_name": "Adversarial compensation hardness",
       "primary_value": 14264423.973214354,
       "primary_value_name": "max_hardness_score",
-      "secondary_value": 236,
-      "secondary_value_name": "max_post_recovery_blocks",
-      "source": "results/adversarial_compensation_summary.json",
-      "tightest_surplus": null,
-      "tightest_surplus_n0": 63728127
-    },
-    {
-      "hardest_n0": 63728127,
-      "limit": "A tiny positive surplus is evidence of near-critical compensation in the tested domain, not evidence that all possible domains are covered.",
-      "meaning": "Identifies the closest observed recovery margin above the escape threshold among available compensation-style scans.",
-      "metric_id": "tightest_positive_surplus",
-      "metric_name": "Tightest positive surplus",
-      "primary_value": null,
-      "primary_value_name": "min_surplus",
-      "protocol": "adversarial_compensation",
       "secondary_value": 236,
       "secondary_value_name": "max_post_recovery_blocks",
       "source": "results/adversarial_compensation_summary.json"
     },
     {
+      "description": "Smallest positive surplus observed in the adversarial compensation scan.",
+      "hardest_n0": 63728127,
+      "interpretation": "Measures the tightest still-positive compensation margin found.",
+      "metric_id": "tightest_positive_surplus",
+      "primary_value": 1.7736432994075457e-05,
+      "primary_value_name": "min_surplus",
+      "secondary_value": 0,
+      "secondary_value_name": "counterexample_candidate_count",
+      "source": "results/adversarial_compensation_certificate.json"
+    },
+    {
+      "description": "Known long-trajectory anchor included as a comparison baseline.",
       "hardest_n0": 837799,
-      "limit": "A famous long trajectory is not necessarily the hardest case under frontier, compensation, or adversarial compensation metrics.",
-      "meaning": "Keeps a familiar long-trajectory reference case visible, so the reader does not confuse classical trajectory length with the repository's newer hardness metrics.",
+      "interpretation": "Long trajectory length is not the same hardness notion as compensation hardness.",
       "metric_id": "known_long_trajectory_anchor",
-      "metric_name": "Known long-trajectory anchor",
       "primary_value": 195,
       "primary_value_name": "odd_blocks",
       "secondary_value": 4214,
@@ -114,5 +61,11 @@
     }
   ],
   "report_type": "hardness_metric_report",
-  "version": "v1.5"
+  "unique_hardest_n0_values": [
+    "63728127",
+    "670617279",
+    "837799",
+    "9780657630"
+  ],
+  "version": "v1.5.1"
 }

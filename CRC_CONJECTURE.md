@@ -231,3 +231,7 @@ It separates:
 - known long-trajectory anchors
 
 Different hardest cases are expected when the metric changes.
+
+## v1.5.1 metric hygiene
+
+The hardness report separates finite stress metrics. The tightest positive surplus metric now records the actual finite margin instead of a null placeholder.

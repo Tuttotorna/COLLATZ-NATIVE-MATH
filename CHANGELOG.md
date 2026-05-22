@@ -305,3 +305,10 @@ v1.1 tests whether the v1.0 hard case is isolated or part of a wider frontier.
 - Adds `docs/HARDNESS_METRICS.md`.
 - Adds generated reports in `results/hardness_metric_report.json` and `results/hardness_metric_report.md`.
 - Adds regression tests proving that multiple hardest cases are not treated as contradictions.
+
+## v1.5.1 - Fix tightest positive surplus extraction
+
+- Fixes `tightest_positive_surplus` in the hardness metric report.
+- Ensures the metric extracts a real positive value instead of `None`.
+- Adds regression coverage for the expected current value:
+  `n0 = 63728127`, `min_surplus = 1.7736432994075457e-05`.

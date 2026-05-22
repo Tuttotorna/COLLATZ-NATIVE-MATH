@@ -87,3 +87,14 @@ Outputs:
 This is a finite metric-unification report.
 
 It is not a proof of the Collatz conjecture.
+
+## v1.5.1 note
+
+The `tightest_positive_surplus` metric must have a real positive numeric value.
+
+Expected current value:
+
+    n0 = 63728127
+    min_surplus = 1.7736432994075457e-05
+
+A null value is invalid for this metric because the metric is specifically the smallest observed positive compensation margin.

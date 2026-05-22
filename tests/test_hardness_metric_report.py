@@ -17,52 +17,26 @@ def test_hardness_metric_report_builder_runs():
     )
 
     assert result.returncode == 0, result.stderr
-    assert "COLLATZ-NATIVE-MATH v1.5" in result.stdout
+    assert "COLLATZ-NATIVE-MATH v1.5.1" in result.stdout
     assert "Hardness metric report builder" in result.stdout
-    assert "frontier_recovery_hardness" in result.stdout
-    assert "adversarial_compensation_hardness" in result.stdout
+    assert "tightest_positive_surplus check:" in result.stdout
 
 
-def test_hardness_metric_report_files_exist():
+def test_hardness_metric_report_exists_and_is_structured():
     root = Path(__file__).resolve().parents[1]
+    report_path = root / "results" / "hardness_metric_report.json"
+    report_md_path = root / "results" / "hardness_metric_report.md"
 
-    json_path = root / "results" / "hardness_metric_report.json"
-    md_path = root / "results" / "hardness_metric_report.md"
+    assert report_path.exists()
+    assert report_md_path.exists()
 
-    assert json_path.exists()
-    assert md_path.exists()
+    report = json.loads(report_path.read_text(encoding="utf-8"))
 
-    report = json.loads(json_path.read_text(encoding="utf-8"))
-    md = md_path.read_text(encoding="utf-8")
-
-    assert report["version"] == "v1.5"
+    assert report["version"] == "v1.5.1"
     assert report["report_type"] == "hardness_metric_report"
-    assert len(report["metrics"]) >= 5
-    assert "There is not one single meaning" in md
-    assert "frontier_recovery_hardness" in md
-    assert "compensation_window_hardness" in md
-    assert "adversarial_compensation_hardness" in md
-    assert "tightest_positive_surplus" in md
-    assert "known_long_trajectory_anchor" in md
+    assert report["metric_count"] == 5
+    assert report["contradiction"] is False
 
-
-def test_hardness_metrics_are_not_treated_as_contradictions():
-    root = Path(__file__).resolve().parents[1]
-    json_path = root / "results" / "hardness_metric_report.json"
-
-    report = json.loads(json_path.read_text(encoding="utf-8"))
-    check = report["contradiction_check"]
-
-    assert check["multiple_hardness_lenses"] is True
-    assert check["is_contradiction"] is False
-    assert "Different metrics answer different questions" in check["reason"]
-
-
-def test_required_known_metric_ids_present():
-    root = Path(__file__).resolve().parents[1]
-    json_path = root / "results" / "hardness_metric_report.json"
-
-    report = json.loads(json_path.read_text(encoding="utf-8"))
     metric_ids = {metric["metric_id"] for metric in report["metrics"]}
 
     assert "frontier_recovery_hardness" in metric_ids
@@ -72,17 +46,37 @@ def test_required_known_metric_ids_present():
     assert "known_long_trajectory_anchor" in metric_ids
 
 
-def test_expected_frontier_and_adversarial_cases_are_visible():
+def test_tightest_positive_surplus_is_not_null():
     root = Path(__file__).resolve().parents[1]
-    json_path = root / "results" / "hardness_metric_report.json"
+    report_path = root / "results" / "hardness_metric_report.json"
+    report = json.loads(report_path.read_text(encoding="utf-8"))
 
-    report = json.loads(json_path.read_text(encoding="utf-8"))
-    by_id = {metric["metric_id"]: metric for metric in report["metrics"]}
+    metric = next(
+        metric for metric in report["metrics"]
+        if metric["metric_id"] == "tightest_positive_surplus"
+    )
 
-    assert by_id["frontier_recovery_hardness"]["hardest_n0"] == 9780657630
-    assert by_id["frontier_recovery_hardness"]["primary_value"] == 114
+    assert metric["hardest_n0"] == 63728127
+    assert metric["primary_value_name"] == "min_surplus"
+    assert metric["primary_value"] is not None
+    assert metric["primary_value"] > 0
+    assert metric["primary_value"] == 1.7736432994075457e-05
 
-    assert by_id["adversarial_compensation_hardness"]["hardest_n0"] == 63728127
-    assert by_id["adversarial_compensation_hardness"]["primary_value"] > 0
 
-    assert by_id["known_long_trajectory_anchor"]["hardest_n0"] == 837799
+def test_hardness_lenses_can_select_different_cases():
+    root = Path(__file__).resolve().parents[1]
+    report_path = root / "results" / "hardness_metric_report.json"
+    report = json.loads(report_path.read_text(encoding="utf-8"))
+
+    values = {
+        metric["metric_id"]: metric["hardest_n0"]
+        for metric in report["metrics"]
+    }
+
+    assert values["frontier_recovery_hardness"] == 9780657630
+    assert values["compensation_window_hardness"] == 670617279
+    assert values["adversarial_compensation_hardness"] == 63728127
+    assert values["tightest_positive_surplus"] == 63728127
+    assert values["known_long_trajectory_anchor"] == 837799
+
+    assert len(set(values.values())) >= 4

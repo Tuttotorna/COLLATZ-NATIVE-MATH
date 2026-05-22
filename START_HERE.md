@@ -61,3 +61,15 @@ The v0.3 question is:
 
     does local cheap regeneration connect into a sustained low-debt chain,
     or is it broken by accumulated compression debt?
+
+## v0.4 step
+
+After v0.3, run:
+
+    python examples/analyze_chain_collapse.py
+
+This detects finite chain-compatible runs and measures where they collapse.
+
+The v0.4 question is:
+
+    are finite cheap regeneration chains followed by debt compensation?

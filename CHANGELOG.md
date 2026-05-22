@@ -73,3 +73,28 @@ The target is now operationally phrased as:
 
     local cheap regeneration exists,
     but no infinite cheap regeneration chain should exist in positive odd Collatz dynamics.
+
+## v0.4.0
+
+Added chain collapse analysis.
+
+New files:
+
+- docs/CHAIN_COLLAPSE.md
+- docs/POST_CHAIN_COMPENSATION.md
+- docs/COLLAPSE_RESULTS.md
+- examples/analyze_chain_collapse.py
+- tests/test_chain_collapse.py
+- results/chain_collapse_analysis.jsonl
+- results/chain_collapse_summary.json
+
+Core addition:
+
+    chain collapse episodes
+    post-chain compensation
+    compensation surplus
+    collapse cause
+    chain length
+    chain average debt
+
+v0.4 moves from detecting chain-compatible segments to asking where and why those chains break.

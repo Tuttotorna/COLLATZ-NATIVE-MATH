@@ -33,5 +33,8 @@ jobs:
       - name: Run cheap regeneration chain analysis
         run: python examples/analyze_cheap_regeneration_chains.py
 
+      - name: Run chain collapse analysis
+        run: python examples/analyze_chain_collapse.py
+
       - name: Run tests
         run: pytest -q

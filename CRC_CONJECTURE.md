@@ -55,3 +55,18 @@ Such an event is marked:
 The long-term target becomes:
 
     no infinite sequence of chain_compatible regeneration events exists in N+.
+
+## v0.4 collapse form
+
+v0.4 adds the collapse form of CRC.
+
+A chain-compatible segment is dangerous locally.
+
+A finite chain-compatible run becomes less dangerous if followed by compensation:
+
+    post_chain_average_debt > log2(3)
+
+The long-term target becomes:
+
+    every positive cheap regeneration chain is finite
+    and every finite chain is eventually compensated by debt.

@@ -197,3 +197,28 @@ The current native target is:
 v0.3 does not prove this.
 
 It creates the first operational detector for finite chain-compatible regeneration.
+
+## v0.4: Chain collapse analysis
+
+v0.4 adds chain collapse and post-chain compensation analysis.
+
+Run:
+
+    python examples/analyze_chain_collapse.py
+
+This analyzes finite chain-compatible runs and measures:
+
+    chain length
+    chain average debt
+    collapse cause
+    post-chain average debt
+    compensation surplus
+
+The v0.4 target is:
+
+    finite cheap regeneration chains exist,
+    but they should be followed by debt compensation.
+
+This is still not a proof of Collatz.
+
+It is a sharper operational form of the CRC target.

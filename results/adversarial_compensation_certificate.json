@@ -1,0 +1,19 @@
+{
+  "all_bad_windows_recovered": true,
+  "certificate_type": "adversarial_compensation_certificate",
+  "claim": "No unrecovered bad compensation window was found in the finite adversarial scan domain.",
+  "counterexample_candidate_count": 0,
+  "counterexample_candidates": [],
+  "finite_domain_only": true,
+  "generated_candidate_count": 520,
+  "hardest_case_n0": 63728127,
+  "hardest_case_score": 14264423.973214354,
+  "limits": "This certificate is computational and finite. It covers only the generated adversarial candidate set and only the configured maximum bad-window length. It is not a proof of the Collatz conjecture.",
+  "not_a_collatz_proof": true,
+  "tightest_surplus": 1.7736432994075457e-05,
+  "tightest_surplus_n0": 63728127,
+  "total_bad_windows": 474506,
+  "total_recovered_bad_windows": 474506,
+  "total_unrecovered_bad_windows": 0,
+  "version": "v1.4"
+}

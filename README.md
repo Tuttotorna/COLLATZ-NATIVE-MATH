@@ -395,3 +395,25 @@ Generated outputs:
     results/compensation_law_candidate_certificate.json
 
 This is a falsifiable finite certificate. It is not a proof of the Collatz conjecture.
+
+## v1.4 adversarial compensation scan
+
+The v1.4 scan tries to break the compensation-law candidate.
+
+Run:
+
+    python examples/adversarial_compensation_scan.py
+
+Generated artifacts:
+
+    results/adversarial_compensation_rows.jsonl
+    results/adversarial_compensation_summary.json
+    results/adversarial_compensation_certificate.json
+
+Meaning:
+
+    no unrecovered bad window found = finite negative adversarial result
+
+Limit:
+
+    this is not a proof of the Collatz conjecture.

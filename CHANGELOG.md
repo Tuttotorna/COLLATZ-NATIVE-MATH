@@ -288,3 +288,11 @@ v1.1 tests whether the v1.0 hard case is isolated or part of a wider frontier.
 - Searches shortest post-window recovery restoring the combined average to log2(3).
 - Emits a finite compensation-law candidate certificate.
 - Adds regression tests for the v1.3 outputs.
+
+## v1.4 - Adversarial compensation scan
+
+- Adds an adversarial scanner for the compensation-law candidate.
+- Expands around known hard cases using local neighborhoods, powers-of-two offsets, and bit-flip perturbations.
+- Searches for unrecovered bad compensation windows.
+- Emits finite rows, summary, and certificate artifacts.
+- Adds regression tests for the adversarial certificate.

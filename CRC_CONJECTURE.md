@@ -203,3 +203,17 @@ The target candidate law is:
     every structurally dangerous low-debt window must be followed by finite compensation.
 
 In v1.3 this is tested only over a finite frontier. A proof would require showing that compensation is forced by the arithmetic structure of 3n + 1 and v2(3n + 1).
+
+## Adversarial compensation scan
+
+The v1.4 scan searches for bad compensation windows that fail to recover.
+
+A failure is recorded as a counterexample candidate, not as a proof-level contradiction.
+
+Current intended reading:
+
+    finite scan domain
+    adversarially generated candidate set
+    bad windows searched
+    unrecovered windows counted
+    no proof claim

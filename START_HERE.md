@@ -189,3 +189,14 @@ Then inspect:
 
     results/compensation_law_candidate_summary.json
     results/compensation_law_candidate_certificate.json
+
+## v1.4 adversarial compensation
+
+Run:
+
+    python examples/adversarial_compensation_scan.py
+
+Then inspect:
+
+    results/adversarial_compensation_summary.json
+    results/adversarial_compensation_certificate.json

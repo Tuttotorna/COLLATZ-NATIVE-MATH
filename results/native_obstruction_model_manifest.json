@@ -1,0 +1,38 @@
+{
+  "central_question": "Can debt regenerate forever without ever forcing compensating discharge?",
+  "documents": [
+    "docs/NATIVE_OBSTRUCTION_MODEL.md",
+    "docs/NATIVE_FAILURE_CONDITION.md",
+    "docs/NATIVE_REGENERATION.md",
+    "docs/NATIVE_CLOSURE_OPPOSITE.md",
+    "docs/NATIVE_HARDNESS_VS_OBSTRUCTION.md"
+  ],
+  "hardness_vs_obstruction_rule": "Hardness measures stress; obstruction requires self-preserving unclosed debt.",
+  "layer": "native_obstruction_model",
+  "native_closure_opposite": "An admissible debt structure that persists, regenerates, and avoids compensating discharge indefinitely.",
+  "native_failure_condition": "The native method fails if it cannot distinguish a long compensated trajectory from a true non-compensating debt structure.",
+  "native_obstruction_definition": [
+    "debt_is_generated",
+    "debt_persists",
+    "shadow_is_not_erased",
+    "regeneration_occurs",
+    "compensation_is_insufficient",
+    "no_closure_event_is_forced",
+    "structure_remains_internally_admissible"
+  ],
+  "next_recommended_version": "v1.8 Native Closure Conditions",
+  "not_sufficient_for_obstruction": [
+    "high_stopping_time",
+    "high_odd_block_count",
+    "high_hardness_score",
+    "tight_positive_surplus",
+    "long_post_chain_recovery",
+    "many_bad_windows",
+    "local_instability"
+  ],
+  "primary_claim": "A native obstruction is persistent unclosed debt, not merely a long or hard trajectory.",
+  "proof_status": "not_a_proof",
+  "standard_translation_status": "deferred_until_native_closure",
+  "status": "obstruction_model_defined",
+  "version": "v1.7"
+}

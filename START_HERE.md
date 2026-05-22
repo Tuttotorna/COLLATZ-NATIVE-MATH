@@ -240,3 +240,20 @@ The scans are evidence layers.
 The native method is the source layer.
 
 The standard mathematical translation comes later.
+
+## v1.7 obstruction before closure
+
+Before trying to prove closure, define what obstruction means.
+
+Read:
+
+    docs/NATIVE_OBSTRUCTION_MODEL.md
+    docs/NATIVE_FAILURE_CONDITION.md
+    docs/NATIVE_REGENERATION.md
+    docs/NATIVE_CLOSURE_OPPOSITE.md
+    docs/NATIVE_HARDNESS_VS_OBSTRUCTION.md
+
+Core rule:
+
+    Hardness measures stress.
+    Obstruction requires self-preserving unclosed debt.

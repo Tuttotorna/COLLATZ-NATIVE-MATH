@@ -256,3 +256,22 @@ The central native obstruction question is:
 Can a debt structure exist that never generates compensating discharge?
 
 The standard Collatz framing should re-enter only after the native closure mechanism is explicit.
+
+## Native obstruction model
+
+The native counterexample target is not just a trajectory that is long or hard.
+
+The native obstruction target is:
+
+    a self-preserving debt structure
+    that regenerates
+    without forced compensating discharge
+
+Therefore, the project must distinguish:
+
+    hardness != obstruction
+    local recovery != closure
+    long trajectory != native failure
+    tight surplus != counterexample
+
+The next step is native closure: showing whether such obstruction can or cannot exist.

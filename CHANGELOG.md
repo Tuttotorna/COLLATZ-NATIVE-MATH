@@ -321,3 +321,13 @@ v1.1 tests whether the v1.0 hard case is isolated or part of a wider frontier.
 - Adds a standard translation boundary.
 - Clarifies that previous scans are evidence layers, not the native theory itself.
 - Defines the next research step as v1.7 Native Obstruction Model.
+
+## v1.7 - Native Obstruction Model
+
+- Defines what a native obstruction would have to be.
+- Separates obstruction from long trajectory, hardness, tight surplus, and local instability.
+- Defines native failure condition.
+- Defines native regeneration.
+- Defines the opposite of native closure.
+- Adds hardness-vs-obstruction boundary.
+- Sets v1.8 as Native Closure Conditions.

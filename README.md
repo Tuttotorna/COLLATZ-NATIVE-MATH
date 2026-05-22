@@ -482,3 +482,42 @@ Standard mathematics re-enters only after the native structure has been exposed.
 This is not a proof of the Collatz conjecture.
 
 It is a methodological correction and a research boundary.
+
+## v1.7 Native Obstruction Model
+
+The repository now defines the native obstruction model.
+
+A native obstruction is not merely:
+
+    a long trajectory
+    a high hardness score
+    a tight positive surplus
+    many bad windows
+
+A native obstruction is:
+
+    persistent unclosed debt
+
+More precisely:
+
+    debt is generated
+    debt persists
+    shadow is not erased
+    regeneration occurs
+    compensation is insufficient
+    no closure event is forced
+    the structure remains internally admissible
+
+Central native question:
+
+    Can debt regenerate forever without ever forcing compensating discharge?
+
+New documents:
+
+    docs/NATIVE_OBSTRUCTION_MODEL.md
+    docs/NATIVE_FAILURE_CONDITION.md
+    docs/NATIVE_REGENERATION.md
+    docs/NATIVE_CLOSURE_OPPOSITE.md
+    docs/NATIVE_HARDNESS_VS_OBSTRUCTION.md
+
+This is not a proof of the Collatz conjecture. It defines the native obstruction target before standard mathematical translation.

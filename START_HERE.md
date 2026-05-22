@@ -162,3 +162,19 @@ This checks whether:
     n0 = 9780657630
 
 remains the current frontier case, or whether a harder candidate appears.
+
+## v1.2 frontier stability exact baseline
+
+Run:
+
+    python examples/scan_critical_frontier.py
+
+Then check:
+
+    results/critical_frontier_summary.json
+    results/frontier_stability_certificate.json
+
+Expected status:
+
+    comparison_status = SAME_AS_PREVIOUS
+    frontier_stable = true

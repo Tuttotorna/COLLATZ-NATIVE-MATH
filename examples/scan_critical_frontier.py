@@ -1,485 +1,199 @@
-#!/usr/bin/env python3
+from __future__ import annotations
 
 import json
-import math
+import runpy
 from pathlib import Path
 
+VERSION = "v1.2"
+
+PREVIOUS_CRITICAL_N0 = 9780657630
+PREVIOUS_CRITICAL_HARDNESS = 15.100955299032181
+PREVIOUS_CRITICAL_DISTANCE = 114
+PREVIOUS_CRITICAL_MIN_SURPLUS = 0.00275679752445801
+COMPARISON_TOLERANCE = 1e-9
+
 ROOT = Path(__file__).resolve().parents[1]
+CORE = ROOT / "examples" / "scan_critical_frontier_v11_core.py"
+RESULTS = ROOT / "results"
+SCAN_PATH = RESULTS / "critical_frontier_scan.jsonl"
+SUMMARY_PATH = RESULTS / "critical_frontier_summary.json"
+CERTIFICATE_PATH = RESULTS / "frontier_stability_certificate.json"
 
-SCAN_PATH = ROOT / "results" / "critical_frontier_scan.jsonl"
-SUMMARY_PATH = ROOT / "results" / "critical_frontier_summary.json"
 
-LOG2_3 = math.log2(3)
-CHEAPNESS_THRESHOLD = 1 / (LOG2_3 - 1)
+def line():
+    print("=" * 80)
 
-PREVIOUS_CRITICAL = {
-    "n0": 9780657630,
-    "distance": 114,
-    "surplus": 0.002757,
-    "hardness": 15.100955,
-}
 
-KNOWN_HARD_CASES = [
-    27,
-    31,
-    63,
-    2047,
-    2729,
-    4255,
-    6171,
-    9663,
-    77031,
-    837799,
-    9780657630,
-    63728127,
-    670617279,
-    989345275647,
-    871,
-    156159,
-    106239,
-    230631,
-    626331,
-    1117065,
-    1501353,
-    1723519,
-    2298025,
-    3542887,
-]
+def load_json(path: Path):
+    return json.loads(path.read_text(encoding="utf-8"))
 
-FRONTIER_CENTERS = [
-    9780657630,
-    989345275647,
-    626331,
-    1117065,
-    3542887,
-]
 
-def v2(n: int) -> int:
-    if n == 0:
-        raise ValueError("v2(0) is undefined here.")
-    n = abs(n)
-    c = 0
-    while n % 2 == 0:
-        c += 1
-        n //= 2
-    return c
+def write_json(path: Path, data):
+    path.write_text(json.dumps(data, indent=2, sort_keys=True) + "\n", encoding="utf-8")
 
-def odd_start(n: int) -> int:
-    if n <= 0:
-        raise ValueError("n must be positive.")
-    while n % 2 == 0:
-        n //= 2
-    return n
 
-def next_odd_block(n: int):
-    if n <= 0 or n % 2 == 0:
-        raise ValueError("n must be positive odd.")
-    value = 3 * n + 1
-    a = v2(value)
-    m = value // (2 ** a)
-    return a, m
+def load_rows(path: Path):
+    if not path.exists():
+        return []
+    return [
+        json.loads(line)
+        for line in path.read_text(encoding="utf-8").splitlines()
+        if line.strip()
+    ]
 
-def trace_blocks(n0: int, max_blocks: int = 200000):
-    n = odd_start(n0)
-    rows = []
-    total_debt = 0
 
-    for block in range(max_blocks):
-        s = v2(n + 1)
-        a, m = next_odd_block(n)
-        s_next = v2(m + 1)
-        total_debt += a
+def get_hardness(row):
+    if not isinstance(row, dict):
+        return 0.0
+    if "max_hardness_score" in row:
+        return row["max_hardness_score"]
+    if "hardness" in row:
+        return row["hardness"]
+    return 0.0
 
-        regenerated_shadow = max(0, s_next - s)
-        compression_cost = max(1, a - 1)
-        cheapness_ratio = regenerated_shadow / compression_cost if regenerated_shadow > 0 else 0.0
 
-        rows.append({
-            "block": block,
-            "n": n,
-            "s": s,
-            "a": a,
-            "next_odd": m,
-            "s_next": s_next,
-            "shadow_delta": s_next - s,
-            "is_regeneration": s_next > s,
-            "regenerated_shadow": regenerated_shadow,
-            "compression_cost": compression_cost,
-            "cheapness_ratio": cheapness_ratio,
-            "is_locally_cheap_regeneration": cheapness_ratio >= CHEAPNESS_THRESHOLD,
-            "cumulative_debt": total_debt,
-            "average_debt": total_debt / (block + 1),
-        })
+def get_distance(row):
+    if not isinstance(row, dict):
+        return 0
+    if "max_post_chain_recovery_distance" in row:
+        return row["max_post_chain_recovery_distance"]
+    if "max_distance" in row:
+        return row["max_distance"]
+    return 0
 
-        n = m
-        if n == 1:
-            break
 
-    return rows
+def get_min_surplus(row):
+    if not isinstance(row, dict):
+        return None
+    if "min_post_chain_recovery_surplus" in row:
+        return row["min_post_chain_recovery_surplus"]
+    if "min_surplus" in row:
+        return row["min_surplus"]
+    return None
 
-def segment_stats(rows, start_idx, end_idx):
-    segment = rows[start_idx:end_idx + 1]
-    debt = sum(row["a"] for row in segment)
-    blocks = len(segment)
-    avg = debt / blocks
 
-    return {
-        "start_block": segment[0]["block"],
-        "end_block": segment[-1]["block"],
-        "blocks": blocks,
-        "debt": debt,
-        "average_debt": avg,
-        "average_debt_at_or_below_threshold": avg <= LOG2_3,
-        "max_a": max(row["a"] for row in segment),
-        "max_shadow": max(max(row["s"], row["s_next"]) for row in segment),
-    }
+def normalize_hardest(summary, rows):
+    hardest = summary.get("current_hardest")
 
-def build_regeneration_segments(n0: int, rows):
-    regen = [i for i, row in enumerate(rows) if row["is_regeneration"]]
-    segments = []
-
-    for j, idx in enumerate(regen):
-        event = rows[idx]
-        next_idx = regen[j + 1] if j + 1 < len(regen) else len(rows) - 1
-        stats = segment_stats(rows, idx, next_idx)
-
-        is_locally_cheap = event["cheapness_ratio"] >= CHEAPNESS_THRESHOLD
-        reaches_next_regen = j + 1 < len(regen)
-        chain_compatible = (
-            is_locally_cheap
-            and reaches_next_regen
-            and stats["average_debt_at_or_below_threshold"]
-        )
-
-        segments.append({
-            "n0": n0,
-            "event_index": j,
-            "event_block": idx,
-            "regenerated_shadow": event["regenerated_shadow"],
-            "compression_cost": event["compression_cost"],
-            "cheapness_ratio": event["cheapness_ratio"],
-            "is_locally_cheap": is_locally_cheap,
-            "reaches_next_regeneration": reaches_next_regen,
-            "chain_compatible": chain_compatible,
-            **{f"segment_{k}": v for k, v in stats.items()},
-        })
-
-    return segments
-
-def chain_episodes(n0: int, rows, segments):
-    episodes = []
-    i = 0
-
-    while i < len(segments):
-        if not segments[i]["chain_compatible"]:
-            i += 1
-            continue
-
-        start_i = i
-        chain_segments = []
-
-        while i < len(segments) and segments[i]["chain_compatible"]:
-            chain_segments.append(segments[i])
-            i += 1
-
-        end_i = i - 1
-
-        chain_start_block = chain_segments[0]["segment_start_block"]
-        chain_end_block = chain_segments[-1]["segment_end_block"]
-
-        chain_rows = [
-            row for row in rows
-            if chain_start_block <= row["block"] <= chain_end_block
-        ]
-
-        chain_debt = sum(row["a"] for row in chain_rows)
-        chain_blocks = len(chain_rows)
-        chain_avg = chain_debt / chain_blocks
-        chain_deficit = LOG2_3 - chain_avg
-
-        episodes.append({
-            "n0": n0,
-            "chain_start_event_index": segments[start_i]["event_index"],
-            "chain_end_event_index": segments[end_i]["event_index"],
-            "chain_length_segments": len(chain_segments),
-            "chain_start_block": chain_start_block,
-            "chain_end_block": chain_end_block,
-            "chain_blocks": chain_blocks,
-            "chain_debt": chain_debt,
-            "chain_average_debt": chain_avg,
-            "chain_deficit_below_threshold": chain_deficit,
-            "chain_max_cheapness_ratio": max(seg["cheapness_ratio"] for seg in chain_segments),
-        })
-
-    return episodes
-
-def find_recovery(rows, start_block):
-    if start_block is None or start_block >= len(rows):
-        return {
-            "recovery_found": False,
-            "recovery_start_block": start_block,
-            "recovery_end_block": None,
-            "recovery_distance_blocks": None,
-            "recovery_average_debt": None,
-            "recovery_surplus": None,
-        }
-
-    debt = 0
-    blocks = 0
-
-    for row in rows[start_block:]:
-        debt += row["a"]
-        blocks += 1
-        avg = debt / blocks
-
-        if avg > LOG2_3:
-            return {
-                "recovery_found": True,
-                "recovery_start_block": start_block,
-                "recovery_end_block": row["block"],
-                "recovery_distance_blocks": blocks,
-                "recovery_average_debt": avg,
-                "recovery_surplus": avg - LOG2_3,
-            }
-
-    return {
-        "recovery_found": False,
-        "recovery_start_block": start_block,
-        "recovery_end_block": None,
-        "recovery_distance_blocks": None,
-        "recovery_average_debt": None,
-        "recovery_surplus": None,
-    }
-
-def hardness_score(row):
-    if not row["post_chain_recovery_found"]:
-        return float("inf")
-
-    distance = row["post_chain_recovery_distance_blocks"] or 0
-    gap = row["recovery_distance_gap"] or 0
-    deficit = row["chain_deficit_below_threshold"] or 0
-    chain_len = row["chain_length_segments"] or 0
-    surplus = row["post_chain_recovery_surplus"]
-
-    surplus_term = 1 / (1 + 1000 * surplus) if surplus is not None and surplus >= 0 else 10
-
-    return (
-        math.log2(1 + distance)
-        + math.log2(1 + max(0, gap))
-        + deficit
-        + chain_len
-        + surplus_term
-    )
-
-def enrich_episode(rows, ep):
-    chain_start = ep["chain_start_block"]
-    chain_end = ep["chain_end_block"]
-    post_start = chain_end + 1
-
-    chain_start_recovery = find_recovery(rows, chain_start)
-    post_chain_recovery = find_recovery(rows, post_start)
-
-    enriched = dict(ep)
-
-    for k, v in chain_start_recovery.items():
-        enriched[f"chain_start_{k}"] = v
-
-    for k, v in post_chain_recovery.items():
-        enriched[f"post_chain_{k}"] = v
-
-    enriched["post_chain_start_block"] = post_start
-
-    if chain_start_recovery["recovery_distance_blocks"] is not None and post_chain_recovery["recovery_distance_blocks"] is not None:
-        enriched["recovery_distance_gap"] = (
-            post_chain_recovery["recovery_distance_blocks"]
-            - chain_start_recovery["recovery_distance_blocks"]
-        )
+    if isinstance(hardest, dict):
+        out = dict(hardest)
     else:
-        enriched["recovery_distance_gap"] = None
+        nonzero = [row for row in rows if get_hardness(row) > 0]
+        out = dict(max(nonzero or rows, key=get_hardness)) if rows else {}
 
-    enriched["hardness_score"] = hardness_score(enriched)
-    return enriched
+    if "hardness" in out and "max_hardness_score" not in out:
+        out["max_hardness_score"] = out["hardness"]
 
-def candidate_set():
-    candidates = set()
+    if "max_distance" in out and "max_post_chain_recovery_distance" not in out:
+        out["max_post_chain_recovery_distance"] = out["max_distance"]
 
-    for n in KNOWN_HARD_CASES:
-        if n > 0:
-            candidates.add(n)
+    if "min_surplus" in out and "min_post_chain_recovery_surplus" not in out:
+        out["min_post_chain_recovery_surplus"] = out["min_surplus"]
 
-    # Local neighborhoods around frontier centers.
-    # Keep bounded to avoid turning CI into a long exhaustive scan.
-    offsets = [
-        -4096, -2048, -1024, -512, -256, -128, -64, -32, -16, -8, -4, -2,
-        0,
-        2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096,
-    ]
+    return out
 
-    for center in FRONTIER_CENTERS:
-        for offset in offsets:
-            n = center + offset
-            if n > 0:
-                candidates.add(n)
-
-    # Structured near-Mersenne odd candidates.
-    for k in range(5, 54):
-        n = (2 ** k) - 1
-        candidates.add(n)
-        if n - 2 > 0:
-            candidates.add(n - 2)
-        candidates.add(n + 2)
-
-    return sorted(candidates)
-
-def analyze_n0(n0: int):
-    rows = trace_blocks(n0)
-
-    reaches_1 = bool(rows and rows[-1]["next_odd"] == 1)
-    total_debt = sum(row["a"] for row in rows)
-    avg_debt = total_debt / len(rows) if rows else None
-
-    segments = build_regeneration_segments(n0, rows)
-    episodes = chain_episodes(n0, rows, segments)
-    enriched = [enrich_episode(rows, ep) for ep in episodes]
-
-    recovered = [ep for ep in enriched if ep["post_chain_recovery_found"]]
-    unrecovered = [ep for ep in enriched if not ep["post_chain_recovery_found"]]
-
-    hardest = max(recovered, key=lambda ep: ep["hardness_score"]) if recovered else None
-    longest = max(recovered, key=lambda ep: ep["post_chain_recovery_distance_blocks"]) if recovered else None
-
-    tightest_candidates = [
-        ep for ep in recovered
-        if ep["post_chain_recovery_surplus"] is not None
-    ]
-    tightest = min(tightest_candidates, key=lambda ep: ep["post_chain_recovery_surplus"]) if tightest_candidates else None
-
-    return {
-        "n0": n0,
-        "odd_start": odd_start(n0),
-        "reaches_1": reaches_1,
-        "odd_blocks": len(rows),
-        "trajectory_total_debt": total_debt,
-        "trajectory_average_debt": avg_debt,
-        "chain_episodes": len(episodes),
-        "post_chain_recovered": len(recovered),
-        "post_chain_unrecovered": len(unrecovered),
-        "max_post_chain_recovery_distance": longest["post_chain_recovery_distance_blocks"] if longest else 0,
-        "min_post_chain_recovery_surplus": tightest["post_chain_recovery_surplus"] if tightest else None,
-        "max_hardness_score": hardest["hardness_score"] if hardest else 0,
-        "hardest_episode": hardest,
-        "longest_recovery_episode": longest,
-        "tightest_surplus_episode": tightest,
-    }
 
 def main():
-    candidates = candidate_set()
-    rows = []
+    line()
+    print("COLLATZ-NATIVE-MATH v1.2")
+    line()
+    print("Critical frontier scan with stability certificate")
+    print(f"previous critical n0: {PREVIOUS_CRITICAL_N0}")
+    print(f"previous critical hardness: {PREVIOUS_CRITICAL_HARDNESS:.15f}")
+    print(f"comparison tolerance: {COMPARISON_TOLERANCE}")
+    line()
 
-    SCAN_PATH.parent.mkdir(parents=True, exist_ok=True)
+    if not CORE.exists():
+        raise RuntimeError(f"Missing v1.1 core scanner: {CORE}")
 
-    print("=" * 80)
-    print("COLLATZ-NATIVE-MATH v1.1")
-    print("=" * 80)
-    print("Critical frontier scan")
-    print("=" * 80)
-    print(f"candidate count: {len(candidates)}")
-    print(f"escape threshold log2(3): {LOG2_3:.6f}")
-    print(f"cheapness threshold: {CHEAPNESS_THRESHOLD:.6f}")
-    print("=" * 80)
+    runpy.run_path(str(CORE), run_name="__main__")
 
-    with SCAN_PATH.open("w", encoding="utf-8") as f:
-        for index, n0 in enumerate(candidates, start=1):
-            row = analyze_n0(n0)
-            row["candidate_index"] = index
-            rows.append(row)
-            f.write(json.dumps(row, ensure_ascii=False) + "\n")
+    rows = load_rows(SCAN_PATH)
+    summary = load_json(SUMMARY_PATH) if SUMMARY_PATH.exists() else {}
 
-            print(
-                "n0:",
-                row["n0"],
-                "odd_blocks:",
-                row["odd_blocks"],
-                "chains:",
-                row["chain_episodes"],
-                "max_distance:",
-                row["max_post_chain_recovery_distance"],
-                "min_surplus:",
-                row["min_post_chain_recovery_surplus"],
-                "hardness:",
-                f"{row['max_hardness_score']:.6f}",
-            )
+    hardest = normalize_hardest(summary, rows)
 
-    completed = [row for row in rows if row["reaches_1"]]
-    recovered_rows = [row for row in rows if row["post_chain_recovered"] > 0]
+    current_n0 = hardest.get("n0")
+    current_hardness = float(hardest.get("max_hardness_score", get_hardness(hardest)) or 0.0)
+    current_distance = int(hardest.get("max_post_chain_recovery_distance", get_distance(hardest)) or 0)
+    current_surplus = hardest.get("min_post_chain_recovery_surplus", get_min_surplus(hardest))
 
-    current_hardest = max(recovered_rows, key=lambda row: row["max_hardness_score"]) if recovered_rows else None
-    current_longest = max(recovered_rows, key=lambda row: row["max_post_chain_recovery_distance"]) if recovered_rows else None
+    same_case = current_n0 == PREVIOUS_CRITICAL_N0
+    hardness_delta = current_hardness - PREVIOUS_CRITICAL_HARDNESS
 
-    surplus_rows = [
-        row for row in recovered_rows
-        if row["min_post_chain_recovery_surplus"] is not None
-    ]
-    current_tightest = min(surplus_rows, key=lambda row: row["min_post_chain_recovery_surplus"]) if surplus_rows else None
+    if same_case and abs(hardness_delta) <= COMPARISON_TOLERANCE:
+        comparison_status = "SAME_AS_PREVIOUS"
+    elif hardness_delta > COMPARISON_TOLERANCE:
+        comparison_status = "HARDER_THAN_PREVIOUS"
+    elif hardness_delta < -COMPARISON_TOLERANCE:
+        comparison_status = "SOFTER_THAN_PREVIOUS"
+    else:
+        comparison_status = "NUMERIC_TIE_DIFFERENT_CASE"
 
-    harder_than_previous = (
-        current_hardest is not None
-        and current_hardest["max_hardness_score"] > PREVIOUS_CRITICAL["hardness"]
-    )
+    harder_than_previous = comparison_status == "HARDER_THAN_PREVIOUS"
+    frontier_stable = same_case and comparison_status == "SAME_AS_PREVIOUS"
 
-    summary = {
-        "version": "v1.1",
-        "candidate_count": len(candidates),
-        "completed_count": len(completed),
-        "previous_critical_n0": PREVIOUS_CRITICAL["n0"],
-        "previous_critical_distance": PREVIOUS_CRITICAL["distance"],
-        "previous_critical_surplus": PREVIOUS_CRITICAL["surplus"],
-        "previous_critical_hardness": PREVIOUS_CRITICAL["hardness"],
-        "current_hardest": current_hardest,
-        "current_longest_recovery": current_longest,
-        "current_tightest_surplus": current_tightest,
+    summary["version"] = VERSION
+    summary["previous_critical_n0"] = PREVIOUS_CRITICAL_N0
+    summary["previous_critical_hardness"] = PREVIOUS_CRITICAL_HARDNESS
+    summary["previous_critical_distance"] = PREVIOUS_CRITICAL_DISTANCE
+    summary["previous_critical_min_surplus"] = PREVIOUS_CRITICAL_MIN_SURPLUS
+    summary["comparison_tolerance"] = COMPARISON_TOLERANCE
+    summary["current_hardest"] = hardest
+    summary["comparison_status"] = comparison_status
+    summary["same_case"] = same_case
+    summary["harder_than_previous_critical"] = harder_than_previous
+    summary["frontier_stable"] = frontier_stable
+    summary["hardness_delta_vs_previous"] = hardness_delta
+
+    certificate = {
+        "version": VERSION,
+        "certificate_type": "frontier_stability_certificate",
+        "previous_critical_n0": PREVIOUS_CRITICAL_N0,
+        "previous_critical_hardness": PREVIOUS_CRITICAL_HARDNESS,
+        "previous_critical_distance": PREVIOUS_CRITICAL_DISTANCE,
+        "previous_critical_min_surplus": PREVIOUS_CRITICAL_MIN_SURPLUS,
+        "current_hardest_n0": current_n0,
+        "current_hardest_hardness": current_hardness,
+        "current_hardest_distance": current_distance,
+        "current_hardest_min_surplus": current_surplus,
+        "comparison_tolerance": COMPARISON_TOLERANCE,
+        "comparison_status": comparison_status,
+        "same_case": same_case,
         "harder_than_previous_critical": harder_than_previous,
+        "frontier_stable": frontier_stable,
+        "hardness_delta_vs_previous": hardness_delta,
+        "meaning": (
+            "Within this finite candidate frontier, the known critical case "
+            "remains the active hardest case under exact baseline comparison."
+        ),
+        "limits": (
+            "This is a finite computational certificate over the selected "
+            "candidate frontier. It is not a proof of the Collatz conjecture."
+        ),
     }
 
-    SUMMARY_PATH.write_text(
-        json.dumps(summary, ensure_ascii=False, indent=2),
-        encoding="utf-8",
+    write_json(SUMMARY_PATH, summary)
+    write_json(CERTIFICATE_PATH, certificate)
+
+    line()
+    print("Frontier stability certificate")
+    line()
+    print(
+        "current hardest: "
+        f"n0={current_n0} "
+        f"hardness={current_hardness:.15f} "
+        f"distance={current_distance} "
+        f"min_surplus={current_surplus}"
     )
-
-    print("=" * 80)
-    print("Frontier summary")
-    print("=" * 80)
-
-    if current_hardest:
-        print(
-            "current hardest:",
-            f"n0={current_hardest['n0']}",
-            f"hardness={current_hardest['max_hardness_score']:.6f}",
-            f"distance={current_hardest['max_post_chain_recovery_distance']}",
-            f"min_surplus={current_hardest['min_post_chain_recovery_surplus']}",
-        )
-
-    if current_longest:
-        print(
-            "current longest recovery:",
-            f"n0={current_longest['n0']}",
-            f"distance={current_longest['max_post_chain_recovery_distance']}",
-            f"hardness={current_longest['max_hardness_score']:.6f}",
-        )
-
-    if current_tightest:
-        print(
-            "current tightest surplus:",
-            f"n0={current_tightest['n0']}",
-            f"surplus={current_tightest['min_post_chain_recovery_surplus']}",
-            f"distance={current_tightest['max_post_chain_recovery_distance']}",
-        )
-
+    print(f"comparison status: {comparison_status}")
+    print(f"same case: {str(same_case).lower()}")
     print(f"harder than previous critical: {str(harder_than_previous).lower()}")
-    print("=" * 80)
-    print(f"Wrote scan rows to: {SCAN_PATH.relative_to(ROOT)}")
-    print(f"Wrote summary to: {SUMMARY_PATH.relative_to(ROOT)}")
-    print("=" * 80)
+    print(f"frontier stable: {str(frontier_stable).lower()}")
+    print(f"Wrote updated summary to: {SUMMARY_PATH.relative_to(ROOT)}")
+    print(f"Wrote certificate to: {CERTIFICATE_PATH.relative_to(ROOT)}")
+    line()
+
 
 if __name__ == "__main__":
     main()

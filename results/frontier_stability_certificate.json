@@ -1,0 +1,20 @@
+{
+  "certificate_type": "frontier_stability_certificate",
+  "comparison_status": "SAME_AS_PREVIOUS",
+  "comparison_tolerance": 1e-09,
+  "current_hardest_distance": 114,
+  "current_hardest_hardness": 15.100955299032181,
+  "current_hardest_min_surplus": 0.00275679752445801,
+  "current_hardest_n0": 9780657630,
+  "frontier_stable": true,
+  "harder_than_previous_critical": false,
+  "hardness_delta_vs_previous": 0.0,
+  "limits": "This is a finite computational certificate over the selected candidate frontier. It is not a proof of the Collatz conjecture.",
+  "meaning": "Within this finite candidate frontier, the known critical case remains the active hardest case under exact baseline comparison.",
+  "previous_critical_distance": 114,
+  "previous_critical_hardness": 15.100955299032181,
+  "previous_critical_min_surplus": 0.00275679752445801,
+  "previous_critical_n0": 9780657630,
+  "same_case": true,
+  "version": "v1.2"
+}

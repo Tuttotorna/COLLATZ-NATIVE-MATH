@@ -271,3 +271,12 @@ Core addition:
     automatic comparison against the v1.0 critical case
 
 v1.1 tests whether the v1.0 hard case is isolated or part of a wider frontier.
+
+## v1.2 - Frontier stability certificate exact baseline
+
+- Preserves the v1.1 critical frontier scanner as deterministic core.
+- Adds a v1.2 wrapper that emits a frontier stability certificate.
+- Uses the exact previous critical hardness baseline: 15.100955299032181.
+- Avoids false HARDER_THAN_PREVIOUS classification caused by rounded baseline 15.100955.
+- Records comparison_status, frontier_stable, and harder_than_previous_critical.
+- Adds regression tests for exact frontier stability.

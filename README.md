@@ -356,3 +356,26 @@ The script writes:
     results/critical_frontier_summary.json
 
 The purpose is to test whether the v1.0 case is still the hardest observed recovered post-chain case inside a bounded frontier scan.
+
+## v1.2 frontier stability certificate exact baseline
+
+The critical frontier scanner now emits a stability certificate:
+
+    python examples/scan_critical_frontier.py
+
+Expected active frontier:
+
+    current hardest: n0=9780657630
+    hardness = 15.100955299032181
+    comparison_status = SAME_AS_PREVIOUS
+    frontier_stable = true
+    harder_than_previous_critical = false
+
+The certificate is written to:
+
+    results/frontier_stability_certificate.json
+
+Important: the baseline hardness must not be rounded below the comparison tolerance.
+
+This is a finite computational certificate over the selected candidate frontier.
+It is not a proof of the Collatz conjecture.

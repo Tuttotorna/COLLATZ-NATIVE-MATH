@@ -183,3 +183,13 @@ it asks:
 The relevant obstruction is no longer a single recovery event.
 
 The relevant obstruction is whether recovery hardness can grow without bound.
+
+## Frontier stability certificate exact baseline
+
+The v1.2 scan does not claim proof.
+It certifies that, within the selected finite frontier, the known critical case remains the active hardest case:
+
+    n0 = 9780657630
+    hardness = 15.100955299032181
+    post-chain recovery distance = 114
+    minimum surplus = 0.00275679752445801

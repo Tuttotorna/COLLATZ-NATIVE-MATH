@@ -54,5 +54,8 @@ jobs:
       - name: Run critical case dissection
         run: python examples/analyze_critical_case.py
 
+      - name: Run critical frontier scan
+        run: python examples/scan_critical_frontier.py
+
       - name: Run tests
         run: pytest -q

@@ -167,3 +167,19 @@ The refined question becomes:
 If the pattern can be made arbitrarily long without recovery, the CRC direction fails.
 
 If the pattern cannot be extended indefinitely, it may become a lemma candidate.
+
+## v1.1 frontier form
+
+v1.1 reframes the CRC search as a frontier problem.
+
+Instead of asking only:
+
+    does one hard case recover?
+
+it asks:
+
+    how does hardness move across nearby and structured candidates?
+
+The relevant obstruction is no longer a single recovery event.
+
+The relevant obstruction is whether recovery hardness can grow without bound.

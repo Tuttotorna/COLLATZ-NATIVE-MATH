@@ -150,3 +150,15 @@ This dissects:
 The v1.0 question is:
 
     what exact block pattern produces the 114-block post-chain recovery distance?
+
+## v1.1 step
+
+After v1.0, run:
+
+    python examples/scan_critical_frontier.py
+
+This checks whether:
+
+    n0 = 9780657630
+
+remains the current frontier case, or whether a harder candidate appears.

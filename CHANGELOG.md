@@ -247,3 +247,27 @@ Core addition:
     critical pattern notes
 
 v1.0 turns the hardest sampled recovered case into a concrete object for inspection.
+
+## v1.1.0
+
+Added critical frontier scan.
+
+New files:
+
+- docs/CRITICAL_FRONTIER_SCAN.md
+- docs/FRONTIER_RESULTS.md
+- docs/FRONTIER_LIMITS.md
+- examples/scan_critical_frontier.py
+- tests/test_critical_frontier_scan.py
+- results/critical_frontier_scan.jsonl
+- results/critical_frontier_summary.json
+
+Core addition:
+
+    bounded frontier scan around hard cases
+    local neighborhood scan around known frontier centers
+    structured near-Mersenne candidates
+    automatic hardest-case ranking
+    automatic comparison against the v1.0 critical case
+
+v1.1 tests whether the v1.0 hard case is isolated or part of a wider frontier.

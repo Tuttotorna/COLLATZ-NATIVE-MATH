@@ -341,3 +341,18 @@ The script writes:
     results/critical_case_summary.json
 
 The purpose is to inspect the exact block structure behind the hardest known post-chain recovery case.
+
+## v1.1: Critical frontier scan
+
+v1.1 expands beyond the single v1.0 hard case.
+
+Run:
+
+    python examples/scan_critical_frontier.py
+
+The script writes:
+
+    results/critical_frontier_scan.jsonl
+    results/critical_frontier_summary.json
+
+The purpose is to test whether the v1.0 case is still the hardest observed recovered post-chain case inside a bounded frontier scan.

@@ -177,3 +177,23 @@ Therefore the real target is not:
 but:
 
     no infinite cheap regeneration chain exists in positive odd Collatz dynamics.
+
+## v0.3: Cheap regeneration chain analysis
+
+v0.3 adds finite chain diagnostics.
+
+Run:
+
+    python examples/analyze_cheap_regeneration_chains.py
+
+This analyzes whether local cheap regeneration events can connect into chain-compatible segments before debt rises above:
+
+    log2(3)
+
+The current native target is:
+
+    no infinite cheap regeneration chain in positive odd Collatz dynamics
+
+v0.3 does not prove this.
+
+It creates the first operational detector for finite chain-compatible regeneration.

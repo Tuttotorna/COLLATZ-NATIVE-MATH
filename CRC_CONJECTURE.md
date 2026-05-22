@@ -35,3 +35,23 @@ This would reduce Collatz to the impossibility of infinite cheap regeneration.
 This is not proved.
 
 This repository only formalizes and tests the language.
+
+## v0.3 operational CRC form
+
+v0.3 turns CRC into a finite diagnostic.
+
+A locally cheap regeneration event is not enough.
+
+The dangerous case is:
+
+    locally cheap regeneration
+    followed by another regeneration
+    while the segment average debt remains <= log2(3)
+
+Such an event is marked:
+
+    chain_compatible = true
+
+The long-term target becomes:
+
+    no infinite sequence of chain_compatible regeneration events exists in N+.

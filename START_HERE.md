@@ -48,3 +48,16 @@ This computes regeneration events and cheapness ratios.
 The v0.2 target is:
 
     distinguish local cheap regeneration from infinite cheap regeneration chains.
+
+## v0.3 step
+
+After v0.2, run:
+
+    python examples/analyze_cheap_regeneration_chains.py
+
+This moves from single regeneration events to finite cheap regeneration chain diagnostics.
+
+The v0.3 question is:
+
+    does local cheap regeneration connect into a sustained low-debt chain,
+    or is it broken by accumulated compression debt?

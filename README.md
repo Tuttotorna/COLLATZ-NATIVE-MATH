@@ -447,3 +447,38 @@ The hardness metric report now correctly records:
       min_surplus = 1.7736432994075457e-05
 
 This fixes a null extraction issue in v1.5.
+
+## v1.6 Native Method Boundary
+
+The repository now separates the native method from the classical translation layer.
+
+The current computational scans remain valid evidence layers, but they are not the native theory itself.
+
+Correct order:
+
+native primitives
+-> native dynamics
+-> native obstruction question
+-> native closure criterion
+-> computational evidence
+-> standard mathematical translation
+
+Central native question:
+
+Can a debt structure exist that never generates compensating discharge?
+
+New documents:
+
+docs/NATIVE_METHOD.md
+docs/STANDARD_TRANSLATION_BOUNDARY.md
+docs/NATIVE_OBJECTS.md
+docs/NATIVE_RESEARCH_PROGRAM.md
+docs/EVIDENCE_LAYER_STATUS.md
+
+Boundary:
+
+Standard mathematics re-enters only after the native structure has been exposed.
+
+This is not a proof of the Collatz conjecture.
+
+It is a methodological correction and a research boundary.

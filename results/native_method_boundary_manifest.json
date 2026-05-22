@@ -1,0 +1,26 @@
+{
+  "central_question": "Can a debt structure exist that never generates compensating discharge?",
+  "documents": [
+    "docs/NATIVE_METHOD.md",
+    "docs/STANDARD_TRANSLATION_BOUNDARY.md",
+    "docs/NATIVE_OBJECTS.md",
+    "docs/NATIVE_RESEARCH_PROGRAM.md",
+    "docs/EVIDENCE_LAYER_STATUS.md"
+  ],
+  "evidence_layer_status": "finite_deterministic_evidence",
+  "layer": "native_method_boundary",
+  "native_sequence": [
+    "native_primitives",
+    "native_dynamics",
+    "native_obstruction_question",
+    "native_closure_criterion",
+    "computational_evidence",
+    "standard_mathematical_translation"
+  ],
+  "next_recommended_version": "v1.7 Native Obstruction Model",
+  "primary_claim": "Previous computational scans are evidence layers, not the native theory itself.",
+  "proof_status": "not_a_proof",
+  "standard_translation_rule": "Standard mathematics re-enters only after the native structure has been exposed.",
+  "status": "methodological_boundary_defined",
+  "version": "v1.6"
+}

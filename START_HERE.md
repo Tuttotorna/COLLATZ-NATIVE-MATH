@@ -224,3 +224,19 @@ Then check:
     results/hardness_metric_report.json
 
 The `tightest_positive_surplus` metric must be non-null.
+
+## v1.6 native method first
+
+Start here before reading the computational scans:
+
+docs/NATIVE_METHOD.md
+docs/NATIVE_OBJECTS.md
+docs/STANDARD_TRANSLATION_BOUNDARY.md
+docs/NATIVE_RESEARCH_PROGRAM.md
+docs/EVIDENCE_LAYER_STATUS.md
+
+The scans are evidence layers.
+
+The native method is the source layer.
+
+The standard mathematical translation comes later.

@@ -312,3 +312,12 @@ v1.1 tests whether the v1.0 hard case is isolated or part of a wider frontier.
 - Ensures the metric extracts a real positive value instead of `None`.
 - Adds regression coverage for the expected current value:
   `n0 = 63728127`, `min_surplus = 1.7736432994075457e-05`.
+
+## v1.6 - Native Method Boundary
+
+- Adds a native-method boundary layer.
+- Separates native method from computational evidence.
+- Defines native primitives: debt, discharge, shadow, regeneration, compensation, obstruction candidate, and native closure.
+- Adds a standard translation boundary.
+- Clarifies that previous scans are evidence layers, not the native theory itself.
+- Defines the next research step as v1.7 Native Obstruction Model.

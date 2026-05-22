@@ -235,3 +235,24 @@ Different hardest cases are expected when the metric changes.
 ## v1.5.1 metric hygiene
 
 The hardness report separates finite stress metrics. The tightest positive surplus metric now records the actual finite margin instead of a null placeholder.
+
+## Native method boundary
+
+The current project should not be read as a standard proof attempt first.
+
+The native method studies:
+
+expansion
+discharge
+debt
+shadow
+regeneration
+compensation
+obstruction
+closure
+
+The central native obstruction question is:
+
+Can a debt structure exist that never generates compensating discharge?
+
+The standard Collatz framing should re-enter only after the native closure mechanism is explicit.

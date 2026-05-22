@@ -109,3 +109,18 @@ This searches for recovery windows after low-debt cheap regeneration chains.
 The v0.7 question is:
 
     can every low-debt chain be shown to recover above log2(3) in finite time?
+
+## v0.8 step
+
+After v0.7, run:
+
+    python examples/analyze_post_chain_recovery.py
+
+This compares:
+
+    chain_start_recovery
+    post_chain_recovery
+
+The v0.8 question is:
+
+    after a cheap regeneration chain ends, does the future path recover above log2(3)?

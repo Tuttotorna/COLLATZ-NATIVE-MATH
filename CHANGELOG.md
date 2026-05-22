@@ -172,3 +172,26 @@ Core addition:
     compensation law candidate search
 
 v0.7 moves from classifying collapse to measuring how fast low-debt chains are compensated.
+
+## v0.8.0
+
+Added post-chain recovery analysis.
+
+New files:
+
+- docs/POST_CHAIN_RECOVERY.md
+- docs/RECOVERY_COMPARISON.md
+- docs/POST_CHAIN_RESULTS.md
+- examples/analyze_post_chain_recovery.py
+- tests/test_post_chain_recovery.py
+- results/post_chain_recovery_analysis.jsonl
+- results/post_chain_recovery_summary.json
+
+Core addition:
+
+    chain-start recovery vs post-chain recovery
+    recovery distance gap
+    instant post-chain recovery
+    post-chain unrecovered episodes
+
+v0.8 corrects v0.7 by measuring recovery after the chain has ended, not only from the chain start.

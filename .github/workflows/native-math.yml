@@ -45,5 +45,8 @@ jobs:
       - name: Run compensation law search
         run: python examples/analyze_compensation_law.py
 
+      - name: Run post-chain recovery analysis
+        run: python examples/analyze_post_chain_recovery.py
+
       - name: Run tests
         run: pytest -q

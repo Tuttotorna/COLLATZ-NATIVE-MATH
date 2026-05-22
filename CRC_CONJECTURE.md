@@ -122,3 +122,19 @@ The compensating event is the first future window from the chain start with:
 The refined CRC target becomes:
 
     no infinite chain can avoid finite recovery above log2(3).
+
+## v0.8 post-chain recovery form
+
+v0.8 refines the compensation form.
+
+The earlier recovery window started at:
+
+    chain_start_block
+
+The stricter window starts at:
+
+    chain_end_block + 1
+
+The CRC target becomes:
+
+    no finite cheap regeneration chain can be extended into an unrecovered post-chain escape window indefinitely.

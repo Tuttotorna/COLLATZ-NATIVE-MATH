@@ -286,3 +286,21 @@ The v0.7 question is:
 This is not a proof.
 
 It is a search for a compensation law.
+
+## v0.8: Post-chain recovery analysis
+
+v0.8 separates chain-start recovery from post-chain recovery.
+
+Run:
+
+    python examples/analyze_post_chain_recovery.py
+
+v0.7 measured recovery from:
+
+    chain_start_block
+
+v0.8 also measures recovery from:
+
+    chain_end_block + 1
+
+This avoids a false impression of immediate compensation caused by including the initial regeneration block.

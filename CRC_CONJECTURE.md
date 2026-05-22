@@ -402,3 +402,27 @@ A native obstruction requires obstruction-preserving regeneration, not merely re
 
 No proof claim is made.
 The next step is v2.4 Native Closure Lemma Candidates.
+
+## Native closure lemma candidates
+
+v2.4 introduces closure lemma candidates.
+
+The project still does not claim proof.
+
+Critical boundary:
+
+local recovery != native closure
+positive surplus != native closure
+regeneration != obstruction
+closure lemma candidate != theorem
+
+A native obstruction candidate requires:
+
+persistent debt
+non-erased shadow
+dangerous regeneration
+insufficient compensation
+no closure event
+internal admissibility
+
+The next step is v2.5 Obstruction Search Protocol.

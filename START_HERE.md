@@ -362,3 +362,20 @@ Core rule:
 regeneration != obstruction
 
 Obstruction requires persistent debt, non-erased shadow, dangerous regeneration, insufficient compensation, no closure event, and internal admissibility.
+
+## v2.4 native closure lemma candidates
+
+Read:
+
+docs/NATIVE_CLOSURE_LEMMA_CANDIDATES.md
+docs/DEBT_ERASURE_LEMMA_CANDIDATES.md
+docs/SHADOW_ERASURE_LEMMA_CANDIDATES.md
+docs/REGENERATION_LEMMA_CANDIDATES.md
+docs/CLOSURE_RESULT_TYPES.md
+docs/NATIVE_CLOSURE_LEMMA_STATUS.md
+
+Core rule:
+
+Native closure requires debt erasure, shadow erasure, regeneration testing, and no self-preserving debt.
+
+No theorem is introduced in v2.4.

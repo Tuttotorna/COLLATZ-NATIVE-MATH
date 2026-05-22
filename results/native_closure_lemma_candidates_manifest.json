@@ -1,0 +1,111 @@
+{
+  "closure_requirements": [
+    "debt_detected",
+    "compensation_sufficient",
+    "shadow_erased",
+    "regeneration_tested",
+    "no_self_preserving_debt_remains"
+  ],
+  "closure_result_types": [
+    "CLOSED",
+    "LOCALLY_RECOVERED_NOT_CLOSED",
+    "REGENERATED_BUT_COMPENSATED",
+    "DANGEROUS_REGENERATION",
+    "OBSTRUCTION_CANDIDATE",
+    "UNDECIDED"
+  ],
+  "documents": [
+    "docs/NATIVE_CLOSURE_LEMMA_CANDIDATES.md",
+    "docs/DEBT_ERASURE_LEMMA_CANDIDATES.md",
+    "docs/SHADOW_ERASURE_LEMMA_CANDIDATES.md",
+    "docs/REGENERATION_LEMMA_CANDIDATES.md",
+    "docs/CLOSURE_RESULT_TYPES.md",
+    "docs/NATIVE_CLOSURE_LEMMA_STATUS.md"
+  ],
+  "forbidden_claims": [
+    "collatz_solved",
+    "global_closure_proved",
+    "closure_lemma_candidate_treated_as_theorem",
+    "obstruction_preserving_regeneration_impossible",
+    "shadow_always_erases",
+    "debt_erasure_always_occurs",
+    "finite_evidence_implies_proof",
+    "local_recovery_equals_native_closure",
+    "positive_surplus_equals_full_closure"
+  ],
+  "layer": "native_closure_lemma_candidates",
+  "lemma_candidates": [
+    {
+      "candidate_statement": "Positive surplus after compensation establishes local recovery, not full native closure.",
+      "lemma_id": "local_recovery_not_closure",
+      "native_meaning_retained": "local_recovery_does_not_equal_obstruction_erasure",
+      "native_object": "closure",
+      "status": "stable_boundary_candidate"
+    },
+    {
+      "candidate_statement": "Debt is erased only when it can no longer continue as obstruction potential.",
+      "lemma_id": "debt_erasure_requires_obstruction_power_loss",
+      "native_meaning_retained": "debt_loses_obstruction_power",
+      "native_object": "debt_erasure",
+      "status": "open_candidate"
+    },
+    {
+      "candidate_statement": "Native closure requires prior debt shadow to lose obstruction-carrying power.",
+      "lemma_id": "shadow_erasure_required_for_closure",
+      "native_meaning_retained": "prior_debt_no_longer_carries_obstruction",
+      "native_object": "shadow_erasure",
+      "status": "open_candidate"
+    },
+    {
+      "candidate_statement": "Regeneration alone does not imply native obstruction.",
+      "lemma_id": "regeneration_not_obstruction",
+      "native_meaning_retained": "renewed_debt_is_not_automatically_obstruction",
+      "native_object": "regeneration",
+      "status": "stable_boundary_candidate"
+    },
+    {
+      "candidate_statement": "Regeneration is compatible with closure when renewed debt is compensated and obstruction potential is not preserved.",
+      "lemma_id": "benign_regeneration_compatible_with_closure",
+      "native_meaning_retained": "renewed_stress_can_remain_non_obstructive",
+      "native_object": "benign_regeneration",
+      "status": "open_candidate"
+    },
+    {
+      "candidate_statement": "Dangerous regeneration requires further closure testing but is not obstruction by itself.",
+      "lemma_id": "dangerous_regeneration_requires_testing",
+      "native_meaning_retained": "stress_requires_testing_but_is_not_failure",
+      "native_object": "dangerous_regeneration",
+      "status": "stable_boundary_candidate"
+    },
+    {
+      "candidate_statement": "If regeneration preserves persistent debt, non-erased shadow, insufficient compensation, no closure event, and internal admissibility, closure is not established.",
+      "lemma_id": "obstruction_preserving_regeneration_blocks_closure",
+      "native_meaning_retained": "self_preserving_unclosed_debt_blocks_closure",
+      "native_object": "obstruction_preserving_regeneration",
+      "status": "open_candidate"
+    },
+    {
+      "candidate_statement": "Closure is candidate-present when debt is compensated, shadow is erased, regeneration is tested, and no self-preserving debt remains.",
+      "lemma_id": "closure_candidate_condition",
+      "native_meaning_retained": "obstruction_potential_erased",
+      "native_object": "closure_candidate",
+      "status": "open_candidate"
+    }
+  ],
+  "next_recommended_version": "v2.5 Obstruction Search Protocol",
+  "obstruction_candidate_requirements": [
+    "persistent_debt",
+    "non_erased_shadow",
+    "dangerous_regeneration",
+    "insufficient_compensation",
+    "no_closure_event",
+    "internal_admissibility"
+  ],
+  "primary_claim": "Native closure lemma candidates can now be stated, but none are theorem or proof claims.",
+  "proof_status": "not_a_proof",
+  "reversibility_rule": "native_object -> closure_lemma_candidate -> native_meaning_retained",
+  "standard_translation_status": "closure_lemma_candidates_only",
+  "status": "closure_lemma_candidates_defined",
+  "theorem_status": "no_theorems_introduced",
+  "version": "v2.4"
+}

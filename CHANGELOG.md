@@ -390,3 +390,13 @@ v1.1 tests whether the v1.0 hard case is isolated or part of a wider frontier.
 - Defines the obstruction threshold for regeneration chains.
 - Keeps proof and theorem claims forbidden.
 - Sets v2.4 as Native Closure Lemma Candidates.
+
+## v2.4 - Native Closure Lemma Candidates
+
+- Adds native closure lemma candidates.
+- Defines closure result types: CLOSED, LOCALLY_RECOVERED_NOT_CLOSED, REGENERATED_BUT_COMPENSATED, DANGEROUS_REGENERATION, OBSTRUCTION_CANDIDATE, UNDECIDED.
+- Defines debt erasure lemma candidates.
+- Defines shadow erasure lemma candidates.
+- Defines regeneration lemma candidates.
+- Keeps all statements as candidates, not theorems.
+- Sets v2.5 as Obstruction Search Protocol.

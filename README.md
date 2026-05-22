@@ -304,3 +304,21 @@ v0.8 also measures recovery from:
     chain_end_block + 1
 
 This avoids a false impression of immediate compensation caused by including the initial regeneration block.
+
+## v0.9: Hard recovery case analysis
+
+v0.9 ranks the hardest recovered compensation cases.
+
+Run:
+
+    python examples/analyze_hard_recovery_cases.py
+
+It ranks cases by:
+
+    hardness_score
+    post_chain_recovery_distance
+    smallest post_chain_recovery_surplus
+    chain_deficit_below_threshold
+    recovery_distance_gap
+
+The purpose is to identify the most dangerous recovered cases for later structural inspection.

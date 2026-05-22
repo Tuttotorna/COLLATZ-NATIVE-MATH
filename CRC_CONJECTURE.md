@@ -138,3 +138,20 @@ The stricter window starts at:
 The CRC target becomes:
 
     no finite cheap regeneration chain can be extended into an unrecovered post-chain escape window indefinitely.
+
+## v0.9 hard recovery form
+
+v0.9 adds hard recovery ranking.
+
+The refined CRC target becomes:
+
+    if every finite cheap chain recovers,
+    the hardest recovered chains should reveal the limiting obstruction.
+
+Hard cases are ranked by:
+
+    long recovery distance
+    small recovery surplus
+    large chain deficit
+    large recovery gap
+    high combined hardness score

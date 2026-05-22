@@ -195,3 +195,28 @@ Core addition:
     post-chain unrecovered episodes
 
 v0.8 corrects v0.7 by measuring recovery after the chain has ended, not only from the chain start.
+
+## v0.9.0
+
+Added hard recovery case analysis.
+
+New files:
+
+- docs/HARD_RECOVERY_CASES.md
+- docs/HARDNESS_SCORE.md
+- docs/HARD_RECOVERY_RESULTS.md
+- examples/analyze_hard_recovery_cases.py
+- tests/test_hard_recovery_cases.py
+- results/hard_recovery_cases.jsonl
+- results/hard_recovery_summary.json
+
+Core addition:
+
+    hardness score
+    top hard recovery cases
+    longest post-chain recovery cases
+    tightest recovery surplus cases
+    largest chain deficit cases
+    largest recovery gap cases
+
+v0.9 identifies the structurally hardest recovered compensation cases.

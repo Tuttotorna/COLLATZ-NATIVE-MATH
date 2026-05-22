@@ -124,3 +124,15 @@ This compares:
 The v0.8 question is:
 
     after a cheap regeneration chain ends, does the future path recover above log2(3)?
+
+## v0.9 step
+
+After v0.8, run:
+
+    python examples/analyze_hard_recovery_cases.py
+
+This isolates the hardest post-chain recovery cases.
+
+The v0.9 question is:
+
+    which recovered chains are closest to failing compensation?

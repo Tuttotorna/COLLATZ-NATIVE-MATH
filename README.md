@@ -1,0 +1,152 @@
+# COLLATZ-NATIVE-MATH
+
+A problem-born mathematical approach to Collatz via compression debt, 2-adic shadow, and cheap regeneration chains.
+
+This repository does not claim to prove the Collatz conjecture.
+
+It defines a local mathematical language born from the Collatz rule itself.
+
+The guiding idea is:
+
+    Collatz should not first be measured by an external mathematics.
+    Collatz should be allowed to generate the mathematics needed to make its own behavior speak.
+
+---
+
+## Core claim
+
+The classical Collatz rule is already known:
+
+    if n is even: n -> n / 2
+    if n is odd:  n -> 3n + 1
+
+The unresolved part is not the local rule.
+
+The unresolved part is the global destiny of the rule.
+
+This repository explores the following local language:
+
+    Collatz is not primarily a sequence of numbers.
+    Collatz is a sequence of compression debts.
+
+---
+
+## Accelerated odd dynamics
+
+Instead of watching every step, we watch only odd-to-odd transitions.
+
+For every positive odd n_i:
+
+    3 n_i + 1 = 2^(a_i) n_(i+1)
+
+where:
+
+    a_i >= 1
+    n_i is odd
+    n_(i+1) is odd
+
+The value:
+
+    a_i = v2(3 n_i + 1)
+
+is called the compression debt.
+
+---
+
+## 2-adic shadow of -1
+
+For every positive odd n_i, define:
+
+    s_i = v2(n_i + 1)
+
+This measures how closely n_i imitates -1 in the 2-adic sense.
+
+If:
+
+    s_i >= 2
+
+then:
+
+    a_i = 1
+
+and the local step is an escape step.
+
+During such an escape step:
+
+    s_(i+1) = s_i - 1
+
+So escape consumes the 2-adic shadow of -1.
+
+---
+
+## Cheap regeneration chain
+
+Escape cannot continue forever unless the trajectory regenerates shadow.
+
+A regeneration chain is a repeated pattern:
+
+    regenerate shadow
+    consume shadow through a = 1 escape steps
+    regenerate shadow again
+    consume again
+    ...
+
+A cheap regeneration chain is one where the trajectory regenerates enough shadow while keeping average compression debt too low.
+
+The internal target of this repository is:
+
+    No positive odd Collatz trajectory can sustain an infinite cheap regeneration chain.
+
+Equivalently:
+
+    no infinite cheap regeneration chain in positive odd Collatz dynamics
+
+---
+
+## Current status
+
+This repository is exploratory.
+
+It does not prove Collatz.
+
+It defines:
+
+    debt words
+    compression debt
+    2-adic shadow
+    escape consumption
+    regeneration
+    cheap regeneration chains
+
+and provides scripts to trace and test these quantities.
+
+The goal is to determine whether this problem-born language can reduce the unresolved state of Collatz.
+
+---
+
+## Run the demo
+
+    python examples/trace_collatz_native.py
+
+Run tests:
+
+    pytest -q
+
+---
+
+## Boundary
+
+This repository does not claim:
+
+    Collatz is solved
+    a proof exists here
+    this language is complete
+    this replaces existing mathematics
+
+It claims only:
+
+    Collatz can be re-observed through a native language of debt, shadow, and regeneration.
+
+Any result must be judged by one standard:
+
+    does it reduce the unresolved state of the problem?

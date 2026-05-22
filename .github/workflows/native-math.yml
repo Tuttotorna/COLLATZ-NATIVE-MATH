@@ -1,0 +1,31 @@
+name: COLLATZ-NATIVE-MATH CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  native-math-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install pytest
+        run: python -m pip install -q pytest
+
+      - name: Run native trace demo
+        run: python examples/trace_collatz_native.py
+
+      - name: Run regeneration scan
+        run: python examples/scan_regeneration_chains.py
+
+      - name: Run tests
+        run: pytest -q

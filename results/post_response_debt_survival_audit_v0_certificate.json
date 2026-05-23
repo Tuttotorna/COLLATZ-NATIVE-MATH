@@ -1,0 +1,20 @@
+{
+  "artifact": "Post-Response Debt Survival Audit V0",
+  "boundary": {
+    "bounded_evidence_status": "measurement_only",
+    "collatz_status": "not_claimed_solved",
+    "global_closure_status": "not_claimed",
+    "global_invariant_status": "not_claimed",
+    "proof_status": "not_a_proof",
+    "theorem_status": "no_theorem_claimed"
+  },
+  "bounded_assessment": "strong_post_response_debt_reduction_candidate",
+  "generated_at_utc": "2026-05-23T13:20:47.509427+00:00",
+  "outputs": [
+    "results/post_response_debt_survival_audit_v0.json",
+    "results/post_response_debt_survival_audit_v0.md",
+    "results/post_response_debt_survival_audit_v0_certificate.json"
+  ],
+  "survival_status": "strong_debt_reduction_after_response",
+  "version": "v5.7"
+}

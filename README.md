@@ -617,3 +617,33 @@ Boundary:
     median_delay_1 != termination theorem
     immediate_response_rate != global invariant
     bounded response timing != Collatz solved
+
+## v5.7 Post-Response Debt Survival Audit V0
+
+The repository now includes a bounded Post-Response Debt Survival Audit.
+
+Run:
+
+    python examples/build_post_response_debt_survival_audit_v0.py
+
+Outputs:
+
+    results/post_response_debt_survival_audit_v0.json
+    results/post_response_debt_survival_audit_v0.md
+    results/post_response_debt_survival_audit_v0_certificate.json
+
+Purpose:
+
+    test whether the first rapid post-peak response actually reduces debt
+    measure debt_after_first_release
+    measure debt_drop_after_first_release
+    measure survival_ratio
+    measure p_reduced_below_peak
+    measure p_new_peak_after_release
+
+Boundary:
+
+    post_response_debt_survival != proof
+    debt_drop != termination theorem
+    survival_ratio != global invariant
+    bounded response effectiveness != Collatz solved

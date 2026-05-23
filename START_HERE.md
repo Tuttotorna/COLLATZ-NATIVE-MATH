@@ -341,3 +341,19 @@ The audit tests whether release response timing remains stable even when release
 It does not prove Collatz.
 
 It does not claim Collatz is solved.
+
+## v5.7 Post-Response Debt Survival Audit V0
+
+Read:
+
+    docs/POST_RESPONSE_DEBT_SURVIVAL_AUDIT_V0.md
+
+Run:
+
+    python examples/build_post_response_debt_survival_audit_v0.py
+
+The audit tests whether rapid release response is effective, not merely fast.
+
+It does not prove Collatz.
+
+It does not claim Collatz is solved.

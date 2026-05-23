@@ -389,3 +389,19 @@ The audit identifies trajectories closest to regenerating a new post-response de
 It does not prove Collatz.
 
 It does not claim Collatz is solved.
+
+## v6.0 Near-Breach Anatomy V0
+
+Read:
+
+    docs/NEAR_BREACH_ANATOMY_V0.md
+
+Run:
+
+    python examples/build_near_breach_anatomy_v0.py
+
+The audit extracts the internal sequence grammar of strongest near-breach trajectories.
+
+It does not prove Collatz.
+
+It does not claim Collatz is solved.

@@ -1,0 +1,41 @@
+{
+  "artifact": "Near-Breach Anatomy V0",
+  "boundary": {
+    "bounded_evidence_status": "measurement_only",
+    "collatz_status": "not_claimed_solved",
+    "global_closure_status": "not_claimed",
+    "global_invariant_status": "not_claimed",
+    "proof_status": "not_a_proof",
+    "theorem_status": "no_theorem_claimed"
+  },
+  "bounded_assessment": "near_breach_expansion_rich_regeneration_grammar",
+  "comparison": {
+    "control_count": 14,
+    "control_mean_gap": 3.835757433842498,
+    "control_mean_regeneration_ratio": -2.835757433842498,
+    "control_mean_response_to_post_max_a1_rate": 0.4230645881541022,
+    "control_mean_response_to_post_max_a_ge_3_rate": 0.42101144805748386,
+    "control_mean_response_to_post_max_sum_delta": -1.424115278243722,
+    "near_breach_count": 20,
+    "near_breach_mean_gap": 0.006910227442260597,
+    "near_breach_mean_regeneration_ratio": 0.9930897725577394,
+    "near_breach_mean_response_to_post_max_a1_rate": 0.6777310924369747,
+    "near_breach_mean_response_to_post_max_a_ge_3_rate": 0.11292016806722689,
+    "near_breach_mean_response_to_post_max_sum_delta": 0.1399692071777568,
+    "near_breach_response_delay_histogram": {
+      "1": 11,
+      "2": 9
+    },
+    "near_breach_time_to_post_max_histogram": {
+      "16": 11,
+      "27": 9
+    }
+  },
+  "generated_at_utc": "2026-05-23T14:44:49.240620+00:00",
+  "outputs": [
+    "results/near_breach_anatomy_v0.json",
+    "results/near_breach_anatomy_v0.md",
+    "results/near_breach_anatomy_v0_certificate.json"
+  ],
+  "version": "v6.0"
+}

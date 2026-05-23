@@ -705,3 +705,31 @@ Boundary:
     no breach observed != no breach possible
     near-breach candidate != counterexample
     bounded gap != global invariant
+
+## v6.0 Near-Breach Anatomy V0
+
+The repository now includes a bounded Near-Breach Anatomy Audit.
+
+Run:
+
+    python examples/build_near_breach_anatomy_v0.py
+
+Outputs:
+
+    results/near_breach_anatomy_v0.json
+    results/near_breach_anatomy_v0.md
+    results/near_breach_anatomy_v0_certificate.json
+
+Purpose:
+
+    extract near-breach internal trajectory anatomy
+    record a_i, delta_i, and prefix_debt sequences
+    extract pre-peak, peak-to-response, and response-to-post-max windows
+    compare top near-breach seeds against deterministic controls
+
+Boundary:
+
+    near_breach_anatomy != proof
+    repeated pattern != theorem
+    near-breach grammar != counterexample
+    bounded anatomy != global invariant

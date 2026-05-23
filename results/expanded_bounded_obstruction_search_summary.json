@@ -1,0 +1,46 @@
+{
+  "closure_result_counts": {
+    "DANGEROUS_REGENERATION_DETECTED": 80,
+    "DEBT_LOCALLY_RECOVERED": 26,
+    "NO_DEBT_DETECTED": 20,
+    "REGENERATED_BUT_COMPENSATED": 194
+  },
+  "dangerous_regeneration_count": 24588,
+  "debt_window_count": 157129,
+  "expansion_strategy": "targeted expansion around near-obstruction cases from prior bounded evidence",
+  "hardest_by_recovery": {
+    "closure_result_type": "DANGEROUS_REGENERATION_DETECTED",
+    "hardest_recovery_score": 74280320.99431963,
+    "max_post_recovery_blocks": 183,
+    "min_positive_surplus": 7.15128842860846e-05,
+    "n0": 9780657630
+  },
+  "max_dangerous_regeneration": {
+    "closure_result_type": "DANGEROUS_REGENERATION_DETECTED",
+    "dangerous_regeneration_count": 4863,
+    "n0": 9780657630
+  },
+  "max_debt_windows": {
+    "closure_result_type": "DANGEROUS_REGENERATION_DETECTED",
+    "debt_window_count": 10399,
+    "n0": 9780657630
+  },
+  "native_interpretation": "DANGEROUS_REGENERATION_FOUND_BUT_NO_OBSTRUCTION_CANDIDATE",
+  "negative_result_boundary": "No obstruction detected in a finite expanded bounded domain is not the same as no obstruction can exist.",
+  "next_recommended_version": "v2.9 Shadow Persistence Instrumentation",
+  "obstruction_candidate_count": 0,
+  "obstruction_detected": false,
+  "proof_status": "not_a_proof",
+  "regeneration_count": 156143,
+  "scanner": "expanded_bounded_obstruction_search",
+  "search_domain": "finite targeted expansion around v2.6/v2.7 stress cases, known anchors, and power-of-two neighborhoods",
+  "source_version": "v2.6/v2.7",
+  "tested_candidate_count": 320,
+  "theorem_status": "no_theorems_introduced",
+  "tightest_positive_surplus": {
+    "closure_result_type": "DANGEROUS_REGENERATION_DETECTED",
+    "min_positive_surplus": 7.15128842860846e-05,
+    "n0": 9780657630
+  },
+  "version": "v2.8"
+}

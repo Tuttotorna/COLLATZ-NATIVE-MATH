@@ -434,3 +434,26 @@ Read:
 Core rule:
 
     dangerous regeneration is stress, not obstruction.
+
+## v2.8 expanded bounded obstruction search
+
+Run:
+
+python examples/expanded_bounded_obstruction_search.py
+
+Read:
+
+docs/EXPANDED_BOUNDED_OBSTRUCTION_SEARCH.md
+docs/TARGETED_EXPANSION_STRATEGY.md
+docs/EXPANDED_SEARCH_RESULT_TYPES.md
+docs/V28_NEGATIVE_RESULT_BOUNDARY.md
+docs/V28_EVIDENCE_STATUS.md
+docs/V28_NEXT_STEPS.md
+
+Core rule:
+
+targeted expansion != proof
+
+Next logical step:
+
+v2.9 Shadow Persistence Instrumentation

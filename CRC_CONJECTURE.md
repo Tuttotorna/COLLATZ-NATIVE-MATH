@@ -504,3 +504,26 @@ Forbidden meaning:
     obstruction is impossible
 
 The next step is v2.8 Expanded Bounded Obstruction Search.
+
+## Expanded bounded obstruction search
+
+v2.8 expands the bounded obstruction search, but not blindly.
+
+The target remains:
+
+persistent debt
+non-erased shadow
+dangerous regeneration
+insufficient compensation
+no closure event
+internal admissibility
+
+The scanner expands around prior stress evidence.
+
+Correct interpretation:
+
+No obstruction detected in this expanded bounded search.
+
+Forbidden interpretation:
+
+No obstruction can exist.

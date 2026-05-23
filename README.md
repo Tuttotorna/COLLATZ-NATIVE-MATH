@@ -760,3 +760,29 @@ Boundary:
     No obstruction detected in a finite domain is not the same as no obstruction can exist.
 
 This is not a proof layer.
+
+## v2.8 Expanded Bounded Obstruction Search
+
+The repository now includes targeted expanded bounded search.
+
+This is not blind brute force.
+
+The scanner expands around prior near-obstruction evidence and searches for:
+
+obstruction-preserving regeneration
+
+Run:
+
+python examples/expanded_bounded_obstruction_search.py
+
+Outputs:
+
+results/expanded_bounded_obstruction_search_rows.jsonl
+results/expanded_bounded_obstruction_search_summary.json
+results/expanded_bounded_obstruction_search_certificate.json
+
+Boundary:
+
+No obstruction detected in a finite expanded bounded domain is not the same as no obstruction can exist.
+
+This is not a proof layer.

@@ -428,3 +428,13 @@ v1.1 tests whether the v1.0 hard case is isolated or part of a wider frontier.
 - Preserves the negative-result boundary.
 - Clarifies that dangerous regeneration is stress, not obstruction.
 - Sets v2.8 as Expanded Bounded Obstruction Search.
+
+## v2.8 - Expanded Bounded Obstruction Search
+
+- Adds a targeted expanded bounded obstruction scanner.
+- Expands around near-obstruction evidence from v2.6 and v2.7.
+- Avoids blind brute force.
+- Searches for obstruction-preserving regeneration, not merely hard trajectories.
+- Emits expanded bounded rows, summary, and certificate artifacts.
+- Keeps negative-result boundary explicit.
+- Sets v2.9 as Shadow Persistence Instrumentation.

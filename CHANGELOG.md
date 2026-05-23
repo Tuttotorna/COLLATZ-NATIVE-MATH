@@ -457,3 +457,13 @@ v1.1 tests whether the v1.0 hard case is isolated or part of a wider frontier.
 - Adds proof obligations before any theorem attempt.
 - Explicitly keeps proof status as not_a_proof.
 - Sets v3.1 as Proof Obligation Tracker.
+
+## v3.1 - Native Language Inversion
+
+- Corrects the route from solving Collatz to learning what Collatz is.
+- Defines the mother rule: No solution before native language.
+- Defines the secondary rule: No proof before native description.
+- Reclassifies termination as a classical translation endpoint, not the native source question.
+- Reclassifies previous scans as native instrumentation and grammar probes.
+- Reclassifies v3.0 formal lemma drafts as deferred translation layer.
+- Adds the next step: v3.2 Native Grammar Map.

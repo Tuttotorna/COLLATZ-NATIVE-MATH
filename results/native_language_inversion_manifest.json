@@ -1,0 +1,54 @@
+{
+  "central_native_question": "What is Collatz before it becomes a conjecture?",
+  "collatz_status": "not_claimed_solved",
+  "correct_starting_posture": [
+    "listen_first",
+    "describe_first",
+    "learn_native_language_first",
+    "observe_generated_structure_first",
+    "translate_only_after_native_description"
+  ],
+  "deeper_native_question": "What kind of debt can survive its own discharge?",
+  "documents": [
+    "docs/NATIVE_LANGUAGE_INVERSION.md",
+    "docs/NO_SOLVING_POSTURE.md",
+    "docs/COLLATZ_AS_NATIVE_LANGUAGE.md",
+    "docs/TERMINATION_AS_TRANSLATION.md",
+    "docs/LEARNING_COLLATZ_GRAMMAR.md",
+    "docs/ROUTE_CORRECTION_FROM_V30.md"
+  ],
+  "forbidden_starting_posture": [
+    "solve_first",
+    "prove_first",
+    "termination_first",
+    "counterexample_first",
+    "global_closure_first",
+    "human_terminal_pressure_first"
+  ],
+  "layer": "native_language_inversion",
+  "mother_rule": "No solution before native language.",
+  "native_language_objects": [
+    "expansion",
+    "discharge",
+    "debt",
+    "shadow",
+    "regeneration",
+    "compensation",
+    "closure",
+    "obstruction"
+  ],
+  "next_recommended_version": "v3.2 Native Grammar Map",
+  "primary_claim": "Collatz is not first a problem to solve; it is first a native dynamical language to learn.",
+  "proof_status": "not_a_proof",
+  "reclassified_layers": {
+    "computational_scans": "native_instrumentation",
+    "evidence_reports": "grammar_probes",
+    "formal_lemma_drafts": "deferred_translation_layer",
+    "proof_obligations": "translation_debts",
+    "termination_question": "classical_translation_endpoint"
+  },
+  "secondary_rule": "No proof before native description.",
+  "standard_translation_status": "deferred_after_native_language_description",
+  "status": "route_correction_defined",
+  "version": "v3.1"
+}

@@ -496,3 +496,22 @@ Core rule:
 A formal lemma draft is not a theorem.
 
 The next step is v3.1 Proof Obligation Tracker.
+
+## v3.1 native language inversion
+
+Start from the route correction:
+
+docs/NATIVE_LANGUAGE_INVERSION.md
+docs/NO_SOLVING_POSTURE.md
+docs/COLLATZ_AS_NATIVE_LANGUAGE.md
+docs/TERMINATION_AS_TRANSLATION.md
+docs/LEARNING_COLLATZ_GRAMMAR.md
+docs/ROUTE_CORRECTION_FROM_V30.md
+
+Core rule:
+
+No solution before native language.
+
+The project is not first asking how to solve Collatz.
+
+It is asking what Collatz is before it becomes a conjecture.

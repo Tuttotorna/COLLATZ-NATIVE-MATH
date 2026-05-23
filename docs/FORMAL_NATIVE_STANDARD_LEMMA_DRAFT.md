@@ -74,3 +74,11 @@ v3.0 creates draft lemmas only.
 No theorem is introduced.
 
 No proof claim is made.
+
+## v3.1 native language correction
+
+This lemma draft layer remains useful, but it is not the center.
+
+It is a deferred translation layer.
+
+The project must first learn Collatz as a native dynamical language before treating formal lemma drafts as proof-route material.

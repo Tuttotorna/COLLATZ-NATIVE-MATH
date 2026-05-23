@@ -329,3 +329,36 @@ Boundary:
     public brief != theorem
     public brief != Collatz solved
     no solution before native language
+
+## v4.7 Public Entry Consistency Audit
+
+The repository now includes a public entry consistency audit.
+
+Run:
+
+    python examples/build_public_entry_consistency_audit.py
+
+Outputs:
+
+    results/public_entry_consistency_audit.json
+    results/public_entry_consistency_audit.md
+    results/public_entry_consistency_audit_certificate.json
+
+The audit checks:
+
+    README shortform exists
+    central question exists
+    core rule exists
+    public brief link exists
+    consolidated report link exists
+    non-proof boundary exists
+    START_HERE is aligned
+    CRC_CONJECTURE is aligned
+    no forbidden public claim appears as a standalone assertion
+
+Boundary:
+
+    public_entry_audit_passed != proof
+    public_entry_audit_passed != theorem
+    public_entry_audit_passed != Collatz solved
+    no solution before native language

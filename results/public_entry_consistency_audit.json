@@ -1,0 +1,126 @@
+{
+  "artifact_audit": {
+    "artifact_count": 7,
+    "artifact_existing_count": 7,
+    "artifact_missing": [],
+    "artifact_missing_count": 0,
+    "artifact_rows": [
+      {
+        "exists": true,
+        "path": "results/public_readme_shortform.json"
+      },
+      {
+        "exists": true,
+        "path": "results/public_readme_shortform.md"
+      },
+      {
+        "exists": true,
+        "path": "results/public_readme_shortform_certificate.json"
+      },
+      {
+        "exists": true,
+        "path": "results/native_public_research_brief.md"
+      },
+      {
+        "exists": true,
+        "path": "results/native_public_research_brief_certificate.json"
+      },
+      {
+        "exists": true,
+        "path": "results/native_audit_report_consolidation.md"
+      },
+      {
+        "exists": true,
+        "path": "results/native_audit_report_consolidation_certificate.json"
+      }
+    ]
+  },
+  "central_question": "What is Collatz before it becomes a conjecture?",
+  "certificate_audit": {
+    "certificate_count": 3,
+    "certificate_failure_count": 0,
+    "certificate_failures": [],
+    "certificate_passing_count": 3,
+    "certificate_rows": [
+      {
+        "audit_total_failure_count": 0,
+        "collatz_status": "not_claimed_solved",
+        "name": "public_readme_shortform_certificate",
+        "passes": true,
+        "path": "results/public_readme_shortform_certificate.json",
+        "proof_status": "not_a_proof",
+        "status": "shortform_defined",
+        "version": "v4.6"
+      },
+      {
+        "audit_total_failure_count": 0,
+        "collatz_status": "not_claimed_solved",
+        "name": "native_public_research_brief_certificate",
+        "passes": true,
+        "path": "results/native_public_research_brief_certificate.json",
+        "proof_status": "not_a_proof",
+        "status": "public_brief_defined",
+        "version": "v4.5"
+      },
+      {
+        "audit_total_failure_count": 0,
+        "collatz_status": "not_claimed_solved",
+        "name": "native_audit_report_consolidation_certificate",
+        "passes": true,
+        "path": "results/native_audit_report_consolidation_certificate.json",
+        "proof_status": "not_a_proof",
+        "status": "consolidated",
+        "version": "v4.4"
+      }
+    ]
+  },
+  "collatz_status": "not_claimed_solved",
+  "entry_audit": {
+    "entry_failure_count": 0,
+    "entry_failures": [],
+    "entry_file_count": 3,
+    "entry_files_passing": 3,
+    "entry_rows": [
+      {
+        "exists": true,
+        "forbidden_found": [],
+        "missing_required_phrases": [],
+        "passes": true,
+        "path": "README.md"
+      },
+      {
+        "exists": true,
+        "forbidden_found": [],
+        "missing_required_phrases": [],
+        "passes": true,
+        "path": "START_HERE.md"
+      },
+      {
+        "exists": true,
+        "forbidden_found": [],
+        "missing_required_phrases": [],
+        "passes": true,
+        "path": "CRC_CONJECTURE.md"
+      }
+    ]
+  },
+  "global_closure_status": "not_claimed",
+  "global_invariant_status": "not_claimed",
+  "layer": "public_entry_consistency_audit",
+  "mother_rule": "No solution before native language.",
+  "next_recommended_version": "v4.8 Public Release Snapshot",
+  "not_proof_layer": true,
+  "not_theory_layer": true,
+  "primary_position": "A native structural reading of the Collatz dynamics.",
+  "proof_status": "not_a_proof",
+  "secondary_rule": "No proof before native description.",
+  "source_audit_total_failure_count": 0,
+  "source_index_total_items": 101,
+  "source_obstruction_relevant_invariant_candidate_count": 0,
+  "source_shortform_status": "shortform_defined",
+  "source_shortform_version": "v4.6",
+  "status": "public_entry_audit_passed",
+  "theorem_status": "no_theorems_introduced",
+  "total_failure_count": 0,
+  "version": "v4.7"
+}

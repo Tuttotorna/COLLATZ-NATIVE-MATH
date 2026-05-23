@@ -624,3 +624,15 @@ v1.1 tests whether the v1.0 hard case is isolated or part of a wider frontier.
 - Preserves the rule: No solution before native language.
 - Preserves the non-proof boundary.
 - Sets v4.7 as Public Entry Consistency Audit.
+
+## v4.7 - Public Entry Consistency Audit
+
+- Adds a public entry consistency audit builder.
+- Checks README shortform, START_HERE, and CRC_CONJECTURE alignment.
+- Checks public brief and consolidated report artifact links.
+- Checks public-entry certificates.
+- Rejects standalone forbidden public claims.
+- Emits JSON, Markdown, and certificate artifacts.
+- Preserves the rule: No solution before native language.
+- Preserves the non-proof boundary.
+- Sets v4.8 as Public Release Snapshot.

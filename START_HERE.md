@@ -177,3 +177,23 @@ Read:
 Core rule:
 
     No solution before native language.
+
+## v4.7 public entry consistency audit
+
+Run:
+
+    python examples/build_public_entry_consistency_audit.py
+
+Read:
+
+    docs/PUBLIC_ENTRY_CONSISTENCY_AUDIT.md
+    docs/PUBLIC_ENTRY_AUDIT_CHECKS.md
+    docs/PUBLIC_ENTRY_AUDIT_BOUNDARY.md
+    docs/PUBLIC_ENTRY_ALIGNMENT_REQUIREMENTS.md
+    docs/V47_EVIDENCE_STATUS.md
+    docs/V47_NEXT_STEPS.md
+    results/public_entry_consistency_audit.md
+
+Core rule:
+
+    No solution before native language.

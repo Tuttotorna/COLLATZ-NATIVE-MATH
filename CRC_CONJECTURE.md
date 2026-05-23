@@ -162,3 +162,20 @@ Boundary:
     README shortform != theorem
     README shortform != Collatz solved
     no solution before native language
+
+## Public entry consistency audit
+
+v4.7 audits the public entry layer.
+
+It does not add theory.
+
+It does not add proof.
+
+It does not claim Collatz is solved.
+
+Boundary:
+
+    public_entry_audit_passed != proof
+    public_entry_audit_passed != theorem
+    public_entry_audit_passed != Collatz solved
+    no solution before native language

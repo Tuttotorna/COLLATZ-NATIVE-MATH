@@ -558,3 +558,14 @@ v1.1 tests whether the v1.0 hard case is isolated or part of a wider frontier.
 - Preserves the non-proof boundary.
 - Emits summary JSON, Markdown report, and certificate.
 - Sets v4.1 as Native Language README Consolidation.
+
+## v4.1 - Native Language README Consolidation
+
+- Consolidates the repository entry point.
+- Rewrites README.md around native structural reading rather than proof-first framing.
+- Rewrites START_HERE.md around native-language order.
+- Rewrites CRC_CONJECTURE.md around the corrected question: What is Collatz before it becomes a conjecture?
+- Adds public positioning and entry boundary documents.
+- Preserves the rule: No solution before native language.
+- Preserves the non-proof boundary.
+- Sets v4.2 as Native Language Index.

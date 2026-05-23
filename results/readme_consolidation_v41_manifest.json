@@ -1,0 +1,42 @@
+{
+  "allowed_entry_framing": [
+    "native_structural_reading",
+    "native_language_learning",
+    "grammar_mapping",
+    "bounded_evidence",
+    "deferred_translation"
+  ],
+  "collatz_status": "not_claimed_solved",
+  "documents": [
+    "docs/README_CONSOLIDATION_V41.md",
+    "docs/ENTRY_POINT_BOUNDARY.md",
+    "docs/PUBLIC_REPO_POSITIONING.md",
+    "docs/README_ROUTE_SUMMARY.md",
+    "docs/V41_NON_PROOF_BOUNDARY.md",
+    "docs/V41_NEXT_STEPS.md"
+  ],
+  "entry_question": "What is Collatz before it becomes a conjecture?",
+  "forbidden_entry_framing": [
+    "proof_first",
+    "solution_first",
+    "termination_first",
+    "global_closure_first",
+    "obstruction_impossibility_first"
+  ],
+  "global_closure_status": "not_claimed",
+  "global_invariant_status": "not_claimed",
+  "layer": "native_language_readme_consolidation",
+  "mother_rule": "No solution before native language.",
+  "next_recommended_version": "v4.2 Native Language Index",
+  "primary_position": "This is not another Collatz proof attempt. This is a native structural reading of Collatz dynamics.",
+  "proof_status": "not_a_proof",
+  "secondary_rule": "No proof before native description.",
+  "status": "entry_point_consolidated",
+  "theorem_status": "no_theorems_introduced",
+  "updated_entry_files": [
+    "README.md",
+    "START_HERE.md",
+    "CRC_CONJECTURE.md"
+  ],
+  "version": "v4.1"
+}

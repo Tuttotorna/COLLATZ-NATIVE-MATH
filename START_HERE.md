@@ -415,3 +415,22 @@ Read:
 Core rule:
 
     bounded negative result != proof
+
+## v2.7 obstruction scanner evidence report
+
+After running the v2.6 bounded scanner, build the evidence report:
+
+    python examples/build_obstruction_scanner_evidence_report.py
+
+Read:
+
+    docs/OBSTRUCTION_SCANNER_EVIDENCE_REPORT.md
+    docs/V26_EVIDENCE_INTERPRETATION.md
+    docs/NEAR_OBSTRUCTION_CASES.md
+    docs/DANGEROUS_REGENERATION_EVIDENCE.md
+    docs/EVIDENCE_REPORT_LIMITS.md
+    docs/OBSTRUCTION_EVIDENCE_NEXT_STEPS.md
+
+Core rule:
+
+    dangerous regeneration is stress, not obstruction.

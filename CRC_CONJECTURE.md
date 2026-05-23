@@ -479,3 +479,28 @@ Correct interpretation:
 Forbidden interpretation:
 
     No obstruction can exist.
+
+## Obstruction scanner evidence report
+
+v2.7 interprets the v2.6 bounded scanner output.
+
+It does not enlarge the scan first.
+
+It asks:
+
+    What did the bounded scanner actually show?
+
+Current evidence meaning:
+
+    stress was found
+    regeneration was found
+    dangerous regeneration was found
+    obstruction-preserving regeneration was not found
+
+Forbidden meaning:
+
+    Collatz is solved
+    global closure is proved
+    obstruction is impossible
+
+The next step is v2.8 Expanded Bounded Obstruction Search.

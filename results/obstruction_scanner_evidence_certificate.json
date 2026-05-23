@@ -1,0 +1,25 @@
+{
+  "certificate_type": "obstruction_scanner_evidence_certificate",
+  "dangerous_regeneration_count": 50137,
+  "debt_window_count": 256578,
+  "evidence_status": "bounded_native_evidence",
+  "forbidden_conclusions": [
+    "collatz_solved",
+    "global_closure_proved",
+    "obstruction_impossible",
+    "finite_negative_result_is_proof",
+    "dangerous_regeneration_equals_obstruction",
+    "hardness_equals_obstruction"
+  ],
+  "native_interpretation": "DANGEROUS_REGENERATION_FOUND_BUT_NO_OBSTRUCTION_CANDIDATE",
+  "negative_result_boundary": "No obstruction detected in a finite domain is not the same as no obstruction can exist.",
+  "next_recommended_version": "v2.8 Expanded Bounded Obstruction Search",
+  "obstruction_candidate_count": 0,
+  "obstruction_detected": false,
+  "proof_status": "not_a_proof",
+  "regeneration_count": 255331,
+  "source_version": "v2.6",
+  "tested_candidate_count": 439,
+  "theorem_status": "no_theorems_introduced",
+  "version": "v2.7"
+}

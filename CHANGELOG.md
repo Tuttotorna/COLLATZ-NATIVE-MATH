@@ -419,3 +419,12 @@ v1.1 tests whether the v1.0 hard case is isolated or part of a wider frontier.
 - Adds negative-result boundary: no obstruction detected in a finite domain is not proof of impossibility.
 - Adds tests for scanner artifacts, minimum report fields, known anchors, and result consistency.
 - Sets v2.7 as Obstruction Scanner Evidence Report.
+
+## v2.7 - Obstruction Scanner Evidence Report
+
+- Adds an evidence report builder for v2.6 bounded obstruction scanner output.
+- Interprets scanner results in native terms.
+- Identifies hardest recovery, tightest surplus, most debt windows, most regeneration, most dangerous regeneration, and near-obstruction cases.
+- Preserves the negative-result boundary.
+- Clarifies that dangerous regeneration is stress, not obstruction.
+- Sets v2.8 as Expanded Bounded Obstruction Search.

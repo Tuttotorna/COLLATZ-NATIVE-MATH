@@ -731,3 +731,32 @@ Boundary:
     No obstruction detected in a finite domain is not the same as no obstruction can exist.
 
 This is not a proof layer.
+
+## v2.7 Obstruction Scanner Evidence Report
+
+The repository now includes an evidence report layer for the v2.6 bounded scanner.
+
+Run:
+
+    python examples/build_obstruction_scanner_evidence_report.py
+
+Outputs:
+
+    results/obstruction_scanner_evidence_report.json
+    results/obstruction_scanner_evidence_report.md
+    results/obstruction_scanner_evidence_certificate.json
+
+The report identifies:
+
+    hardest_by_recovery
+    tightest_positive_surplus
+    most_debt_windows
+    most_regeneration
+    most_dangerous_regeneration
+    near_obstruction_cases
+
+Boundary:
+
+    No obstruction detected in a finite domain is not the same as no obstruction can exist.
+
+This is not a proof layer.

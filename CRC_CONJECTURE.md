@@ -111,3 +111,20 @@ These status fields are included so the entry audit can verify the native-langua
 Core rule:
 
     No solution before native language.
+
+## Native audit report consolidation
+
+v4.4 consolidates the current native-language status into one readable report.
+
+It does not add theory.
+
+It does not add proof.
+
+It does not claim Collatz is solved.
+
+Boundary:
+
+    consolidated report != proof
+    consolidated report != theorem
+    consolidated report != Collatz solved
+    no solution before native language

@@ -118,3 +118,22 @@ It is not a claim that Collatz is solved.
 
     proof_status: not_a_proof
     collatz_status: not_claimed_solved
+
+## v4.4 native audit report consolidation
+
+Run:
+
+    python examples/build_native_audit_report_consolidation.py
+
+Read:
+
+    docs/NATIVE_AUDIT_REPORT_CONSOLIDATION.md
+    docs/CONSOLIDATED_NATIVE_STATUS.md
+    docs/AUDIT_REPORT_READER_GUIDE.md
+    docs/V44_PUBLIC_STATUS_REPORT.md
+    docs/V44_BOUNDARY.md
+    docs/V44_NEXT_STEPS.md
+
+Core rule:
+
+    No solution before native language.

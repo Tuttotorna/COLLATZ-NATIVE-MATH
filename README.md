@@ -210,3 +210,37 @@ Boundary:
     audit_passed != theorem
     audit_passed != Collatz solved
     no solution before native language
+
+## v4.4 Native Audit Report Consolidation
+
+The repository now includes a consolidated native audit report.
+
+Run:
+
+    python examples/build_native_audit_report_consolidation.py
+
+Outputs:
+
+    results/native_audit_report_consolidation.json
+    results/native_audit_report_consolidation.md
+    results/native_audit_report_consolidation_certificate.json
+
+The report consolidates:
+
+    v4.3 audit
+    v4.2 index
+    v4.0 summary
+    v3.9 invariant candidate map
+    v3.8 conservation map
+    v3.7 stability map
+    v3.6 mutation atlas
+    v3.5 recurrence map
+    v3.4 sentence atlas
+    v3.3 sentence extractor
+
+Boundary:
+
+    consolidated report != proof
+    consolidated report != theorem
+    consolidated report != Collatz solved
+    no solution before native language

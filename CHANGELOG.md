@@ -593,3 +593,13 @@ v1.1 tests whether the v1.0 hard case is isolated or part of a wider frontier.
 - Preserves the rule: No solution before native language.
 - Preserves the non-proof boundary.
 - Sets v4.4 as Native Audit Report Consolidation.
+
+## v4.4 - Native Audit Report Consolidation
+
+- Adds a consolidated native audit report builder.
+- Consolidates v4.3 audit, v4.2 index, v4.0 summary, v3.9 invariant candidates, and related artifacts.
+- Emits JSON, Markdown, and certificate outputs.
+- Produces a readable status report for external readers.
+- Preserves the rule: No solution before native language.
+- Preserves the non-proof boundary.
+- Sets v4.5 as Native Public Research Brief.

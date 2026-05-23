@@ -790,3 +790,31 @@ Boundary:
     fuzzy recurrence != counterexample
     no fuzzy recurrence observed != no fuzzy recurrence possible
     bounded fuzzy grammar != global invariant
+
+## v6.3 Fuzzy Rebound Anatomy V0
+
+The repository now includes a bounded Fuzzy Rebound Anatomy Audit.
+
+Run:
+
+    python examples/build_fuzzy_rebound_anatomy_v0.py
+
+Outputs:
+
+    results/fuzzy_rebound_anatomy_v0.json
+    results/fuzzy_rebound_anatomy_v0.md
+    results/fuzzy_rebound_anatomy_v0_certificate.json
+
+Purpose:
+
+    isolate fuzzy near-breach grammar instances with post-pattern local growth
+    measure whether rebound approaches the prior debt peak
+    classify rebound as harmless, near-peak, second near-breach, or breach
+    expose after-pattern a/delta/prefix sequences
+
+Boundary:
+
+    fuzzy_rebound_anatomy != proof
+    local rebound != counterexample
+    no second breach observed != no second breach possible
+    bounded rebound anatomy != global invariant

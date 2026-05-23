@@ -1,0 +1,39 @@
+{
+  "artifact": "Fuzzy Rebound Anatomy V0",
+  "boundary": {
+    "bounded_evidence_status": "measurement_only",
+    "collatz_status": "not_claimed_solved",
+    "global_closure_status": "not_claimed",
+    "global_invariant_status": "not_claimed",
+    "proof_status": "not_a_proof",
+    "theorem_status": "no_theorem_claimed"
+  },
+  "bounded_assessment": "breach_after_fuzzy_pattern_detected",
+  "generated_at_utc": "2026-05-23T15:23:29.081358+00:00",
+  "outputs": [
+    "results/fuzzy_rebound_anatomy_v0.json",
+    "results/fuzzy_rebound_anatomy_v0.md",
+    "results/fuzzy_rebound_anatomy_v0_certificate.json"
+  ],
+  "summary": {
+    "breach_after_fuzzy_pattern_instance_count": 2,
+    "fuzzy_instance_count": 52,
+    "max_next_release_delay_after_pattern_end": 11.0,
+    "max_post_max_to_prior_peak_ratio": 12.033347383534583,
+    "max_post_pattern_debt_gain": 3.094738704636561,
+    "mean_next_release_delay_after_pattern_end": 8.666666666666666,
+    "mean_post_max_to_prior_peak_ratio": 4.943930575254459,
+    "mean_post_pattern_debt_gain": 1.3965031990727135,
+    "min_gap_to_prior_peak": -11.033347383534583,
+    "min_next_release_delay_after_pattern_end": 4.0,
+    "rebound_class_counts": {
+      "breach_after_fuzzy_pattern": 2,
+      "harmless_rebound": 1
+    },
+    "rebound_instance_count": 3,
+    "rebound_seed_count": 3,
+    "records_measured": 50000,
+    "second_near_breach_instance_count": 0
+  },
+  "version": "v6.3"
+}

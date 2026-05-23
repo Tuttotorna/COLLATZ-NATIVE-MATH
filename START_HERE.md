@@ -437,3 +437,19 @@ The audit tests whether approximate near-breach grammars recur or concatenate in
 It does not prove Collatz.
 
 It does not claim Collatz is solved.
+
+## v6.3 Fuzzy Rebound Anatomy V0
+
+Read:
+
+    docs/FUZZY_REBOUND_ANATOMY_V0.md
+
+Run:
+
+    python examples/build_fuzzy_rebound_anatomy_v0.py
+
+The audit isolates fuzzy near-breach grammar instances that produce local rebound and tests whether they approach a second near-breach boundary.
+
+It does not prove Collatz.
+
+It does not claim Collatz is solved.

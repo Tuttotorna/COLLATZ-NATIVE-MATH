@@ -1,0 +1,19 @@
+{
+  "artifact": "Scale Stability Audit V0",
+  "boundary": {
+    "bounded_evidence_status": "measurement_only",
+    "collatz_status": "not_claimed_solved",
+    "global_closure_status": "not_claimed",
+    "global_invariant_status": "not_claimed",
+    "proof_status": "not_a_proof",
+    "theorem_status": "no_theorem_claimed"
+  },
+  "bounded_assessment": "scale_stable_positive_signal",
+  "generated_at_utc": "2026-05-23T12:23:37.303471+00:00",
+  "outputs": [
+    "results/scale_stability_audit_v0.json",
+    "results/scale_stability_audit_v0.md",
+    "results/scale_stability_audit_v0_certificate.json"
+  ],
+  "version": "v5.0"
+}

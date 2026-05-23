@@ -229,3 +229,19 @@ The machine measures how release events are distributed after debt peaks.
 It does not prove Collatz.
 
 It does not claim Collatz is solved.
+
+## v5.0 Scale Stability Audit V0
+
+Read:
+
+    docs/SCALE_STABILITY_AUDIT_V0.md
+
+Run:
+
+    python examples/build_scale_stability_audit_v0.py
+
+The audit tests whether distributed release pressure remains stable under scale changes.
+
+It does not prove Collatz.
+
+It does not claim Collatz is solved.

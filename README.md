@@ -419,3 +419,30 @@ Boundary:
     short_response_delay != termination theorem
     post_peak_release_mass != global invariant
     bounded pressure signal != global closure
+
+## v5.0 Scale Stability Audit V0
+
+The repository now includes a bounded Scale Stability Audit.
+
+Run:
+
+    python examples/build_scale_stability_audit_v0.py
+
+Outputs:
+
+    results/scale_stability_audit_v0.json
+    results/scale_stability_audit_v0.md
+    results/scale_stability_audit_v0_certificate.json
+
+Purpose:
+
+    test whether the distributed release pressure signal survives scale changes
+    vary max_odd_seed, odd_steps, and post_peak_horizon
+    audit the primary signal debt_peak_vs_post_peak_release_mass_h_pearson
+
+Boundary:
+
+    scale_stability_audit != proof
+    stable_signal != theorem
+    correlation != causation
+    bounded reproducibility != global closure

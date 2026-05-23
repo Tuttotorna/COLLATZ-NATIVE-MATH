@@ -1,0 +1,278 @@
+{
+  "boundary": {
+    "bounded_evidence_status": "measurement_only",
+    "collatz_status": "not_claimed_solved",
+    "global_closure_status": "not_claimed",
+    "global_invariant_status": "not_claimed",
+    "proof_status": "not_a_proof",
+    "theorem_status": "no_theorem_claimed"
+  },
+  "bounded_assessment": "scale_stable_positive_signal",
+  "config_results": [
+    {
+      "aggregate": {
+        "debt_peak_vs_post_peak_release_count_h_pearson": 0.8308759123756864,
+        "debt_peak_vs_post_peak_release_mass_h_pearson": 0.9021477984155496,
+        "debt_peak_vs_post_peak_strong_release_count_h_pearson": 0.9015432919101982,
+        "debt_peak_vs_total_release_count_pearson": 0.8499559342486203,
+        "max_debt_peak": 6.832421226170077,
+        "max_response_delay": 3.0,
+        "mean_debt_peak": 1.13771893690524,
+        "mean_post_peak_release_count_h": 2.98,
+        "mean_post_peak_release_mass_h": 6.58433456770593,
+        "mean_post_peak_strong_release_count_h": 2.0,
+        "mean_response_delay": 1.2608695652173914,
+        "median_response_delay": 1.0,
+        "min_response_delay": 1.0
+      },
+      "config": {
+        "max_odd_seed": 99,
+        "odd_steps": 80,
+        "post_peak_horizon": 10
+      },
+      "counts": {
+        "not_terminated_within_bound": 0,
+        "odd_seeds_measured": 50,
+        "positive_debt_records_with_post_peak_release": 32,
+        "records_with_positive_debt_peak": 32,
+        "records_with_post_peak_release": 46,
+        "terminated_within_bound": 50
+      }
+    },
+    {
+      "aggregate": {
+        "debt_peak_vs_post_peak_release_count_h_pearson": 0.7969578103903061,
+        "debt_peak_vs_post_peak_release_mass_h_pearson": 0.9016995689545201,
+        "debt_peak_vs_post_peak_strong_release_count_h_pearson": 0.8816063167367092,
+        "debt_peak_vs_total_release_count_pearson": 0.8194311322193429,
+        "max_debt_peak": 6.832421226170077,
+        "max_response_delay": 3.0,
+        "mean_debt_peak": 1.5666176463132393,
+        "mean_post_peak_release_count_h": 3.59,
+        "mean_post_peak_release_mass_h": 7.937817079213049,
+        "mean_post_peak_strong_release_count_h": 2.37,
+        "mean_response_delay": 1.25,
+        "median_response_delay": 1.0,
+        "min_response_delay": 1.0
+      },
+      "config": {
+        "max_odd_seed": 199,
+        "odd_steps": 80,
+        "post_peak_horizon": 10
+      },
+      "counts": {
+        "not_terminated_within_bound": 0,
+        "odd_seeds_measured": 100,
+        "positive_debt_records_with_post_peak_release": 71,
+        "records_with_positive_debt_peak": 71,
+        "records_with_post_peak_release": 96,
+        "terminated_within_bound": 100
+      }
+    },
+    {
+      "aggregate": {
+        "debt_peak_vs_post_peak_release_count_h_pearson": 0.6468796091704536,
+        "debt_peak_vs_post_peak_release_mass_h_pearson": 0.8271241872865424,
+        "debt_peak_vs_post_peak_strong_release_count_h_pearson": 0.8066597395299193,
+        "debt_peak_vs_total_release_count_pearson": 0.7281303003089904,
+        "max_debt_peak": 6.832421226170077,
+        "max_response_delay": 7.0,
+        "mean_debt_peak": 1.4213582338161788,
+        "mean_post_peak_release_count_h": 4.14,
+        "mean_post_peak_release_mass_h": 9.344072995027144,
+        "mean_post_peak_strong_release_count_h": 2.704,
+        "mean_response_delay": 1.2571428571428571,
+        "median_response_delay": 1.0,
+        "min_response_delay": 1.0
+      },
+      "config": {
+        "max_odd_seed": 499,
+        "odd_steps": 100,
+        "post_peak_horizon": 15
+      },
+      "counts": {
+        "not_terminated_within_bound": 0,
+        "odd_seeds_measured": 250,
+        "positive_debt_records_with_post_peak_release": 185,
+        "records_with_positive_debt_peak": 185,
+        "records_with_post_peak_release": 245,
+        "terminated_within_bound": 250
+      }
+    },
+    {
+      "aggregate": {
+        "debt_peak_vs_post_peak_release_count_h_pearson": 0.5340512825757622,
+        "debt_peak_vs_post_peak_release_mass_h_pearson": 0.7536864879235644,
+        "debt_peak_vs_post_peak_strong_release_count_h_pearson": 0.6718533282358932,
+        "debt_peak_vs_total_release_count_pearson": 0.6279691929843809,
+        "max_debt_peak": 6.892124975745064,
+        "max_response_delay": 7.0,
+        "mean_debt_peak": 1.2615491131653394,
+        "mean_post_peak_release_count_h": 4.404,
+        "mean_post_peak_release_mass_h": 10.114403955131962,
+        "mean_post_peak_strong_release_count_h": 2.84,
+        "mean_response_delay": 1.288888888888889,
+        "median_response_delay": 1.0,
+        "min_response_delay": 1.0
+      },
+      "config": {
+        "max_odd_seed": 999,
+        "odd_steps": 120,
+        "post_peak_horizon": 20
+      },
+      "counts": {
+        "not_terminated_within_bound": 0,
+        "odd_seeds_measured": 500,
+        "positive_debt_records_with_post_peak_release": 388,
+        "records_with_positive_debt_peak": 388,
+        "records_with_post_peak_release": 495,
+        "terminated_within_bound": 500
+      }
+    },
+    {
+      "aggregate": {
+        "debt_peak_vs_post_peak_release_count_h_pearson": 0.4722787887451486,
+        "debt_peak_vs_post_peak_release_mass_h_pearson": 0.677380713807848,
+        "debt_peak_vs_post_peak_strong_release_count_h_pearson": 0.557815010141619,
+        "debt_peak_vs_total_release_count_pearson": 0.5790148793819206,
+        "max_debt_peak": 6.892124975745064,
+        "max_response_delay": 7.0,
+        "mean_debt_peak": 1.164407824687261,
+        "mean_post_peak_release_count_h": 4.550666666666666,
+        "mean_post_peak_release_mass_h": 10.477772402331475,
+        "mean_post_peak_strong_release_count_h": 2.868,
+        "mean_response_delay": 1.3306451612903225,
+        "median_response_delay": 1.0,
+        "min_response_delay": 1.0
+      },
+      "config": {
+        "max_odd_seed": 1499,
+        "odd_steps": 140,
+        "post_peak_horizon": 20
+      },
+      "counts": {
+        "not_terminated_within_bound": 0,
+        "odd_seeds_measured": 750,
+        "positive_debt_records_with_post_peak_release": 594,
+        "records_with_positive_debt_peak": 594,
+        "records_with_post_peak_release": 744,
+        "terminated_within_bound": 750
+      }
+    },
+    {
+      "aggregate": {
+        "debt_peak_vs_post_peak_release_count_h_pearson": 0.4478240991565941,
+        "debt_peak_vs_post_peak_release_mass_h_pearson": 0.6339835501001749,
+        "debt_peak_vs_post_peak_strong_release_count_h_pearson": 0.4920372656205402,
+        "debt_peak_vs_total_release_count_pearson": 0.5485480454706312,
+        "max_debt_peak": 7.870361330154782,
+        "max_response_delay": 7.0,
+        "mean_debt_peak": 1.0974451927293554,
+        "mean_post_peak_release_count_h": 4.754,
+        "mean_post_peak_release_mass_h": 10.904242805985362,
+        "mean_post_peak_strong_release_count_h": 2.929,
+        "mean_response_delay": 1.3571428571428572,
+        "median_response_delay": 1.0,
+        "min_response_delay": 1.0
+      },
+      "config": {
+        "max_odd_seed": 1999,
+        "odd_steps": 160,
+        "post_peak_horizon": 25
+      },
+      "counts": {
+        "not_terminated_within_bound": 0,
+        "odd_seeds_measured": 1000,
+        "positive_debt_records_with_post_peak_release": 794,
+        "records_with_positive_debt_peak": 794,
+        "records_with_post_peak_release": 994,
+        "terminated_within_bound": 1000
+      }
+    }
+  ],
+  "configs": [
+    {
+      "max_odd_seed": 99,
+      "odd_steps": 80,
+      "post_peak_horizon": 10
+    },
+    {
+      "max_odd_seed": 199,
+      "odd_steps": 80,
+      "post_peak_horizon": 10
+    },
+    {
+      "max_odd_seed": 499,
+      "odd_steps": 100,
+      "post_peak_horizon": 15
+    },
+    {
+      "max_odd_seed": 999,
+      "odd_steps": 120,
+      "post_peak_horizon": 20
+    },
+    {
+      "max_odd_seed": 1499,
+      "odd_steps": 140,
+      "post_peak_horizon": 20
+    },
+    {
+      "max_odd_seed": 1999,
+      "odd_steps": 160,
+      "post_peak_horizon": 25
+    }
+  ],
+  "generated_at_utc": "2026-05-23T12:23:37.303471+00:00",
+  "interpretation": {
+    "bounded_claim": "The audit tests whether distributed release pressure remains stable across parameter scales.",
+    "native_hypothesis": "Debt peaks generate scale-stable post-peak release pressure in bounded odd-step Collatz dynamics.",
+    "primary_signal": "debt_peak_vs_post_peak_release_mass_h_pearson"
+  },
+  "machine": "Scale Stability Audit V0",
+  "stability": {
+    "configs_tested": 6,
+    "median_response_delay_all_at_most_1": true,
+    "median_response_delay_values": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "primary_signal_all_positive": true,
+    "primary_signal_max": 0.9021477984155496,
+    "primary_signal_mean": 0.7826703844146999,
+    "primary_signal_mean_above_0_6": true,
+    "primary_signal_min": 0.6339835501001749,
+    "primary_signal_min_above_0_5": true,
+    "primary_signal_name": "debt_peak_vs_post_peak_release_mass_h_pearson",
+    "primary_signal_positive_count": 6,
+    "primary_signal_spread": 0.26816424831537466,
+    "primary_signal_values": [
+      0.9021477984155496,
+      0.9016995689545201,
+      0.8271241872865424,
+      0.7536864879235644,
+      0.677380713807848,
+      0.6339835501001749
+    ],
+    "release_count_signal_values": [
+      0.8308759123756864,
+      0.7969578103903061,
+      0.6468796091704536,
+      0.5340512825757622,
+      0.4722787887451486,
+      0.4478240991565941
+    ],
+    "strong_release_signal_values": [
+      0.9015432919101982,
+      0.8816063167367092,
+      0.8066597395299193,
+      0.6718533282358932,
+      0.557815010141619,
+      0.4920372656205402
+    ]
+  },
+  "version": "v5.0"
+}

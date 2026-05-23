@@ -467,3 +467,13 @@ v1.1 tests whether the v1.0 hard case is isolated or part of a wider frontier.
 - Reclassifies previous scans as native instrumentation and grammar probes.
 - Reclassifies v3.0 formal lemma drafts as deferred translation layer.
 - Adds the next step: v3.2 Native Grammar Map.
+
+## v3.2 - Native Grammar Map
+
+- Adds the native grammar map after the v3.1 route correction.
+- Defines Collatz first as a native dynamical grammar, not as a conjecture to solve.
+- Defines grammar objects: expansion, discharge, debt, shadow, regeneration, compensation, closure, obstruction.
+- Defines grammar transitions and admissible native sequences.
+- Reclassifies prior scans as grammar probes.
+- Forbids premature translations from grammar to proof, closure to reaching 1, and dangerous regeneration to obstruction.
+- Sets v3.3 as Native Sentence Extractor.

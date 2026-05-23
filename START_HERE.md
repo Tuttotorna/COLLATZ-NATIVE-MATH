@@ -515,3 +515,25 @@ No solution before native language.
 The project is not first asking how to solve Collatz.
 
 It is asking what Collatz is before it becomes a conjecture.
+
+## v3.2 native grammar map
+
+Read:
+
+docs/NATIVE_GRAMMAR_MAP.md
+docs/NATIVE_GRAMMAR_OBJECTS.md
+docs/NATIVE_GRAMMAR_TRANSITIONS.md
+docs/NATIVE_GRAMMAR_SEQUENCES.md
+docs/GRAMMAR_PROBE_RECLASSIFICATION.md
+docs/NATIVE_GRAMMAR_FORBIDDEN_TRANSLATIONS.md
+docs/V32_NEXT_STEPS.md
+
+Core rule:
+
+No solution before native language.
+
+No proof before native description.
+
+The project now asks:
+
+What grammar does Collatz generate before it becomes a conjecture?

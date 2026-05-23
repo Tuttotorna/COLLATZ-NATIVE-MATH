@@ -1,0 +1,211 @@
+{
+  "central_native_question": "What grammar does Collatz generate before it is translated into the terminal conjecture?",
+  "documents": [
+    "docs/NATIVE_GRAMMAR_MAP.md",
+    "docs/NATIVE_GRAMMAR_OBJECTS.md",
+    "docs/NATIVE_GRAMMAR_TRANSITIONS.md",
+    "docs/NATIVE_GRAMMAR_SEQUENCES.md",
+    "docs/GRAMMAR_PROBE_RECLASSIFICATION.md",
+    "docs/NATIVE_GRAMMAR_FORBIDDEN_TRANSLATIONS.md",
+    "docs/V32_NEXT_STEPS.md"
+  ],
+  "forbidden_translations": [
+    "native_grammar_to_proof_claim",
+    "closure_to_reaches_1",
+    "dangerous_regeneration_to_obstruction",
+    "no_obstruction_detected_to_obstruction_impossible",
+    "hardest_case_to_deepest_native_meaning",
+    "standard_notation_to_native_understanding"
+  ],
+  "grammar_objects": [
+    {
+      "native_role": "introduces_structural_pressure",
+      "object": "expansion",
+      "question_answered": "what creates upward pressure"
+    },
+    {
+      "native_role": "releases_binary_pressure",
+      "object": "discharge",
+      "question_answered": "what removes pressure"
+    },
+    {
+      "native_role": "records_unresolved_pressure",
+      "object": "debt",
+      "question_answered": "what remains when discharge is insufficient"
+    },
+    {
+      "native_role": "carries_unresolved_danger",
+      "object": "shadow",
+      "question_answered": "what persists after apparent recovery"
+    },
+    {
+      "native_role": "renews_debt_after_compensation",
+      "object": "regeneration",
+      "question_answered": "what reappears after repair"
+    },
+    {
+      "native_role": "repairs_prior_debt",
+      "object": "compensation",
+      "question_answered": "what pays down generated debt"
+    },
+    {
+      "native_role": "erases_obstruction_potential",
+      "object": "closure",
+      "question_answered": "what prevents debt from continuing as obstruction"
+    },
+    {
+      "native_role": "self_preserving_unclosed_debt",
+      "object": "obstruction",
+      "question_answered": "what survives its own discharge"
+    }
+  ],
+  "grammar_transitions": [
+    {
+      "meaning": "odd expansion calls for binary discharge",
+      "status": "native_transition",
+      "transition": "expansion -> discharge"
+    },
+    {
+      "meaning": "insufficient discharge generates unresolved pressure",
+      "status": "native_transition",
+      "transition": "weak_discharge -> debt"
+    },
+    {
+      "meaning": "debt may persist as unresolved danger",
+      "status": "native_transition",
+      "transition": "debt -> shadow"
+    },
+    {
+      "meaning": "later discharge may repair prior debt",
+      "status": "native_transition",
+      "transition": "debt -> compensation"
+    },
+    {
+      "meaning": "after repair, debt may reappear",
+      "status": "native_transition",
+      "transition": "compensation -> regeneration"
+    },
+    {
+      "meaning": "renewed debt can remain repairable",
+      "status": "native_transition",
+      "transition": "regeneration -> compensation"
+    },
+    {
+      "meaning": "renewed debt may carry unresolved danger",
+      "status": "native_transition",
+      "transition": "regeneration -> persistent_shadow"
+    },
+    {
+      "meaning": "closure means obstruction potential erased",
+      "status": "native_transition",
+      "transition": "compensation + shadow_erasure + failed_obstruction_preservation -> closure"
+    },
+    {
+      "meaning": "obstruction requires self-preserving unclosed debt",
+      "status": "native_transition",
+      "transition": "debt + non_erased_shadow + dangerous_regeneration + insufficient_compensation -> obstruction_candidate"
+    }
+  ],
+  "layer": "native_grammar_map",
+  "mother_rule": "No solution before native language.",
+  "native_sequences": [
+    {
+      "meaning": "smallest native sentence",
+      "sequence": [
+        "expansion",
+        "discharge"
+      ],
+      "sequence_id": "minimal_odd_block_sentence"
+    },
+    {
+      "meaning": "local danger generated",
+      "sequence": [
+        "expansion",
+        "weak_discharge",
+        "debt"
+      ],
+      "sequence_id": "debt_sentence"
+    },
+    {
+      "meaning": "debt repaired locally",
+      "sequence": [
+        "debt",
+        "compensation",
+        "local_recovery"
+      ],
+      "sequence_id": "recovery_sentence"
+    },
+    {
+      "meaning": "repair leaves trace",
+      "sequence": [
+        "debt",
+        "compensation",
+        "shadow"
+      ],
+      "sequence_id": "shadow_sentence"
+    },
+    {
+      "meaning": "debt reappears after apparent repair",
+      "sequence": [
+        "debt",
+        "compensation",
+        "shadow",
+        "regeneration"
+      ],
+      "sequence_id": "regeneration_sentence"
+    },
+    {
+      "meaning": "renewed debt remains repairable",
+      "sequence": [
+        "debt",
+        "compensation",
+        "regeneration",
+        "compensation"
+      ],
+      "sequence_id": "benign_regeneration_sentence"
+    },
+    {
+      "meaning": "obstruction potential appears erased",
+      "sequence": [
+        "debt",
+        "compensation",
+        "shadow_erasure",
+        "regeneration_tested",
+        "no_self_preserving_debt",
+        "closure_candidate"
+      ],
+      "sequence_id": "closure_candidate_sentence"
+    },
+    {
+      "meaning": "possible native obstruction",
+      "sequence": [
+        "debt",
+        "shadow",
+        "regeneration",
+        "insufficient_compensation",
+        "persistent_unclosed_debt",
+        "obstruction_candidate"
+      ],
+      "sequence_id": "obstruction_candidate_sentence"
+    }
+  ],
+  "next_recommended_version": "v3.3 Native Sentence Extractor",
+  "primary_claim": "Collatz is treated first as a native dynamical grammar, not as a conjecture to solve.",
+  "proof_status": "not_a_proof",
+  "reclassified_layers": {
+    "adversarial_compensation_scans": "grammar_probes_for_near_obstruction_behavior",
+    "bounded_obstruction_scanner": "grammar_probe_for_obstruction_preserving_regeneration",
+    "compensation_scans": "grammar_probes_for_debt_repair",
+    "formal_lemma_drafts": "deferred_translation_layer",
+    "frontier_stability_scans": "grammar_probes_for_recovery_pressure",
+    "hardness_reports": "grammar_probes_for_structural_stress",
+    "proof_obligations": "translation_debts",
+    "shadow_persistence_instrumentation": "grammar_probe_for_non_erased_debt_traces",
+    "termination_question": "classical_endpoint_translation"
+  },
+  "secondary_rule": "No proof before native description.",
+  "standard_translation_status": "deferred_after_native_grammar_description",
+  "status": "native_grammar_defined",
+  "theorem_status": "no_theorems_introduced",
+  "version": "v3.2"
+}

@@ -590,3 +590,32 @@ The deeper native question is:
 What kind of debt can survive its own discharge?
 
 This protects the project from collapsing back into a standard proof attempt before the native structure has been heard.
+
+## Native grammar map
+
+v3.2 corrects the posture further.
+
+The project does not begin by asking:
+
+Can we prove Collatz?
+
+It begins by asking:
+
+What grammar does Collatz generate before it becomes a conjecture?
+
+The grammar objects are:
+
+expansion
+discharge
+debt
+shadow
+regeneration
+compensation
+closure
+obstruction
+
+Previous scans are grammar probes.
+
+The terminal question is a later classical translation endpoint.
+
+Native description comes first.

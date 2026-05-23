@@ -1,0 +1,220 @@
+{
+  "builder_audit": {
+    "builder_count": 9,
+    "builder_existing_count": 9,
+    "builder_missing": [],
+    "builder_missing_count": 0,
+    "builder_rows": [
+      {
+        "exists": true,
+        "path": "examples/build_native_language_summary.py"
+      },
+      {
+        "exists": true,
+        "path": "examples/build_native_language_index.py"
+      },
+      {
+        "exists": true,
+        "path": "examples/build_native_invariant_candidate_map.py"
+      },
+      {
+        "exists": true,
+        "path": "examples/build_native_conservation_map.py"
+      },
+      {
+        "exists": true,
+        "path": "examples/build_native_grammar_stability_map.py"
+      },
+      {
+        "exists": true,
+        "path": "examples/build_native_grammar_mutation_atlas.py"
+      },
+      {
+        "exists": true,
+        "path": "examples/build_native_grammar_recurrence_map.py"
+      },
+      {
+        "exists": true,
+        "path": "examples/build_native_sentence_atlas.py"
+      },
+      {
+        "exists": true,
+        "path": "examples/extract_native_sentences.py"
+      }
+    ]
+  },
+  "certificate_audit": {
+    "certificate_count": 9,
+    "certificate_failure_count": 0,
+    "certificate_failures": [],
+    "certificate_passing_count": 9,
+    "certificate_rows": [
+      {
+        "collatz_status": "not_claimed_solved",
+        "errors": [],
+        "exists": true,
+        "global_closure_status": "not_claimed",
+        "global_invariant_status": "not_claimed",
+        "passes": true,
+        "path": "results/native_language_summary_certificate.json",
+        "proof_status": "not_a_proof",
+        "theorem_status": "no_theorems_introduced",
+        "version": "v4.0"
+      },
+      {
+        "collatz_status": "not_claimed_solved",
+        "errors": [],
+        "exists": true,
+        "global_closure_status": "not_claimed",
+        "global_invariant_status": "not_claimed",
+        "passes": true,
+        "path": "results/native_language_index_certificate.json",
+        "proof_status": "not_a_proof",
+        "theorem_status": "no_theorems_introduced",
+        "version": "v4.2"
+      },
+      {
+        "collatz_status": null,
+        "errors": [],
+        "exists": true,
+        "global_closure_status": null,
+        "global_invariant_status": "not_claimed",
+        "passes": true,
+        "path": "results/native_invariant_candidate_certificate.json",
+        "proof_status": "not_a_proof",
+        "theorem_status": "no_theorems_introduced",
+        "version": "v3.9"
+      },
+      {
+        "collatz_status": null,
+        "errors": [],
+        "exists": true,
+        "global_closure_status": null,
+        "global_invariant_status": null,
+        "passes": true,
+        "path": "results/native_conservation_certificate.json",
+        "proof_status": "not_a_proof",
+        "theorem_status": "no_theorems_introduced",
+        "version": "v3.8"
+      },
+      {
+        "collatz_status": null,
+        "errors": [],
+        "exists": true,
+        "global_closure_status": null,
+        "global_invariant_status": null,
+        "passes": true,
+        "path": "results/native_grammar_stability_certificate.json",
+        "proof_status": "not_a_proof",
+        "theorem_status": "no_theorems_introduced",
+        "version": "v3.7"
+      },
+      {
+        "collatz_status": null,
+        "errors": [],
+        "exists": true,
+        "global_closure_status": null,
+        "global_invariant_status": null,
+        "passes": true,
+        "path": "results/native_grammar_mutation_certificate.json",
+        "proof_status": "not_a_proof",
+        "theorem_status": "no_theorems_introduced",
+        "version": "v3.6"
+      },
+      {
+        "collatz_status": null,
+        "errors": [],
+        "exists": true,
+        "global_closure_status": null,
+        "global_invariant_status": null,
+        "passes": true,
+        "path": "results/native_grammar_recurrence_certificate.json",
+        "proof_status": "not_a_proof",
+        "theorem_status": "no_theorems_introduced",
+        "version": "v3.5"
+      },
+      {
+        "collatz_status": null,
+        "errors": [],
+        "exists": true,
+        "global_closure_status": null,
+        "global_invariant_status": null,
+        "passes": true,
+        "path": "results/native_sentence_atlas_certificate.json",
+        "proof_status": "not_a_proof",
+        "theorem_status": "no_theorems_introduced",
+        "version": "v3.4"
+      },
+      {
+        "collatz_status": null,
+        "errors": [],
+        "exists": true,
+        "global_closure_status": null,
+        "global_invariant_status": null,
+        "passes": true,
+        "path": "results/native_sentence_certificate.json",
+        "proof_status": "not_a_proof",
+        "theorem_status": "no_theorems_introduced",
+        "version": "v3.3"
+      }
+    ]
+  },
+  "collatz_status": "not_claimed_solved",
+  "entry_audit": {
+    "entry_failure_count": 0,
+    "entry_failures": [],
+    "entry_file_count": 3,
+    "entry_files_passing": 3,
+    "entry_rows": [
+      {
+        "exists": true,
+        "forbidden_found": [],
+        "missing_required_phrases": [],
+        "passes": true,
+        "path": "README.md"
+      },
+      {
+        "exists": true,
+        "forbidden_found": [],
+        "missing_required_phrases": [],
+        "passes": true,
+        "path": "START_HERE.md"
+      },
+      {
+        "exists": true,
+        "forbidden_found": [],
+        "missing_required_phrases": [],
+        "passes": true,
+        "path": "CRC_CONJECTURE.md"
+      }
+    ]
+  },
+  "global_closure_status": "not_claimed",
+  "global_invariant_status": "not_claimed",
+  "index_audit": {
+    "indexed_item_count": 101,
+    "missing_required_count": 0,
+    "missing_required_items": []
+  },
+  "layer": "native_artifact_consistency_audit",
+  "mother_rule": "No solution before native language.",
+  "next_recommended_version": "v4.4 Native Audit Report Consolidation",
+  "not_proof_layer": true,
+  "not_theory_layer": true,
+  "proof_status": "not_a_proof",
+  "readme_route_audit": {
+    "missing_route_version_count": 0,
+    "missing_route_versions": [],
+    "passes": true,
+    "required_route_version_count": 12
+  },
+  "secondary_rule": "No proof before native description.",
+  "source_index_missing_required_count": 0,
+  "source_index_section_count": 12,
+  "source_index_total_items": 101,
+  "source_index_version": "v4.2",
+  "status": "audit_passed",
+  "theorem_status": "no_theorems_introduced",
+  "total_failure_count": 0,
+  "version": "v4.3"
+}

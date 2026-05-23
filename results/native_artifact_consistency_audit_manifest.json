@@ -1,0 +1,39 @@
+{
+  "artifacts": [
+    "results/native_artifact_consistency_audit.json",
+    "results/native_artifact_consistency_audit.md",
+    "results/native_artifact_consistency_audit_certificate.json"
+  ],
+  "audit_check_groups": [
+    "index_audit",
+    "entry_audit",
+    "certificate_audit",
+    "builder_audit",
+    "readme_route_audit"
+  ],
+  "builder": "examples/build_native_artifact_consistency_audit.py",
+  "collatz_status": "not_claimed_solved",
+  "documents": [
+    "docs/NATIVE_ARTIFACT_CONSISTENCY_AUDIT.md",
+    "docs/AUDIT_CHECKS.md",
+    "docs/AUDIT_BOUNDARY.md",
+    "docs/AUDIT_CERTIFICATE_REQUIREMENTS.md",
+    "docs/AUDIT_ENTRY_FILE_REQUIREMENTS.md",
+    "docs/V43_EVIDENCE_STATUS.md",
+    "docs/V43_NEXT_STEPS.md"
+  ],
+  "global_closure_status": "not_claimed",
+  "global_invariant_status": "not_claimed",
+  "layer": "native_artifact_consistency_audit",
+  "mother_rule": "No solution before native language.",
+  "next_recommended_version": "v4.4 Native Audit Report Consolidation",
+  "not_proof_layer": true,
+  "not_theory_layer": true,
+  "primary_position": "A native structural reading of the Collatz dynamics.",
+  "proof_status": "not_a_proof",
+  "purpose": "Audit repository artifacts for consistency with the native-language boundary.",
+  "secondary_rule": "No proof before native description.",
+  "status": "audit_layer_defined",
+  "theorem_status": "no_theorems_introduced",
+  "version": "v4.3"
+}

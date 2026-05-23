@@ -20,9 +20,9 @@ A native structural reading of the Collatz dynamics.
 
 ## What this project is not
 
-It is not a proof of Collatz.
+It is not a proof_status: not_a_proof
 
-It is not a claim that Collatz is solved.
+It is not a claim that collatz_status: not_claimed_solved
 
 It is not a global closure theorem.
 
@@ -89,3 +89,32 @@ Read:
 Core rule:
 
     No solution before native language.
+
+## v4.3 native artifact consistency audit
+
+Run:
+
+    python examples/build_native_artifact_consistency_audit.py
+
+Read:
+
+    docs/NATIVE_ARTIFACT_CONSISTENCY_AUDIT.md
+    docs/AUDIT_CHECKS.md
+    docs/AUDIT_BOUNDARY.md
+    docs/AUDIT_CERTIFICATE_REQUIREMENTS.md
+    docs/AUDIT_ENTRY_FILE_REQUIREMENTS.md
+    docs/V43_EVIDENCE_STATUS.md
+    docs/V43_NEXT_STEPS.md
+
+Core rule:
+
+    No solution before native language.
+
+## v4.3 restored v4.1 non-proof phrase
+
+It is not a proof of Collatz.
+
+It is not a claim that Collatz is solved.
+
+    proof_status: not_a_proof
+    collatz_status: not_claimed_solved

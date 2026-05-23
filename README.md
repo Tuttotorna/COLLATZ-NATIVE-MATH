@@ -50,7 +50,7 @@ This repository is not:
     a theorem claim
     a global closure claim
     a global invariant claim
-    a claim that obstruction is impossible
+    obstruction_impossibility_status: not_claimed
 
 Current status:
 
@@ -180,4 +180,33 @@ Boundary:
 
     the index is not a theory layer
     the index is not a proof layer
+    no solution before native language
+
+## v4.3 Native Artifact Consistency Audit
+
+The repository now includes a native artifact consistency audit.
+
+Run:
+
+    python examples/build_native_artifact_consistency_audit.py
+
+Outputs:
+
+    results/native_artifact_consistency_audit.json
+    results/native_artifact_consistency_audit.md
+    results/native_artifact_consistency_audit_certificate.json
+
+The audit checks:
+
+    indexed files exist
+    entry files remain native-first
+    certificates preserve not_a_proof
+    builders exist
+    README route is current
+
+Boundary:
+
+    audit_passed != proof
+    audit_passed != theorem
+    audit_passed != Collatz solved
     no solution before native language

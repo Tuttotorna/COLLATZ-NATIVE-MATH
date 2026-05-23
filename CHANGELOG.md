@@ -579,3 +579,17 @@ v1.1 tests whether the v1.0 hard case is isolated or part of a wider frontier.
 - Preserves the rule: No solution before native language.
 - Preserves the non-proof boundary.
 - Sets v4.3 as Native Artifact Consistency Audit.
+
+## v4.3 - Native Artifact Consistency Audit
+
+- Adds a native artifact consistency audit builder.
+- Checks indexed file existence.
+- Checks README, START_HERE, and CRC_CONJECTURE native-first boundary.
+- Checks core certificates for non-proof status.
+- Checks latest builders exist.
+- Checks README route contains current route versions.
+- Uses strict assertive-claim detection to avoid false positives from boundary language.
+- Emits audit JSON, Markdown, and certificate artifacts.
+- Preserves the rule: No solution before native language.
+- Preserves the non-proof boundary.
+- Sets v4.4 as Native Audit Report Consolidation.

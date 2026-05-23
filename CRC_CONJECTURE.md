@@ -80,3 +80,34 @@ Boundary:
     navigation != proof
     index != theorem
     no solution before native language
+
+## Native artifact consistency audit
+
+v4.3 adds a repository consistency audit.
+
+It does not add theory.
+
+It does not add proof.
+
+It checks whether the repository artifacts preserve the native-language boundary.
+
+Boundary:
+
+    audit_passed != proof
+    audit_passed != theorem
+    audit_passed != Collatz solved
+    no solution before native language
+
+## v4.3 required audit statuses
+
+These status fields are included so the entry audit can verify the native-language boundary.
+
+    proof_status: not_a_proof
+    collatz_status: not_claimed_solved
+    theorem_status: no_theorems_introduced
+    global_closure_status: not_claimed
+    global_invariant_status: not_claimed
+
+Core rule:
+
+    No solution before native language.

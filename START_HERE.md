@@ -197,3 +197,19 @@ Read:
 Core rule:
 
     No solution before native language.
+
+## v4.8 Compression Debt Machine V0
+
+Read:
+
+    docs/COMPRESSION_DEBT_MACHINE_V0.md
+
+Run:
+
+    python examples/build_compression_debt_machine_v0.py
+
+The machine measures bounded compression debt, release, and cheap regeneration.
+
+It does not prove Collatz.
+
+It does not claim Collatz is solved.

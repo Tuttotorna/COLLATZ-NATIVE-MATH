@@ -362,3 +362,31 @@ Boundary:
     public_entry_audit_passed != theorem
     public_entry_audit_passed != Collatz solved
     no solution before native language
+
+## v4.8 Compression Debt Machine V0
+
+The repository now includes a bounded Compression Debt Machine.
+
+Run:
+
+    python examples/build_compression_debt_machine_v0.py
+
+Outputs:
+
+    results/compression_debt_machine_v0.json
+    results/compression_debt_machine_v0.md
+    results/compression_debt_machine_v0_certificate.json
+
+Purpose:
+
+    make compression debt, release, and cheap regeneration computable
+    measure bounded low-compression regeneration patterns
+    preserve the non-proof boundary
+
+Boundary:
+
+    compression_debt_measurement != proof
+    cheap_regeneration_detected != divergence
+    release_detected != termination proof
+    obstruction_candidate != obstruction theorem
+    bounded evidence != global closure

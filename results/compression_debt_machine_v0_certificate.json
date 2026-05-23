@@ -1,0 +1,19 @@
+{
+  "artifact": "Compression Debt Machine V0",
+  "boundary": {
+    "bounded_evidence_status": "measurement_only",
+    "collatz_status": "not_claimed_solved",
+    "global_closure_status": "not_claimed",
+    "global_invariant_status": "not_claimed",
+    "obstruction_status": "not_claimed",
+    "proof_status": "not_a_proof",
+    "theorem_status": "no_theorem_claimed"
+  },
+  "generated_at_utc": "2026-05-23T11:41:04.469104+00:00",
+  "outputs": [
+    "results/compression_debt_machine_v0.json",
+    "results/compression_debt_machine_v0.md",
+    "results/compression_debt_machine_v0_certificate.json"
+  ],
+  "version": "v4.8"
+}

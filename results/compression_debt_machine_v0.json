@@ -1,0 +1,1171 @@
+{
+  "aggregate": {
+    "cumulative_debt_mean": -8.524089003324006,
+    "debt_peak_mean": 1.6565677005960115,
+    "debt_peak_vs_max_a_pearson": 0.014038722338592128,
+    "debt_peak_vs_release_count_pearson": 0.6390864423048263,
+    "debt_peak_vs_strong_release_count_pearson": 0.6348366940586956,
+    "max_a_seen": 10,
+    "max_debt_peak": 6.892124975745064,
+    "mean_delta_mean": -0.7512096661499366
+  },
+  "boundary": {
+    "bounded_evidence_status": "measurement_only",
+    "collatz_status": "not_claimed_solved",
+    "global_closure_status": "not_claimed",
+    "global_invariant_status": "not_claimed",
+    "obstruction_status": "not_claimed",
+    "proof_status": "not_a_proof",
+    "theorem_status": "no_theorem_claimed"
+  },
+  "counts": {
+    "cheap_chain_epsilon_0_count": 1,
+    "not_terminated_within_bound": 0,
+    "odd_seeds_measured": 500,
+    "regeneration_capable_count": 231,
+    "terminated_within_bound": 500
+  },
+  "generated_at_utc": "2026-05-23T11:41:04.469104+00:00",
+  "interpretation": {
+    "bounded_claim": "The machine measures bounded compression debt, release, and cheap regeneration.",
+    "main_falsifiable_question": "Do high-debt windows tend to be followed by stronger release events?",
+    "native_reduction": "A divergent Collatz behavior would require unbounded persistence of low-compression regeneration grammar."
+  },
+  "machine": "Compression Debt Machine V0",
+  "parameters": {
+    "epsilon": 0.0,
+    "log2_3": 1.584962500721156,
+    "max_odd_seed": 999,
+    "odd_steps": 80
+  },
+  "samples": {
+    "cheap_chain_epsilon_0": [
+      {
+        "cheap_chain_epsilon_0": true,
+        "cumulative_debt": 0.0,
+        "debt_peak": 0.0,
+        "final_n": 1,
+        "max_a": 0,
+        "mean_delta": 0.0,
+        "min_prefix_debt": 0.0,
+        "odd_steps": 0,
+        "regeneration_capable": false,
+        "release_count": 0,
+        "seed": 1,
+        "strong_release_count": 0,
+        "terminated": true
+      }
+    ],
+    "highest_debt_peak": [
+      {
+        "cheap_chain_epsilon_0": false,
+        "cumulative_debt": -9.457380879072534,
+        "debt_peak": 6.892124975745064,
+        "final_n": 1,
+        "max_a": 6,
+        "mean_delta": -0.15253840127536347,
+        "min_prefix_debt": -9.457380879072538,
+        "odd_steps": 62,
+        "regeneration_capable": true,
+        "release_count": 12,
+        "seed": 703,
+        "strong_release_count": 6,
+        "terminated": true
+      },
+      {
+        "cheap_chain_epsilon_0": false,
+        "cumulative_debt": -4.754887502163468,
+        "debt_peak": 6.832421226170077,
+        "final_n": 1,
+        "max_a": 5,
+        "mean_delta": -0.11597286590642605,
+        "min_prefix_debt": -4.7548875021634665,
+        "odd_steps": 41,
+        "regeneration_capable": true,
+        "release_count": 7,
+        "seed": 27,
+        "strong_release_count": 4,
+        "terminated": true
+      },
+      {
+        "cheap_chain_epsilon_0": false,
+        "cumulative_debt": -4.954196310386875,
+        "debt_peak": 6.633112417946671,
+        "final_n": 1,
+        "max_a": 5,
+        "mean_delta": -0.12703067462530448,
+        "min_prefix_debt": -4.954196310386873,
+        "odd_steps": 39,
+        "regeneration_capable": true,
+        "release_count": 7,
+        "seed": 31,
+        "strong_release_count": 4,
+        "terminated": true
+      },
+      {
+        "cheap_chain_epsilon_0": false,
+        "cumulative_debt": -9.871905237659186,
+        "debt_peak": 6.477600617158412,
+        "final_n": 1,
+        "max_a": 6,
+        "mean_delta": -0.1566969085342728,
+        "min_prefix_debt": -9.871905237659188,
+        "odd_steps": 63,
+        "regeneration_capable": true,
+        "release_count": 12,
+        "seed": 937,
+        "strong_release_count": 6,
+        "terminated": true
+      },
+      {
+        "cheap_chain_epsilon_0": false,
+        "cumulative_debt": -5.357552004618083,
+        "debt_peak": 6.229756723715461,
+        "final_n": 1,
+        "max_a": 5,
+        "mean_delta": -0.1339388001154521,
+        "min_prefix_debt": -5.357552004618084,
+        "odd_steps": 40,
+        "regeneration_capable": true,
+        "release_count": 7,
+        "seed": 41,
+        "strong_release_count": 4,
+        "terminated": true
+      },
+      {
+        "cheap_chain_epsilon_0": false,
+        "cumulative_debt": -9.766528908598865,
+        "debt_peak": 6.191683935997588,
+        "final_n": 1,
+        "max_a": 5,
+        "mean_delta": -0.15025429090152098,
+        "min_prefix_debt": -9.766528908598865,
+        "odd_steps": 65,
+        "regeneration_capable": true,
+        "release_count": 13,
+        "seed": 871,
+        "strong_release_count": 7,
+        "terminated": true
+      },
+      {
+        "cheap_chain_epsilon_0": false,
+        "cumulative_debt": -5.554588851677637,
+        "debt_peak": 6.032719876655907,
+        "final_n": 1,
+        "max_a": 5,
+        "mean_delta": -0.14617339083362202,
+        "min_prefix_debt": -5.554588851677638,
+        "odd_steps": 38,
+        "regeneration_capable": true,
+        "release_count": 7,
+        "seed": 47,
+        "strong_release_count": 4,
+        "terminated": true
+      },
+      {
+        "cheap_chain_epsilon_0": false,
+        "cumulative_debt": -5.781359713524659,
+        "debt_peak": 5.805949014808886,
+        "final_n": 1,
+        "max_a": 5,
+        "mean_delta": -0.14100877350060143,
+        "min_prefix_debt": -5.781359713524658,
+        "odd_steps": 41,
+        "regeneration_capable": true,
+        "release_count": 8,
+        "seed": 55,
+        "strong_release_count": 4,
+        "terminated": true
+      },
+      {
+        "cheap_chain_epsilon_0": false,
+        "cumulative_debt": -5.977279923499916,
+        "debt_peak": 5.610028804833629,
+        "final_n": 1,
+        "max_a": 5,
+        "mean_delta": -0.15326358778204913,
+        "min_prefix_debt": -5.977279923499916,
+        "odd_steps": 39,
+        "regeneration_capable": true,
+        "release_count": 8,
+        "seed": 63,
+        "strong_release_count": 5,
+        "terminated": true
+      },
+      {
+        "cheap_chain_epsilon_0": false,
+        "cumulative_debt": -6.149747119504681,
+        "debt_peak": 5.437561608828863,
+        "final_n": 1,
+        "max_a": 5,
+        "mean_delta": -0.16620938160823465,
+        "min_prefix_debt": -6.149747119504681,
+        "odd_steps": 37,
+        "regeneration_capable": true,
+        "release_count": 7,
+        "seed": 71,
+        "strong_release_count": 4,
+        "terminated": true
+      }
+    ],
+    "longest_nonterminated": [
+      {
+        "cheap_chain_epsilon_0": false,
+        "cumulative_debt": -9.766528908598865,
+        "debt_peak": 6.191683935997588,
+        "final_n": 1,
+        "max_a": 5,
+        "mean_delta": -0.15025429090152098,
+        "min_prefix_debt": -9.766528908598865,
+        "odd_steps": 65,
+        "regeneration_capable": true,
+        "release_count": 13,
+        "seed": 871,
+        "strong_release_count": 7,
+        "terminated": true
+      },
+      {
+        "cheap_chain_epsilon_0": false,
+        "cumulative_debt": -9.871905237659186,
+        "debt_peak": 6.477600617158412,
+        "final_n": 1,
+        "max_a": 6,
+        "mean_delta": -0.1566969085342728,
+        "min_prefix_debt": -9.871905237659188,
+        "odd_steps": 63,
+        "regeneration_capable": true,
+        "release_count": 12,
+        "seed": 937,
+        "strong_release_count": 6,
+        "terminated": true
+      },
+      {
+        "cheap_chain_epsilon_0": false,
+        "cumulative_debt": -9.457380879072534,
+        "debt_peak": 6.892124975745064,
+        "final_n": 1,
+        "max_a": 6,
+        "mean_delta": -0.15253840127536347,
+        "min_prefix_debt": -9.457380879072538,
+        "odd_steps": 62,
+        "regeneration_capable": true,
+        "release_count": 12,
+        "seed": 703,
+        "strong_release_count": 6,
+        "terminated": true
+      },
+      {
+        "cheap_chain_epsilon_0": false,
+        "cumulative_debt": -9.57553924683453,
+        "debt_peak": 2.011769481499014,
+        "final_n": 1,
+        "max_a": 6,
+        "mean_delta": -0.17410071357880963,
+        "min_prefix_debt": -9.57553924683453,
+        "odd_steps": 55,
+        "regeneration_capable": true,
+        "release_count": 9,
+        "seed": 763,
+        "strong_release_count": 5,
+        "terminated": true
+      },
+      {
+        "cheap_chain_epsilon_0": false,
+        "cumulative_debt": -9.5980525001616,
+        "debt_peak": 1.9892562281719444,
+        "final_n": 1,
+        "max_a": 5,
+        "mean_delta": -0.17451004545748364,
+        "min_prefix_debt": -9.5980525001616,
+        "odd_steps": 55,
+        "regeneration_capable": true,
+        "release_count": 10,
+        "seed": 775,
+        "strong_release_count": 5,
+        "terminated": true
+      },
+      {
+        "cheap_chain_epsilon_0": false,
+        "cumulative_debt": -9.79603960882977,
+        "debt_peak": 3.023540766325235,
+        "final_n": 1,
+        "max_a": 7,
+        "mean_delta": -0.18483093601565603,
+        "min_prefix_debt": -9.79603960882977,
+        "odd_steps": 53,
+        "regeneration_capable": true,
+        "release_count": 10,
+        "seed": 889,
+        "strong_release_count": 6,
+        "terminated": true
+      },
+      {
+        "cheap_chain_epsilon_0": false,
+        "cumulative_debt": -9.779719355143403,
+        "debt_peak": 1.9263449121915666,
+        "final_n": 1,
+        "max_a": 5,
+        "mean_delta": -0.18452300670081892,
+        "min_prefix_debt": -9.779719355143403,
+        "odd_steps": 53,
+        "regeneration_capable": true,
+        "release_count": 11,
+        "seed": 879,
+        "strong_release_count": 6,
+        "terminated": true
+      },
+      {
+        "cheap_chain_epsilon_0": false,
+        "cumulative_debt": -9.746514321138463,
+        "debt_peak": 1.840794407195081,
+        "final_n": 1,
+        "max_a": 6,
+        "mean_delta": -0.183896496625254,
+        "min_prefix_debt": -9.746514321138465,
+        "odd_steps": 53,
+        "regeneration_capable": true,
+        "release_count": 9,
+        "seed": 859,
+        "strong_release_count": 5,
+        "terminated": true
+      },
+      {
+        "cheap_chain_epsilon_0": false,
+        "cumulative_debt": -9.756556322524087,
+        "debt_peak": 1.8307524058094566,
+        "final_n": 1,
+        "max_a": 6,
+        "mean_delta": -0.18408596834951108,
+        "min_prefix_debt": -9.756556322524089,
+        "odd_steps": 53,
+        "regeneration_capable": true,
+        "release_count": 10,
+        "seed": 865,
+        "strong_release_count": 5,
+        "terminated": true
+      },
+      {
+        "cheap_chain_epsilon_0": false,
+        "cumulative_debt": -9.769837843629439,
+        "debt_peak": 1.8174708847041048,
+        "final_n": 1,
+        "max_a": 5,
+        "mean_delta": -0.18433656308734792,
+        "min_prefix_debt": -9.76983784362944,
+        "odd_steps": 53,
+        "regeneration_capable": true,
+        "release_count": 10,
+        "seed": 873,
+        "strong_release_count": 6,
+        "terminated": true
+      }
+    ],
+    "regeneration_capable": [
+      {
+        "cheap_chain_epsilon_0": false,
+        "cumulative_debt": -4.754887502163468,
+        "debt_peak": 6.832421226170077,
+        "final_n": 1,
+        "max_a": 5,
+        "mean_delta": -0.11597286590642605,
+        "min_prefix_debt": -4.7548875021634665,
+        "odd_steps": 41,
+        "regeneration_capable": true,
+        "release_count": 7,
+        "seed": 27,
+        "strong_release_count": 4,
+        "terminated": true
+      },
+      {
+        "cheap_chain_epsilon_0": false,
+        "cumulative_debt": -4.954196310386875,
+        "debt_peak": 6.633112417946671,
+        "final_n": 1,
+        "max_a": 5,
+        "mean_delta": -0.12703067462530448,
+        "min_prefix_debt": -4.954196310386873,
+        "odd_steps": 39,
+        "regeneration_capable": true,
+        "release_count": 7,
+        "seed": 31,
+        "strong_release_count": 4,
+        "terminated": true
+      },
+      {
+        "cheap_chain_epsilon_0": false,
+        "cumulative_debt": -5.357552004618083,
+        "debt_peak": 6.229756723715461,
+        "final_n": 1,
+        "max_a": 5,
+        "mean_delta": -0.1339388001154521,
+        "min_prefix_debt": -5.357552004618084,
+        "odd_steps": 40,
+        "regeneration_capable": true,
+        "release_count": 7,
+        "seed": 41,
+        "strong_release_count": 4,
+        "terminated": true
+      },
+      {
+        "cheap_chain_epsilon_0": false,
+        "cumulative_debt": -5.554588851677637,
+        "debt_peak": 6.032719876655907,
+        "final_n": 1,
+        "max_a": 5,
+        "mean_delta": -0.14617339083362202,
+        "min_prefix_debt": -5.554588851677638,
+        "odd_steps": 38,
+        "regeneration_capable": true,
+        "release_count": 7,
+        "seed": 47,
+        "strong_release_count": 4,
+        "terminated": true
+      },
+      {
+        "cheap_chain_epsilon_0": false,
+        "cumulative_debt": -5.781359713524659,
+        "debt_peak": 5.805949014808886,
+        "final_n": 1,
+        "max_a": 5,
+        "mean_delta": -0.14100877350060143,
+        "min_prefix_debt": -5.781359713524658,
+        "odd_steps": 41,
+        "regeneration_capable": true,
+        "release_count": 8,
+        "seed": 55,
+        "strong_release_count": 4,
+        "terminated": true
+      },
+      {
+        "cheap_chain_epsilon_0": false,
+        "cumulative_debt": -5.977279923499916,
+        "debt_peak": 5.610028804833629,
+        "final_n": 1,
+        "max_a": 5,
+        "mean_delta": -0.15326358778204913,
+        "min_prefix_debt": -5.977279923499916,
+        "odd_steps": 39,
+        "regeneration_capable": true,
+        "release_count": 8,
+        "seed": 63,
+        "strong_release_count": 5,
+        "terminated": true
+      },
+      {
+        "cheap_chain_epsilon_0": false,
+        "cumulative_debt": -6.149747119504681,
+        "debt_peak": 5.437561608828863,
+        "final_n": 1,
+        "max_a": 5,
+        "mean_delta": -0.16620938160823465,
+        "min_prefix_debt": -6.149747119504681,
+        "odd_steps": 37,
+        "regeneration_capable": true,
+        "release_count": 7,
+        "seed": 71,
+        "strong_release_count": 4,
+        "terminated": true
+      },
+      {
+        "cheap_chain_epsilon_0": false,
+        "cumulative_debt": -6.189824558880017,
+        "debt_peak": 5.397484169453528,
+        "final_n": 1,
+        "max_a": 5,
+        "mean_delta": -0.14737677521142897,
+        "min_prefix_debt": -6.189824558880016,
+        "odd_steps": 42,
+        "regeneration_capable": true,
+        "release_count": 8,
+        "seed": 73,
+        "strong_release_count": 4,
+        "terminated": true
+      },
+      {
+        "cheap_chain_epsilon_0": false,
+        "cumulative_debt": -6.303780748177103,
+        "debt_peak": 1.7676816143795213,
+        "final_n": 1,
+        "max_a": 4,
+        "mean_delta": -0.5730709771070094,
+        "min_prefix_debt": -6.303780748177104,
+        "odd_steps": 11,
+        "regeneration_capable": true,
+        "release_count": 5,
+        "seed": 79,
+        "strong_release_count": 2,
+        "terminated": true
+      },
+      {
+        "cheap_chain_epsilon_0": false,
+        "cumulative_debt": -6.3750394313469245,
+        "debt_peak": 5.21226929698662,
+        "final_n": 1,
+        "max_a": 5,
+        "mean_delta": -0.1593759857836731,
+        "min_prefix_debt": -6.375039431346924,
+        "odd_steps": 40,
+        "regeneration_capable": true,
+        "release_count": 8,
+        "seed": 83,
+        "strong_release_count": 4,
+        "terminated": true
+      }
+    ]
+  },
+  "step_samples": {
+    "11": [
+      {
+        "a": 1,
+        "delta": 0.6280312226130421,
+        "index": 0,
+        "kind": "debt_creation",
+        "n": 11,
+        "next_n": 17
+      },
+      {
+        "a": 2,
+        "delta": -0.38702312310924736,
+        "index": 1,
+        "kind": "mild_discharge",
+        "n": 17,
+        "next_n": 13
+      },
+      {
+        "a": 3,
+        "delta": -1.3785116232537298,
+        "index": 2,
+        "kind": "release",
+        "n": 13,
+        "next_n": 5
+      },
+      {
+        "a": 4,
+        "delta": -2.321928094887362,
+        "index": 3,
+        "kind": "strong_release",
+        "n": 5,
+        "next_n": 1
+      }
+    ],
+    "15": [
+      {
+        "a": 1,
+        "delta": 0.6166713604484945,
+        "index": 0,
+        "kind": "debt_creation",
+        "n": 15,
+        "next_n": 23
+      },
+      {
+        "a": 1,
+        "delta": 0.6057210608879536,
+        "index": 1,
+        "kind": "debt_creation",
+        "n": 23,
+        "next_n": 35
+      },
+      {
+        "a": 1,
+        "delta": 0.5986374376182326,
+        "index": 2,
+        "kind": "debt_creation",
+        "n": 35,
+        "next_n": 53
+      },
+      {
+        "a": 5,
+        "delta": -3.4059923596758366,
+        "index": 3,
+        "kind": "strong_release",
+        "n": 53,
+        "next_n": 5
+      },
+      {
+        "a": 4,
+        "delta": -2.321928094887362,
+        "index": 4,
+        "kind": "strong_release",
+        "n": 5,
+        "next_n": 1
+      }
+    ],
+    "19": [
+      {
+        "a": 1,
+        "delta": 0.6100534816839867,
+        "index": 0,
+        "kind": "debt_creation",
+        "n": 19,
+        "next_n": 29
+      },
+      {
+        "a": 3,
+        "delta": -1.398549376490275,
+        "index": 1,
+        "kind": "release",
+        "n": 29,
+        "next_n": 11
+      },
+      {
+        "a": 1,
+        "delta": 0.6280312226130421,
+        "index": 2,
+        "kind": "debt_creation",
+        "n": 11,
+        "next_n": 17
+      },
+      {
+        "a": 2,
+        "delta": -0.38702312310924736,
+        "index": 3,
+        "kind": "mild_discharge",
+        "n": 17,
+        "next_n": 13
+      },
+      {
+        "a": 3,
+        "delta": -1.3785116232537298,
+        "index": 4,
+        "kind": "release",
+        "n": 13,
+        "next_n": 5
+      },
+      {
+        "a": 4,
+        "delta": -2.321928094887362,
+        "index": 5,
+        "kind": "strong_release",
+        "n": 5,
+        "next_n": 1
+      }
+    ],
+    "23": [
+      {
+        "a": 1,
+        "delta": 0.6057210608879536,
+        "index": 0,
+        "kind": "debt_creation",
+        "n": 23,
+        "next_n": 35
+      },
+      {
+        "a": 1,
+        "delta": 0.5986374376182326,
+        "index": 1,
+        "kind": "debt_creation",
+        "n": 35,
+        "next_n": 53
+      },
+      {
+        "a": 5,
+        "delta": -3.4059923596758366,
+        "index": 2,
+        "kind": "strong_release",
+        "n": 53,
+        "next_n": 5
+      },
+      {
+        "a": 4,
+        "delta": -2.321928094887362,
+        "index": 3,
+        "kind": "strong_release",
+        "n": 5,
+        "next_n": 1
+      }
+    ],
+    "25": [
+      {
+        "a": 2,
+        "delta": -0.3959286763311392,
+        "index": 0,
+        "kind": "mild_discharge",
+        "n": 25,
+        "next_n": 19
+      },
+      {
+        "a": 1,
+        "delta": 0.6100534816839867,
+        "index": 1,
+        "kind": "debt_creation",
+        "n": 19,
+        "next_n": 29
+      },
+      {
+        "a": 3,
+        "delta": -1.398549376490275,
+        "index": 2,
+        "kind": "release",
+        "n": 29,
+        "next_n": 11
+      },
+      {
+        "a": 1,
+        "delta": 0.6280312226130421,
+        "index": 3,
+        "kind": "debt_creation",
+        "n": 11,
+        "next_n": 17
+      },
+      {
+        "a": 2,
+        "delta": -0.38702312310924736,
+        "index": 4,
+        "kind": "mild_discharge",
+        "n": 17,
+        "next_n": 13
+      },
+      {
+        "a": 3,
+        "delta": -1.3785116232537298,
+        "index": 5,
+        "kind": "release",
+        "n": 13,
+        "next_n": 5
+      },
+      {
+        "a": 4,
+        "delta": -2.321928094887362,
+        "index": 6,
+        "kind": "strong_release",
+        "n": 5,
+        "next_n": 1
+      }
+    ],
+    "27": [
+      {
+        "a": 1,
+        "delta": 0.6026645024546152,
+        "index": 0,
+        "kind": "debt_creation",
+        "n": 27,
+        "next_n": 41
+      },
+      {
+        "a": 2,
+        "delta": -0.4033556942312085,
+        "index": 1,
+        "kind": "mild_discharge",
+        "n": 41,
+        "next_n": 31
+      },
+      {
+        "a": 1,
+        "delta": 0.6003925412907621,
+        "index": 2,
+        "kind": "debt_creation",
+        "n": 31,
+        "next_n": 47
+      },
+      {
+        "a": 1,
+        "delta": 0.5951582678270447,
+        "index": 3,
+        "kind": "debt_creation",
+        "n": 47,
+        "next_n": 71
+      },
+      {
+        "a": 1,
+        "delta": 0.5917198668964648,
+        "index": 4,
+        "kind": "debt_creation",
+        "n": 71,
+        "next_n": 107
+      },
+      {
+        "a": 1,
+        "delta": 0.5894498917134701,
+        "index": 5,
+        "kind": "debt_creation",
+        "n": 107,
+        "next_n": 161
+      },
+      {
+        "a": 2,
+        "delta": -0.4120536408400225,
+        "index": 6,
+        "kind": "mild_discharge",
+        "n": 161,
+        "next_n": 121
+      },
+      {
+        "a": 2,
+        "delta": -0.41106859707589816,
+        "index": 7,
+        "kind": "mild_discharge",
+        "n": 121,
+        "next_n": 91
+      },
+      {
+        "a": 1,
+        "delta": 0.5902374427618304,
+        "index": 8,
+        "kind": "debt_creation",
+        "n": 91,
+        "next_n": 137
+      },
+      {
+        "a": 2,
+        "delta": -0.4115315557773084,
+        "index": 9,
+        "kind": "mild_discharge",
+        "n": 137,
+        "next_n": 103
+      },
+      {
+        "a": 1,
+        "delta": 0.5896238780910191,
+        "index": 10,
+        "kind": "debt_creation",
+        "n": 103,
+        "next_n": 155
+      },
+      {
+        "a": 1,
+        "delta": 0.5880617393800426,
+        "index": 11,
+        "kind": "debt_creation",
+        "n": 155,
+        "next_n": 233
+      },
+      {
+        "a": 2,
+        "delta": -0.4129750328219515,
+        "index": 12,
+        "kind": "mild_discharge",
+        "n": 233,
+        "next_n": 175
+      },
+      {
+        "a": 1,
+        "delta": 0.5877078774599735,
+        "index": 13,
+        "kind": "debt_creation",
+        "n": 175,
+        "next_n": 263
+      },
+      {
+        "a": 1,
+        "delta": 0.586789853772163,
+        "index": 14,
+        "kind": "debt_creation",
+        "n": 263,
+        "next_n": 395
+      },
+      {
+        "a": 1,
+        "delta": 0.5861794514815384,
+        "index": 15,
+        "kind": "debt_creation",
+        "n": 395,
+        "next_n": 593
+      },
+      {
+        "a": 2,
+        "delta": -0.41422676869224345,
+        "index": 16,
+        "kind": "mild_discharge",
+        "n": 593,
+        "next_n": 445
+      },
+      {
+        "a": 3,
+        "delta": -1.413957233379708,
+        "index": 17,
+        "kind": "release",
+        "n": 445,
+        "next_n": 167
+      },
+      {
+        "a": 1,
+        "delta": 0.5878392614767197,
+        "index": 18,
+        "kind": "debt_creation",
+        "n": 167,
+        "next_n": 251
+      },
+      {
+        "a": 1,
+        "delta": 0.5868771593178923,
+        "index": 19,
+        "kind": "debt_creation",
+        "n": 251,
+        "next_n": 377
+      }
+    ],
+    "3": [
+      {
+        "a": 1,
+        "delta": 0.7369655941662062,
+        "index": 0,
+        "kind": "debt_creation",
+        "n": 3,
+        "next_n": 5
+      },
+      {
+        "a": 4,
+        "delta": -2.321928094887362,
+        "index": 1,
+        "kind": "strong_release",
+        "n": 5,
+        "next_n": 1
+      }
+    ],
+    "31": [
+      {
+        "a": 1,
+        "delta": 0.6003925412907621,
+        "index": 0,
+        "kind": "debt_creation",
+        "n": 31,
+        "next_n": 47
+      },
+      {
+        "a": 1,
+        "delta": 0.5951582678270447,
+        "index": 1,
+        "kind": "debt_creation",
+        "n": 47,
+        "next_n": 71
+      },
+      {
+        "a": 1,
+        "delta": 0.5917198668964648,
+        "index": 2,
+        "kind": "debt_creation",
+        "n": 71,
+        "next_n": 107
+      },
+      {
+        "a": 1,
+        "delta": 0.5894498917134701,
+        "index": 3,
+        "kind": "debt_creation",
+        "n": 107,
+        "next_n": 161
+      },
+      {
+        "a": 2,
+        "delta": -0.4120536408400225,
+        "index": 4,
+        "kind": "mild_discharge",
+        "n": 161,
+        "next_n": 121
+      },
+      {
+        "a": 2,
+        "delta": -0.41106859707589816,
+        "index": 5,
+        "kind": "mild_discharge",
+        "n": 121,
+        "next_n": 91
+      },
+      {
+        "a": 1,
+        "delta": 0.5902374427618304,
+        "index": 6,
+        "kind": "debt_creation",
+        "n": 91,
+        "next_n": 137
+      },
+      {
+        "a": 2,
+        "delta": -0.4115315557773084,
+        "index": 7,
+        "kind": "mild_discharge",
+        "n": 137,
+        "next_n": 103
+      },
+      {
+        "a": 1,
+        "delta": 0.5896238780910191,
+        "index": 8,
+        "kind": "debt_creation",
+        "n": 103,
+        "next_n": 155
+      },
+      {
+        "a": 1,
+        "delta": 0.5880617393800426,
+        "index": 9,
+        "kind": "debt_creation",
+        "n": 155,
+        "next_n": 233
+      },
+      {
+        "a": 2,
+        "delta": -0.4129750328219515,
+        "index": 10,
+        "kind": "mild_discharge",
+        "n": 233,
+        "next_n": 175
+      },
+      {
+        "a": 1,
+        "delta": 0.5877078774599735,
+        "index": 11,
+        "kind": "debt_creation",
+        "n": 175,
+        "next_n": 263
+      },
+      {
+        "a": 1,
+        "delta": 0.586789853772163,
+        "index": 12,
+        "kind": "debt_creation",
+        "n": 263,
+        "next_n": 395
+      },
+      {
+        "a": 1,
+        "delta": 0.5861794514815384,
+        "index": 13,
+        "kind": "debt_creation",
+        "n": 395,
+        "next_n": 593
+      },
+      {
+        "a": 2,
+        "delta": -0.41422676869224345,
+        "index": 14,
+        "kind": "mild_discharge",
+        "n": 593,
+        "next_n": 445
+      },
+      {
+        "a": 3,
+        "delta": -1.413957233379708,
+        "index": 15,
+        "kind": "release",
+        "n": 445,
+        "next_n": 167
+      },
+      {
+        "a": 1,
+        "delta": 0.5878392614767197,
+        "index": 16,
+        "kind": "debt_creation",
+        "n": 167,
+        "next_n": 251
+      },
+      {
+        "a": 1,
+        "delta": 0.5868771593178923,
+        "index": 17,
+        "kind": "debt_creation",
+        "n": 251,
+        "next_n": 377
+      },
+      {
+        "a": 2,
+        "delta": -0.4137624704367819,
+        "index": 18,
+        "kind": "mild_discharge",
+        "n": 377,
+        "next_n": 283
+      },
+      {
+        "a": 1,
+        "delta": 0.5866607881931818,
+        "index": 19,
+        "kind": "debt_creation",
+        "n": 283,
+        "next_n": 425
+      }
+    ],
+    "7": [
+      {
+        "a": 1,
+        "delta": 0.6520766965796931,
+        "index": 0,
+        "kind": "debt_creation",
+        "n": 7,
+        "next_n": 11
+      },
+      {
+        "a": 1,
+        "delta": 0.6280312226130421,
+        "index": 1,
+        "kind": "debt_creation",
+        "n": 11,
+        "next_n": 17
+      },
+      {
+        "a": 2,
+        "delta": -0.38702312310924736,
+        "index": 2,
+        "kind": "mild_discharge",
+        "n": 17,
+        "next_n": 13
+      },
+      {
+        "a": 3,
+        "delta": -1.3785116232537298,
+        "index": 3,
+        "kind": "release",
+        "n": 13,
+        "next_n": 5
+      },
+      {
+        "a": 4,
+        "delta": -2.321928094887362,
+        "index": 4,
+        "kind": "strong_release",
+        "n": 5,
+        "next_n": 1
+      }
+    ],
+    "9": [
+      {
+        "a": 2,
+        "delta": -0.36257007938470825,
+        "index": 0,
+        "kind": "mild_discharge",
+        "n": 9,
+        "next_n": 7
+      },
+      {
+        "a": 1,
+        "delta": 0.6520766965796931,
+        "index": 1,
+        "kind": "debt_creation",
+        "n": 7,
+        "next_n": 11
+      },
+      {
+        "a": 1,
+        "delta": 0.6280312226130421,
+        "index": 2,
+        "kind": "debt_creation",
+        "n": 11,
+        "next_n": 17
+      },
+      {
+        "a": 2,
+        "delta": -0.38702312310924736,
+        "index": 3,
+        "kind": "mild_discharge",
+        "n": 17,
+        "next_n": 13
+      },
+      {
+        "a": 3,
+        "delta": -1.3785116232537298,
+        "index": 4,
+        "kind": "release",
+        "n": 13,
+        "next_n": 5
+      },
+      {
+        "a": 4,
+        "delta": -2.321928094887362,
+        "index": 5,
+        "kind": "strong_release",
+        "n": 5,
+        "next_n": 1
+      }
+    ]
+  },
+  "version": "v4.8"
+}

@@ -878,3 +878,34 @@ Boundary:
     bounded evidence != global closure
     no mature second near-breach observed != no mature second near-breach possible
     Collatz remains unsolved
+
+## v6.6 What Was Discovered
+
+A public explanation of the current discovery state has been added.
+
+Read:
+
+    docs/WHAT_WAS_DISCOVERED.md
+
+Purpose:
+
+    explain what was measured
+    explain what was discovered
+    explain what was not discovered
+    explain why it matters
+    explain what would strengthen or weaken the interpretation
+
+Current public thesis:
+
+    In bounded odd-step Collatz measurements,
+    debt accumulation tends to trigger fast release;
+    post-response debt generally falls below prior peaks;
+    near-breach grammars exist but appear isolated;
+    apparent fuzzy breaches were weak-prefix artifacts;
+    and no mature second near-breach chain was observed.
+
+Boundary:
+
+    not a proof
+    not Collatz solved
+    bounded measurement only

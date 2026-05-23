@@ -485,3 +485,20 @@ The summary consolidates v4.8 through v6.4 into one bounded thesis.
 It does not prove Collatz.
 
 It does not claim Collatz is solved.
+
+## v6.6 What Was Discovered
+
+For a human-readable explanation of the current result, read:
+
+    docs/WHAT_WAS_DISCOVERED.md
+
+This is the best first document for an external reader who asks:
+
+    Did this work discover anything real?
+
+Repository-bound answer:
+
+    It discovered a bounded structural measurement language for Collatz debt,
+    release, response, and regeneration.
+
+It does not prove Collatz.

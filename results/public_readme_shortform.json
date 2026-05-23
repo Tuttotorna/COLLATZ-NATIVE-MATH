@@ -1,0 +1,55 @@
+{
+  "allowed_reader_takeaway": "This repository is building a native description of Collatz before attempting any proof-oriented translation.",
+  "central_question": "What is Collatz before it becomes a conjecture?",
+  "collatz_status": "not_claimed_solved",
+  "consolidated_report_link": "results/native_audit_report_consolidation.md",
+  "core_rule": "No solution before native language.",
+  "current_bounded_status": [
+    "artifact consistency audit passes",
+    "native language index contains 101 indexed items",
+    "bounded invariant candidate map contains 45 candidates",
+    "danger-release invariant candidates are present",
+    "dangerous-stability invariant candidates are present",
+    "no obstruction-relevant invariant candidate is detected in the current bounded maps"
+  ],
+  "forbidden_reader_takeaway": "This repository proves Collatz or claims Collatz is solved.",
+  "global_closure_status": "not_claimed",
+  "global_invariant_status": "not_claimed",
+  "layer": "public_readme_shortform",
+  "marker": "<!-- V4.6_PUBLIC_README_SHORTFORM -->",
+  "next_recommended_version": "v4.7 Public Entry Consistency Audit",
+  "not_proof_layer": true,
+  "not_theory_layer": true,
+  "one_sentence_description": "COLLATZ-NATIVE-MATH is a native structural reading of Collatz dynamics.",
+  "proof_status": "not_a_proof",
+  "public_brief_link": "results/native_public_research_brief.md",
+  "secondary_rule": "No proof before native description.",
+  "source_integrity": {
+    "audit_total_failure_count": 0,
+    "consolidation_status": "consolidated",
+    "consolidation_version": "v4.4",
+    "danger_release_invariant_candidate_count": 28,
+    "dangerous_stability_invariant_candidate_count": 8,
+    "index_total_items": 101,
+    "invariant_candidate_count": 45,
+    "obstruction_relevant_invariant_candidate_count": 0,
+    "public_brief_status": "public_brief_defined",
+    "public_brief_version": "v4.5"
+  },
+  "status": "shortform_defined",
+  "theorem_status": "no_theorems_introduced",
+  "version": "v4.6",
+  "what_this_is": [
+    "a native-language description program",
+    "a bounded artifact system",
+    "a grammar mapping of Collatz-generated structures",
+    "a public non-proof research route"
+  ],
+  "what_this_is_not": [
+    "not a proof of Collatz",
+    "not a claim that Collatz is solved",
+    "not a theorem layer",
+    "not a global closure claim",
+    "not a global invariant claim"
+  ]
+}

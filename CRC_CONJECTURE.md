@@ -145,3 +145,20 @@ Boundary:
     public brief != theorem
     public brief != Collatz solved
     no solution before native language
+
+## Public README shortform
+
+v4.6 adds a short public-facing section near the top of README.md.
+
+It does not add theory.
+
+It does not add proof.
+
+It does not claim Collatz is solved.
+
+Boundary:
+
+    README shortform != proof
+    README shortform != theorem
+    README shortform != Collatz solved
+    no solution before native language

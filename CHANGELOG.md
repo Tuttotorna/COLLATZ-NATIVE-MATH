@@ -614,3 +614,13 @@ v1.1 tests whether the v1.0 hard case is isolated or part of a wider frontier.
 - Preserves the rule: No solution before native language.
 - Preserves the non-proof boundary.
 - Sets v4.6 as Public README Shortform.
+
+## v4.6 - Public README Shortform
+
+- Adds a public README shortform builder.
+- Inserts a concise public-facing section near the top of README.md.
+- Includes central question, core rule, what this is, what this is not, current bounded status, and public brief links.
+- Emits JSON, Markdown, and certificate artifacts.
+- Preserves the rule: No solution before native language.
+- Preserves the non-proof boundary.
+- Sets v4.7 as Public Entry Consistency Audit.

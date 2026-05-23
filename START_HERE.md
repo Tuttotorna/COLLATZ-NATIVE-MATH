@@ -157,3 +157,23 @@ Read:
 Core rule:
 
     No solution before native language.
+
+## v4.6 public README shortform
+
+Run:
+
+    python examples/build_public_readme_shortform.py
+
+Read:
+
+    docs/PUBLIC_README_SHORTFORM.md
+    docs/README_SHORTFORM_BOUNDARY.md
+    docs/README_SHORTFORM_STRUCTURE.md
+    docs/README_SHORTFORM_READER_GUIDE.md
+    docs/V46_EVIDENCE_STATUS.md
+    docs/V46_NEXT_STEPS.md
+    results/public_readme_shortform.md
+
+Core rule:
+
+    No solution before native language.

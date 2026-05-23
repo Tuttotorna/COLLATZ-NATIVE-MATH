@@ -1,0 +1,33 @@
+{
+  "artifacts": [
+    "results/public_readme_shortform.json",
+    "results/public_readme_shortform.md",
+    "results/public_readme_shortform_certificate.json"
+  ],
+  "builder": "examples/build_public_readme_shortform.py",
+  "central_question": "What is Collatz before it becomes a conjecture?",
+  "collatz_status": "not_claimed_solved",
+  "documents": [
+    "docs/PUBLIC_README_SHORTFORM.md",
+    "docs/README_SHORTFORM_BOUNDARY.md",
+    "docs/README_SHORTFORM_STRUCTURE.md",
+    "docs/README_SHORTFORM_READER_GUIDE.md",
+    "docs/V46_EVIDENCE_STATUS.md",
+    "docs/V46_NEXT_STEPS.md"
+  ],
+  "global_closure_status": "not_claimed",
+  "global_invariant_status": "not_claimed",
+  "layer": "public_readme_shortform",
+  "mother_rule": "No solution before native language.",
+  "next_recommended_version": "v4.7 Public Entry Consistency Audit",
+  "not_proof_layer": true,
+  "not_theory_layer": true,
+  "primary_position": "A native structural reading of the Collatz dynamics.",
+  "proof_status": "not_a_proof",
+  "purpose": "Add a short public-facing section near the top of README.md.",
+  "secondary_rule": "No proof before native description.",
+  "status": "shortform_layer_defined",
+  "theorem_status": "no_theorems_introduced",
+  "updated_entry_file": "README.md",
+  "version": "v4.6"
+}

@@ -309,3 +309,19 @@ The audit tests whether local seed-block release-pressure signals stabilize into
 It does not prove Collatz.
 
 It does not claim Collatz is solved.
+
+## v5.5 Extended Band Audit V0
+
+Read:
+
+    docs/EXTENDED_BAND_AUDIT_V0.md
+
+Run:
+
+    python examples/build_extended_band_audit_v0.py
+
+The audit extends the local positive band test to 99999.
+
+It does not prove Collatz.
+
+It does not claim Collatz is solved.

@@ -1,0 +1,20 @@
+{
+  "artifact": "Extended Band Audit V0",
+  "band_status": "positive_but_weak_extended_band",
+  "boundary": {
+    "bounded_evidence_status": "measurement_only",
+    "collatz_status": "not_claimed_solved",
+    "global_closure_status": "not_claimed",
+    "global_invariant_status": "not_claimed",
+    "proof_status": "not_a_proof",
+    "theorem_status": "no_theorem_claimed"
+  },
+  "bounded_assessment": "positive_but_weak_extended_band",
+  "generated_at_utc": "2026-05-23T13:06:18.522377+00:00",
+  "outputs": [
+    "results/extended_band_audit_v0.json",
+    "results/extended_band_audit_v0.md",
+    "results/extended_band_audit_v0_certificate.json"
+  ],
+  "version": "v5.5"
+}

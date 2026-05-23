@@ -559,3 +559,32 @@ Boundary:
     positive_band != theorem
     band_floor != global invariant
     no zero crossing in tested blocks != universal closure
+
+## v5.5 Extended Band Audit V0
+
+The repository now includes a bounded Extended Band Audit.
+
+Run:
+
+    python examples/build_extended_band_audit_v0.py
+
+Outputs:
+
+    results/extended_band_audit_v0.json
+    results/extended_band_audit_v0.md
+    results/extended_band_audit_v0_certificate.json
+
+Purpose:
+
+    extend the local block band audit to 99999
+    measure rolling_mean_5, rolling_min_5, and rolling_max_5
+    measure last_5_mean, last_5_min, last_10_mean, and last_10_min
+    detect extended zero crossings
+    measure last_half_slope
+
+Boundary:
+
+    extended_band_audit != proof
+    positive_extended_band != theorem
+    last_5_positive != invariant
+    no zero crossing in tested blocks != universal closure

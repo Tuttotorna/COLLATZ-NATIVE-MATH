@@ -146,3 +146,38 @@ Before asking whether Collatz terminates, this repository asks what Collatz says
 The answer is not yet a proof.
 
 It is a native language.
+
+## v4.2 Native Language Index
+
+The repository now includes a role-based native language index.
+
+Run:
+
+    python examples/build_native_language_index.py
+
+Outputs:
+
+    results/native_language_index.json
+    results/native_language_index.md
+    results/native_language_index_certificate.json
+
+The index organizes the repo by native-language role:
+
+    entry point
+    grammar
+    sentences
+    recurrence
+    mutation
+    stability
+    conservation
+    invariant candidates
+    summary
+    results
+    builders
+    tests
+
+Boundary:
+
+    the index is not a theory layer
+    the index is not a proof layer
+    no solution before native language

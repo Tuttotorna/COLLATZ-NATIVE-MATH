@@ -1,0 +1,17 @@
+{
+  "certificate_type": "native_language_index_certificate",
+  "collatz_status": "not_claimed_solved",
+  "existing_indexed_items": 101,
+  "global_closure_status": "not_claimed",
+  "global_invariant_status": "not_claimed",
+  "missing_required_count": 0,
+  "mother_rule": "No solution before native language.",
+  "next_recommended_version": "v4.3 Native Artifact Consistency Audit",
+  "primary_position": "A native structural reading of the Collatz dynamics.",
+  "proof_status": "not_a_proof",
+  "secondary_rule": "No proof before native description.",
+  "section_count": 12,
+  "theorem_status": "no_theorems_introduced",
+  "total_indexed_items": 101,
+  "version": "v4.2"
+}

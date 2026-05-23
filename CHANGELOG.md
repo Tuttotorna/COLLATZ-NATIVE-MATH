@@ -569,3 +569,13 @@ v1.1 tests whether the v1.0 hard case is isolated or part of a wider frontier.
 - Preserves the rule: No solution before native language.
 - Preserves the non-proof boundary.
 - Sets v4.2 as Native Language Index.
+
+## v4.2 - Native Language Index
+
+- Adds a native language index builder.
+- Adds role-based navigation across entry point, summary, grammar, sentences, recurrence, mutation, stability, conservation, invariant candidates, results, builders, and tests.
+- Emits native language index JSON, Markdown, and certificate artifacts.
+- Adds index reading order, role map, boundary, evidence status, and next step docs.
+- Preserves the rule: No solution before native language.
+- Preserves the non-proof boundary.
+- Sets v4.3 as Native Artifact Consistency Audit.

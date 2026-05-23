@@ -58,3 +58,25 @@ They do not prove obstruction impossible.
 The repository is building a native description first.
 
 If a proof layer ever comes, it must come later as translation from native structure, not as the starting pressure.
+
+## Native language index
+
+v4.2 adds a navigation layer.
+
+It does not add theory.
+
+It does not add proof.
+
+It organizes artifacts by native-language role:
+
+    what returns
+    what changes
+    what resists change
+    what remains through change
+    what may remain under repeated native tests
+
+Boundary:
+
+    navigation != proof
+    index != theorem
+    no solution before native language

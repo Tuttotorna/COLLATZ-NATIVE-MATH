@@ -1,0 +1,812 @@
+{
+  "collatz_status": "not_claimed_solved",
+  "existing_indexed_items": 101,
+  "global_closure_status": "not_claimed",
+  "global_invariant_status": "not_claimed",
+  "layer": "native_language_index",
+  "missing_required_count": 0,
+  "missing_required_items": [],
+  "mother_rule": "No solution before native language.",
+  "next_recommended_version": "v4.3 Native Artifact Consistency Audit",
+  "primary_position": "A native structural reading of the Collatz dynamics.",
+  "proof_status": "not_a_proof",
+  "secondary_rule": "No proof before native description.",
+  "section_count": 12,
+  "sections": [
+    {
+      "items": [
+        {
+          "description": "Primary public entry point.",
+          "exists": true,
+          "path": "README.md",
+          "required": true,
+          "role": "main_entry"
+        },
+        {
+          "description": "Recommended starting order.",
+          "exists": true,
+          "path": "START_HERE.md",
+          "required": true,
+          "role": "reading_order"
+        },
+        {
+          "description": "Native Collatz framing.",
+          "exists": true,
+          "path": "CRC_CONJECTURE.md",
+          "required": true,
+          "role": "corrected_framing"
+        },
+        {
+          "description": "v4.1 entry correction.",
+          "exists": true,
+          "path": "docs/README_CONSOLIDATION_V41.md",
+          "required": true,
+          "role": "entry_consolidation"
+        },
+        {
+          "description": "Prevents solution-first framing.",
+          "exists": true,
+          "path": "docs/ENTRY_POINT_BOUNDARY.md",
+          "required": true,
+          "role": "entry_boundary"
+        },
+        {
+          "description": "Public description boundary.",
+          "exists": true,
+          "path": "docs/PUBLIC_REPO_POSITIONING.md",
+          "required": true,
+          "role": "public_positioning"
+        }
+      ],
+      "native_role": "reader_orientation",
+      "section_id": "entry_point",
+      "title": "Entry Point"
+    },
+    {
+      "items": [
+        {
+          "description": "v4.0 native language summary.",
+          "exists": true,
+          "path": "docs/NATIVE_LANGUAGE_SUMMARY.md",
+          "required": true,
+          "role": "summary"
+        },
+        {
+          "description": "v3.1 to v3.9 route.",
+          "exists": true,
+          "path": "docs/NATIVE_LANGUAGE_ROUTE.md",
+          "required": true,
+          "role": "route"
+        },
+        {
+          "description": "Bounded native observations.",
+          "exists": true,
+          "path": "docs/WHAT_COLLATZ_HAS_SAID.md",
+          "required": true,
+          "role": "observations"
+        },
+        {
+          "description": "Native-language boundary.",
+          "exists": true,
+          "path": "docs/NATIVE_LANGUAGE_BOUNDARY.md",
+          "required": true,
+          "role": "boundary"
+        },
+        {
+          "description": "Public positioning from v4.0.",
+          "exists": true,
+          "path": "docs/V40_PUBLIC_POSITIONING.md",
+          "required": true,
+          "role": "positioning"
+        },
+        {
+          "description": "Machine-readable v4.0 summary.",
+          "exists": true,
+          "path": "results/native_language_summary.json",
+          "required": true,
+          "role": "summary_artifact"
+        },
+        {
+          "description": "Human-readable v4.0 summary.",
+          "exists": true,
+          "path": "results/native_language_summary.md",
+          "required": true,
+          "role": "summary_report"
+        },
+        {
+          "description": "v4.0 certificate.",
+          "exists": true,
+          "path": "results/native_language_summary_certificate.json",
+          "required": true,
+          "role": "summary_certificate"
+        }
+      ],
+      "native_role": "route_summary",
+      "section_id": "native_language_summary",
+      "title": "Native Language Summary"
+    },
+    {
+      "items": [
+        {
+          "description": "Native grammar map.",
+          "exists": true,
+          "path": "docs/NATIVE_GRAMMAR_MAP.md",
+          "required": true,
+          "role": "grammar_map"
+        },
+        {
+          "description": "Native grammar objects.",
+          "exists": true,
+          "path": "docs/NATIVE_GRAMMAR_OBJECTS.md",
+          "required": true,
+          "role": "grammar_objects"
+        },
+        {
+          "description": "Native grammar transitions.",
+          "exists": true,
+          "path": "docs/NATIVE_GRAMMAR_TRANSITIONS.md",
+          "required": true,
+          "role": "grammar_transitions"
+        },
+        {
+          "description": "Native grammar sequences.",
+          "exists": true,
+          "path": "docs/NATIVE_GRAMMAR_SEQUENCES.md",
+          "required": true,
+          "role": "grammar_sequences"
+        },
+        {
+          "description": "Reclassifies scans as grammar probes.",
+          "exists": true,
+          "path": "docs/GRAMMAR_PROBE_RECLASSIFICATION.md",
+          "required": true,
+          "role": "probe_reclassification"
+        },
+        {
+          "description": "Forbidden premature translations.",
+          "exists": true,
+          "path": "docs/NATIVE_GRAMMAR_FORBIDDEN_TRANSLATIONS.md",
+          "required": true,
+          "role": "forbidden_translations"
+        },
+        {
+          "description": "v3.2 grammar manifest.",
+          "exists": true,
+          "path": "results/native_grammar_map_manifest.json",
+          "required": true,
+          "role": "grammar_manifest"
+        }
+      ],
+      "native_role": "grammar_definition",
+      "section_id": "grammar",
+      "title": "Native Grammar"
+    },
+    {
+      "items": [
+        {
+          "description": "Builds native sentence artifacts.",
+          "exists": true,
+          "path": "examples/extract_native_sentences.py",
+          "required": true,
+          "role": "sentence_extractor"
+        },
+        {
+          "description": "Explains extraction.",
+          "exists": true,
+          "path": "docs/NATIVE_SENTENCE_EXTRACTOR.md",
+          "required": true,
+          "role": "sentence_extractor_doc"
+        },
+        {
+          "description": "Native sentence types.",
+          "exists": true,
+          "path": "docs/NATIVE_SENTENCE_TYPES.md",
+          "required": true,
+          "role": "sentence_types"
+        },
+        {
+          "description": "Trajectory as native utterance.",
+          "exists": true,
+          "path": "docs/TRAJECTORY_AS_NATIVE_UTTERANCE.md",
+          "required": true,
+          "role": "trajectory_utterance"
+        },
+        {
+          "description": "Extraction boundary.",
+          "exists": true,
+          "path": "docs/SENTENCE_EXTRACTION_BOUNDARY.md",
+          "required": true,
+          "role": "sentence_boundary"
+        },
+        {
+          "description": "Native sentence rows.",
+          "exists": true,
+          "path": "results/native_sentences.jsonl",
+          "required": true,
+          "role": "sentence_rows"
+        },
+        {
+          "description": "Native sentence summary.",
+          "exists": true,
+          "path": "results/native_sentence_summary.json",
+          "required": true,
+          "role": "sentence_summary"
+        },
+        {
+          "description": "Native sentence report.",
+          "exists": true,
+          "path": "results/native_sentence_report.md",
+          "required": true,
+          "role": "sentence_report"
+        },
+        {
+          "description": "Native sentence certificate.",
+          "exists": true,
+          "path": "results/native_sentence_certificate.json",
+          "required": true,
+          "role": "sentence_certificate"
+        }
+      ],
+      "native_role": "trajectory_as_language",
+      "section_id": "sentences",
+      "title": "Native Sentences"
+    },
+    {
+      "items": [
+        {
+          "description": "Builds native sentence atlas.",
+          "exists": true,
+          "path": "examples/build_native_sentence_atlas.py",
+          "required": true,
+          "role": "atlas_builder"
+        },
+        {
+          "description": "Native sentence atlas.",
+          "exists": true,
+          "path": "docs/NATIVE_SENTENCE_ATLAS.md",
+          "required": true,
+          "role": "atlas_doc"
+        },
+        {
+          "description": "Sentence families.",
+          "exists": true,
+          "path": "docs/NATIVE_SENTENCE_FAMILIES.md",
+          "required": true,
+          "role": "sentence_families"
+        },
+        {
+          "description": "Atlas interpretation.",
+          "exists": true,
+          "path": "docs/NATIVE_SENTENCE_ATLAS_INTERPRETATION.md",
+          "required": true,
+          "role": "atlas_interpretation"
+        },
+        {
+          "description": "Rare native sentences.",
+          "exists": true,
+          "path": "docs/RARE_NATIVE_SENTENCES.md",
+          "required": true,
+          "role": "rare_sentences"
+        },
+        {
+          "description": "Dangerous sentence atlas.",
+          "exists": true,
+          "path": "docs/DANGEROUS_SENTENCE_ATLAS.md",
+          "required": true,
+          "role": "dangerous_sentences"
+        },
+        {
+          "description": "Atlas JSON.",
+          "exists": true,
+          "path": "results/native_sentence_atlas.json",
+          "required": true,
+          "role": "atlas_json"
+        },
+        {
+          "description": "Atlas Markdown.",
+          "exists": true,
+          "path": "results/native_sentence_atlas.md",
+          "required": true,
+          "role": "atlas_md"
+        },
+        {
+          "description": "Atlas certificate.",
+          "exists": true,
+          "path": "results/native_sentence_atlas_certificate.json",
+          "required": true,
+          "role": "atlas_certificate"
+        }
+      ],
+      "native_role": "sentence_family_mapping",
+      "section_id": "sentence_atlas",
+      "title": "Native Sentence Atlas"
+    },
+    {
+      "items": [
+        {
+          "description": "Builds recurrence map.",
+          "exists": true,
+          "path": "examples/build_native_grammar_recurrence_map.py",
+          "required": true,
+          "role": "recurrence_builder"
+        },
+        {
+          "description": "Native recurrence map.",
+          "exists": true,
+          "path": "docs/NATIVE_GRAMMAR_RECURRENCE_MAP.md",
+          "required": true,
+          "role": "recurrence_map"
+        },
+        {
+          "description": "Recurrence as native behavior.",
+          "exists": true,
+          "path": "docs/RECURRENCE_AS_NATIVE_BEHAVIOR.md",
+          "required": true,
+          "role": "recurrence_behavior"
+        },
+        {
+          "description": "Dangerous recurrence.",
+          "exists": true,
+          "path": "docs/DANGEROUS_RECURRENCE.md",
+          "required": true,
+          "role": "dangerous_recurrence"
+        },
+        {
+          "description": "Mutation types bridge.",
+          "exists": true,
+          "path": "docs/GRAMMAR_MUTATION_TYPES.md",
+          "required": true,
+          "role": "mutation_types_bridge"
+        },
+        {
+          "description": "Recurrence map JSON.",
+          "exists": true,
+          "path": "results/native_grammar_recurrence_map.json",
+          "required": true,
+          "role": "recurrence_json"
+        },
+        {
+          "description": "Recurrence map Markdown.",
+          "exists": true,
+          "path": "results/native_grammar_recurrence_map.md",
+          "required": true,
+          "role": "recurrence_md"
+        },
+        {
+          "description": "Recurrence certificate.",
+          "exists": true,
+          "path": "results/native_grammar_recurrence_certificate.json",
+          "required": true,
+          "role": "recurrence_certificate"
+        }
+      ],
+      "native_role": "what_returns",
+      "section_id": "recurrence",
+      "title": "Native Grammar Recurrence"
+    },
+    {
+      "items": [
+        {
+          "description": "Builds mutation atlas.",
+          "exists": true,
+          "path": "examples/build_native_grammar_mutation_atlas.py",
+          "required": true,
+          "role": "mutation_builder"
+        },
+        {
+          "description": "Native mutation atlas.",
+          "exists": true,
+          "path": "docs/NATIVE_GRAMMAR_MUTATION_ATLAS.md",
+          "required": true,
+          "role": "mutation_atlas"
+        },
+        {
+          "description": "Mutation as native grammar.",
+          "exists": true,
+          "path": "docs/MUTATION_AS_NATIVE_GRAMMAR.md",
+          "required": true,
+          "role": "mutation_behavior"
+        },
+        {
+          "description": "Danger-to-recovery mutations.",
+          "exists": true,
+          "path": "docs/DANGEROUS_TO_RECOVERY_MUTATIONS.md",
+          "required": true,
+          "role": "danger_to_recovery"
+        },
+        {
+          "description": "Dangerous persistence mutations.",
+          "exists": true,
+          "path": "docs/DANGEROUS_PERSISTENCE_MUTATIONS.md",
+          "required": true,
+          "role": "dangerous_persistence"
+        },
+        {
+          "description": "Mutation around 9780657630.",
+          "exists": true,
+          "path": "docs/MUTATION_AROUND_9780657630.md",
+          "required": true,
+          "role": "stress_node_mutation"
+        },
+        {
+          "description": "Mutation atlas JSON.",
+          "exists": true,
+          "path": "results/native_grammar_mutation_atlas.json",
+          "required": true,
+          "role": "mutation_json"
+        },
+        {
+          "description": "Mutation atlas Markdown.",
+          "exists": true,
+          "path": "results/native_grammar_mutation_atlas.md",
+          "required": true,
+          "role": "mutation_md"
+        },
+        {
+          "description": "Mutation certificate.",
+          "exists": true,
+          "path": "results/native_grammar_mutation_certificate.json",
+          "required": true,
+          "role": "mutation_certificate"
+        }
+      ],
+      "native_role": "what_changes",
+      "section_id": "mutation",
+      "title": "Native Grammar Mutation"
+    },
+    {
+      "items": [
+        {
+          "description": "Builds stability map.",
+          "exists": true,
+          "path": "examples/build_native_grammar_stability_map.py",
+          "required": true,
+          "role": "stability_builder"
+        },
+        {
+          "description": "Native stability map.",
+          "exists": true,
+          "path": "docs/NATIVE_GRAMMAR_STABILITY_MAP.md",
+          "required": true,
+          "role": "stability_map"
+        },
+        {
+          "description": "Stability as native behavior.",
+          "exists": true,
+          "path": "docs/STABILITY_AS_NATIVE_BEHAVIOR.md",
+          "required": true,
+          "role": "stability_behavior"
+        },
+        {
+          "description": "Dangerous stability.",
+          "exists": true,
+          "path": "docs/DANGEROUS_STABILITY.md",
+          "required": true,
+          "role": "dangerous_stability"
+        },
+        {
+          "description": "Dangerous instability.",
+          "exists": true,
+          "path": "docs/DANGEROUS_INSTABILITY.md",
+          "required": true,
+          "role": "dangerous_instability"
+        },
+        {
+          "description": "Stability around 9780657630.",
+          "exists": true,
+          "path": "docs/STABILITY_AROUND_9780657630.md",
+          "required": true,
+          "role": "stress_node_stability"
+        },
+        {
+          "description": "Stability map JSON.",
+          "exists": true,
+          "path": "results/native_grammar_stability_map.json",
+          "required": true,
+          "role": "stability_json"
+        },
+        {
+          "description": "Stability map Markdown.",
+          "exists": true,
+          "path": "results/native_grammar_stability_map.md",
+          "required": true,
+          "role": "stability_md"
+        },
+        {
+          "description": "Stability certificate.",
+          "exists": true,
+          "path": "results/native_grammar_stability_certificate.json",
+          "required": true,
+          "role": "stability_certificate"
+        }
+      ],
+      "native_role": "what_resists_change",
+      "section_id": "stability",
+      "title": "Native Grammar Stability"
+    },
+    {
+      "items": [
+        {
+          "description": "Builds conservation map.",
+          "exists": true,
+          "path": "examples/build_native_conservation_map.py",
+          "required": true,
+          "role": "conservation_builder"
+        },
+        {
+          "description": "Native conservation map.",
+          "exists": true,
+          "path": "docs/NATIVE_CONSERVATION_MAP.md",
+          "required": true,
+          "role": "conservation_map"
+        },
+        {
+          "description": "Conservation as native behavior.",
+          "exists": true,
+          "path": "docs/CONSERVATION_AS_NATIVE_BEHAVIOR.md",
+          "required": true,
+          "role": "conservation_behavior"
+        },
+        {
+          "description": "Conservation of danger-release.",
+          "exists": true,
+          "path": "docs/CONSERVATION_OF_DANGER_RELEASE.md",
+          "required": true,
+          "role": "danger_release_conservation"
+        },
+        {
+          "description": "Conservation of instability.",
+          "exists": true,
+          "path": "docs/CONSERVATION_OF_INSTABILITY.md",
+          "required": true,
+          "role": "instability_conservation"
+        },
+        {
+          "description": "Conservation around 9780657630.",
+          "exists": true,
+          "path": "docs/CONSERVATION_AROUND_9780657630.md",
+          "required": true,
+          "role": "stress_node_conservation"
+        },
+        {
+          "description": "Conservation map JSON.",
+          "exists": true,
+          "path": "results/native_conservation_map.json",
+          "required": true,
+          "role": "conservation_json"
+        },
+        {
+          "description": "Conservation map Markdown.",
+          "exists": true,
+          "path": "results/native_conservation_map.md",
+          "required": true,
+          "role": "conservation_md"
+        },
+        {
+          "description": "Conservation certificate.",
+          "exists": true,
+          "path": "results/native_conservation_certificate.json",
+          "required": true,
+          "role": "conservation_certificate"
+        }
+      ],
+      "native_role": "what_remains_through_change",
+      "section_id": "conservation",
+      "title": "Native Conservation"
+    },
+    {
+      "items": [
+        {
+          "description": "Builds invariant candidate map.",
+          "exists": true,
+          "path": "examples/build_native_invariant_candidate_map.py",
+          "required": true,
+          "role": "invariant_builder"
+        },
+        {
+          "description": "Native invariant candidate map.",
+          "exists": true,
+          "path": "docs/NATIVE_INVARIANT_CANDIDATE_MAP.md",
+          "required": true,
+          "role": "invariant_map"
+        },
+        {
+          "description": "Invariant candidate boundary.",
+          "exists": true,
+          "path": "docs/INVARIANT_CANDIDATE_BOUNDARY.md",
+          "required": true,
+          "role": "invariant_boundary"
+        },
+        {
+          "description": "Danger-release invariant candidates.",
+          "exists": true,
+          "path": "docs/DANGER_RELEASE_INVARIANT_CANDIDATES.md",
+          "required": true,
+          "role": "danger_release_candidates"
+        },
+        {
+          "description": "Dangerous-stability invariant candidates.",
+          "exists": true,
+          "path": "docs/DANGEROUS_STABILITY_INVARIANT_CANDIDATES.md",
+          "required": true,
+          "role": "dangerous_stability_candidates"
+        },
+        {
+          "description": "Obstruction-relevant invariant candidates.",
+          "exists": true,
+          "path": "docs/OBSTRUCTION_RELEVANT_INVARIANT_CANDIDATES.md",
+          "required": true,
+          "role": "obstruction_relevant_candidates"
+        },
+        {
+          "description": "Invariant candidates around 9780657630.",
+          "exists": true,
+          "path": "docs/INVARIANT_CANDIDATES_AROUND_9780657630.md",
+          "required": true,
+          "role": "stress_node_invariant"
+        },
+        {
+          "description": "Invariant candidate map JSON.",
+          "exists": true,
+          "path": "results/native_invariant_candidate_map.json",
+          "required": true,
+          "role": "invariant_json"
+        },
+        {
+          "description": "Invariant candidate map Markdown.",
+          "exists": true,
+          "path": "results/native_invariant_candidate_map.md",
+          "required": true,
+          "role": "invariant_md"
+        },
+        {
+          "description": "Invariant candidate certificate.",
+          "exists": true,
+          "path": "results/native_invariant_candidate_certificate.json",
+          "required": true,
+          "role": "invariant_certificate"
+        }
+      ],
+      "native_role": "what_may_remain_under_repeated_native_tests",
+      "section_id": "invariant_candidates",
+      "title": "Native Invariant Candidates"
+    },
+    {
+      "items": [
+        {
+          "description": "Native method boundary.",
+          "exists": true,
+          "path": "docs/NATIVE_METHOD.md",
+          "required": true,
+          "role": "native_method"
+        },
+        {
+          "description": "Standard translation boundary.",
+          "exists": true,
+          "path": "docs/STANDARD_TRANSLATION_BOUNDARY.md",
+          "required": true,
+          "role": "translation_boundary"
+        },
+        {
+          "description": "Native object list.",
+          "exists": true,
+          "path": "docs/NATIVE_OBJECTS.md",
+          "required": true,
+          "role": "native_objects"
+        },
+        {
+          "description": "Native research program.",
+          "exists": true,
+          "path": "docs/NATIVE_RESEARCH_PROGRAM.md",
+          "required": true,
+          "role": "research_program"
+        },
+        {
+          "description": "Evidence layer status.",
+          "exists": true,
+          "path": "docs/EVIDENCE_LAYER_STATUS.md",
+          "required": true,
+          "role": "evidence_status"
+        },
+        {
+          "description": "Native obstruction model.",
+          "exists": true,
+          "path": "docs/NATIVE_OBSTRUCTION_MODEL.md",
+          "required": true,
+          "role": "obstruction_model"
+        },
+        {
+          "description": "Native closure conditions.",
+          "exists": true,
+          "path": "docs/NATIVE_CLOSURE_CONDITIONS.md",
+          "required": true,
+          "role": "closure_conditions"
+        },
+        {
+          "description": "Native language inversion.",
+          "exists": true,
+          "path": "docs/NATIVE_LANGUAGE_INVERSION.md",
+          "required": true,
+          "role": "language_inversion"
+        },
+        {
+          "description": "No solving posture.",
+          "exists": true,
+          "path": "docs/NO_SOLVING_POSTURE.md",
+          "required": true,
+          "role": "no_solving_posture"
+        },
+        {
+          "description": "Collatz as native language.",
+          "exists": true,
+          "path": "docs/COLLATZ_AS_NATIVE_LANGUAGE.md",
+          "required": true,
+          "role": "collatz_as_language"
+        }
+      ],
+      "native_role": "method_boundary",
+      "section_id": "earlier_native_boundary",
+      "title": "Earlier Native Boundary Layers"
+    },
+    {
+      "items": [
+        {
+          "description": "README consolidation tests.",
+          "exists": true,
+          "path": "tests/test_readme_consolidation_v41.py",
+          "required": true,
+          "role": "v41_tests"
+        },
+        {
+          "description": "Native language summary tests.",
+          "exists": true,
+          "path": "tests/test_native_language_summary.py",
+          "required": true,
+          "role": "v40_tests"
+        },
+        {
+          "description": "Invariant candidate map tests.",
+          "exists": true,
+          "path": "tests/test_native_invariant_candidate_map.py",
+          "required": true,
+          "role": "v39_tests"
+        },
+        {
+          "description": "Conservation map tests.",
+          "exists": true,
+          "path": "tests/test_native_conservation_map.py",
+          "required": true,
+          "role": "v38_tests"
+        },
+        {
+          "description": "Stability map tests.",
+          "exists": true,
+          "path": "tests/test_native_grammar_stability_map.py",
+          "required": true,
+          "role": "v37_tests"
+        },
+        {
+          "description": "Mutation atlas tests.",
+          "exists": true,
+          "path": "tests/test_native_grammar_mutation_atlas.py",
+          "required": true,
+          "role": "v36_tests"
+        },
+        {
+          "description": "Recurrence map tests.",
+          "exists": true,
+          "path": "tests/test_native_grammar_recurrence_map.py",
+          "required": true,
+          "role": "v35_tests"
+        }
+      ],
+      "native_role": "regression_safety",
+      "section_id": "latest_tests",
+      "title": "Latest Tests"
+    }
+  ],
+  "status": "navigation_index_defined",
+  "theorem_status": "no_theorems_introduced",
+  "total_indexed_items": 101,
+  "version": "v4.2"
+}

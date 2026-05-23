@@ -1,0 +1,31 @@
+{
+  "artifacts": [
+    "results/native_language_index.json",
+    "results/native_language_index.md",
+    "results/native_language_index_certificate.json"
+  ],
+  "builder": "examples/build_native_language_index.py",
+  "collatz_status": "not_claimed_solved",
+  "documents": [
+    "docs/NATIVE_LANGUAGE_INDEX.md",
+    "docs/INDEX_READING_ORDER.md",
+    "docs/INDEX_ROLE_MAP.md",
+    "docs/INDEX_BOUNDARY.md",
+    "docs/V42_EVIDENCE_STATUS.md",
+    "docs/V42_NEXT_STEPS.md"
+  ],
+  "global_closure_status": "not_claimed",
+  "global_invariant_status": "not_claimed",
+  "layer": "native_language_index",
+  "mother_rule": "No solution before native language.",
+  "next_recommended_version": "v4.3 Native Artifact Consistency Audit",
+  "not_proof_layer": true,
+  "not_theory_layer": true,
+  "primary_position": "A native structural reading of the Collatz dynamics.",
+  "proof_status": "not_a_proof",
+  "purpose": "Organize repository artifacts by native-language role.",
+  "secondary_rule": "No proof before native description.",
+  "status": "navigation_index_defined",
+  "theorem_status": "no_theorems_introduced",
+  "version": "v4.2"
+}

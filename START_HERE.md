@@ -70,3 +70,22 @@ It is not a global invariant theorem.
     collatz_status: not_claimed_solved
     global_closure_status: not_claimed
     global_invariant_status: not_claimed
+
+## v4.2 native language index
+
+Use the native language index to navigate the repository:
+
+    python examples/build_native_language_index.py
+
+Read:
+
+    docs/NATIVE_LANGUAGE_INDEX.md
+    docs/INDEX_READING_ORDER.md
+    docs/INDEX_ROLE_MAP.md
+    docs/INDEX_BOUNDARY.md
+    docs/V42_EVIDENCE_STATUS.md
+    docs/V42_NEXT_STEPS.md
+
+Core rule:
+
+    No solution before native language.

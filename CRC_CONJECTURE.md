@@ -763,3 +763,32 @@ Boundary:
     bounded conservation != global theorem
     danger-release conservation != proof of closure
     no obstruction-relevant conservation detected != obstruction impossible
+
+## Native invariant candidate map
+
+v3.9 maps which conserved native behaviors become bounded invariant candidates.
+
+The native distinction is:
+
+    recurrence = what returns
+    mutation = what changes
+    stability = what resists change
+    conservation = what remains through change
+    invariant candidate = what may remain under repeated native tests
+
+The project still does not begin from termination.
+
+It asks:
+
+    Which conserved behaviors deserve stronger native testing?
+    Which danger-release behaviors become invariant candidates?
+    Which dangerous-stability behaviors become invariant candidates?
+    Is any obstruction-relevant invariant candidate present?
+    What invariant candidates appear around 9780657630?
+
+Boundary:
+
+    invariant candidate != invariant theorem
+    bounded invariant candidate != global invariant
+    no obstruction-relevant invariant candidate detected != obstruction impossible
+    native invariant candidate map != proof

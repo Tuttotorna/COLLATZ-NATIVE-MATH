@@ -536,3 +536,14 @@ v1.1 tests whether the v1.0 hard case is isolated or part of a wider frontier.
 - Preserves the rule: No solution before native language.
 - Emits conservation map JSON, Markdown report, and certificate.
 - Sets v3.9 as Native Invariant Candidate Map.
+
+## v3.9 - Native Invariant Candidate Map
+
+- Adds a native invariant candidate map builder.
+- Converts bounded conservation behaviors into invariant candidates without theorem claims.
+- Separates bounded invariant candidate from global invariant.
+- Classifies danger-release, dangerous-stability, instability, weak, and obstruction-relevant invariant candidates.
+- Treats n0 = 9780657630 as an invariant-candidate probe, not a proof object.
+- Preserves the rule: No solution before native language.
+- Emits invariant candidate map JSON, Markdown report, and certificate.
+- Sets v4.0 as Native Language Summary.

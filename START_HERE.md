@@ -659,3 +659,24 @@ Read:
 Core rule:
 
     No solution before native language.
+
+## v3.9 native invariant candidate map
+
+After building the conservation map, build the invariant candidate map:
+
+    python examples/build_native_invariant_candidate_map.py
+
+Read:
+
+    docs/NATIVE_INVARIANT_CANDIDATE_MAP.md
+    docs/INVARIANT_CANDIDATE_BOUNDARY.md
+    docs/DANGER_RELEASE_INVARIANT_CANDIDATES.md
+    docs/DANGEROUS_STABILITY_INVARIANT_CANDIDATES.md
+    docs/OBSTRUCTION_RELEVANT_INVARIANT_CANDIDATES.md
+    docs/INVARIANT_CANDIDATES_AROUND_9780657630.md
+    docs/V39_EVIDENCE_STATUS.md
+    docs/V39_NEXT_STEPS.md
+
+Core rule:
+
+    No solution before native language.

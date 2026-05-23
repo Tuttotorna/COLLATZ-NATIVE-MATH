@@ -1027,3 +1027,35 @@ Core rule:
     No solution before native language.
 
 This is not a proof layer.
+
+## v3.9 Native Invariant Candidate Map
+
+The repository now maps native invariant candidates.
+
+It asks:
+
+    Which conserved behaviors are strong enough to become native invariant candidates?
+
+Core distinction:
+
+    recurrence = what returns
+    mutation = what changes
+    stability = what resists change
+    conservation = what remains through change
+    invariant candidate = what may remain under repeated native tests
+
+Run:
+
+    python examples/build_native_invariant_candidate_map.py
+
+Outputs:
+
+    results/native_invariant_candidate_map.json
+    results/native_invariant_candidate_map.md
+    results/native_invariant_candidate_certificate.json
+
+Core rule:
+
+    No solution before native language.
+
+This is not a proof layer.

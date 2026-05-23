@@ -1,0 +1,2406 @@
+{
+  "candidate_strength_counts": {
+    "strong_bounded_candidate": 36,
+    "weak_bounded_candidate": 9
+  },
+  "candidate_type_counts": {
+    "danger_release_invariant_candidate": 28,
+    "dangerous_stability_invariant_candidate": 8,
+    "weak_invariant_candidate": 9
+  },
+  "central_native_question": "Which conserved behaviors are strong enough to become native invariant candidates?",
+  "danger_release_invariant_candidate_count": 28,
+  "danger_release_invariant_candidates": [
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657630,
+      "invariant_strength": 743168904.3880929,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657633
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657631,
+      "invariant_strength": 743165944.3880929,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657633
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657630,
+      "invariant_strength": 743158614.3064445,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657638
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657630,
+      "invariant_strength": 743158564.3064445,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657634
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657630,
+      "invariant_strength": 743158554.3064445,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657635
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657630,
+      "invariant_strength": 743158494.3064445,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657632
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657631,
+      "invariant_strength": 743155604.3064445,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657634
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657631,
+      "invariant_strength": 743155594.3064445,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657635
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657631,
+      "invariant_strength": 743155584.3064445,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657636
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657631,
+      "invariant_strength": 743155534.3064445,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657632
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 626331,
+      "invariant_strength": 49564968.71741455,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 626332
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 131071,
+      "invariant_strength": 10442327.029595029,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "MINIMAL_SENTENCE",
+      "to_family": "unclassified_family",
+      "to_n0": 131072
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 4099,
+      "invariant_strength": 2833412.1833142163,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "DEBT_COMPENSATION_SENTENCE",
+      "to_family": "unclassified_family",
+      "to_n0": 4100
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 77031,
+      "invariant_strength": 2676583.7229342554,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 77032
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 77039,
+      "invariant_strength": 1684701.279947307,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 77040
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 63,
+      "invariant_strength": 1595863.5857626908,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "MINIMAL_SENTENCE",
+      "to_family": "unclassified_family",
+      "to_n0": 64
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 626327,
+      "invariant_strength": 1591758.5480691814,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 626328
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 837808,
+      "invariant_strength": 735014.0180401109,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 837809
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 837783,
+      "invariant_strength": 724553.4290600605,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 837784
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 4103,
+      "invariant_strength": 641995.990024651,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 4104
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 4105,
+      "invariant_strength": 641825.990024651,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 4106
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 626336,
+      "invariant_strength": 638442.6979907005,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 626337
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 4094,
+      "invariant_strength": 592704.788477819,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 4095
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 27,
+      "invariant_strength": 361690.61558052845,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "DEBT_COMPENSATION_SENTENCE",
+      "to_family": "unclassified_family",
+      "to_n0": 28
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 837802,
+      "invariant_strength": 350958.74068732385,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 837803
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 31,
+      "invariant_strength": 296712.92575696134,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "MINIMAL_SENTENCE",
+      "to_family": "unclassified_family",
+      "to_n0": 32
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 55,
+      "invariant_strength": 296900.5565973777,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "DEBT_COMPENSATION_SENTENCE",
+      "to_family": "unclassified_family",
+      "to_n0": 56
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 837792,
+      "invariant_strength": 125367.34798826357,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 837793
+    }
+  ],
+  "danger_release_invariant_ratio": 0.6222222222222222,
+  "dangerous_stability_invariant_candidate_count": 8,
+  "dangerous_stability_invariant_candidates": [
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "dangerous_stability_invariant_candidate",
+      "conservation_class": "family + class + danger + stability_behavior",
+      "conservation_status": "dangerous_stability_conservation",
+      "conserved_features": [
+        "family",
+        "class",
+        "danger",
+        "stability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657627,
+      "invariant_strength": 1481118702.0703268,
+      "logical_status": "danger_stability_not_proof",
+      "lost_features": [],
+      "native_interpretation": "dangerous stability appears as bounded invariant candidate",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 9780657630
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "dangerous_stability_invariant_candidate",
+      "conservation_class": "family + class + danger + stability_behavior",
+      "conservation_status": "dangerous_stability_conservation",
+      "conserved_features": [
+        "family",
+        "class",
+        "danger",
+        "stability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 837799,
+      "invariant_strength": 20293208.089709833,
+      "logical_status": "danger_stability_not_proof",
+      "lost_features": [],
+      "native_interpretation": "dangerous stability appears as bounded invariant candidate",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 837800
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "dangerous_stability_invariant_candidate",
+      "conservation_class": "family + class + danger + stability_behavior",
+      "conservation_status": "dangerous_stability_conservation",
+      "conserved_features": [
+        "family",
+        "class",
+        "danger",
+        "stability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 837791,
+      "invariant_strength": 20128288.089709833,
+      "logical_status": "danger_stability_not_proof",
+      "lost_features": [],
+      "native_interpretation": "dangerous stability appears as bounded invariant candidate",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 837792
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "dangerous_stability_invariant_candidate",
+      "conservation_class": "family + class + danger + stability_behavior",
+      "conservation_status": "dangerous_stability_conservation",
+      "conserved_features": [
+        "family",
+        "class",
+        "danger",
+        "stability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 837806,
+      "invariant_strength": 11645195.803182013,
+      "logical_status": "danger_stability_not_proof",
+      "lost_features": [],
+      "native_interpretation": "dangerous stability appears as bounded invariant candidate",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 837807
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "dangerous_stability_invariant_candidate",
+      "conservation_class": "family + class + danger + stability_behavior",
+      "conservation_status": "dangerous_stability_conservation",
+      "conserved_features": [
+        "family",
+        "class",
+        "danger",
+        "stability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 837807,
+      "invariant_strength": 11645175.803182013,
+      "logical_status": "danger_stability_not_proof",
+      "lost_features": [],
+      "native_interpretation": "dangerous stability appears as bounded invariant candidate",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 837808
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "dangerous_stability_invariant_candidate",
+      "conservation_class": "family + class + danger + stability_behavior",
+      "conservation_status": "dangerous_stability_conservation",
+      "conserved_features": [
+        "family",
+        "class",
+        "danger",
+        "stability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 62,
+      "invariant_strength": 2600941.3200114584,
+      "logical_status": "danger_stability_not_proof",
+      "lost_features": [],
+      "native_interpretation": "dangerous stability appears as bounded invariant candidate",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 63
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "dangerous_stability_invariant_candidate",
+      "conservation_class": "family + class + danger + stability_behavior",
+      "conservation_status": "dangerous_stability_conservation",
+      "conserved_features": [
+        "family",
+        "class",
+        "danger",
+        "stability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 4098,
+      "invariant_strength": 120.0,
+      "logical_status": "danger_stability_not_proof",
+      "lost_features": [],
+      "native_interpretation": "dangerous stability appears as bounded invariant candidate",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 4099
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "dangerous_stability_invariant_candidate",
+      "conservation_class": "family + class + danger + stability_behavior",
+      "conservation_status": "dangerous_stability_conservation",
+      "conserved_features": [
+        "family",
+        "class",
+        "danger",
+        "stability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 626326,
+      "invariant_strength": 20.0,
+      "logical_status": "danger_stability_not_proof",
+      "lost_features": [],
+      "native_interpretation": "dangerous stability appears as bounded invariant candidate",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 626327
+    }
+  ],
+  "dangerous_stability_invariant_ratio": 0.17777777777777778,
+  "global_invariant_status": "not_claimed",
+  "instability_invariant_candidate_count": 0,
+  "instability_invariant_candidates": [],
+  "invariant_candidate_count": 45,
+  "layer": "native_invariant_candidate_map",
+  "logical_status_counts": {
+    "bounded_candidate_only": 9,
+    "danger_stability_not_proof": 8,
+    "release_behavior_candidate": 28
+  },
+  "mother_rule": "No solution before native language.",
+  "native_interpretation": "DANGER_RELEASE_AND_DANGEROUS_STABILITY_INVARIANT_CANDIDATES_PRESENT",
+  "near_9780657630_invariant_candidates": [
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657630,
+      "invariant_strength": 743168904.3880929,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657633
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657631,
+      "invariant_strength": 743165944.3880929,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657633
+    },
+    {
+      "candidate_strength": "weak_bounded_candidate",
+      "candidate_type": "weak_invariant_candidate",
+      "conservation_class": "danger_emergence",
+      "conservation_status": "weak_conservation",
+      "conserved_features": [
+        "danger_emergence"
+      ],
+      "from_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "from_family": "regeneration_family",
+      "from_n0": 9780657622,
+      "invariant_strength": 74315861.43064445,
+      "logical_status": "bounded_candidate_only",
+      "lost_features": [
+        "family",
+        "class"
+      ],
+      "native_interpretation": "weak bounded invariant candidate only",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 9780657630
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657630,
+      "invariant_strength": 743158614.3064445,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657638
+    },
+    {
+      "candidate_strength": "weak_bounded_candidate",
+      "candidate_type": "weak_invariant_candidate",
+      "conservation_class": "danger_emergence",
+      "conservation_status": "weak_conservation",
+      "conserved_features": [
+        "danger_emergence"
+      ],
+      "from_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "from_family": "regeneration_family",
+      "from_n0": 9780657629,
+      "invariant_strength": 74315856.43064445,
+      "logical_status": "bounded_candidate_only",
+      "lost_features": [
+        "family",
+        "class"
+      ],
+      "native_interpretation": "weak bounded invariant candidate only",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 9780657630
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657630,
+      "invariant_strength": 743158564.3064445,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657634
+    },
+    {
+      "candidate_strength": "weak_bounded_candidate",
+      "candidate_type": "weak_invariant_candidate",
+      "conservation_class": "danger_emergence",
+      "conservation_status": "weak_conservation",
+      "conserved_features": [
+        "danger_emergence"
+      ],
+      "from_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "from_family": "regeneration_family",
+      "from_n0": 9780657626,
+      "invariant_strength": 74315855.43064445,
+      "logical_status": "bounded_candidate_only",
+      "lost_features": [
+        "family",
+        "class"
+      ],
+      "native_interpretation": "weak bounded invariant candidate only",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 9780657630
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657630,
+      "invariant_strength": 743158554.3064445,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657635
+    },
+    {
+      "candidate_strength": "weak_bounded_candidate",
+      "candidate_type": "weak_invariant_candidate",
+      "conservation_class": "danger_emergence",
+      "conservation_status": "weak_conservation",
+      "conserved_features": [
+        "danger_emergence"
+      ],
+      "from_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "from_family": "regeneration_family",
+      "from_n0": 9780657625,
+      "invariant_strength": 74315854.43064445,
+      "logical_status": "bounded_candidate_only",
+      "lost_features": [
+        "family",
+        "class"
+      ],
+      "native_interpretation": "weak bounded invariant candidate only",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 9780657630
+    },
+    {
+      "candidate_strength": "weak_bounded_candidate",
+      "candidate_type": "weak_invariant_candidate",
+      "conservation_class": "danger_emergence",
+      "conservation_status": "weak_conservation",
+      "conserved_features": [
+        "danger_emergence"
+      ],
+      "from_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "from_family": "regeneration_family",
+      "from_n0": 9780657628,
+      "invariant_strength": 74315854.43064445,
+      "logical_status": "bounded_candidate_only",
+      "lost_features": [
+        "family",
+        "class"
+      ],
+      "native_interpretation": "weak bounded invariant candidate only",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 9780657630
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657630,
+      "invariant_strength": 743158494.3064445,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657632
+    },
+    {
+      "candidate_strength": "weak_bounded_candidate",
+      "candidate_type": "weak_invariant_candidate",
+      "conservation_class": "danger_emergence",
+      "conservation_status": "weak_conservation",
+      "conserved_features": [
+        "danger_emergence"
+      ],
+      "from_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "from_family": "regeneration_family",
+      "from_n0": 9780657623,
+      "invariant_strength": 74315569.43064445,
+      "logical_status": "bounded_candidate_only",
+      "lost_features": [
+        "family",
+        "class"
+      ],
+      "native_interpretation": "weak bounded invariant candidate only",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 9780657631
+    },
+    {
+      "candidate_strength": "weak_bounded_candidate",
+      "candidate_type": "weak_invariant_candidate",
+      "conservation_class": "danger_emergence",
+      "conservation_status": "weak_conservation",
+      "conserved_features": [
+        "danger_emergence"
+      ],
+      "from_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "from_family": "regeneration_family",
+      "from_n0": 9780657629,
+      "invariant_strength": 74315560.43064445,
+      "logical_status": "bounded_candidate_only",
+      "lost_features": [
+        "family",
+        "class"
+      ],
+      "native_interpretation": "weak bounded invariant candidate only",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 9780657631
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657631,
+      "invariant_strength": 743155604.3064445,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657634
+    },
+    {
+      "candidate_strength": "weak_bounded_candidate",
+      "candidate_type": "weak_invariant_candidate",
+      "conservation_class": "danger_emergence",
+      "conservation_status": "weak_conservation",
+      "conserved_features": [
+        "danger_emergence"
+      ],
+      "from_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "from_family": "regeneration_family",
+      "from_n0": 9780657626,
+      "invariant_strength": 74315559.43064445,
+      "logical_status": "bounded_candidate_only",
+      "lost_features": [
+        "family",
+        "class"
+      ],
+      "native_interpretation": "weak bounded invariant candidate only",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 9780657631
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657631,
+      "invariant_strength": 743155594.3064445,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657635
+    },
+    {
+      "candidate_strength": "weak_bounded_candidate",
+      "candidate_type": "weak_invariant_candidate",
+      "conservation_class": "danger_emergence",
+      "conservation_status": "weak_conservation",
+      "conserved_features": [
+        "danger_emergence"
+      ],
+      "from_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "from_family": "regeneration_family",
+      "from_n0": 9780657628,
+      "invariant_strength": 74315558.43064445,
+      "logical_status": "bounded_candidate_only",
+      "lost_features": [
+        "family",
+        "class"
+      ],
+      "native_interpretation": "weak bounded invariant candidate only",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 9780657631
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657631,
+      "invariant_strength": 743155584.3064445,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657636
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657631,
+      "invariant_strength": 743155534.3064445,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657632
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "dangerous_stability_invariant_candidate",
+      "conservation_class": "family + class + danger + stability_behavior",
+      "conservation_status": "dangerous_stability_conservation",
+      "conserved_features": [
+        "family",
+        "class",
+        "danger",
+        "stability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657627,
+      "invariant_strength": 1481118702.0703268,
+      "logical_status": "danger_stability_not_proof",
+      "lost_features": [],
+      "native_interpretation": "dangerous stability appears as bounded invariant candidate",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 9780657630
+    }
+  ],
+  "negative_result_boundary": "Bounded invariant candidates are not global invariants and do not imply theorem or proof.",
+  "next_recommended_version": "v4.0 Native Language Summary",
+  "obstruction_detected": false,
+  "obstruction_relevant_invariant_candidate_count": 0,
+  "obstruction_relevant_invariant_candidates": [],
+  "obstruction_relevant_invariant_ratio": 0.0,
+  "proof_status": "not_a_proof",
+  "secondary_rule": "No proof before native description.",
+  "source_conservation_candidate_count": 45,
+  "source_conservation_version": "v3.8",
+  "source_danger_release_conservation_count": 28,
+  "source_dangerous_stability_conservation_count": 8,
+  "source_obstruction_relevant_conservation_count": 0,
+  "strongest_invariant_candidates": [
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "dangerous_stability_invariant_candidate",
+      "conservation_class": "family + class + danger + stability_behavior",
+      "conservation_status": "dangerous_stability_conservation",
+      "conserved_features": [
+        "family",
+        "class",
+        "danger",
+        "stability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657627,
+      "invariant_strength": 1481118702.0703268,
+      "logical_status": "danger_stability_not_proof",
+      "lost_features": [],
+      "native_interpretation": "dangerous stability appears as bounded invariant candidate",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 9780657630
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657630,
+      "invariant_strength": 743168904.3880929,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657633
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657631,
+      "invariant_strength": 743165944.3880929,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657633
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657630,
+      "invariant_strength": 743158614.3064445,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657638
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657630,
+      "invariant_strength": 743158564.3064445,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657634
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657630,
+      "invariant_strength": 743158554.3064445,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657635
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657630,
+      "invariant_strength": 743158494.3064445,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657632
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657631,
+      "invariant_strength": 743155604.3064445,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657634
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657631,
+      "invariant_strength": 743155594.3064445,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657635
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657631,
+      "invariant_strength": 743155584.3064445,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657636
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657631,
+      "invariant_strength": 743155534.3064445,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657632
+    },
+    {
+      "candidate_strength": "weak_bounded_candidate",
+      "candidate_type": "weak_invariant_candidate",
+      "conservation_class": "danger_emergence",
+      "conservation_status": "weak_conservation",
+      "conserved_features": [
+        "danger_emergence"
+      ],
+      "from_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "from_family": "regeneration_family",
+      "from_n0": 9780657622,
+      "invariant_strength": 74315861.43064445,
+      "logical_status": "bounded_candidate_only",
+      "lost_features": [
+        "family",
+        "class"
+      ],
+      "native_interpretation": "weak bounded invariant candidate only",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 9780657630
+    },
+    {
+      "candidate_strength": "weak_bounded_candidate",
+      "candidate_type": "weak_invariant_candidate",
+      "conservation_class": "danger_emergence",
+      "conservation_status": "weak_conservation",
+      "conserved_features": [
+        "danger_emergence"
+      ],
+      "from_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "from_family": "regeneration_family",
+      "from_n0": 9780657629,
+      "invariant_strength": 74315856.43064445,
+      "logical_status": "bounded_candidate_only",
+      "lost_features": [
+        "family",
+        "class"
+      ],
+      "native_interpretation": "weak bounded invariant candidate only",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 9780657630
+    },
+    {
+      "candidate_strength": "weak_bounded_candidate",
+      "candidate_type": "weak_invariant_candidate",
+      "conservation_class": "danger_emergence",
+      "conservation_status": "weak_conservation",
+      "conserved_features": [
+        "danger_emergence"
+      ],
+      "from_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "from_family": "regeneration_family",
+      "from_n0": 9780657626,
+      "invariant_strength": 74315855.43064445,
+      "logical_status": "bounded_candidate_only",
+      "lost_features": [
+        "family",
+        "class"
+      ],
+      "native_interpretation": "weak bounded invariant candidate only",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 9780657630
+    },
+    {
+      "candidate_strength": "weak_bounded_candidate",
+      "candidate_type": "weak_invariant_candidate",
+      "conservation_class": "danger_emergence",
+      "conservation_status": "weak_conservation",
+      "conserved_features": [
+        "danger_emergence"
+      ],
+      "from_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "from_family": "regeneration_family",
+      "from_n0": 9780657625,
+      "invariant_strength": 74315854.43064445,
+      "logical_status": "bounded_candidate_only",
+      "lost_features": [
+        "family",
+        "class"
+      ],
+      "native_interpretation": "weak bounded invariant candidate only",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 9780657630
+    },
+    {
+      "candidate_strength": "weak_bounded_candidate",
+      "candidate_type": "weak_invariant_candidate",
+      "conservation_class": "danger_emergence",
+      "conservation_status": "weak_conservation",
+      "conserved_features": [
+        "danger_emergence"
+      ],
+      "from_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "from_family": "regeneration_family",
+      "from_n0": 9780657628,
+      "invariant_strength": 74315854.43064445,
+      "logical_status": "bounded_candidate_only",
+      "lost_features": [
+        "family",
+        "class"
+      ],
+      "native_interpretation": "weak bounded invariant candidate only",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 9780657630
+    },
+    {
+      "candidate_strength": "weak_bounded_candidate",
+      "candidate_type": "weak_invariant_candidate",
+      "conservation_class": "danger_emergence",
+      "conservation_status": "weak_conservation",
+      "conserved_features": [
+        "danger_emergence"
+      ],
+      "from_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "from_family": "regeneration_family",
+      "from_n0": 9780657623,
+      "invariant_strength": 74315569.43064445,
+      "logical_status": "bounded_candidate_only",
+      "lost_features": [
+        "family",
+        "class"
+      ],
+      "native_interpretation": "weak bounded invariant candidate only",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 9780657631
+    },
+    {
+      "candidate_strength": "weak_bounded_candidate",
+      "candidate_type": "weak_invariant_candidate",
+      "conservation_class": "danger_emergence",
+      "conservation_status": "weak_conservation",
+      "conserved_features": [
+        "danger_emergence"
+      ],
+      "from_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "from_family": "regeneration_family",
+      "from_n0": 9780657629,
+      "invariant_strength": 74315560.43064445,
+      "logical_status": "bounded_candidate_only",
+      "lost_features": [
+        "family",
+        "class"
+      ],
+      "native_interpretation": "weak bounded invariant candidate only",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 9780657631
+    },
+    {
+      "candidate_strength": "weak_bounded_candidate",
+      "candidate_type": "weak_invariant_candidate",
+      "conservation_class": "danger_emergence",
+      "conservation_status": "weak_conservation",
+      "conserved_features": [
+        "danger_emergence"
+      ],
+      "from_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "from_family": "regeneration_family",
+      "from_n0": 9780657626,
+      "invariant_strength": 74315559.43064445,
+      "logical_status": "bounded_candidate_only",
+      "lost_features": [
+        "family",
+        "class"
+      ],
+      "native_interpretation": "weak bounded invariant candidate only",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 9780657631
+    },
+    {
+      "candidate_strength": "weak_bounded_candidate",
+      "candidate_type": "weak_invariant_candidate",
+      "conservation_class": "danger_emergence",
+      "conservation_status": "weak_conservation",
+      "conserved_features": [
+        "danger_emergence"
+      ],
+      "from_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "from_family": "regeneration_family",
+      "from_n0": 9780657628,
+      "invariant_strength": 74315558.43064445,
+      "logical_status": "bounded_candidate_only",
+      "lost_features": [
+        "family",
+        "class"
+      ],
+      "native_interpretation": "weak bounded invariant candidate only",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 9780657631
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 626331,
+      "invariant_strength": 49564968.71741455,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 626332
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "dangerous_stability_invariant_candidate",
+      "conservation_class": "family + class + danger + stability_behavior",
+      "conservation_status": "dangerous_stability_conservation",
+      "conserved_features": [
+        "family",
+        "class",
+        "danger",
+        "stability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 837799,
+      "invariant_strength": 20293208.089709833,
+      "logical_status": "danger_stability_not_proof",
+      "lost_features": [],
+      "native_interpretation": "dangerous stability appears as bounded invariant candidate",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 837800
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "dangerous_stability_invariant_candidate",
+      "conservation_class": "family + class + danger + stability_behavior",
+      "conservation_status": "dangerous_stability_conservation",
+      "conserved_features": [
+        "family",
+        "class",
+        "danger",
+        "stability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 837791,
+      "invariant_strength": 20128288.089709833,
+      "logical_status": "danger_stability_not_proof",
+      "lost_features": [],
+      "native_interpretation": "dangerous stability appears as bounded invariant candidate",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 837792
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "dangerous_stability_invariant_candidate",
+      "conservation_class": "family + class + danger + stability_behavior",
+      "conservation_status": "dangerous_stability_conservation",
+      "conserved_features": [
+        "family",
+        "class",
+        "danger",
+        "stability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 837806,
+      "invariant_strength": 11645195.803182013,
+      "logical_status": "danger_stability_not_proof",
+      "lost_features": [],
+      "native_interpretation": "dangerous stability appears as bounded invariant candidate",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 837807
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "dangerous_stability_invariant_candidate",
+      "conservation_class": "family + class + danger + stability_behavior",
+      "conservation_status": "dangerous_stability_conservation",
+      "conserved_features": [
+        "family",
+        "class",
+        "danger",
+        "stability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 837807,
+      "invariant_strength": 11645175.803182013,
+      "logical_status": "danger_stability_not_proof",
+      "lost_features": [],
+      "native_interpretation": "dangerous stability appears as bounded invariant candidate",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 837808
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 131071,
+      "invariant_strength": 10442327.029595029,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "MINIMAL_SENTENCE",
+      "to_family": "unclassified_family",
+      "to_n0": 131072
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 4099,
+      "invariant_strength": 2833412.1833142163,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "DEBT_COMPENSATION_SENTENCE",
+      "to_family": "unclassified_family",
+      "to_n0": 4100
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 77031,
+      "invariant_strength": 2676583.7229342554,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 77032
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "dangerous_stability_invariant_candidate",
+      "conservation_class": "family + class + danger + stability_behavior",
+      "conservation_status": "dangerous_stability_conservation",
+      "conserved_features": [
+        "family",
+        "class",
+        "danger",
+        "stability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 62,
+      "invariant_strength": 2600941.3200114584,
+      "logical_status": "danger_stability_not_proof",
+      "lost_features": [],
+      "native_interpretation": "dangerous stability appears as bounded invariant candidate",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 63
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 77039,
+      "invariant_strength": 1684701.279947307,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 77040
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 63,
+      "invariant_strength": 1595863.5857626908,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "MINIMAL_SENTENCE",
+      "to_family": "unclassified_family",
+      "to_n0": 64
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 626327,
+      "invariant_strength": 1591758.5480691814,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 626328
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 837808,
+      "invariant_strength": 735014.0180401109,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 837809
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 837783,
+      "invariant_strength": 724553.4290600605,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 837784
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 4103,
+      "invariant_strength": 641995.990024651,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 4104
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 4105,
+      "invariant_strength": 641825.990024651,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 4106
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 626336,
+      "invariant_strength": 638442.6979907005,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 626337
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 4094,
+      "invariant_strength": 592704.788477819,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 4095
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 27,
+      "invariant_strength": 361690.61558052845,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "DEBT_COMPENSATION_SENTENCE",
+      "to_family": "unclassified_family",
+      "to_n0": 28
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 837802,
+      "invariant_strength": 350958.74068732385,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 837803
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 55,
+      "invariant_strength": 296900.5565973777,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "DEBT_COMPENSATION_SENTENCE",
+      "to_family": "unclassified_family",
+      "to_n0": 56
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 31,
+      "invariant_strength": 296712.92575696134,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "MINIMAL_SENTENCE",
+      "to_family": "unclassified_family",
+      "to_n0": 32
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "danger_release_invariant_candidate",
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 837792,
+      "invariant_strength": 125367.34798826357,
+      "logical_status": "release_behavior_candidate",
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "native_interpretation": "danger-release behavior appears as bounded invariant candidate",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 837793
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "dangerous_stability_invariant_candidate",
+      "conservation_class": "family + class + danger + stability_behavior",
+      "conservation_status": "dangerous_stability_conservation",
+      "conserved_features": [
+        "family",
+        "class",
+        "danger",
+        "stability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 4098,
+      "invariant_strength": 120.0,
+      "logical_status": "danger_stability_not_proof",
+      "lost_features": [],
+      "native_interpretation": "dangerous stability appears as bounded invariant candidate",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 4099
+    },
+    {
+      "candidate_strength": "strong_bounded_candidate",
+      "candidate_type": "dangerous_stability_invariant_candidate",
+      "conservation_class": "family + class + danger + stability_behavior",
+      "conservation_status": "dangerous_stability_conservation",
+      "conserved_features": [
+        "family",
+        "class",
+        "danger",
+        "stability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 626326,
+      "invariant_strength": 20.0,
+      "logical_status": "danger_stability_not_proof",
+      "lost_features": [],
+      "native_interpretation": "dangerous stability appears as bounded invariant candidate",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 626327
+    }
+  ],
+  "theorem_status": "no_theorems_introduced",
+  "version": "v3.9",
+  "weak_invariant_candidate_count": 9
+}

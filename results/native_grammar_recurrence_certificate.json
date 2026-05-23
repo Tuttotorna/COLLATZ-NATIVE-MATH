@@ -1,0 +1,19 @@
+{
+  "central_native_question": "Which native sentence forms repeat, mutate, stabilize, or disappear?",
+  "certificate_type": "native_grammar_recurrence_certificate",
+  "dangerous_edge_count": 663,
+  "mother_rule": "No solution before native language.",
+  "mutation_edge_count": 665,
+  "native_interpretation": "DANGEROUS_RECURRENCE_PRESENT_WITHOUT_OBSTRUCTION_RECURRENCE",
+  "negative_result_boundary": "No obstruction recurrence detected in this bounded recurrence map is not proof that obstruction recurrence cannot exist.",
+  "next_recommended_version": "v3.6 Native Grammar Mutation Atlas",
+  "obstruction_detected": false,
+  "obstruction_edge_count": 0,
+  "proof_status": "not_a_proof",
+  "repeat_edge_count": 872,
+  "sentence_count": 320,
+  "source_atlas_version": "v3.4",
+  "theorem_status": "no_theorems_introduced",
+  "total_edge_count": 1537,
+  "version": "v3.5"
+}

@@ -576,3 +576,23 @@ Read:
 Core rule:
 
     No solution before native language.
+
+## v3.5 native grammar recurrence map
+
+After building the Native Sentence Atlas, build the recurrence map:
+
+    python examples/build_native_grammar_recurrence_map.py
+
+Read:
+
+    docs/NATIVE_GRAMMAR_RECURRENCE_MAP.md
+    docs/RECURRENCE_AS_NATIVE_BEHAVIOR.md
+    docs/DANGEROUS_RECURRENCE.md
+    docs/GRAMMAR_MUTATION_TYPES.md
+    docs/RECURRENCE_MAP_LIMITS.md
+    docs/V35_EVIDENCE_STATUS.md
+    docs/V35_NEXT_STEPS.md
+
+Core rule:
+
+    No solution before native language.

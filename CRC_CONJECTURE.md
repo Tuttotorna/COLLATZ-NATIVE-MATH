@@ -665,3 +665,24 @@ Boundary:
     atlas != proof
     dangerous sentence != obstruction
     no obstruction sentence detected != obstruction impossible
+
+## Native grammar recurrence map
+
+v3.5 maps recurrence between native sentence forms.
+
+The project still does not begin from:
+
+    Does every trajectory reach 1?
+
+It asks:
+
+    Which sentence forms repeat?
+    Which sentence forms mutate?
+    Which sentence forms stabilize?
+    Which sentence forms disappear?
+
+Boundary:
+
+    recurrence != proof
+    dangerous recurrence != obstruction
+    no obstruction recurrence detected != obstruction recurrence impossible

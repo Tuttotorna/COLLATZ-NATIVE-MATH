@@ -495,3 +495,13 @@ v1.1 tests whether the v1.0 hard case is isolated or part of a wider frontier.
 - Keeps the rule: No solution before native language.
 - Adds atlas JSON, Markdown report, and certificate artifacts.
 - Sets v3.5 as Native Grammar Recurrence Map.
+
+## v3.5 - Native Grammar Recurrence Map
+
+- Adds a native grammar recurrence builder.
+- Maps sentence-class transitions and sentence-family transitions.
+- Separates repeat, mutation, dangerous recurrence, and obstruction recurrence.
+- Treats recurrence as native behavior, not proof evidence.
+- Keeps the rule: No solution before native language.
+- Emits recurrence map JSON, Markdown report, and certificate.
+- Sets v3.6 as Native Grammar Mutation Atlas.

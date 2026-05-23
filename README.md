@@ -914,3 +914,29 @@ Core rule:
     No solution before native language.
 
 This is not a proof layer.
+
+## v3.5 Native Grammar Recurrence Map
+
+The repository now maps recurrence between native sentence forms.
+
+It does not ask first whether Collatz is solved.
+
+It asks:
+
+    Which native sentence forms repeat, mutate, stabilize, or disappear?
+
+Run:
+
+    python examples/build_native_grammar_recurrence_map.py
+
+Outputs:
+
+    results/native_grammar_recurrence_map.json
+    results/native_grammar_recurrence_map.md
+    results/native_grammar_recurrence_certificate.json
+
+Core rule:
+
+    No solution before native language.
+
+This is not a proof layer.

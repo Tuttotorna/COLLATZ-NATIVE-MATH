@@ -245,3 +245,19 @@ The audit tests whether distributed release pressure remains stable under scale 
 It does not prove Collatz.
 
 It does not claim Collatz is solved.
+
+## v5.1 Signal Decay Audit V0
+
+Read:
+
+    docs/SIGNAL_DECAY_AUDIT_V0.md
+
+Run:
+
+    python examples/build_signal_decay_audit_v0.py
+
+The audit tests whether the distributed release pressure signal decays toward zero or preserves a positive bounded floor candidate.
+
+It does not prove Collatz.
+
+It does not claim Collatz is solved.

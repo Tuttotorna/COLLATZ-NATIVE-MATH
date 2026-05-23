@@ -1,0 +1,19 @@
+{
+  "artifact": "Signal Decay Audit V0",
+  "boundary": {
+    "bounded_evidence_status": "measurement_only",
+    "collatz_status": "not_claimed_solved",
+    "global_closure_status": "not_claimed",
+    "global_invariant_status": "not_claimed",
+    "proof_status": "not_a_proof",
+    "theorem_status": "no_theorem_claimed"
+  },
+  "bounded_assessment": "positive_floor_candidate_with_decay",
+  "generated_at_utc": "2026-05-23T12:36:34.240067+00:00",
+  "outputs": [
+    "results/signal_decay_audit_v0.json",
+    "results/signal_decay_audit_v0.md",
+    "results/signal_decay_audit_v0_certificate.json"
+  ],
+  "version": "v5.1"
+}

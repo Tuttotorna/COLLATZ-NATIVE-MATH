@@ -446,3 +446,32 @@ Boundary:
     stable_signal != theorem
     correlation != causation
     bounded reproducibility != global closure
+
+## v5.1 Signal Decay Audit V0
+
+The repository now includes a bounded Signal Decay Audit.
+
+Run:
+
+    python examples/build_signal_decay_audit_v0.py
+
+Outputs:
+
+    results/signal_decay_audit_v0.json
+    results/signal_decay_audit_v0.md
+    results/signal_decay_audit_v0_certificate.json
+
+Purpose:
+
+    test whether the primary distributed release pressure signal decays toward zero
+    estimate a bounded positive floor candidate
+    measure scale_vs_primary_signal_correlation
+    measure signal_decay_slope
+    compare early-window and late-window signal means
+
+Boundary:
+
+    signal_decay_audit != proof
+    positive_floor_candidate != theorem
+    bounded floor != global invariant
+    no zero crossing in tested range != universal closure

@@ -277,3 +277,19 @@ The audit separates whether signal decay comes from seed scale, odd-step depth, 
 It does not prove Collatz.
 
 It does not claim Collatz is solved.
+
+## v5.3 Seed-Scale Stratification Audit V0
+
+Read:
+
+    docs/SEED_SCALE_STRATIFICATION_AUDIT_V0.md
+
+Run:
+
+    python examples/build_seed_scale_stratification_audit_v0.py
+
+The audit separates cumulative seed-scale decay from local block-level signal.
+
+It does not prove Collatz.
+
+It does not claim Collatz is solved.

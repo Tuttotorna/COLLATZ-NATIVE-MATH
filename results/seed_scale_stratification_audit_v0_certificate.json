@@ -1,0 +1,27 @@
+{
+  "artifact": "Seed-Scale Stratification Audit V0",
+  "boundary": {
+    "bounded_evidence_status": "measurement_only",
+    "collatz_status": "not_claimed_solved",
+    "global_closure_status": "not_claimed",
+    "global_invariant_status": "not_claimed",
+    "proof_status": "not_a_proof",
+    "theorem_status": "no_theorem_claimed"
+  },
+  "bounded_assessment": "local_seed_block_decay_detected",
+  "comparison": {
+    "attribution": "local_block_decay",
+    "block_direction": "decay",
+    "block_min_signal": 0.2931816718607829,
+    "cumulative_direction": "decay",
+    "cumulative_min_signal": 0.3883139330834708,
+    "positivity_status": "both_positive"
+  },
+  "generated_at_utc": "2026-05-23T12:49:46.813570+00:00",
+  "outputs": [
+    "results/seed_scale_stratification_audit_v0.json",
+    "results/seed_scale_stratification_audit_v0.md",
+    "results/seed_scale_stratification_audit_v0_certificate.json"
+  ],
+  "version": "v5.3"
+}

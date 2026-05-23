@@ -503,3 +503,30 @@ Boundary:
     axis attribution != theorem
     correlation != causation
     bounded axis signal != global invariant
+
+## v5.3 Seed-Scale Stratification Audit V0
+
+The repository now includes a bounded Seed-Scale Stratification Audit.
+
+Run:
+
+    python examples/build_seed_scale_stratification_audit_v0.py
+
+Outputs:
+
+    results/seed_scale_stratification_audit_v0.json
+    results/seed_scale_stratification_audit_v0.md
+    results/seed_scale_stratification_audit_v0_certificate.json
+
+Purpose:
+
+    separate cumulative seed-scale decay from local block-level signal
+    compare cumulative ranges against non-overlapping seed blocks
+    test whether seed-scale weakening is local or caused by cumulative mixing
+
+Boundary:
+
+    seed_scale_stratification != proof
+    block_signal != theorem
+    cumulative_decay != global law
+    positive block signal != invariant

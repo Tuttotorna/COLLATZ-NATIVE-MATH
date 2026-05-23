@@ -475,3 +475,31 @@ Boundary:
     positive_floor_candidate != theorem
     bounded floor != global invariant
     no zero crossing in tested range != universal closure
+
+## v5.2 Residual Decay Audit V0
+
+The repository now includes a bounded Residual Decay Audit.
+
+Run:
+
+    python examples/build_residual_decay_audit_v0.py
+
+Outputs:
+
+    results/residual_decay_audit_v0.json
+    results/residual_decay_audit_v0.md
+    results/residual_decay_audit_v0_certificate.json
+
+Purpose:
+
+    separate apparent signal decay by measurement axis
+    vary max_odd_seed while holding odd_steps and post_peak_horizon fixed
+    vary odd_steps while holding max_odd_seed and post_peak_horizon fixed
+    vary post_peak_horizon while holding max_odd_seed and odd_steps fixed
+
+Boundary:
+
+    residual_decay_audit != proof
+    axis attribution != theorem
+    correlation != causation
+    bounded axis signal != global invariant

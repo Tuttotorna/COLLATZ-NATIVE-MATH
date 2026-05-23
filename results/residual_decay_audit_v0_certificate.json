@@ -1,0 +1,31 @@
+{
+  "artifact": "Residual Decay Audit V0",
+  "boundary": {
+    "bounded_evidence_status": "measurement_only",
+    "collatz_status": "not_claimed_solved",
+    "global_closure_status": "not_claimed",
+    "global_invariant_status": "not_claimed",
+    "proof_status": "not_a_proof",
+    "theorem_status": "no_theorem_claimed"
+  },
+  "bounded_assessment": "axis_decay_detected",
+  "generated_at_utc": "2026-05-23T12:44:37.076452+00:00",
+  "outputs": [
+    "results/residual_decay_audit_v0.json",
+    "results/residual_decay_audit_v0.md",
+    "results/residual_decay_audit_v0_certificate.json"
+  ],
+  "residual_attribution": {
+    "decay_axes": [
+      "seed_scale_axis"
+    ],
+    "flat_axes": [],
+    "floor_preserved_axes": [],
+    "growth_axes": [
+      "odd_step_depth_axis",
+      "post_peak_horizon_axis"
+    ],
+    "zero_crossing_axes": []
+  },
+  "version": "v5.2"
+}

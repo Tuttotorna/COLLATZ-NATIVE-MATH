@@ -1,0 +1,767 @@
+{
+  "axis_results": {
+    "odd_step_depth_axis": {
+      "axis_summary": {
+        "all_positive": true,
+        "axis_log10_values": [
+          1.6020599913279625,
+          1.9030899869919435,
+          2.0791812460476247,
+          2.204119982655925,
+          2.3010299956639813,
+          2.380211241711606
+        ],
+        "axis_name": "odd_step_depth_axis",
+        "axis_values": [
+          40.0,
+          80.0,
+          120.0,
+          160.0,
+          200.0,
+          240.0
+        ],
+        "axis_vs_signal_correlation_log10": 0.810682692479592,
+        "direction": "growth",
+        "first_signal": 0.20668708096732372,
+        "floor_status": "positive_but_weak_floor",
+        "last_signal": 0.594846762749466,
+        "max_signal": 0.594846762749466,
+        "mean_signal": 0.5301534824524423,
+        "median_response_delay_all_at_most_1": true,
+        "median_response_delay_values": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "min_signal": 0.20668708096732372,
+        "primary_signal_values": [
+          0.20668708096732372,
+          0.594846762749466,
+          0.594846762749466,
+          0.594846762749466,
+          0.594846762749466,
+          0.594846762749466
+        ],
+        "relative_drop": -1.8780065012554346,
+        "slope_per_axis_unit": 0.0013862845777933652,
+        "slope_per_log10_axis": 0.44639718729270655,
+        "total_drop": -0.38815968178214233,
+        "zero_crossing_observed": false
+      },
+      "config_results": [
+        {
+          "aggregate": {
+            "debt_peak_vs_post_peak_release_count_h_pearson": 0.16350466092491547,
+            "debt_peak_vs_post_peak_release_mass_h_pearson": 0.20668708096732372,
+            "debt_peak_vs_post_peak_strong_release_count_h_pearson": 0.2303663070930143,
+            "debt_peak_vs_total_release_count_pearson": 0.41192594722484804,
+            "mean_response_delay": 1.3936927772126144,
+            "median_response_delay": 1.0,
+            "primary_signal": 0.20668708096732372,
+            "records": 1000,
+            "terminated_within_bound": 743
+          },
+          "config": {
+            "max_odd_seed": 1999,
+            "odd_steps": 40,
+            "post_peak_horizon": 20
+          }
+        },
+        {
+          "aggregate": {
+            "debt_peak_vs_post_peak_release_count_h_pearson": 0.4121308647324435,
+            "debt_peak_vs_post_peak_release_mass_h_pearson": 0.594846762749466,
+            "debt_peak_vs_post_peak_strong_release_count_h_pearson": 0.4602112195178408,
+            "debt_peak_vs_total_release_count_pearson": 0.5485480454706312,
+            "mean_response_delay": 1.3571428571428572,
+            "median_response_delay": 1.0,
+            "primary_signal": 0.594846762749466,
+            "records": 1000,
+            "terminated_within_bound": 1000
+          },
+          "config": {
+            "max_odd_seed": 1999,
+            "odd_steps": 80,
+            "post_peak_horizon": 20
+          }
+        },
+        {
+          "aggregate": {
+            "debt_peak_vs_post_peak_release_count_h_pearson": 0.4121308647324435,
+            "debt_peak_vs_post_peak_release_mass_h_pearson": 0.594846762749466,
+            "debt_peak_vs_post_peak_strong_release_count_h_pearson": 0.4602112195178408,
+            "debt_peak_vs_total_release_count_pearson": 0.5485480454706312,
+            "mean_response_delay": 1.3571428571428572,
+            "median_response_delay": 1.0,
+            "primary_signal": 0.594846762749466,
+            "records": 1000,
+            "terminated_within_bound": 1000
+          },
+          "config": {
+            "max_odd_seed": 1999,
+            "odd_steps": 120,
+            "post_peak_horizon": 20
+          }
+        },
+        {
+          "aggregate": {
+            "debt_peak_vs_post_peak_release_count_h_pearson": 0.4121308647324435,
+            "debt_peak_vs_post_peak_release_mass_h_pearson": 0.594846762749466,
+            "debt_peak_vs_post_peak_strong_release_count_h_pearson": 0.4602112195178408,
+            "debt_peak_vs_total_release_count_pearson": 0.5485480454706312,
+            "mean_response_delay": 1.3571428571428572,
+            "median_response_delay": 1.0,
+            "primary_signal": 0.594846762749466,
+            "records": 1000,
+            "terminated_within_bound": 1000
+          },
+          "config": {
+            "max_odd_seed": 1999,
+            "odd_steps": 160,
+            "post_peak_horizon": 20
+          }
+        },
+        {
+          "aggregate": {
+            "debt_peak_vs_post_peak_release_count_h_pearson": 0.4121308647324435,
+            "debt_peak_vs_post_peak_release_mass_h_pearson": 0.594846762749466,
+            "debt_peak_vs_post_peak_strong_release_count_h_pearson": 0.4602112195178408,
+            "debt_peak_vs_total_release_count_pearson": 0.5485480454706312,
+            "mean_response_delay": 1.3571428571428572,
+            "median_response_delay": 1.0,
+            "primary_signal": 0.594846762749466,
+            "records": 1000,
+            "terminated_within_bound": 1000
+          },
+          "config": {
+            "max_odd_seed": 1999,
+            "odd_steps": 200,
+            "post_peak_horizon": 20
+          }
+        },
+        {
+          "aggregate": {
+            "debt_peak_vs_post_peak_release_count_h_pearson": 0.4121308647324435,
+            "debt_peak_vs_post_peak_release_mass_h_pearson": 0.594846762749466,
+            "debt_peak_vs_post_peak_strong_release_count_h_pearson": 0.4602112195178408,
+            "debt_peak_vs_total_release_count_pearson": 0.5485480454706312,
+            "mean_response_delay": 1.3571428571428572,
+            "median_response_delay": 1.0,
+            "primary_signal": 0.594846762749466,
+            "records": 1000,
+            "terminated_within_bound": 1000
+          },
+          "config": {
+            "max_odd_seed": 1999,
+            "odd_steps": 240,
+            "post_peak_horizon": 20
+          }
+        }
+      ],
+      "configs": [
+        {
+          "max_odd_seed": 1999,
+          "odd_steps": 40,
+          "post_peak_horizon": 20
+        },
+        {
+          "max_odd_seed": 1999,
+          "odd_steps": 80,
+          "post_peak_horizon": 20
+        },
+        {
+          "max_odd_seed": 1999,
+          "odd_steps": 120,
+          "post_peak_horizon": 20
+        },
+        {
+          "max_odd_seed": 1999,
+          "odd_steps": 160,
+          "post_peak_horizon": 20
+        },
+        {
+          "max_odd_seed": 1999,
+          "odd_steps": 200,
+          "post_peak_horizon": 20
+        },
+        {
+          "max_odd_seed": 1999,
+          "odd_steps": 240,
+          "post_peak_horizon": 20
+        }
+      ]
+    },
+    "post_peak_horizon_axis": {
+      "axis_summary": {
+        "all_positive": true,
+        "axis_log10_values": [
+          0.6989700043360189,
+          1.0,
+          1.1760912590556813,
+          1.3010299956639813,
+          1.3979400086720377,
+          1.4771212547196624
+        ],
+        "axis_name": "post_peak_horizon_axis",
+        "axis_values": [
+          5.0,
+          10.0,
+          15.0,
+          20.0,
+          25.0,
+          30.0
+        ],
+        "axis_vs_signal_correlation_log10": 0.9946104449624663,
+        "direction": "growth",
+        "first_signal": 0.10234198290214148,
+        "floor_status": "positive_but_weak_floor",
+        "last_signal": 0.6677000616676537,
+        "max_signal": 0.6677000616676537,
+        "mean_signal": 0.47244677872847535,
+        "median_response_delay_all_at_most_1": true,
+        "median_response_delay_values": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "min_signal": 0.10234198290214148,
+        "primary_signal_values": [
+          0.10234198290214148,
+          0.36454245417420356,
+          0.47126586077721233,
+          0.594846762749466,
+          0.6339835501001749,
+          0.6677000616676537
+        ],
+        "relative_drop": -5.524204854483841,
+        "slope_per_axis_unit": 0.02147825476330131,
+        "slope_per_log10_axis": 0.7377370919067828,
+        "total_drop": -0.5653580787655123,
+        "zero_crossing_observed": false
+      },
+      "config_results": [
+        {
+          "aggregate": {
+            "debt_peak_vs_post_peak_release_count_h_pearson": 0.1801701327316779,
+            "debt_peak_vs_post_peak_release_mass_h_pearson": 0.10234198290214148,
+            "debt_peak_vs_post_peak_strong_release_count_h_pearson": 0.13235840828617612,
+            "debt_peak_vs_total_release_count_pearson": 0.5485480454706312,
+            "mean_response_delay": 1.3571428571428572,
+            "median_response_delay": 1.0,
+            "primary_signal": 0.10234198290214148,
+            "records": 1000,
+            "terminated_within_bound": 1000
+          },
+          "config": {
+            "max_odd_seed": 1999,
+            "odd_steps": 160,
+            "post_peak_horizon": 5
+          }
+        },
+        {
+          "aggregate": {
+            "debt_peak_vs_post_peak_release_count_h_pearson": 0.3099951063445444,
+            "debt_peak_vs_post_peak_release_mass_h_pearson": 0.36454245417420356,
+            "debt_peak_vs_post_peak_strong_release_count_h_pearson": 0.318575043357931,
+            "debt_peak_vs_total_release_count_pearson": 0.5485480454706312,
+            "mean_response_delay": 1.3571428571428572,
+            "median_response_delay": 1.0,
+            "primary_signal": 0.36454245417420356,
+            "records": 1000,
+            "terminated_within_bound": 1000
+          },
+          "config": {
+            "max_odd_seed": 1999,
+            "odd_steps": 160,
+            "post_peak_horizon": 10
+          }
+        },
+        {
+          "aggregate": {
+            "debt_peak_vs_post_peak_release_count_h_pearson": 0.34231329900624285,
+            "debt_peak_vs_post_peak_release_mass_h_pearson": 0.47126586077721233,
+            "debt_peak_vs_post_peak_strong_release_count_h_pearson": 0.38889971745103014,
+            "debt_peak_vs_total_release_count_pearson": 0.5485480454706312,
+            "mean_response_delay": 1.3571428571428572,
+            "median_response_delay": 1.0,
+            "primary_signal": 0.47126586077721233,
+            "records": 1000,
+            "terminated_within_bound": 1000
+          },
+          "config": {
+            "max_odd_seed": 1999,
+            "odd_steps": 160,
+            "post_peak_horizon": 15
+          }
+        },
+        {
+          "aggregate": {
+            "debt_peak_vs_post_peak_release_count_h_pearson": 0.4121308647324435,
+            "debt_peak_vs_post_peak_release_mass_h_pearson": 0.594846762749466,
+            "debt_peak_vs_post_peak_strong_release_count_h_pearson": 0.4602112195178408,
+            "debt_peak_vs_total_release_count_pearson": 0.5485480454706312,
+            "mean_response_delay": 1.3571428571428572,
+            "median_response_delay": 1.0,
+            "primary_signal": 0.594846762749466,
+            "records": 1000,
+            "terminated_within_bound": 1000
+          },
+          "config": {
+            "max_odd_seed": 1999,
+            "odd_steps": 160,
+            "post_peak_horizon": 20
+          }
+        },
+        {
+          "aggregate": {
+            "debt_peak_vs_post_peak_release_count_h_pearson": 0.4478240991565941,
+            "debt_peak_vs_post_peak_release_mass_h_pearson": 0.6339835501001749,
+            "debt_peak_vs_post_peak_strong_release_count_h_pearson": 0.4920372656205402,
+            "debt_peak_vs_total_release_count_pearson": 0.5485480454706312,
+            "mean_response_delay": 1.3571428571428572,
+            "median_response_delay": 1.0,
+            "primary_signal": 0.6339835501001749,
+            "records": 1000,
+            "terminated_within_bound": 1000
+          },
+          "config": {
+            "max_odd_seed": 1999,
+            "odd_steps": 160,
+            "post_peak_horizon": 25
+          }
+        },
+        {
+          "aggregate": {
+            "debt_peak_vs_post_peak_release_count_h_pearson": 0.491243795390363,
+            "debt_peak_vs_post_peak_release_mass_h_pearson": 0.6677000616676537,
+            "debt_peak_vs_post_peak_strong_release_count_h_pearson": 0.5227993163833782,
+            "debt_peak_vs_total_release_count_pearson": 0.5485480454706312,
+            "mean_response_delay": 1.3571428571428572,
+            "median_response_delay": 1.0,
+            "primary_signal": 0.6677000616676537,
+            "records": 1000,
+            "terminated_within_bound": 1000
+          },
+          "config": {
+            "max_odd_seed": 1999,
+            "odd_steps": 160,
+            "post_peak_horizon": 30
+          }
+        }
+      ],
+      "configs": [
+        {
+          "max_odd_seed": 1999,
+          "odd_steps": 160,
+          "post_peak_horizon": 5
+        },
+        {
+          "max_odd_seed": 1999,
+          "odd_steps": 160,
+          "post_peak_horizon": 10
+        },
+        {
+          "max_odd_seed": 1999,
+          "odd_steps": 160,
+          "post_peak_horizon": 15
+        },
+        {
+          "max_odd_seed": 1999,
+          "odd_steps": 160,
+          "post_peak_horizon": 20
+        },
+        {
+          "max_odd_seed": 1999,
+          "odd_steps": 160,
+          "post_peak_horizon": 25
+        },
+        {
+          "max_odd_seed": 1999,
+          "odd_steps": 160,
+          "post_peak_horizon": 30
+        }
+      ]
+    },
+    "seed_scale_axis": {
+      "axis_summary": {
+        "all_positive": true,
+        "axis_log10_values": [
+          1.99563519459755,
+          2.298853076409707,
+          2.6981005456233897,
+          2.9995654882259823,
+          3.3008127941181167,
+          3.6019514041335214
+        ],
+        "axis_name": "seed_scale_axis",
+        "axis_values": [
+          99.0,
+          199.0,
+          499.0,
+          999.0,
+          1999.0,
+          3999.0
+        ],
+        "axis_vs_signal_correlation_log10": -0.941021490039188,
+        "direction": "decay",
+        "first_signal": 0.9021477984155496,
+        "floor_status": "positive_but_weak_floor",
+        "last_signal": 0.4376740926264036,
+        "max_signal": 0.9021477984155496,
+        "mean_signal": 0.7365742858130144,
+        "median_response_delay_all_at_most_1": true,
+        "median_response_delay_values": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "min_signal": 0.4376740926264036,
+        "primary_signal_values": [
+          0.9021477984155496,
+          0.8937770228861143,
+          0.8373135502769884,
+          0.7536864879235644,
+          0.594846762749466,
+          0.4376740926264036
+        ],
+        "relative_drop": 0.5148532276029553,
+        "slope_per_axis_unit": -0.00012218423708388256,
+        "slope_per_log10_axis": -0.28764460100848993,
+        "total_drop": 0.464473705789146,
+        "zero_crossing_observed": false
+      },
+      "config_results": [
+        {
+          "aggregate": {
+            "debt_peak_vs_post_peak_release_count_h_pearson": 0.8308759123756864,
+            "debt_peak_vs_post_peak_release_mass_h_pearson": 0.9021477984155496,
+            "debt_peak_vs_post_peak_strong_release_count_h_pearson": 0.9015432919101982,
+            "debt_peak_vs_total_release_count_pearson": 0.8499559342486203,
+            "mean_response_delay": 1.2608695652173914,
+            "median_response_delay": 1.0,
+            "primary_signal": 0.9021477984155496,
+            "records": 50,
+            "terminated_within_bound": 50
+          },
+          "config": {
+            "max_odd_seed": 99,
+            "odd_steps": 160,
+            "post_peak_horizon": 20
+          }
+        },
+        {
+          "aggregate": {
+            "debt_peak_vs_post_peak_release_count_h_pearson": 0.7670687904426275,
+            "debt_peak_vs_post_peak_release_mass_h_pearson": 0.8937770228861143,
+            "debt_peak_vs_post_peak_strong_release_count_h_pearson": 0.8877591086331564,
+            "debt_peak_vs_total_release_count_pearson": 0.8194311322193429,
+            "mean_response_delay": 1.25,
+            "median_response_delay": 1.0,
+            "primary_signal": 0.8937770228861143,
+            "records": 100,
+            "terminated_within_bound": 100
+          },
+          "config": {
+            "max_odd_seed": 199,
+            "odd_steps": 160,
+            "post_peak_horizon": 20
+          }
+        },
+        {
+          "aggregate": {
+            "debt_peak_vs_post_peak_release_count_h_pearson": 0.6535793558978901,
+            "debt_peak_vs_post_peak_release_mass_h_pearson": 0.8373135502769884,
+            "debt_peak_vs_post_peak_strong_release_count_h_pearson": 0.8149005620707593,
+            "debt_peak_vs_total_release_count_pearson": 0.7281303003089904,
+            "mean_response_delay": 1.2571428571428571,
+            "median_response_delay": 1.0,
+            "primary_signal": 0.8373135502769884,
+            "records": 250,
+            "terminated_within_bound": 250
+          },
+          "config": {
+            "max_odd_seed": 499,
+            "odd_steps": 160,
+            "post_peak_horizon": 20
+          }
+        },
+        {
+          "aggregate": {
+            "debt_peak_vs_post_peak_release_count_h_pearson": 0.5340512825757622,
+            "debt_peak_vs_post_peak_release_mass_h_pearson": 0.7536864879235644,
+            "debt_peak_vs_post_peak_strong_release_count_h_pearson": 0.6718533282358932,
+            "debt_peak_vs_total_release_count_pearson": 0.6279691929843809,
+            "mean_response_delay": 1.288888888888889,
+            "median_response_delay": 1.0,
+            "primary_signal": 0.7536864879235644,
+            "records": 500,
+            "terminated_within_bound": 500
+          },
+          "config": {
+            "max_odd_seed": 999,
+            "odd_steps": 160,
+            "post_peak_horizon": 20
+          }
+        },
+        {
+          "aggregate": {
+            "debt_peak_vs_post_peak_release_count_h_pearson": 0.4121308647324435,
+            "debt_peak_vs_post_peak_release_mass_h_pearson": 0.594846762749466,
+            "debt_peak_vs_post_peak_strong_release_count_h_pearson": 0.4602112195178408,
+            "debt_peak_vs_total_release_count_pearson": 0.5485480454706312,
+            "mean_response_delay": 1.3571428571428572,
+            "median_response_delay": 1.0,
+            "primary_signal": 0.594846762749466,
+            "records": 1000,
+            "terminated_within_bound": 1000
+          },
+          "config": {
+            "max_odd_seed": 1999,
+            "odd_steps": 160,
+            "post_peak_horizon": 20
+          }
+        },
+        {
+          "aggregate": {
+            "debt_peak_vs_post_peak_release_count_h_pearson": 0.32432096038780756,
+            "debt_peak_vs_post_peak_release_mass_h_pearson": 0.4376740926264036,
+            "debt_peak_vs_post_peak_strong_release_count_h_pearson": 0.2724138472333819,
+            "debt_peak_vs_total_release_count_pearson": 0.4873423722438428,
+            "mean_response_delay": 1.4307923771313942,
+            "median_response_delay": 1.0,
+            "primary_signal": 0.4376740926264036,
+            "records": 2000,
+            "terminated_within_bound": 2000
+          },
+          "config": {
+            "max_odd_seed": 3999,
+            "odd_steps": 160,
+            "post_peak_horizon": 20
+          }
+        }
+      ],
+      "configs": [
+        {
+          "max_odd_seed": 99,
+          "odd_steps": 160,
+          "post_peak_horizon": 20
+        },
+        {
+          "max_odd_seed": 199,
+          "odd_steps": 160,
+          "post_peak_horizon": 20
+        },
+        {
+          "max_odd_seed": 499,
+          "odd_steps": 160,
+          "post_peak_horizon": 20
+        },
+        {
+          "max_odd_seed": 999,
+          "odd_steps": 160,
+          "post_peak_horizon": 20
+        },
+        {
+          "max_odd_seed": 1999,
+          "odd_steps": 160,
+          "post_peak_horizon": 20
+        },
+        {
+          "max_odd_seed": 3999,
+          "odd_steps": 160,
+          "post_peak_horizon": 20
+        }
+      ]
+    }
+  },
+  "axis_summaries": {
+    "odd_step_depth_axis": {
+      "all_positive": true,
+      "axis_log10_values": [
+        1.6020599913279625,
+        1.9030899869919435,
+        2.0791812460476247,
+        2.204119982655925,
+        2.3010299956639813,
+        2.380211241711606
+      ],
+      "axis_name": "odd_step_depth_axis",
+      "axis_values": [
+        40.0,
+        80.0,
+        120.0,
+        160.0,
+        200.0,
+        240.0
+      ],
+      "axis_vs_signal_correlation_log10": 0.810682692479592,
+      "direction": "growth",
+      "first_signal": 0.20668708096732372,
+      "floor_status": "positive_but_weak_floor",
+      "last_signal": 0.594846762749466,
+      "max_signal": 0.594846762749466,
+      "mean_signal": 0.5301534824524423,
+      "median_response_delay_all_at_most_1": true,
+      "median_response_delay_values": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min_signal": 0.20668708096732372,
+      "primary_signal_values": [
+        0.20668708096732372,
+        0.594846762749466,
+        0.594846762749466,
+        0.594846762749466,
+        0.594846762749466,
+        0.594846762749466
+      ],
+      "relative_drop": -1.8780065012554346,
+      "slope_per_axis_unit": 0.0013862845777933652,
+      "slope_per_log10_axis": 0.44639718729270655,
+      "total_drop": -0.38815968178214233,
+      "zero_crossing_observed": false
+    },
+    "post_peak_horizon_axis": {
+      "all_positive": true,
+      "axis_log10_values": [
+        0.6989700043360189,
+        1.0,
+        1.1760912590556813,
+        1.3010299956639813,
+        1.3979400086720377,
+        1.4771212547196624
+      ],
+      "axis_name": "post_peak_horizon_axis",
+      "axis_values": [
+        5.0,
+        10.0,
+        15.0,
+        20.0,
+        25.0,
+        30.0
+      ],
+      "axis_vs_signal_correlation_log10": 0.9946104449624663,
+      "direction": "growth",
+      "first_signal": 0.10234198290214148,
+      "floor_status": "positive_but_weak_floor",
+      "last_signal": 0.6677000616676537,
+      "max_signal": 0.6677000616676537,
+      "mean_signal": 0.47244677872847535,
+      "median_response_delay_all_at_most_1": true,
+      "median_response_delay_values": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min_signal": 0.10234198290214148,
+      "primary_signal_values": [
+        0.10234198290214148,
+        0.36454245417420356,
+        0.47126586077721233,
+        0.594846762749466,
+        0.6339835501001749,
+        0.6677000616676537
+      ],
+      "relative_drop": -5.524204854483841,
+      "slope_per_axis_unit": 0.02147825476330131,
+      "slope_per_log10_axis": 0.7377370919067828,
+      "total_drop": -0.5653580787655123,
+      "zero_crossing_observed": false
+    },
+    "seed_scale_axis": {
+      "all_positive": true,
+      "axis_log10_values": [
+        1.99563519459755,
+        2.298853076409707,
+        2.6981005456233897,
+        2.9995654882259823,
+        3.3008127941181167,
+        3.6019514041335214
+      ],
+      "axis_name": "seed_scale_axis",
+      "axis_values": [
+        99.0,
+        199.0,
+        499.0,
+        999.0,
+        1999.0,
+        3999.0
+      ],
+      "axis_vs_signal_correlation_log10": -0.941021490039188,
+      "direction": "decay",
+      "first_signal": 0.9021477984155496,
+      "floor_status": "positive_but_weak_floor",
+      "last_signal": 0.4376740926264036,
+      "max_signal": 0.9021477984155496,
+      "mean_signal": 0.7365742858130144,
+      "median_response_delay_all_at_most_1": true,
+      "median_response_delay_values": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min_signal": 0.4376740926264036,
+      "primary_signal_values": [
+        0.9021477984155496,
+        0.8937770228861143,
+        0.8373135502769884,
+        0.7536864879235644,
+        0.594846762749466,
+        0.4376740926264036
+      ],
+      "relative_drop": 0.5148532276029553,
+      "slope_per_axis_unit": -0.00012218423708388256,
+      "slope_per_log10_axis": -0.28764460100848993,
+      "total_drop": 0.464473705789146,
+      "zero_crossing_observed": false
+    }
+  },
+  "boundary": {
+    "bounded_evidence_status": "measurement_only",
+    "collatz_status": "not_claimed_solved",
+    "global_closure_status": "not_claimed",
+    "global_invariant_status": "not_claimed",
+    "proof_status": "not_a_proof",
+    "theorem_status": "no_theorem_claimed"
+  },
+  "bounded_assessment": "axis_decay_detected",
+  "generated_at_utc": "2026-05-23T12:44:37.076452+00:00",
+  "interpretation": {
+    "bounded_claim": "The audit separates apparent signal decay by changing one measurement axis at a time.",
+    "native_hypothesis": "The weakening of release-pressure correlation can be attributed to specific measurement axes rather than treated as a single undifferentiated scale effect.",
+    "primary_signal": "debt_peak_vs_post_peak_release_mass_h_pearson"
+  },
+  "machine": "Residual Decay Audit V0",
+  "residual_attribution": {
+    "decay_axes": [
+      "seed_scale_axis"
+    ],
+    "flat_axes": [],
+    "floor_preserved_axes": [],
+    "growth_axes": [
+      "odd_step_depth_axis",
+      "post_peak_horizon_axis"
+    ],
+    "zero_crossing_axes": []
+  },
+  "version": "v5.2"
+}

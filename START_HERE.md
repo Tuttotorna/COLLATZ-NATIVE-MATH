@@ -261,3 +261,19 @@ The audit tests whether the distributed release pressure signal decays toward ze
 It does not prove Collatz.
 
 It does not claim Collatz is solved.
+
+## v5.2 Residual Decay Audit V0
+
+Read:
+
+    docs/RESIDUAL_DECAY_AUDIT_V0.md
+
+Run:
+
+    python examples/build_residual_decay_audit_v0.py
+
+The audit separates whether signal decay comes from seed scale, odd-step depth, or post-peak horizon.
+
+It does not prove Collatz.
+
+It does not claim Collatz is solved.

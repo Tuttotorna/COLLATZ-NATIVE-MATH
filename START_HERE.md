@@ -405,3 +405,19 @@ The audit extracts the internal sequence grammar of strongest near-breach trajec
 It does not prove Collatz.
 
 It does not claim Collatz is solved.
+
+## v6.1 Near-Breach Grammar Recurrence Audit V0
+
+Read:
+
+    docs/NEAR_BREACH_GRAMMAR_RECURRENCE_AUDIT_V0.md
+
+Run:
+
+    python examples/build_near_breach_grammar_recurrence_audit_v0.py
+
+The audit tests whether exact near-breach grammars recur or concatenate inside bounded trajectories.
+
+It does not prove Collatz.
+
+It does not claim Collatz is solved.

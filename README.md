@@ -733,3 +733,31 @@ Boundary:
     repeated pattern != theorem
     near-breach grammar != counterexample
     bounded anatomy != global invariant
+
+## v6.1 Near-Breach Grammar Recurrence Audit V0
+
+The repository now includes a bounded Near-Breach Grammar Recurrence Audit.
+
+Run:
+
+    python examples/build_near_breach_grammar_recurrence_audit_v0.py
+
+Outputs:
+
+    results/near_breach_grammar_recurrence_audit_v0.json
+    results/near_breach_grammar_recurrence_audit_v0.md
+    results/near_breach_grammar_recurrence_audit_v0_certificate.json
+
+Purpose:
+
+    search exact recurrence of near-breach Pattern A and Pattern B
+    measure pattern_A_count and pattern_B_count
+    measure pattern_after_pattern and recurrence distances
+    test whether near-breach grammars are isolated or chainable
+
+Boundary:
+
+    grammar_recurrence != proof
+    pattern recurrence != counterexample
+    no recurrence observed != no recurrence possible
+    bounded recurrence search != global invariant

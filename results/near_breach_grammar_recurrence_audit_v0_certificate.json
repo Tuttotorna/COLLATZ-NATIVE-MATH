@@ -1,0 +1,38 @@
+{
+  "artifact": "Near-Breach Grammar Recurrence Audit V0",
+  "boundary": {
+    "bounded_evidence_status": "measurement_only",
+    "collatz_status": "not_claimed_solved",
+    "global_closure_status": "not_claimed",
+    "global_invariant_status": "not_claimed",
+    "proof_status": "not_a_proof",
+    "theorem_status": "no_theorem_claimed"
+  },
+  "bounded_assessment": "near_breach_grammar_isolated_occurrences_detected",
+  "generated_at_utc": "2026-05-23T14:58:57.317371+00:00",
+  "outputs": [
+    "results/near_breach_grammar_recurrence_audit_v0.json",
+    "results/near_breach_grammar_recurrence_audit_v0.md",
+    "results/near_breach_grammar_recurrence_audit_v0_certificate.json"
+  ],
+  "summary": {
+    "combined_pattern_instance_count": 49,
+    "max_post_pattern_debt_gain": -1.415037462853192,
+    "mean_post_pattern_debt_gain": -2.383152085401741,
+    "mean_recurrence_distance": null,
+    "min_recurrence_distance": null,
+    "pattern_A_hit_seed_count": 34,
+    "pattern_A_instance_count": 34,
+    "pattern_B_hit_seed_count": 15,
+    "pattern_B_instance_count": 15,
+    "pattern_after_pattern_seed_count": 0,
+    "pattern_hit_rate": 0.00098,
+    "pattern_hit_seed_count": 49,
+    "post_pattern_new_local_peak_count": 0,
+    "post_pattern_new_local_peak_rate_per_instance": 0.0,
+    "records_measured": 50000,
+    "recurrence_hit_rate": 0.0,
+    "recurrence_seed_count": 0
+  },
+  "version": "v6.1"
+}

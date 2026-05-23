@@ -4,11 +4,18 @@ import sys
 from pathlib import Path
 
 
-def run_scanner_once():
+def ensure_scanner_outputs():
     root = Path(__file__).resolve().parents[1]
     script = root / "examples" / "bounded_obstruction_search_scanner.py"
 
+    rows = root / "results" / "bounded_obstruction_search_rows.jsonl"
+    summary = root / "results" / "bounded_obstruction_search_summary.json"
+    certificate = root / "results" / "bounded_obstruction_search_certificate.json"
+
     assert script.exists()
+
+    if rows.exists() and summary.exists() and certificate.exists():
+        return
 
     subprocess.run(
         [sys.executable, str(script)],
@@ -18,6 +25,32 @@ def run_scanner_once():
         stderr=subprocess.PIPE,
         text=True,
     )
+
+
+def load_rows():
+    ensure_scanner_outputs()
+    root = Path(__file__).resolve().parents[1]
+    path = root / "results" / "bounded_obstruction_search_rows.jsonl"
+
+    return [
+        json.loads(line)
+        for line in path.read_text(encoding="utf-8").splitlines()
+        if line.strip()
+    ]
+
+
+def load_summary():
+    ensure_scanner_outputs()
+    root = Path(__file__).resolve().parents[1]
+    path = root / "results" / "bounded_obstruction_search_summary.json"
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def load_certificate():
+    ensure_scanner_outputs()
+    root = Path(__file__).resolve().parents[1]
+    path = root / "results" / "bounded_obstruction_search_certificate.json"
+    return json.loads(path.read_text(encoding="utf-8"))
 
 
 def test_bounded_obstruction_docs_exist():
@@ -39,7 +72,7 @@ def test_bounded_obstruction_docs_exist():
 
 
 def test_bounded_obstruction_scanner_outputs_exist():
-    run_scanner_once()
+    ensure_scanner_outputs()
 
     root = Path(__file__).resolve().parents[1]
 
@@ -49,12 +82,7 @@ def test_bounded_obstruction_scanner_outputs_exist():
 
 
 def test_bounded_obstruction_certificate_fields():
-    run_scanner_once()
-
-    root = Path(__file__).resolve().parents[1]
-    path = root / "results" / "bounded_obstruction_search_certificate.json"
-
-    data = json.loads(path.read_text(encoding="utf-8"))
+    data = load_certificate()
 
     required = [
         "version",
@@ -82,12 +110,7 @@ def test_bounded_obstruction_certificate_fields():
 
 
 def test_negative_result_boundary_is_explicit():
-    run_scanner_once()
-
-    root = Path(__file__).resolve().parents[1]
-    path = root / "results" / "bounded_obstruction_search_certificate.json"
-
-    data = json.loads(path.read_text(encoding="utf-8"))
+    data = load_certificate()
 
     assert data["negative_result_boundary"] == (
         "No obstruction detected in a finite domain is not the same as no obstruction can exist."
@@ -95,16 +118,7 @@ def test_negative_result_boundary_is_explicit():
 
 
 def test_rows_are_jsonl_and_have_native_fields():
-    run_scanner_once()
-
-    root = Path(__file__).resolve().parents[1]
-    path = root / "results" / "bounded_obstruction_search_rows.jsonl"
-
-    rows = [
-        json.loads(line)
-        for line in path.read_text(encoding="utf-8").splitlines()
-        if line.strip()
-    ]
+    rows = load_rows()
 
     assert rows
 
@@ -127,10 +141,7 @@ def test_rows_are_jsonl_and_have_native_fields():
 
 
 def test_search_result_types_are_valid():
-    run_scanner_once()
-
-    root = Path(__file__).resolve().parents[1]
-    path = root / "results" / "bounded_obstruction_search_rows.jsonl"
+    rows = load_rows()
 
     valid = {
         "NO_DEBT_DETECTED",
@@ -142,28 +153,12 @@ def test_search_result_types_are_valid():
         "UNDECIDED",
     }
 
-    rows = [
-        json.loads(line)
-        for line in path.read_text(encoding="utf-8").splitlines()
-        if line.strip()
-    ]
-
     for row in rows:
         assert row["closure_result_type"] in valid
 
 
 def test_known_anchor_is_included():
-    run_scanner_once()
-
-    root = Path(__file__).resolve().parents[1]
-    path = root / "results" / "bounded_obstruction_search_rows.jsonl"
-
-    rows = [
-        json.loads(line)
-        for line in path.read_text(encoding="utf-8").splitlines()
-        if line.strip()
-    ]
-
+    rows = load_rows()
     n0_values = {row["n0"] for row in rows}
 
     assert 837799 in n0_values
@@ -173,22 +168,8 @@ def test_known_anchor_is_included():
 
 
 def test_summary_is_consistent_with_rows():
-    run_scanner_once()
-
-    root = Path(__file__).resolve().parents[1]
-
-    rows = [
-        json.loads(line)
-        for line in (root / "results" / "bounded_obstruction_search_rows.jsonl")
-        .read_text(encoding="utf-8")
-        .splitlines()
-        if line.strip()
-    ]
-
-    summary = json.loads(
-        (root / "results" / "bounded_obstruction_search_summary.json")
-        .read_text(encoding="utf-8")
-    )
+    rows = load_rows()
+    summary = load_summary()
 
     assert summary["version"] == "v2.6"
     assert summary["tested_candidate_count"] == len(rows)
@@ -204,7 +185,6 @@ def test_summary_is_consistent_with_rows():
 
 def test_docs_forbid_proof_claims():
     root = Path(__file__).resolve().parents[1]
-
     text = (root / "docs" / "BOUNDED_SEARCH_NEGATIVE_RESULT.md").read_text(encoding="utf-8")
 
     assert "Collatz is proved." in text

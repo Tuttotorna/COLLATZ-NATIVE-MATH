@@ -1,0 +1,2190 @@
+{
+  "central_native_question": "What remains conserved across recurrence, mutation, and stability?",
+  "conservation_candidate_count": 45,
+  "conservation_class_counts": {
+    "danger_emergence": 9,
+    "family + class + danger + stability_behavior": 8,
+    "release_behavior + instability_behavior": 28
+  },
+  "conservation_status_counts": {
+    "danger_release_conservation": 28,
+    "dangerous_stability_conservation": 8,
+    "weak_conservation": 9
+  },
+  "danger_release_conservation_candidates": [
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657630,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 74316890.43880929,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657633
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657631,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 74316594.43880929,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657633
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657630,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 74315861.43064445,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657638
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657630,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 74315856.43064445,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657634
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657630,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 74315855.43064445,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657635
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657630,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 74315849.43064445,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657632
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657631,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 74315560.43064445,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657634
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657631,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 74315559.43064445,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657635
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657631,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 74315558.43064445,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657636
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657631,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 74315553.43064445,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657632
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 626331,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 4956496.871741455,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 626332
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 131071,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 1044232.7029595028,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "MINIMAL_SENTENCE",
+      "to_family": "unclassified_family",
+      "to_n0": 131072
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 4099,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 283341.2183314216,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "DEBT_COMPENSATION_SENTENCE",
+      "to_family": "unclassified_family",
+      "to_n0": 4100
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 77031,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 267658.37229342555,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 77032
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 77039,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 168470.1279947307,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 77040
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 63,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 159586.35857626906,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "MINIMAL_SENTENCE",
+      "to_family": "unclassified_family",
+      "to_n0": 64
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 27,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 36169.06155805285,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "DEBT_COMPENSATION_SENTENCE",
+      "to_family": "unclassified_family",
+      "to_n0": 28
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 31,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 29671.292575696134,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "MINIMAL_SENTENCE",
+      "to_family": "unclassified_family",
+      "to_n0": 32
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 55,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 29690.05565973777,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "DEBT_COMPENSATION_SENTENCE",
+      "to_family": "unclassified_family",
+      "to_n0": 56
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 4094,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 59270.478847781895,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 4095
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 4103,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 64199.599002465104,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 4104
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 4105,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 64182.599002465104,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 4106
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 626327,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 159175.85480691813,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 626328
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 626336,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 63844.26979907005,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 626337
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 837783,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 72455.34290600606,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 837784
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 837792,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 12536.734798826357,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 837793
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 837802,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 35095.87406873239,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 837803
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 837808,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 73501.4018040111,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 837809
+    }
+  ],
+  "danger_release_conservation_count": 28,
+  "danger_release_conservation_ratio": 0.6222222222222222,
+  "dangerous_stability_conservation_candidates": [
+    {
+      "conservation_class": "family + class + danger + stability_behavior",
+      "conservation_status": "dangerous_stability_conservation",
+      "conserved_features": [
+        "family",
+        "class",
+        "danger",
+        "stability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657627,
+      "lost_features": [],
+      "mutation_strength": 74055935.10351634,
+      "mutation_type": "stable_repeat_mutation",
+      "native_interpretation": "danger persists together with stability",
+      "stability_type": "class_stable",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 9780657630
+    },
+    {
+      "conservation_class": "family + class + danger + stability_behavior",
+      "conservation_status": "dangerous_stability_conservation",
+      "conserved_features": [
+        "family",
+        "class",
+        "danger",
+        "stability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 837799,
+      "lost_features": [],
+      "mutation_strength": 1014660.4044854916,
+      "mutation_type": "stable_repeat_mutation",
+      "native_interpretation": "danger persists together with stability",
+      "stability_type": "class_stable",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 837800
+    },
+    {
+      "conservation_class": "family + class + danger + stability_behavior",
+      "conservation_status": "dangerous_stability_conservation",
+      "conserved_features": [
+        "family",
+        "class",
+        "danger",
+        "stability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 837791,
+      "lost_features": [],
+      "mutation_strength": 1006414.4044854916,
+      "mutation_type": "stable_repeat_mutation",
+      "native_interpretation": "danger persists together with stability",
+      "stability_type": "class_stable",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 837792
+    },
+    {
+      "conservation_class": "family + class + danger + stability_behavior",
+      "conservation_status": "dangerous_stability_conservation",
+      "conserved_features": [
+        "family",
+        "class",
+        "danger",
+        "stability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 837806,
+      "lost_features": [],
+      "mutation_strength": 582259.7901591007,
+      "mutation_type": "stable_repeat_mutation",
+      "native_interpretation": "danger persists together with stability",
+      "stability_type": "class_stable",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 837807
+    },
+    {
+      "conservation_class": "family + class + danger + stability_behavior",
+      "conservation_status": "dangerous_stability_conservation",
+      "conserved_features": [
+        "family",
+        "class",
+        "danger",
+        "stability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 837807,
+      "lost_features": [],
+      "mutation_strength": 582258.7901591007,
+      "mutation_type": "stable_repeat_mutation",
+      "native_interpretation": "danger persists together with stability",
+      "stability_type": "class_stable",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 837808
+    },
+    {
+      "conservation_class": "family + class + danger + stability_behavior",
+      "conservation_status": "dangerous_stability_conservation",
+      "conserved_features": [
+        "family",
+        "class",
+        "danger",
+        "stability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 62,
+      "lost_features": [],
+      "mutation_strength": 130047.06600057293,
+      "mutation_type": "stable_repeat_mutation",
+      "native_interpretation": "danger persists together with stability",
+      "stability_type": "class_stable",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 63
+    },
+    {
+      "conservation_class": "family + class + danger + stability_behavior",
+      "conservation_status": "dangerous_stability_conservation",
+      "conserved_features": [
+        "family",
+        "class",
+        "danger",
+        "stability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 4098,
+      "lost_features": [],
+      "mutation_strength": 6.0,
+      "mutation_type": "stable_repeat_mutation",
+      "native_interpretation": "danger persists together with stability",
+      "stability_type": "class_stable",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 4099
+    },
+    {
+      "conservation_class": "family + class + danger + stability_behavior",
+      "conservation_status": "dangerous_stability_conservation",
+      "conserved_features": [
+        "family",
+        "class",
+        "danger",
+        "stability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 626326,
+      "lost_features": [],
+      "mutation_strength": 1.0,
+      "mutation_type": "stable_repeat_mutation",
+      "native_interpretation": "danger persists together with stability",
+      "stability_type": "class_stable",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 626327
+    }
+  ],
+  "dangerous_stability_conservation_count": 8,
+  "dangerous_stability_conservation_ratio": 0.17777777777777778,
+  "instability_conservation_candidates": [],
+  "instability_conservation_count": 0,
+  "instability_conservation_ratio": 0.0,
+  "layer": "native_conservation_map",
+  "mother_rule": "No solution before native language.",
+  "native_interpretation": "DANGEROUS_STABILITY_CONSERVATION_PRESENT_WITHOUT_PROOF",
+  "near_9780657630_conservation": [
+    {
+      "conservation_class": "family + class + danger + stability_behavior",
+      "conservation_status": "dangerous_stability_conservation",
+      "conserved_features": [
+        "family",
+        "class",
+        "danger",
+        "stability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657627,
+      "lost_features": [],
+      "mutation_strength": 74055935.10351634,
+      "mutation_type": "stable_repeat_mutation",
+      "native_interpretation": "danger persists together with stability",
+      "stability_type": "class_stable",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 9780657630
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657630,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 74316890.43880929,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657633
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657631,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 74316594.43880929,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657633
+    },
+    {
+      "conservation_class": "danger_emergence",
+      "conservation_status": "weak_conservation",
+      "conserved_features": [
+        "danger_emergence"
+      ],
+      "from_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "from_family": "regeneration_family",
+      "from_n0": 9780657622,
+      "lost_features": [
+        "family",
+        "class"
+      ],
+      "mutation_strength": 74315861.43064445,
+      "mutation_type": "cross_family_mutation",
+      "native_interpretation": "only weak conservation is visible",
+      "stability_type": "toward_dangerous_transition",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 9780657630
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657630,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 74315861.43064445,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657638
+    },
+    {
+      "conservation_class": "danger_emergence",
+      "conservation_status": "weak_conservation",
+      "conserved_features": [
+        "danger_emergence"
+      ],
+      "from_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "from_family": "regeneration_family",
+      "from_n0": 9780657629,
+      "lost_features": [
+        "family",
+        "class"
+      ],
+      "mutation_strength": 74315856.43064445,
+      "mutation_type": "cross_family_mutation",
+      "native_interpretation": "only weak conservation is visible",
+      "stability_type": "toward_dangerous_transition",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 9780657630
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657630,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 74315856.43064445,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657634
+    },
+    {
+      "conservation_class": "danger_emergence",
+      "conservation_status": "weak_conservation",
+      "conserved_features": [
+        "danger_emergence"
+      ],
+      "from_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "from_family": "regeneration_family",
+      "from_n0": 9780657626,
+      "lost_features": [
+        "family",
+        "class"
+      ],
+      "mutation_strength": 74315855.43064445,
+      "mutation_type": "cross_family_mutation",
+      "native_interpretation": "only weak conservation is visible",
+      "stability_type": "toward_dangerous_transition",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 9780657630
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657630,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 74315855.43064445,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657635
+    },
+    {
+      "conservation_class": "danger_emergence",
+      "conservation_status": "weak_conservation",
+      "conserved_features": [
+        "danger_emergence"
+      ],
+      "from_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "from_family": "regeneration_family",
+      "from_n0": 9780657625,
+      "lost_features": [
+        "family",
+        "class"
+      ],
+      "mutation_strength": 74315854.43064445,
+      "mutation_type": "cross_family_mutation",
+      "native_interpretation": "only weak conservation is visible",
+      "stability_type": "toward_dangerous_transition",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 9780657630
+    },
+    {
+      "conservation_class": "danger_emergence",
+      "conservation_status": "weak_conservation",
+      "conserved_features": [
+        "danger_emergence"
+      ],
+      "from_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "from_family": "regeneration_family",
+      "from_n0": 9780657628,
+      "lost_features": [
+        "family",
+        "class"
+      ],
+      "mutation_strength": 74315854.43064445,
+      "mutation_type": "cross_family_mutation",
+      "native_interpretation": "only weak conservation is visible",
+      "stability_type": "toward_dangerous_transition",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 9780657630
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657630,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 74315849.43064445,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657632
+    },
+    {
+      "conservation_class": "danger_emergence",
+      "conservation_status": "weak_conservation",
+      "conserved_features": [
+        "danger_emergence"
+      ],
+      "from_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "from_family": "regeneration_family",
+      "from_n0": 9780657623,
+      "lost_features": [
+        "family",
+        "class"
+      ],
+      "mutation_strength": 74315569.43064445,
+      "mutation_type": "cross_family_mutation",
+      "native_interpretation": "only weak conservation is visible",
+      "stability_type": "toward_dangerous_transition",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 9780657631
+    },
+    {
+      "conservation_class": "danger_emergence",
+      "conservation_status": "weak_conservation",
+      "conserved_features": [
+        "danger_emergence"
+      ],
+      "from_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "from_family": "regeneration_family",
+      "from_n0": 9780657629,
+      "lost_features": [
+        "family",
+        "class"
+      ],
+      "mutation_strength": 74315560.43064445,
+      "mutation_type": "cross_family_mutation",
+      "native_interpretation": "only weak conservation is visible",
+      "stability_type": "toward_dangerous_transition",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 9780657631
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657631,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 74315560.43064445,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657634
+    },
+    {
+      "conservation_class": "danger_emergence",
+      "conservation_status": "weak_conservation",
+      "conserved_features": [
+        "danger_emergence"
+      ],
+      "from_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "from_family": "regeneration_family",
+      "from_n0": 9780657626,
+      "lost_features": [
+        "family",
+        "class"
+      ],
+      "mutation_strength": 74315559.43064445,
+      "mutation_type": "cross_family_mutation",
+      "native_interpretation": "only weak conservation is visible",
+      "stability_type": "toward_dangerous_transition",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 9780657631
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657631,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 74315559.43064445,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657635
+    },
+    {
+      "conservation_class": "danger_emergence",
+      "conservation_status": "weak_conservation",
+      "conserved_features": [
+        "danger_emergence"
+      ],
+      "from_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "from_family": "regeneration_family",
+      "from_n0": 9780657628,
+      "lost_features": [
+        "family",
+        "class"
+      ],
+      "mutation_strength": 74315558.43064445,
+      "mutation_type": "cross_family_mutation",
+      "native_interpretation": "only weak conservation is visible",
+      "stability_type": "toward_dangerous_transition",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 9780657631
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657631,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 74315558.43064445,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657636
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657631,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 74315553.43064445,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657632
+    }
+  ],
+  "negative_result_boundary": "Bounded conservation signals do not imply global theorem or global closure.",
+  "next_recommended_version": "v3.9 Native Invariant Candidate Map",
+  "obstruction_detected": false,
+  "obstruction_relevant_conservation_candidates": [],
+  "obstruction_relevant_conservation_count": 0,
+  "obstruction_relevant_conservation_ratio": 0.0,
+  "proof_status": "not_a_proof",
+  "secondary_rule": "No proof before native description.",
+  "source_dangerous_stable_edge_count": 0,
+  "source_dangerous_unstable_edge_count": 37,
+  "source_release_edge_count": 28,
+  "source_stability_edge_count": 45,
+  "source_stability_version": "v3.7",
+  "stability_conservation_count": 0,
+  "strongest_conservation_candidates": [
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657630,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 74316890.43880929,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657633
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657631,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 74316594.43880929,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657633
+    },
+    {
+      "conservation_class": "danger_emergence",
+      "conservation_status": "weak_conservation",
+      "conserved_features": [
+        "danger_emergence"
+      ],
+      "from_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "from_family": "regeneration_family",
+      "from_n0": 9780657622,
+      "lost_features": [
+        "family",
+        "class"
+      ],
+      "mutation_strength": 74315861.43064445,
+      "mutation_type": "cross_family_mutation",
+      "native_interpretation": "only weak conservation is visible",
+      "stability_type": "toward_dangerous_transition",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 9780657630
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657630,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 74315861.43064445,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657638
+    },
+    {
+      "conservation_class": "danger_emergence",
+      "conservation_status": "weak_conservation",
+      "conserved_features": [
+        "danger_emergence"
+      ],
+      "from_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "from_family": "regeneration_family",
+      "from_n0": 9780657629,
+      "lost_features": [
+        "family",
+        "class"
+      ],
+      "mutation_strength": 74315856.43064445,
+      "mutation_type": "cross_family_mutation",
+      "native_interpretation": "only weak conservation is visible",
+      "stability_type": "toward_dangerous_transition",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 9780657630
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657630,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 74315856.43064445,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657634
+    },
+    {
+      "conservation_class": "danger_emergence",
+      "conservation_status": "weak_conservation",
+      "conserved_features": [
+        "danger_emergence"
+      ],
+      "from_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "from_family": "regeneration_family",
+      "from_n0": 9780657626,
+      "lost_features": [
+        "family",
+        "class"
+      ],
+      "mutation_strength": 74315855.43064445,
+      "mutation_type": "cross_family_mutation",
+      "native_interpretation": "only weak conservation is visible",
+      "stability_type": "toward_dangerous_transition",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 9780657630
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657630,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 74315855.43064445,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657635
+    },
+    {
+      "conservation_class": "danger_emergence",
+      "conservation_status": "weak_conservation",
+      "conserved_features": [
+        "danger_emergence"
+      ],
+      "from_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "from_family": "regeneration_family",
+      "from_n0": 9780657625,
+      "lost_features": [
+        "family",
+        "class"
+      ],
+      "mutation_strength": 74315854.43064445,
+      "mutation_type": "cross_family_mutation",
+      "native_interpretation": "only weak conservation is visible",
+      "stability_type": "toward_dangerous_transition",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 9780657630
+    },
+    {
+      "conservation_class": "danger_emergence",
+      "conservation_status": "weak_conservation",
+      "conserved_features": [
+        "danger_emergence"
+      ],
+      "from_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "from_family": "regeneration_family",
+      "from_n0": 9780657628,
+      "lost_features": [
+        "family",
+        "class"
+      ],
+      "mutation_strength": 74315854.43064445,
+      "mutation_type": "cross_family_mutation",
+      "native_interpretation": "only weak conservation is visible",
+      "stability_type": "toward_dangerous_transition",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 9780657630
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657630,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 74315849.43064445,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657632
+    },
+    {
+      "conservation_class": "danger_emergence",
+      "conservation_status": "weak_conservation",
+      "conserved_features": [
+        "danger_emergence"
+      ],
+      "from_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "from_family": "regeneration_family",
+      "from_n0": 9780657623,
+      "lost_features": [
+        "family",
+        "class"
+      ],
+      "mutation_strength": 74315569.43064445,
+      "mutation_type": "cross_family_mutation",
+      "native_interpretation": "only weak conservation is visible",
+      "stability_type": "toward_dangerous_transition",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 9780657631
+    },
+    {
+      "conservation_class": "danger_emergence",
+      "conservation_status": "weak_conservation",
+      "conserved_features": [
+        "danger_emergence"
+      ],
+      "from_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "from_family": "regeneration_family",
+      "from_n0": 9780657629,
+      "lost_features": [
+        "family",
+        "class"
+      ],
+      "mutation_strength": 74315560.43064445,
+      "mutation_type": "cross_family_mutation",
+      "native_interpretation": "only weak conservation is visible",
+      "stability_type": "toward_dangerous_transition",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 9780657631
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657631,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 74315560.43064445,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657634
+    },
+    {
+      "conservation_class": "danger_emergence",
+      "conservation_status": "weak_conservation",
+      "conserved_features": [
+        "danger_emergence"
+      ],
+      "from_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "from_family": "regeneration_family",
+      "from_n0": 9780657626,
+      "lost_features": [
+        "family",
+        "class"
+      ],
+      "mutation_strength": 74315559.43064445,
+      "mutation_type": "cross_family_mutation",
+      "native_interpretation": "only weak conservation is visible",
+      "stability_type": "toward_dangerous_transition",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 9780657631
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657631,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 74315559.43064445,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657635
+    },
+    {
+      "conservation_class": "danger_emergence",
+      "conservation_status": "weak_conservation",
+      "conserved_features": [
+        "danger_emergence"
+      ],
+      "from_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "from_family": "regeneration_family",
+      "from_n0": 9780657628,
+      "lost_features": [
+        "family",
+        "class"
+      ],
+      "mutation_strength": 74315558.43064445,
+      "mutation_type": "cross_family_mutation",
+      "native_interpretation": "only weak conservation is visible",
+      "stability_type": "toward_dangerous_transition",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 9780657631
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657631,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 74315558.43064445,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657636
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657631,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 74315553.43064445,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 9780657632
+    },
+    {
+      "conservation_class": "family + class + danger + stability_behavior",
+      "conservation_status": "dangerous_stability_conservation",
+      "conserved_features": [
+        "family",
+        "class",
+        "danger",
+        "stability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 9780657627,
+      "lost_features": [],
+      "mutation_strength": 74055935.10351634,
+      "mutation_type": "stable_repeat_mutation",
+      "native_interpretation": "danger persists together with stability",
+      "stability_type": "class_stable",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 9780657630
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 626331,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 4956496.871741455,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 626332
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 131071,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 1044232.7029595028,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "MINIMAL_SENTENCE",
+      "to_family": "unclassified_family",
+      "to_n0": 131072
+    },
+    {
+      "conservation_class": "family + class + danger + stability_behavior",
+      "conservation_status": "dangerous_stability_conservation",
+      "conserved_features": [
+        "family",
+        "class",
+        "danger",
+        "stability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 837799,
+      "lost_features": [],
+      "mutation_strength": 1014660.4044854916,
+      "mutation_type": "stable_repeat_mutation",
+      "native_interpretation": "danger persists together with stability",
+      "stability_type": "class_stable",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 837800
+    },
+    {
+      "conservation_class": "family + class + danger + stability_behavior",
+      "conservation_status": "dangerous_stability_conservation",
+      "conserved_features": [
+        "family",
+        "class",
+        "danger",
+        "stability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 837791,
+      "lost_features": [],
+      "mutation_strength": 1006414.4044854916,
+      "mutation_type": "stable_repeat_mutation",
+      "native_interpretation": "danger persists together with stability",
+      "stability_type": "class_stable",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 837792
+    },
+    {
+      "conservation_class": "family + class + danger + stability_behavior",
+      "conservation_status": "dangerous_stability_conservation",
+      "conserved_features": [
+        "family",
+        "class",
+        "danger",
+        "stability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 837806,
+      "lost_features": [],
+      "mutation_strength": 582259.7901591007,
+      "mutation_type": "stable_repeat_mutation",
+      "native_interpretation": "danger persists together with stability",
+      "stability_type": "class_stable",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 837807
+    },
+    {
+      "conservation_class": "family + class + danger + stability_behavior",
+      "conservation_status": "dangerous_stability_conservation",
+      "conserved_features": [
+        "family",
+        "class",
+        "danger",
+        "stability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 837807,
+      "lost_features": [],
+      "mutation_strength": 582258.7901591007,
+      "mutation_type": "stable_repeat_mutation",
+      "native_interpretation": "danger persists together with stability",
+      "stability_type": "class_stable",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 837808
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 4099,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 283341.2183314216,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "DEBT_COMPENSATION_SENTENCE",
+      "to_family": "unclassified_family",
+      "to_n0": 4100
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 77031,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 267658.37229342555,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 77032
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 77039,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 168470.1279947307,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 77040
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 63,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 159586.35857626906,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "MINIMAL_SENTENCE",
+      "to_family": "unclassified_family",
+      "to_n0": 64
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 626327,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 159175.85480691813,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 626328
+    },
+    {
+      "conservation_class": "family + class + danger + stability_behavior",
+      "conservation_status": "dangerous_stability_conservation",
+      "conserved_features": [
+        "family",
+        "class",
+        "danger",
+        "stability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 62,
+      "lost_features": [],
+      "mutation_strength": 130047.06600057293,
+      "mutation_type": "stable_repeat_mutation",
+      "native_interpretation": "danger persists together with stability",
+      "stability_type": "class_stable",
+      "to_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "to_family": "dangerous_regeneration_family",
+      "to_n0": 63
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 837808,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 73501.4018040111,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 837809
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 837783,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 72455.34290600606,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 837784
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 4103,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 64199.599002465104,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 4104
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 4105,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 64182.599002465104,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 4106
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 626336,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 63844.26979907005,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 626337
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 4094,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 59270.478847781895,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 4095
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 27,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 36169.06155805285,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "DEBT_COMPENSATION_SENTENCE",
+      "to_family": "unclassified_family",
+      "to_n0": 28
+    },
+    {
+      "conservation_class": "release_behavior + instability_behavior",
+      "conservation_status": "danger_release_conservation",
+      "conserved_features": [
+        "release_behavior",
+        "instability_behavior"
+      ],
+      "from_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "from_family": "dangerous_regeneration_family",
+      "from_n0": 837802,
+      "lost_features": [
+        "family",
+        "class",
+        "danger"
+      ],
+      "mutation_strength": 35095.87406873239,
+      "mutation_type": "dangerous_release_mutation",
+      "native_interpretation": "danger tends to release rather than preserve itself",
+      "stability_type": "dangerous_unstable_release",
+      "to_class": "REGENERATION_COMPENSATION_SENTENCE",
+      "to_family": "regeneration_family",
+      "to_n0": 837803
+    }
+  ],
+  "theorem_status": "no_theorems_introduced",
+  "version": "v3.8"
+}

@@ -734,3 +734,32 @@ Boundary:
     dangerous stability != obstruction
     dangerous instability != proof of closure
     no obstruction-stable grammar detected != obstruction-stable grammar impossible
+
+## Native conservation map
+
+v3.8 maps what Collatz conserves across recurrence, mutation, and stability.
+
+The native distinction is:
+
+    recurrence = what returns
+    mutation = what changes
+    stability = what resists change
+    conservation = what remains through change
+
+The project still does not begin from termination.
+
+It asks:
+
+    What does Collatz keep saying through transformation?
+    Is danger conserved?
+    Is release conserved?
+    Is instability conserved?
+    Is obstruction-relevant behavior conserved?
+    What is conserved around 9780657630?
+
+Boundary:
+
+    conservation != proof
+    bounded conservation != global theorem
+    danger-release conservation != proof of closure
+    no obstruction-relevant conservation detected != obstruction impossible

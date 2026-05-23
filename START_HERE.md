@@ -638,3 +638,24 @@ Read:
 Core rule:
 
     No solution before native language.
+
+## v3.8 native conservation map
+
+After building the stability map, build the conservation map:
+
+    python examples/build_native_conservation_map.py
+
+Read:
+
+    docs/NATIVE_CONSERVATION_MAP.md
+    docs/CONSERVATION_AS_NATIVE_BEHAVIOR.md
+    docs/CONSERVATION_OF_DANGER_RELEASE.md
+    docs/CONSERVATION_OF_INSTABILITY.md
+    docs/CONSERVATION_AROUND_9780657630.md
+    docs/CONSERVATION_MAP_LIMITS.md
+    docs/V38_EVIDENCE_STATUS.md
+    docs/V38_NEXT_STEPS.md
+
+Core rule:
+
+    No solution before native language.

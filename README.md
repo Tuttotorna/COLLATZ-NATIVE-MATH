@@ -996,3 +996,34 @@ Core rule:
     No solution before native language.
 
 This is not a proof layer.
+
+## v3.8 Native Conservation Map
+
+The repository now maps native conservation.
+
+It asks:
+
+    What remains conserved across recurrence, mutation, and stability?
+
+Core distinction:
+
+    recurrence = what returns
+    mutation = what changes
+    stability = what resists change
+    conservation = what remains through change
+
+Run:
+
+    python examples/build_native_conservation_map.py
+
+Outputs:
+
+    results/native_conservation_map.json
+    results/native_conservation_map.md
+    results/native_conservation_certificate.json
+
+Core rule:
+
+    No solution before native language.
+
+This is not a proof layer.

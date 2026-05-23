@@ -525,3 +525,14 @@ v1.1 tests whether the v1.0 hard case is isolated or part of a wider frontier.
 - Preserves the rule: No solution before native language.
 - Emits stability map JSON, Markdown report, and certificate.
 - Sets v3.8 as Native Conservation Map.
+
+## v3.8 - Native Conservation Map
+
+- Adds a native conservation map builder.
+- Distinguishes recurrence, mutation, stability, and conservation.
+- Maps what remains visible across recurrence, mutation, and stability.
+- Classifies danger-release conservation, instability conservation, stability conservation, and obstruction-relevant conservation.
+- Treats n0 = 9780657630 as a conservation probe, not a proof object.
+- Preserves the rule: No solution before native language.
+- Emits conservation map JSON, Markdown report, and certificate.
+- Sets v3.9 as Native Invariant Candidate Map.

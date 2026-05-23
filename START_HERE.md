@@ -137,3 +137,23 @@ Read:
 Core rule:
 
     No solution before native language.
+
+## v4.5 native public research brief
+
+Run:
+
+    python examples/build_native_public_research_brief.py
+
+Read:
+
+    docs/NATIVE_PUBLIC_RESEARCH_BRIEF.md
+    docs/PUBLIC_BRIEF_BOUNDARY.md
+    docs/PUBLIC_BRIEF_READER_PATH.md
+    docs/PUBLIC_BRIEF_ALLOWED_CLAIMS.md
+    docs/PUBLIC_BRIEF_FORBIDDEN_CLAIMS.md
+    docs/V45_NEXT_STEPS.md
+    results/native_public_research_brief.md
+
+Core rule:
+
+    No solution before native language.

@@ -244,3 +244,32 @@ Boundary:
     consolidated report != theorem
     consolidated report != Collatz solved
     no solution before native language
+
+## v4.5 Native Public Research Brief
+
+The repository now includes a public-facing research brief.
+
+Run:
+
+    python examples/build_native_public_research_brief.py
+
+Outputs:
+
+    results/native_public_research_brief.json
+    results/native_public_research_brief.md
+    results/native_public_research_brief_certificate.json
+
+Purpose:
+
+    explain what the project is
+    explain what the project is not
+    explain native language
+    explain bounded artifacts
+    preserve the non-proof boundary
+
+Boundary:
+
+    public brief != proof
+    public brief != theorem
+    public brief != Collatz solved
+    no solution before native language

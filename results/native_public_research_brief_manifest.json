@@ -1,0 +1,32 @@
+{
+  "artifacts": [
+    "results/native_public_research_brief.json",
+    "results/native_public_research_brief.md",
+    "results/native_public_research_brief_certificate.json"
+  ],
+  "builder": "examples/build_native_public_research_brief.py",
+  "central_question": "What is Collatz before it becomes a conjecture?",
+  "collatz_status": "not_claimed_solved",
+  "documents": [
+    "docs/NATIVE_PUBLIC_RESEARCH_BRIEF.md",
+    "docs/PUBLIC_BRIEF_BOUNDARY.md",
+    "docs/PUBLIC_BRIEF_READER_PATH.md",
+    "docs/PUBLIC_BRIEF_ALLOWED_CLAIMS.md",
+    "docs/PUBLIC_BRIEF_FORBIDDEN_CLAIMS.md",
+    "docs/V45_NEXT_STEPS.md"
+  ],
+  "global_closure_status": "not_claimed",
+  "global_invariant_status": "not_claimed",
+  "layer": "native_public_research_brief",
+  "mother_rule": "No solution before native language.",
+  "next_recommended_version": "v4.6 Public README Shortform",
+  "not_proof_layer": true,
+  "not_theory_layer": true,
+  "primary_position": "A native structural reading of the Collatz dynamics.",
+  "proof_status": "not_a_proof",
+  "purpose": "Create a concise public-facing research brief for first-time readers.",
+  "secondary_rule": "No proof before native description.",
+  "status": "public_brief_layer_defined",
+  "theorem_status": "no_theorems_introduced",
+  "version": "v4.5"
+}

@@ -603,3 +603,14 @@ v1.1 tests whether the v1.0 hard case is isolated or part of a wider frontier.
 - Preserves the rule: No solution before native language.
 - Preserves the non-proof boundary.
 - Sets v4.5 as Native Public Research Brief.
+
+## v4.5 - Native Public Research Brief
+
+- Adds a public-facing native research brief builder.
+- Produces JSON, Markdown, and certificate artifacts.
+- Explains what the project is and what it is not.
+- Defines allowed and forbidden public claims.
+- Gives first-time readers a readable entry path.
+- Preserves the rule: No solution before native language.
+- Preserves the non-proof boundary.
+- Sets v4.6 as Public README Shortform.

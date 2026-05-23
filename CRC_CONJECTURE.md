@@ -128,3 +128,20 @@ Boundary:
     consolidated report != theorem
     consolidated report != Collatz solved
     no solution before native language
+
+## Native public research brief
+
+v4.5 adds a public-facing brief.
+
+It does not add theory.
+
+It does not add proof.
+
+It does not claim Collatz is solved.
+
+Boundary:
+
+    public brief != proof
+    public brief != theorem
+    public brief != Collatz solved
+    no solution before native language

@@ -1,0 +1,152 @@
+{
+  "artifact": "Near-Breach Audit V0",
+  "boundary": {
+    "bounded_evidence_status": "measurement_only",
+    "collatz_status": "not_claimed_solved",
+    "global_closure_status": "not_claimed",
+    "global_invariant_status": "not_claimed",
+    "proof_status": "not_a_proof",
+    "theorem_status": "no_theorem_claimed"
+  },
+  "bounded_assessment": "near_breach_below_one_percent_gap",
+  "generated_at_utc": "2026-05-23T14:36:13.416807+00:00",
+  "outputs": [
+    "results/near_breach_audit_v0.json",
+    "results/near_breach_audit_v0.md",
+    "results/near_breach_audit_v0_certificate.json"
+  ],
+  "summary": {
+    "analyzable_records": 35788,
+    "band_best_candidates": {
+      "000001..000999": {
+        "debt_peak": 2.5112622276445142,
+        "gap_to_breach": 0.029438879694982822,
+        "regeneration_ratio": 0.9705611203050172,
+        "response_delay": 1,
+        "seed": 927,
+        "survival_ratio": 0.03835350904445302,
+        "time_to_post_response_max": 4
+      },
+      "000001..009999": {
+        "debt_peak": 0.5851951371871749,
+        "gap_to_breach": 0.019154435105108725,
+        "regeneration_ratio": 0.9808455648948913,
+        "response_delay": 1,
+        "seed": 2067,
+        "survival_ratio": -1.417795943999537,
+        "time_to_post_response_max": 45
+      },
+      "010001..019999": {
+        "debt_peak": 6.359593029596537,
+        "gap_to_breach": 0.00566040418949143,
+        "regeneration_ratio": 0.9943395958105086,
+        "response_delay": 2,
+        "seed": 10087,
+        "survival_ratio": 0.7122341578538308,
+        "time_to_post_response_max": 27
+      },
+      "020001..029999": {
+        "debt_peak": 5.359521518776384,
+        "gap_to_breach": 0.006716619553084002,
+        "regeneration_ratio": 0.993283380446916,
+        "response_delay": 2,
+        "seed": 20175,
+        "survival_ratio": 0.6585378680806988,
+        "time_to_post_response_max": 27
+      },
+      "030001..039999": {
+        "debt_peak": 8.58809043019753,
+        "gap_to_breach": 0.006477970081142481,
+        "regeneration_ratio": 0.9935220299188575,
+        "response_delay": 1,
+        "seed": 35655,
+        "survival_ratio": 0.48591162376365943,
+        "time_to_post_response_max": 16
+      },
+      "040001..049999": {
+        "debt_peak": 8.248203961453708,
+        "gap_to_breach": 0.006744909936873156,
+        "regeneration_ratio": 0.9932550900631268,
+        "response_delay": 1,
+        "seed": 45127,
+        "survival_ratio": 0.4647274140086887,
+        "time_to_post_response_max": 16
+      },
+      "050001..059999": {
+        "debt_peak": 8.003114441996383,
+        "gap_to_breach": 0.0069514678646889205,
+        "regeneration_ratio": 0.9930485321353111,
+        "response_delay": 1,
+        "seed": 53483,
+        "survival_ratio": 0.44833508301928393,
+        "time_to_post_response_max": 16
+      },
+      "060001..069999": {
+        "debt_peak": 7.8331744546130775,
+        "gap_to_breach": 0.007102279310044257,
+        "regeneration_ratio": 0.9928977206899557,
+        "response_delay": 1,
+        "seed": 60169,
+        "survival_ratio": 0.4363667642266003,
+        "time_to_post_response_max": 16
+      },
+      "070001..079999": {
+        "debt_peak": 7.588070199024829,
+        "gap_to_breach": 0.007331691906081295,
+        "regeneration_ratio": 0.9926683080939187,
+        "response_delay": 1,
+        "seed": 71311,
+        "survival_ratio": 0.41816069851350385,
+        "time_to_post_response_max": 16
+      },
+      "080001..089999": {
+        "debt_peak": 7.418142949691951,
+        "gap_to_breach": 0.007499638823120436,
+        "regeneration_ratio": 0.9925003611768796,
+        "response_delay": 1,
+        "seed": 80225,
+        "survival_ratio": 0.4048325174949015,
+        "time_to_post_response_max": 16
+      },
+      "090001..099999": {
+        "debt_peak": 7.24818797671011,
+        "gap_to_breach": 0.007675489796860724,
+        "regeneration_ratio": 0.9923245102031393,
+        "response_delay": 1,
+        "seed": 90255,
+        "survival_ratio": 0.39087707459885007,
+        "time_to_post_response_max": 16
+      }
+    },
+    "breach_count": 0,
+    "breach_rate": 0.0,
+    "first_half_best_gap": 0.00566040418949143,
+    "gap_vs_log_seed_correlation": -0.009002052657320136,
+    "gap_vs_log_seed_slope": -0.24389210297343134,
+    "last_half_best_gap": 0.0069514678646889205,
+    "max_regeneration_ratio": 0.9943395958105086,
+    "mean_gap_to_breach": 3.50614306102754,
+    "mean_regeneration_ratio": -2.50614306102754,
+    "median_gap_to_breach": 1.5642454069039833,
+    "median_regeneration_ratio": -0.5642454069039834,
+    "min_gap_to_breach": 0.00566040418949143,
+    "near_breach_band_histogram": {
+      "010001..019999": 4,
+      "020001..029999": 5,
+      "030001..039999": 7,
+      "040001..049999": 5,
+      "050001..059999": 6,
+      "060001..069999": 7,
+      "070001..079999": 6,
+      "080001..089999": 5,
+      "090001..099999": 5
+    },
+    "records_measured": 50000,
+    "regeneration_ratio_vs_log_seed_correlation": 0.009002052657320136,
+    "regeneration_ratio_vs_log_seed_slope": 0.24389210297343134,
+    "top10_max_regeneration_ratio": 0.9943395958105086,
+    "top10_mean_seed": 28994.2,
+    "top10_min_gap": 0.00566040418949143
+  },
+  "version": "v5.9"
+}

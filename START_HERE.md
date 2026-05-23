@@ -373,3 +373,19 @@ The audit tests whether post-response new peaks appear only when odd-step horizo
 It does not prove Collatz.
 
 It does not claim Collatz is solved.
+
+## v5.9 Near-Breach Audit V0
+
+Read:
+
+    docs/NEAR_BREACH_AUDIT_V0.md
+
+Run:
+
+    python examples/build_near_breach_audit_v0.py
+
+The audit identifies trajectories closest to regenerating a new post-response debt peak.
+
+It does not prove Collatz.
+
+It does not claim Collatz is solved.

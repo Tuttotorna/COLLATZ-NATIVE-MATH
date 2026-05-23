@@ -676,3 +676,32 @@ Boundary:
     no new peak within tested horizon != no new peak ever
     bounded horizon stability != global closure
     response effectiveness != termination theorem
+
+## v5.9 Near-Breach Audit V0
+
+The repository now includes a bounded Near-Breach Audit.
+
+Run:
+
+    python examples/build_near_breach_audit_v0.py
+
+Outputs:
+
+    results/near_breach_audit_v0.json
+    results/near_breach_audit_v0.md
+    results/near_breach_audit_v0_certificate.json
+
+Purpose:
+
+    identify trajectories closest to post-response new-peak breach
+    measure regeneration_ratio
+    measure gap_to_breach = 1 - regeneration_ratio
+    rank top near-breach candidates
+    test whether near-breach severity grows with seed scale
+
+Boundary:
+
+    near_breach_audit != proof
+    no breach observed != no breach possible
+    near-breach candidate != counterexample
+    bounded gap != global invariant

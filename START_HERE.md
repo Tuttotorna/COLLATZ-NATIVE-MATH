@@ -537,3 +537,22 @@ No proof before native description.
 The project now asks:
 
 What grammar does Collatz generate before it becomes a conjecture?
+
+## v3.3 native sentence extractor
+
+After defining the native grammar map, extract real native sentences:
+
+    python examples/extract_native_sentences.py
+
+Read:
+
+    docs/NATIVE_SENTENCE_EXTRACTOR.md
+    docs/NATIVE_SENTENCE_TYPES.md
+    docs/TRAJECTORY_AS_NATIVE_UTTERANCE.md
+    docs/SENTENCE_EXTRACTION_BOUNDARY.md
+    docs/V33_EVIDENCE_STATUS.md
+    docs/V33_NEXT_STEPS.md
+
+Core rule:
+
+    A trajectory is first a native utterance, not a proof target.

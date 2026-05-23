@@ -1,0 +1,51 @@
+{
+  "dangerous_regeneration_sentence_count": 80,
+  "layer": "native_sentence_extractor",
+  "mother_rule": "No solution before native language.",
+  "native_sentence_class_counts": {
+    "DANGEROUS_REGENERATION_SENTENCE": 80,
+    "DEBT_COMPENSATION_SENTENCE": 26,
+    "MINIMAL_SENTENCE": 20,
+    "REGENERATION_COMPENSATION_SENTENCE": 194
+  },
+  "native_token_counts": {
+    "compensation_found": 300,
+    "dangerous_regeneration_found": 80,
+    "debt_generated": 300,
+    "local_recovery_found": 26,
+    "native_sentence_benign_regeneration": 194,
+    "native_sentence_dangerous_regeneration": 80,
+    "native_sentence_minimal": 20,
+    "native_sentence_recovery": 26,
+    "no_debt_sentence": 20,
+    "no_obstruction_signal": 20,
+    "obstruction_not_preserved": 80,
+    "regenerated_but_compensated": 194,
+    "regeneration_found": 274,
+    "trajectory_observed": 320
+  },
+  "negative_result_boundary": "No obstruction sentence extracted in a finite source artifact is not proof that obstruction cannot exist.",
+  "next_recommended_version": "v3.4 Native Sentence Atlas",
+  "obstruction_candidate_count": 0,
+  "obstruction_candidate_sentence_count": 0,
+  "obstruction_detected": false,
+  "primary_claim": "The extractor reads trajectory evidence as native grammar sentences, not as proof.",
+  "proof_status": "not_a_proof",
+  "sentence_count": 320,
+  "source_version": "v2.8",
+  "standard_translation_status": "deferred_after_native_sentence_extraction",
+  "strongest_recovery_sentence": {
+    "hardest_recovery_score": 74280320.99431963,
+    "n0": 9780657630,
+    "native_reading": "n0=9780657630: debt was generated, compensation appeared, regeneration returned, but obstruction was not preserved.",
+    "native_sentence_class": "DANGEROUS_REGENERATION_SENTENCE"
+  },
+  "theorem_status": "no_theorems_introduced",
+  "tightest_surplus_sentence": {
+    "min_positive_surplus": 7.15128842860846e-05,
+    "n0": 9780657630,
+    "native_reading": "n0=9780657630: debt was generated, compensation appeared, regeneration returned, but obstruction was not preserved.",
+    "native_sentence_class": "DANGEROUS_REGENERATION_SENTENCE"
+  },
+  "version": "v3.3"
+}

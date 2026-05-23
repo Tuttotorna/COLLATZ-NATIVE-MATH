@@ -619,3 +619,21 @@ Previous scans are grammar probes.
 The terminal question is a later classical translation endpoint.
 
 Native description comes first.
+
+## Native sentence extractor
+
+v3.3 adds the first direct language-learning layer.
+
+The project now reads trajectories as native utterances:
+
+    debt generated
+    compensation found
+    regeneration found
+    dangerous regeneration found
+    obstruction not preserved
+
+This is not proof.
+
+This is not solution-first mathematics.
+
+It is Collatz-native description before terminal translation.

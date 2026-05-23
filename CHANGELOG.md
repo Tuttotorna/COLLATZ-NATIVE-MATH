@@ -477,3 +477,12 @@ v1.1 tests whether the v1.0 hard case is isolated or part of a wider frontier.
 - Reclassifies prior scans as grammar probes.
 - Forbids premature translations from grammar to proof, closure to reaching 1, and dangerous regeneration to obstruction.
 - Sets v3.3 as Native Sentence Extractor.
+
+## v3.3 - Native Sentence Extractor
+
+- Adds a native sentence extractor.
+- Reads trajectory evidence as grammar utterances rather than proof attempts.
+- Extracts sentence classes such as debt, compensation, regeneration, dangerous regeneration, and obstruction candidate sentences.
+- Produces native sentence JSONL, summary, report, and certificate artifacts.
+- Keeps the mother rule explicit: No solution before native language.
+- Sets v3.4 as Native Sentence Atlas.

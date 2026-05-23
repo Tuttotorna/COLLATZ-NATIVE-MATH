@@ -1,0 +1,34 @@
+{
+  "certificate_type": "native_sentence_extraction_certificate",
+  "dangerous_regeneration_sentence_count": 80,
+  "mother_rule": "No solution before native language.",
+  "native_sentence_class_counts": {
+    "DANGEROUS_REGENERATION_SENTENCE": 80,
+    "DEBT_COMPENSATION_SENTENCE": 26,
+    "MINIMAL_SENTENCE": 20,
+    "REGENERATION_COMPENSATION_SENTENCE": 194
+  },
+  "negative_result_boundary": "No obstruction sentence extracted in a finite source artifact is not proof that obstruction cannot exist.",
+  "next_recommended_version": "v3.4 Native Sentence Atlas",
+  "obstruction_candidate_count": 0,
+  "obstruction_candidate_sentence_count": 0,
+  "obstruction_detected": false,
+  "proof_status": "not_a_proof",
+  "sentence_count": 320,
+  "source_version": "v2.8",
+  "standard_translation_status": "deferred_after_native_sentence_extraction",
+  "strongest_recovery_sentence": {
+    "hardest_recovery_score": 74280320.99431963,
+    "n0": 9780657630,
+    "native_reading": "n0=9780657630: debt was generated, compensation appeared, regeneration returned, but obstruction was not preserved.",
+    "native_sentence_class": "DANGEROUS_REGENERATION_SENTENCE"
+  },
+  "theorem_status": "no_theorems_introduced",
+  "tightest_surplus_sentence": {
+    "min_positive_surplus": 7.15128842860846e-05,
+    "n0": 9780657630,
+    "native_reading": "n0=9780657630: debt was generated, compensation appeared, regeneration returned, but obstruction was not preserved.",
+    "native_sentence_class": "DANGEROUS_REGENERATION_SENTENCE"
+  },
+  "version": "v3.3"
+}

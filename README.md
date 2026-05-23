@@ -390,3 +390,32 @@ Boundary:
     release_detected != termination proof
     obstruction_candidate != obstruction theorem
     bounded evidence != global closure
+
+## v4.9 Distributed Release Pressure V0
+
+The repository now includes a bounded Distributed Release Pressure machine.
+
+Run:
+
+    python examples/build_distributed_release_pressure_v0.py
+
+Outputs:
+
+    results/distributed_release_pressure_v0.json
+    results/distributed_release_pressure_v0.md
+    results/distributed_release_pressure_v0_certificate.json
+
+Purpose:
+
+    measure response delay after debt peak
+    measure post-peak release count
+    measure post-peak strong release count
+    measure post-peak release mass
+    test whether debt creates distributed release pressure
+
+Boundary:
+
+    distributed_release_pressure != proof
+    short_response_delay != termination theorem
+    post_peak_release_mass != global invariant
+    bounded pressure signal != global closure

@@ -213,3 +213,19 @@ The machine measures bounded compression debt, release, and cheap regeneration.
 It does not prove Collatz.
 
 It does not claim Collatz is solved.
+
+## v4.9 Distributed Release Pressure V0
+
+Read:
+
+    docs/DISTRIBUTED_RELEASE_PRESSURE_V0.md
+
+Run:
+
+    python examples/build_distributed_release_pressure_v0.py
+
+The machine measures how release events are distributed after debt peaks.
+
+It does not prove Collatz.
+
+It does not claim Collatz is solved.

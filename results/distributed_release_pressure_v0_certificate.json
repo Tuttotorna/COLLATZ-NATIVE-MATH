@@ -1,0 +1,18 @@
+{
+  "artifact": "Distributed Release Pressure V0",
+  "boundary": {
+    "bounded_evidence_status": "measurement_only",
+    "collatz_status": "not_claimed_solved",
+    "global_closure_status": "not_claimed",
+    "global_invariant_status": "not_claimed",
+    "proof_status": "not_a_proof",
+    "theorem_status": "no_theorem_claimed"
+  },
+  "generated_at_utc": "2026-05-23T12:16:24.779489+00:00",
+  "outputs": [
+    "results/distributed_release_pressure_v0.json",
+    "results/distributed_release_pressure_v0.md",
+    "results/distributed_release_pressure_v0_certificate.json"
+  ],
+  "version": "v4.9"
+}

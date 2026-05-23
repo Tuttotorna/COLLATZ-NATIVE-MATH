@@ -846,3 +846,35 @@ Boundary:
     weak-prefix false breach != theorem
     no mature breach observed != no mature breach possible
     bounded guard != global closure
+
+## v6.5 Finding Summary V0
+
+The repository now includes a public bounded finding summary.
+
+Read:
+
+    docs/FINDING_SUMMARY_V0.md
+
+Run:
+
+    python examples/build_finding_summary_v0.py
+
+Outputs:
+
+    results/finding_summary_v0.json
+    results/finding_summary_v0.md
+    results/finding_summary_v0_certificate.json
+    docs/FINDING_SUMMARY_V0.md
+
+Current thesis:
+
+    In bounded odd-step Collatz measurements, debt accumulation tends to trigger fast release,
+    post-response debt generally falls below prior peaks, near-breach grammars exist but appear isolated,
+    and apparent fuzzy breaches were reclassified as weak-prefix artifacts rather than mature regeneration chains.
+
+Boundary:
+
+    finding_summary != proof
+    bounded evidence != global closure
+    no mature second near-breach observed != no mature second near-breach possible
+    Collatz remains unsolved

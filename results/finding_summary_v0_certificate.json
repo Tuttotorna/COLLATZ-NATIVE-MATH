@@ -1,0 +1,22 @@
+{
+  "artifact": "Finding Summary V0",
+  "boundary": {
+    "bounded_evidence_status": "measurement_only",
+    "collatz_status": "not_claimed_solved",
+    "global_closure_status": "not_claimed",
+    "global_invariant_status": "not_claimed",
+    "proof_status": "not_a_proof",
+    "theorem_status": "no_theorem_claimed"
+  },
+  "finding_count": 10,
+  "generated_at_utc": "2026-05-23T15:48:10.754134+00:00",
+  "missing_sources": [],
+  "outputs": [
+    "results/finding_summary_v0.json",
+    "results/finding_summary_v0.md",
+    "results/finding_summary_v0_certificate.json",
+    "docs/FINDING_SUMMARY_V0.md"
+  ],
+  "strongest_current_claim": "Within the measured bounded artifacts, no persistent mature low-compression regeneration chain was observed.",
+  "version": "v6.5"
+}

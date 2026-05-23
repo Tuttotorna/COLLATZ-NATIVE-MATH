@@ -1,0 +1,320 @@
+{
+  "boundary": {
+    "bounded_evidence_status": "measurement_only",
+    "collatz_status": "not_claimed_solved",
+    "global_closure_status": "not_claimed",
+    "global_invariant_status": "not_claimed",
+    "proof_status": "not_a_proof",
+    "theorem_status": "no_theorem_claimed"
+  },
+  "concise_thesis": {
+    "negative_result": "No mature second near-breach chain was observed in the measured artifacts.",
+    "non_claims": [
+      "This is not a proof of Collatz.",
+      "This does not solve Collatz.",
+      "This does not establish a global invariant.",
+      "This does not exclude all possible divergent behavior.",
+      "This is bounded measurement evidence only."
+    ],
+    "one_sentence": "In bounded odd-step Collatz measurements, debt accumulation tends to trigger fast release, post-response debt generally falls below prior peaks, near-breach grammars exist but appear isolated, and apparent fuzzy breaches were reclassified as weak-prefix artifacts rather than mature regeneration chains."
+  },
+  "findings": [
+    {
+      "boundary": "Correlation is not proof and does not imply global closure.",
+      "evidence": {
+        "v4.8_debt_peak_vs_release_count": 0.6390864423048263,
+        "v4.8_debt_peak_vs_strong_release_count": 0.6348366940586956,
+        "v4.9_debt_peak_vs_post_peak_release_mass": 0.7536864879235644,
+        "v4.9_debt_peak_vs_post_peak_strong_release_count": 0.6718533282358932
+      },
+      "id": "F1",
+      "interpretation": "Higher bounded debt peaks tend to be followed by stronger or more massive release behavior.",
+      "name": "Debt creates measurable release pressure",
+      "status": "bounded_positive_signal"
+    },
+    {
+      "boundary": "A positive bounded floor is not a theorem and cannot be extrapolated as an invariant.",
+      "evidence": {
+        "v5.1_first_signal": 0.9021477984155496,
+        "v5.1_last_signal": 0.5732031845448581,
+        "v5.1_relative_drop": 0.3646238614652942,
+        "v5.1_zero_crossing_observed": false,
+        "v5.2_decay_axes": [
+          "seed_scale_axis"
+        ],
+        "v5.2_growth_axes": [
+          "odd_step_depth_axis",
+          "post_peak_horizon_axis"
+        ]
+      },
+      "id": "F2",
+      "interpretation": "The debt-release correlation remains positive in the tested ranges, but the seed-scale axis weakens it.",
+      "name": "The pressure signal is scale-positive but decays with seed scale",
+      "status": "positive_signal_with_decay"
+    },
+    {
+      "boundary": "A weak positive band is descriptive only.",
+      "evidence": {
+        "v5.4_band_status": "positive_band_candidate",
+        "v5.4_post_initial_floor": 0.2244197444539926,
+        "v5.4_post_initial_mean": 0.3051189579528287,
+        "v5.5_band_status": "positive_but_weak_extended_band",
+        "v5.5_last_10_mean": 0.15922619480801145,
+        "v5.5_last_10_min": 0.08640340484384668
+      },
+      "id": "F3",
+      "interpretation": "The signal does not vanish in the tested local bands, but it becomes weak and should not be overstated.",
+      "name": "After the initial drop, local seed blocks remain positive but weak",
+      "status": "weak_positive_band"
+    },
+    {
+      "boundary": "Stable response timing is not a termination proof.",
+      "evidence": {
+        "v5.6_median_delay_all_1": true,
+        "v5.6_no_response_rate_max": 0.01,
+        "v5.6_p_delay_1_floor": 0.668,
+        "v5.6_p_delay_le_2_floor": 0.852,
+        "v5.6_timing_status": "strong_response_time_invariance"
+      },
+      "id": "F4",
+      "interpretation": "Across measured blocks, the first post-peak response usually appears immediately or very quickly.",
+      "name": "Response time is highly stable",
+      "status": "strong_response_time_invariance_candidate"
+    },
+    {
+      "boundary": "Post-response reduction is bounded evidence only.",
+      "evidence": {
+        "v5.7_last_10_p_new_peak_mean": 0.0,
+        "v5.7_last_10_p_reduced_mean": 1.0,
+        "v5.7_p_new_peak_ceiling": 0.0,
+        "v5.7_p_reduced_floor": 0.99,
+        "v5.7_survival_status": "strong_debt_reduction_after_response"
+      },
+      "id": "F5",
+      "interpretation": "Once response occurs, bounded debt typically reduces rather than forming a new peak.",
+      "name": "Post-response debt usually collapses below the prior peak",
+      "status": "strong_post_response_reduction_candidate"
+    },
+    {
+      "boundary": "No bounded new peak is not global impossibility.",
+      "evidence": {
+        "v5.8_max_regen_ratio_all_horizons": 0.9943395958105086,
+        "v5.8_p_new_peak_after_release_max_values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "v5.8_reduced_floor_all_horizons": 0.99,
+        "v5.8_zero_new_peak_all_horizons": true
+      },
+      "id": "F6",
+      "interpretation": "Increasing bounded horizon length did not create post-response new-peak behavior in the tested range.",
+      "name": "Extended horizons did not produce new post-response peaks",
+      "status": "extended_horizon_no_new_peak_observed"
+    },
+    {
+      "boundary": "Near-breach is not divergence and not a proof boundary.",
+      "evidence": {
+        "v5.9_breach_count": 0,
+        "v5.9_max_regeneration_ratio": 0.9943395958105086,
+        "v5.9_min_gap_to_breach": 0.00566040418949143,
+        "v5.9_records_measured": 50000,
+        "v5.9_top10_min_gap": 0.00566040418949143
+      },
+      "id": "F7",
+      "interpretation": "Some trajectories nearly rebuild prior debt, but no true breach was observed in the bounded set.",
+      "name": "Near-breach candidates exist but remain below breach",
+      "status": "near_breach_below_one_percent_gap"
+    },
+    {
+      "boundary": "Grammar isolation is a bounded observation, not a global theorem.",
+      "evidence": {
+        "v6.0_near_breach_a1_rate": 0.6777310924369747,
+        "v6.0_near_breach_a_ge_3_rate": 0.11292016806722689,
+        "v6.0_near_breach_response_delay_histogram": {
+          "1": 11,
+          "2": 9
+        },
+        "v6.0_near_breach_time_to_post_max_histogram": {
+          "16": 11,
+          "27": 9
+        },
+        "v6.1_pattern_after_pattern_seed_count": 0,
+        "v6.1_recurrence_seed_count": 0
+      },
+      "id": "F8",
+      "interpretation": "Near-breach windows are driven by expansion-rich grammar, but measured recurrences did not chain.",
+      "name": "Near-breach grammar is expansion-rich but isolated",
+      "status": "isolated_near_breach_grammar"
+    },
+    {
+      "boundary": "Fuzzy absence of chains is not a global exclusion.",
+      "evidence": {
+        "v6.2_dangerous_fuzzy_chain_seed_count": 0,
+        "v6.2_fuzzy_hit_rate": 0.00104,
+        "v6.2_fuzzy_hit_seed_count": 52,
+        "v6.2_fuzzy_recurrence_seed_count": 0,
+        "v6.2_post_fuzzy_pattern_new_local_peak_rate": 0.057692307692307696
+      },
+      "id": "F9",
+      "interpretation": "Relaxing exact grammar increases detected pattern hits, but did not generate recurring dangerous chains in the bounded test.",
+      "name": "Fuzzy grammar increases hits but not dangerous chains",
+      "status": "fuzzy_isolated_occurrences"
+    },
+    {
+      "boundary": "Correcting false positives strengthens measurement language but does not prove Collatz.",
+      "evidence": {
+        "v6.3_breach_after_fuzzy_pattern_instance_count": 2,
+        "v6.4_mature_breach_count": 0,
+        "v6.4_mature_rebound_count": 0,
+        "v6.4_mature_second_near_breach_count": 0,
+        "v6.4_raw_breach_count": 2,
+        "v6.4_weak_prefix_false_breach_count": 2
+      },
+      "id": "F10",
+      "interpretation": "The raw v6.3 breach signal was caused by low prior peaks, not by mature debt regeneration.",
+      "name": "Apparent fuzzy breaches were weak-prefix artifacts",
+      "status": "false_breach_corrected"
+    }
+  ],
+  "generated_at_utc": "2026-05-23T15:48:10.754134+00:00",
+  "machine": "Finding Summary V0",
+  "missing_sources": [],
+  "public_positioning": {
+    "best_short_label": "bounded structural measurement of Collatz odd-step debt/release grammar",
+    "strongest_current_claim": "Within the measured bounded artifacts, no persistent mature low-compression regeneration chain was observed.",
+    "weakest_current_point": "The work remains empirical and bounded; larger scale, independent replication, and formalization are needed.",
+    "what_is_new_inside_this_repo": [
+      "A native debt/release vocabulary was made computable.",
+      "Post-peak release pressure was measured across scale and horizon variations.",
+      "Response timing and post-response debt survival were separated from raw correlation.",
+      "Near-breach grammar was isolated and then guarded against fuzzy false positives.",
+      "Weak-prefix rebound was separated from mature-debt rebound."
+    ]
+  },
+  "sources": {
+    "v4.8_compression_debt": {
+      "bounded_assessment": null,
+      "machine": "Compression Debt Machine V0",
+      "path": "results/compression_debt_machine_v0.json",
+      "present": true,
+      "version": "v4.8"
+    },
+    "v4.9_distributed_release_pressure": {
+      "bounded_assessment": null,
+      "machine": "Distributed Release Pressure V0",
+      "path": "results/distributed_release_pressure_v0.json",
+      "present": true,
+      "version": "v4.9"
+    },
+    "v5.0_scale_stability": {
+      "bounded_assessment": "scale_stable_positive_signal",
+      "machine": "Scale Stability Audit V0",
+      "path": "results/scale_stability_audit_v0.json",
+      "present": true,
+      "version": "v5.0"
+    },
+    "v5.1_signal_decay": {
+      "bounded_assessment": "positive_floor_candidate_with_decay",
+      "machine": "Signal Decay Audit V0",
+      "path": "results/signal_decay_audit_v0.json",
+      "present": true,
+      "version": "v5.1"
+    },
+    "v5.2_residual_decay": {
+      "bounded_assessment": "axis_decay_detected",
+      "machine": "Residual Decay Audit V0",
+      "path": "results/residual_decay_audit_v0.json",
+      "present": true,
+      "version": "v5.2"
+    },
+    "v5.3_seed_scale_stratification": {
+      "bounded_assessment": "local_seed_block_decay_detected",
+      "machine": "Seed-Scale Stratification Audit V0",
+      "path": "results/seed_scale_stratification_audit_v0.json",
+      "present": true,
+      "version": "v5.3"
+    },
+    "v5.4_band_stabilization": {
+      "bounded_assessment": "post_initial_positive_band_candidate",
+      "machine": "Band Stabilization Audit V0",
+      "path": "results/band_stabilization_audit_v0.json",
+      "present": true,
+      "version": "v5.4"
+    },
+    "v5.5_extended_band": {
+      "bounded_assessment": "positive_but_weak_extended_band",
+      "machine": "Extended Band Audit V0",
+      "path": "results/extended_band_audit_v0.json",
+      "present": true,
+      "version": "v5.5"
+    },
+    "v5.6_response_time_invariance": {
+      "bounded_assessment": "strong_response_time_invariance_candidate",
+      "machine": "Response-Time Invariance Audit V0",
+      "path": "results/response_time_invariance_audit_v0.json",
+      "present": true,
+      "version": "v5.6"
+    },
+    "v5.7_post_response_debt_survival": {
+      "bounded_assessment": "strong_post_response_debt_reduction_candidate",
+      "machine": "Post-Response Debt Survival Audit V0",
+      "path": "results/post_response_debt_survival_audit_v0.json",
+      "present": true,
+      "version": "v5.7"
+    },
+    "v5.8_post_response_horizon_extension": {
+      "bounded_assessment": "extended_horizon_no_new_peak_with_strong_reduction",
+      "machine": "Post-Response Horizon Extension Audit V0",
+      "path": "results/post_response_horizon_extension_audit_v0.json",
+      "present": true,
+      "version": "v5.8"
+    },
+    "v5.9_near_breach": {
+      "bounded_assessment": "near_breach_below_one_percent_gap",
+      "machine": "Near-Breach Audit V0",
+      "path": "results/near_breach_audit_v0.json",
+      "present": true,
+      "version": "v5.9"
+    },
+    "v6.0_near_breach_anatomy": {
+      "bounded_assessment": "near_breach_expansion_rich_regeneration_grammar",
+      "machine": "Near-Breach Anatomy V0",
+      "path": "results/near_breach_anatomy_v0.json",
+      "present": true,
+      "version": "v6.0"
+    },
+    "v6.1_near_breach_grammar_recurrence": {
+      "bounded_assessment": "near_breach_grammar_isolated_occurrences_detected",
+      "machine": "Near-Breach Grammar Recurrence Audit V0",
+      "path": "results/near_breach_grammar_recurrence_audit_v0.json",
+      "present": true,
+      "version": "v6.1"
+    },
+    "v6.2_fuzzy_near_breach_grammar": {
+      "bounded_assessment": "fuzzy_grammar_isolated_occurrences_detected",
+      "machine": "Fuzzy Near-Breach Grammar Audit V0",
+      "path": "results/fuzzy_near_breach_grammar_audit_v0.json",
+      "present": true,
+      "version": "v6.2"
+    },
+    "v6.3_fuzzy_rebound_anatomy": {
+      "bounded_assessment": "breach_after_fuzzy_pattern_detected",
+      "machine": "Fuzzy Rebound Anatomy V0",
+      "path": "results/fuzzy_rebound_anatomy_v0.json",
+      "present": true,
+      "version": "v6.3"
+    },
+    "v6.4_mature_rebound_guard": {
+      "bounded_assessment": "raw_breaches_reclassified_as_weak_prefix_artifacts",
+      "machine": "Mature Rebound Guard V0",
+      "path": "results/mature_rebound_guard_v0.json",
+      "present": true,
+      "version": "v6.4"
+    }
+  },
+  "version": "v6.5"
+}

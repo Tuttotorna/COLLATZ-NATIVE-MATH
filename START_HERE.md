@@ -469,3 +469,19 @@ The guard separates raw rebound over weak early debt from rebound over mature ac
 It does not prove Collatz.
 
 It does not claim Collatz is solved.
+
+## v6.5 Finding Summary V0
+
+Start here for the current public synthesis:
+
+    docs/FINDING_SUMMARY_V0.md
+
+Build it with:
+
+    python examples/build_finding_summary_v0.py
+
+The summary consolidates v4.8 through v6.4 into one bounded thesis.
+
+It does not prove Collatz.
+
+It does not claim Collatz is solved.

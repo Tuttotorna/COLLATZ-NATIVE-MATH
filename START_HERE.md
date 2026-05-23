@@ -293,3 +293,19 @@ The audit separates cumulative seed-scale decay from local block-level signal.
 It does not prove Collatz.
 
 It does not claim Collatz is solved.
+
+## v5.4 Band Stabilization Audit V0
+
+Read:
+
+    docs/BAND_STABILIZATION_AUDIT_V0.md
+
+Run:
+
+    python examples/build_band_stabilization_audit_v0.py
+
+The audit tests whether local seed-block release-pressure signals stabilize into a positive band after initial decay.
+
+It does not prove Collatz.
+
+It does not claim Collatz is solved.

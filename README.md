@@ -530,3 +530,32 @@ Boundary:
     block_signal != theorem
     cumulative_decay != global law
     positive block signal != invariant
+
+## v5.4 Band Stabilization Audit V0
+
+The repository now includes a bounded Band Stabilization Audit.
+
+Run:
+
+    python examples/build_band_stabilization_audit_v0.py
+
+Outputs:
+
+    results/band_stabilization_audit_v0.json
+    results/band_stabilization_audit_v0.md
+    results/band_stabilization_audit_v0_certificate.json
+
+Purpose:
+
+    test whether local block signals stabilize after initial seed-scale decay
+    measure block_signal_values
+    measure rolling_mean_3, rolling_min_3, and rolling_max_3
+    estimate post_initial_floor, post_initial_ceiling, and post_initial_mean
+    detect post_initial zero crossings
+
+Boundary:
+
+    band_stabilization_audit != proof
+    positive_band != theorem
+    band_floor != global invariant
+    no zero crossing in tested blocks != universal closure

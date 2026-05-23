@@ -1,0 +1,20 @@
+{
+  "artifact": "Band Stabilization Audit V0",
+  "band_status": "positive_band_candidate",
+  "boundary": {
+    "bounded_evidence_status": "measurement_only",
+    "collatz_status": "not_claimed_solved",
+    "global_closure_status": "not_claimed",
+    "global_invariant_status": "not_claimed",
+    "proof_status": "not_a_proof",
+    "theorem_status": "no_theorem_claimed"
+  },
+  "bounded_assessment": "post_initial_positive_band_candidate",
+  "generated_at_utc": "2026-05-23T12:59:20.575708+00:00",
+  "outputs": [
+    "results/band_stabilization_audit_v0.json",
+    "results/band_stabilization_audit_v0.md",
+    "results/band_stabilization_audit_v0_certificate.json"
+  ],
+  "version": "v5.4"
+}

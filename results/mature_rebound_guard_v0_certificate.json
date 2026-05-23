@@ -1,0 +1,51 @@
+{
+  "artifact": "Mature Rebound Guard V0",
+  "boundary": {
+    "bounded_evidence_status": "measurement_only",
+    "collatz_status": "not_claimed_solved",
+    "global_closure_status": "not_claimed",
+    "global_invariant_status": "not_claimed",
+    "proof_status": "not_a_proof",
+    "theorem_status": "no_theorem_claimed"
+  },
+  "bounded_assessment": "raw_breaches_reclassified_as_weak_prefix_artifacts",
+  "generated_at_utc": "2026-05-23T15:34:49.350853+00:00",
+  "outputs": [
+    "results/mature_rebound_guard_v0.json",
+    "results/mature_rebound_guard_v0.md",
+    "results/mature_rebound_guard_v0_certificate.json"
+  ],
+  "summary": {
+    "guarded_class_counts": {
+      "weak_prefix_false_breach": 2,
+      "weak_prefix_rebound": 1
+    },
+    "mature_breach_count": 0,
+    "mature_harmless_rebound_count": 0,
+    "mature_prior_peak_threshold": 4.0,
+    "mature_rebound_count": 0,
+    "mature_second_near_breach_count": 0,
+    "max_mature_ratio": null,
+    "max_post_pattern_debt_gain": 3.094738704636561,
+    "max_prior_peak": 1.1699366147730235,
+    "max_raw_ratio": 12.033347383534583,
+    "max_weak_prior_peak": 1.1699366147730235,
+    "mean_post_pattern_debt_gain": 1.3965031990727135,
+    "mean_prior_peak": -0.8867089861420376,
+    "mean_weak_prior_peak": -0.8867089861420376,
+    "min_prior_peak": -4.41503214103024,
+    "raw_breach_after_fuzzy_pattern_count": 2,
+    "raw_breach_reclassified_as_weak_prefix_false_breach": 2,
+    "raw_class_counts": {
+      "breach_after_fuzzy_pattern": 2,
+      "harmless_rebound": 1
+    },
+    "rebound_instance_count": 3,
+    "second_near_breach_threshold": 0.95,
+    "source_machine": "Fuzzy Rebound Anatomy V0",
+    "source_version": "v6.3",
+    "weak_prefix_false_breach_count": 2,
+    "weak_prefix_rebound_count": 3
+  },
+  "version": "v6.4"
+}

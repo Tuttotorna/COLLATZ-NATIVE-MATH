@@ -438,3 +438,12 @@ v1.1 tests whether the v1.0 hard case is isolated or part of a wider frontier.
 - Emits expanded bounded rows, summary, and certificate artifacts.
 - Keeps negative-result boundary explicit.
 - Sets v2.9 as Shadow Persistence Instrumentation.
+
+## v2.9 - Shadow Persistence Instrumentation
+
+- Adds shadow persistence instrumentation over v2.8 expanded bounded search output.
+- Distinguishes recurring stress from prior-debt shadow carry.
+- Classifies shadow signals into weak, persistent, and obstruction-candidate classes.
+- Emits JSON report, Markdown report, and certificate artifacts.
+- Keeps proof boundary explicit.
+- Sets v3.0 as Formal Native-to-Standard Lemma Draft.

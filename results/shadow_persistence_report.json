@@ -1,0 +1,38 @@
+{
+  "layer": "shadow_persistence_instrumentation",
+  "native_interpretation": "PERSISTENT_SHADOW_SIGNALS_FOUND_WITHOUT_OBSTRUCTION_CANDIDATE",
+  "negative_result_boundary": "No obstruction-preserving shadow detected in a finite instrumentation layer is not proof that such shadow cannot exist.",
+  "next_recommended_version": "v3.0 Formal Native-to-Standard Lemma Draft",
+  "obstruction_candidate_shadow_count": 0,
+  "obstruction_detected": false,
+  "persistent_shadow_signal_count": 80,
+  "proof_status": "not_a_proof",
+  "shadow_classification_counts": {
+    "DEBT_WITHOUT_REGENERATION_SHADOW": 26,
+    "NO_SHADOW_SIGNAL": 20,
+    "PERSISTENT_SHADOW_SIGNAL": 80,
+    "REGENERATION_WITHOUT_DANGEROUS_SHADOW_SIGNAL": 194
+  },
+  "source": {
+    "certificate": "results/expanded_bounded_obstruction_search_certificate.json",
+    "rows": "results/expanded_bounded_obstruction_search_rows.jsonl",
+    "summary": "results/expanded_bounded_obstruction_search_summary.json"
+  },
+  "source_dangerous_regeneration_count": 24588,
+  "source_debt_window_count": 157129,
+  "source_obstruction_candidate_count": 0,
+  "source_regeneration_count": 156143,
+  "source_version": "v2.8",
+  "strongest_shadow_case": {
+    "dangerous_regeneration_count": 4863,
+    "hardest_recovery_score": 74280320.99431963,
+    "max_post_recovery_blocks": 183,
+    "min_positive_surplus": 7.15128842860846e-05,
+    "n0": 9780657630,
+    "shadow_classification": "PERSISTENT_SHADOW_SIGNAL",
+    "shadow_persistence_score": 10
+  },
+  "tested_candidate_count": 320,
+  "theorem_status": "no_theorems_introduced",
+  "version": "v2.9"
+}

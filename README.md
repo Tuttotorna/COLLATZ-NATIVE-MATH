@@ -786,3 +786,33 @@ Boundary:
 No obstruction detected in a finite expanded bounded domain is not the same as no obstruction can exist.
 
 This is not a proof layer.
+
+## v2.9 Shadow Persistence Instrumentation
+
+The repository now instruments shadow persistence over the v2.8 expanded bounded search.
+
+The question is no longer simply:
+
+more candidates
+
+The question is:
+
+does dangerous regeneration carry prior debt shadow?
+
+Run:
+
+python examples/build_shadow_persistence_instrumentation.py
+
+Outputs:
+
+results/shadow_persistence_report.json
+results/shadow_persistence_report.md
+results/shadow_persistence_certificate.json
+
+Core boundary:
+
+shadow signal != obstruction
+persistent shadow signal != proof
+finite negative result != impossibility
+
+This prepares v3.0 Formal Native-to-Standard Lemma Draft.

@@ -457,3 +457,24 @@ targeted expansion != proof
 Next logical step:
 
 v2.9 Shadow Persistence Instrumentation
+
+## v2.9 shadow persistence instrumentation
+
+After v2.8, do not merely enlarge the scan.
+
+Instrument shadow persistence:
+
+python examples/build_shadow_persistence_instrumentation.py
+
+Read:
+
+docs/SHADOW_PERSISTENCE_INSTRUMENTATION.md
+docs/SHADOW_PERSISTENCE_SIGNAL.md
+docs/SHADOW_CHAIN_CLASSIFICATION.md
+docs/V29_EVIDENCE_STATUS.md
+docs/V29_LIMITS.md
+docs/V29_NEXT_STEPS.md
+
+Core rule:
+
+dangerous regeneration is not obstruction unless prior debt shadow remains obstruction-preserving.

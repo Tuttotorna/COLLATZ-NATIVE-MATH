@@ -527,3 +527,21 @@ No obstruction detected in this expanded bounded search.
 Forbidden interpretation:
 
 No obstruction can exist.
+
+## Shadow persistence instrumentation
+
+v2.9 adds the missing native layer after dangerous regeneration.
+
+The question is:
+
+does regeneration carry prior debt shadow?
+
+The distinction is:
+
+recurring stress != shadow persistence
+shadow persistence signal != obstruction
+obstruction-preserving shadow != proof by itself
+
+v2.9 remains an evidence instrumentation layer.
+
+The next step is v3.0 Formal Native-to-Standard Lemma Draft.

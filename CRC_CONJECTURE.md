@@ -545,3 +545,21 @@ obstruction-preserving shadow != proof by itself
 v2.9 remains an evidence instrumentation layer.
 
 The next step is v3.0 Formal Native-to-Standard Lemma Draft.
+
+## Formal native-to-standard lemma draft
+
+v3.0 begins the formal lemma draft layer.
+
+The central bridge is:
+
+Persistent shadow signal does not imply obstruction unless compensation fails and obstruction potential remains self-preserving.
+
+Therefore:
+
+- shadow signal != obstruction
+- regeneration != obstruction
+- dangerous regeneration != failure
+- local recovery != native closure
+- bounded negative result != proof
+
+The remaining work is proof obligations, not more terminology.

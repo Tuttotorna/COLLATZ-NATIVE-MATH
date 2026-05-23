@@ -478,3 +478,21 @@ docs/V29_NEXT_STEPS.md
 Core rule:
 
 dangerous regeneration is not obstruction unless prior debt shadow remains obstruction-preserving.
+
+## v3.0 formal lemma draft
+
+Read:
+
+- docs/FORMAL_NATIVE_STANDARD_LEMMA_DRAFT.md
+- docs/LEMMA_DRAFT_BOUNDARY.md
+- docs/LOCAL_DEBT_FORMALIZATION.md
+- docs/COMPENSATION_FORMALIZATION.md
+- docs/SHADOW_REGENERATION_FORMALIZATION.md
+- docs/NON_OBSTRUCTION_LEMMA_DRAFTS.md
+- docs/FORMAL_PROOF_OBLIGATIONS.md
+
+Core rule:
+
+A formal lemma draft is not a theorem.
+
+The next step is v3.1 Proof Obligation Tracker.

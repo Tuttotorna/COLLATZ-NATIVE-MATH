@@ -447,3 +447,13 @@ v1.1 tests whether the v1.0 hard case is isolated or part of a wider frontier.
 - Emits JSON report, Markdown report, and certificate artifacts.
 - Keeps proof boundary explicit.
 - Sets v3.0 as Formal Native-to-Standard Lemma Draft.
+
+## v3.0 - Formal Native-to-Standard Lemma Draft
+
+- Adds the first formal native-to-standard lemma draft layer.
+- Converts stable native objects into formal lemma drafts.
+- Keeps all drafts reversible to native meaning.
+- Defines the central bridge statement: persistent shadow signal does not imply obstruction unless compensation fails and obstruction potential remains self-preserving.
+- Adds proof obligations before any theorem attempt.
+- Explicitly keeps proof status as not_a_proof.
+- Sets v3.1 as Proof Obligation Tracker.

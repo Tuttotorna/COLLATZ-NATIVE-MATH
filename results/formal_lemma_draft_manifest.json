@@ -1,0 +1,123 @@
+{
+  "central_bridge_statement": "Persistent shadow signal does not imply obstruction unless compensation fails and obstruction potential remains self-preserving.",
+  "collatz_status": "not_claimed_solved",
+  "documents": [
+    "docs/FORMAL_NATIVE_STANDARD_LEMMA_DRAFT.md",
+    "docs/LEMMA_DRAFT_BOUNDARY.md",
+    "docs/LOCAL_DEBT_FORMALIZATION.md",
+    "docs/COMPENSATION_FORMALIZATION.md",
+    "docs/SHADOW_REGENERATION_FORMALIZATION.md",
+    "docs/NON_OBSTRUCTION_LEMMA_DRAFTS.md",
+    "docs/FORMAL_PROOF_OBLIGATIONS.md"
+  ],
+  "forbidden_claims": [
+    "collatz_solved",
+    "global_closure_proved",
+    "obstruction_impossible",
+    "finite_evidence_implies_proof",
+    "shadow_always_erases",
+    "regeneration_always_closes",
+    "local_recovery_equals_native_closure",
+    "positive_surplus_equals_full_closure",
+    "lemma_draft_treated_as_theorem"
+  ],
+  "layer": "formal_native_to_standard_lemma_draft",
+  "lemma_draft_count": 11,
+  "lemma_drafts": [
+    {
+      "draft_statement": "For every odd positive integer n, there exists a unique positive integer a and a unique odd positive integer m such that 3n + 1 = 2^a m.",
+      "lemma_id": "L1_odd_block_decomposition",
+      "native_meaning_retained": "one_expansion_followed_by_one_discharge_event",
+      "native_object": "odd_block",
+      "status": "stable_draft"
+    },
+    {
+      "draft_statement": "For every odd positive integer n, a(n) = v2(3n + 1) is uniquely determined.",
+      "lemma_id": "L2_discharge_exponent_uniqueness",
+      "native_meaning_retained": "local_reduction_strength_after_expansion",
+      "native_object": "discharge",
+      "status": "stable_draft"
+    },
+    {
+      "draft_statement": "A block has local debt when log2(3) - a(n) > 0.",
+      "lemma_id": "L3_local_debt_formation",
+      "native_meaning_retained": "under_discharge_creates_structural_burden",
+      "native_object": "local_debt",
+      "status": "stable_draft"
+    },
+    {
+      "draft_statement": "For a finite interval I, D(I) = sum over i in I of (log2(3) - a_i) measures cumulative debt.",
+      "lemma_id": "L4_cumulative_debt_interval",
+      "native_meaning_retained": "accumulated_structural_burden",
+      "native_object": "debt_chain",
+      "status": "stable_draft"
+    },
+    {
+      "draft_statement": "A finite interval is a bad window iff its average discharge is below log2(3), equivalently D(I) > 0.",
+      "lemma_id": "C1_bad_window_equivalence",
+      "native_meaning_retained": "local_obstruction_candidate",
+      "native_object": "bad_window",
+      "status": "stable_draft"
+    },
+    {
+      "draft_statement": "A later interval compensates a bad window when the combined interval restores average discharge above log2(3).",
+      "lemma_id": "C2_compensation_recovery",
+      "native_meaning_retained": "later_discharge_repairs_prior_debt",
+      "native_object": "compensation",
+      "status": "stable_draft"
+    },
+    {
+      "draft_statement": "Positive surplus means the compensated interval exceeds expansion pressure.",
+      "lemma_id": "C3_positive_surplus",
+      "native_meaning_retained": "positive_compensation_margin",
+      "native_object": "surplus",
+      "status": "stable_draft"
+    },
+    {
+      "draft_statement": "Positive surplus after compensation establishes local recovery, not full native closure.",
+      "lemma_id": "C4_local_recovery_not_closure",
+      "native_meaning_retained": "local_recovery_does_not_equal_obstruction_erasure",
+      "native_object": "closure_boundary",
+      "status": "stable_boundary_draft"
+    },
+    {
+      "draft_statement": "Persistent shadow signal does not imply obstruction unless compensation fails and obstruction potential remains self-preserving.",
+      "lemma_id": "S2_shadow_signal_not_obstruction",
+      "native_meaning_retained": "shadow_stress_is_not_obstruction",
+      "native_object": "shadow_boundary",
+      "status": "stable_boundary_draft"
+    },
+    {
+      "draft_statement": "Regeneration alone does not imply native obstruction.",
+      "lemma_id": "R2_regeneration_not_obstruction",
+      "native_meaning_retained": "renewed_debt_is_not_automatically_obstruction",
+      "native_object": "regeneration_boundary",
+      "status": "stable_boundary_draft"
+    },
+    {
+      "draft_statement": "A native obstruction candidate requires persistent debt, non-erased shadow, dangerous regeneration, insufficient compensation, no closure event, and internal admissibility.",
+      "lemma_id": "N5_obstruction_candidate_requirements",
+      "native_meaning_retained": "persistent_self_preserving_unclosed_debt",
+      "native_object": "obstruction_candidate",
+      "status": "open_draft"
+    }
+  ],
+  "next_recommended_version": "v3.1 Proof Obligation Tracker",
+  "open_draft_count": 1,
+  "primary_claim": "Native-to-standard lemma drafts can now be stated while preserving native meaning and without theorem claims.",
+  "proof_obligations": [
+    "shadow_erasure_criterion",
+    "regeneration_closure_criterion",
+    "obstruction_impossibility",
+    "finite_to_general_transition",
+    "native_closure_theorem"
+  ],
+  "proof_status": "not_a_proof",
+  "reversibility_rule": "native_object -> standard_expression -> formal_lemma_draft -> native_meaning_retained",
+  "stable_boundary_draft_count": 3,
+  "stable_draft_count": 7,
+  "standard_translation_status": "formal_lemma_drafts_only",
+  "status": "formal_lemma_drafts_defined",
+  "theorem_status": "no_theorems_introduced",
+  "version": "v3.0"
+}

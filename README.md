@@ -647,3 +647,32 @@ Boundary:
     debt_drop != termination theorem
     survival_ratio != global invariant
     bounded response effectiveness != Collatz solved
+
+## v5.8 Post-Response Horizon Extension Audit V0
+
+The repository now includes a bounded Post-Response Horizon Extension Audit.
+
+Run:
+
+    python examples/build_post_response_horizon_extension_audit_v0.py
+
+Outputs:
+
+    results/post_response_horizon_extension_audit_v0.json
+    results/post_response_horizon_extension_audit_v0.md
+    results/post_response_horizon_extension_audit_v0_certificate.json
+
+Purpose:
+
+    test whether post-response new peaks appear only under longer odd-step horizons
+    vary odd_steps across 160, 240, 320, 480, 640, and 960
+    measure p_new_peak_after_release
+    measure p_reduced_below_peak
+    measure max_post_response_regeneration_ratio
+
+Boundary:
+
+    horizon_extension_audit != proof
+    no new peak within tested horizon != no new peak ever
+    bounded horizon stability != global closure
+    response effectiveness != termination theorem

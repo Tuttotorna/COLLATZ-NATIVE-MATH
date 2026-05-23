@@ -1,0 +1,61 @@
+{
+  "artifact": "Post-Response Horizon Extension Audit V0",
+  "boundary": {
+    "bounded_evidence_status": "measurement_only",
+    "collatz_status": "not_claimed_solved",
+    "global_closure_status": "not_claimed",
+    "global_invariant_status": "not_claimed",
+    "proof_status": "not_a_proof",
+    "theorem_status": "no_theorem_claimed"
+  },
+  "bounded_assessment": "extended_horizon_no_new_peak_with_strong_reduction",
+  "generated_at_utc": "2026-05-23T14:29:15.276397+00:00",
+  "horizon_summary": {
+    "block_size": 999,
+    "horizon_count": 6,
+    "max_end": 49999,
+    "max_post_response_regeneration_ratio_max_values": [
+      0.9943395958105086,
+      0.9943395958105086,
+      0.9943395958105086,
+      0.9943395958105086,
+      0.9943395958105086,
+      0.9943395958105086
+    ],
+    "max_regen_ratio_all_horizons": 0.9943395958105086,
+    "odd_step_configs": [
+      160,
+      240,
+      320,
+      480,
+      640,
+      960
+    ],
+    "p_new_peak_after_release_max_values": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "p_new_peak_corr_by_odd_steps": null,
+    "p_new_peak_slope_by_odd_steps": 0.0,
+    "p_reduced_below_peak_min_values": [
+      0.99,
+      0.99,
+      0.99,
+      0.99,
+      0.99,
+      0.99
+    ],
+    "reduced_floor_all_horizons": 0.99,
+    "zero_new_peak_all_horizons": true
+  },
+  "outputs": [
+    "results/post_response_horizon_extension_audit_v0.json",
+    "results/post_response_horizon_extension_audit_v0.md",
+    "results/post_response_horizon_extension_audit_v0_certificate.json"
+  ],
+  "version": "v5.8"
+}

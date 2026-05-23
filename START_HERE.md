@@ -357,3 +357,19 @@ The audit tests whether rapid release response is effective, not merely fast.
 It does not prove Collatz.
 
 It does not claim Collatz is solved.
+
+## v5.8 Post-Response Horizon Extension Audit V0
+
+Read:
+
+    docs/POST_RESPONSE_HORIZON_EXTENSION_AUDIT_V0.md
+
+Run:
+
+    python examples/build_post_response_horizon_extension_audit_v0.py
+
+The audit tests whether post-response new peaks appear only when odd-step horizon is extended.
+
+It does not prove Collatz.
+
+It does not claim Collatz is solved.

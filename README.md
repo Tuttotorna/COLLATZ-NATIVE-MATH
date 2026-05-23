@@ -818,3 +818,31 @@ Boundary:
     local rebound != counterexample
     no second breach observed != no second breach possible
     bounded rebound anatomy != global invariant
+
+## v6.4 Mature Rebound Guard V0
+
+The repository now includes a bounded Mature Rebound Guard.
+
+Run:
+
+    python examples/build_mature_rebound_guard_v0.py
+
+Outputs:
+
+    results/mature_rebound_guard_v0.json
+    results/mature_rebound_guard_v0.md
+    results/mature_rebound_guard_v0_certificate.json
+
+Purpose:
+
+    correct raw fuzzy rebound breach classification
+    separate weak-prefix rebound from mature-debt rebound
+    require prior_debt_peak >= 4.0 before accepting a mature breach
+    preserve raw v6.3 labels while adding guarded labels
+
+Boundary:
+
+    mature_rebound_guard != proof
+    weak-prefix false breach != theorem
+    no mature breach observed != no mature breach possible
+    bounded guard != global closure

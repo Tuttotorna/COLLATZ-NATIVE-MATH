@@ -453,3 +453,19 @@ The audit isolates fuzzy near-breach grammar instances that produce local reboun
 It does not prove Collatz.
 
 It does not claim Collatz is solved.
+
+## v6.4 Mature Rebound Guard V0
+
+Read:
+
+    docs/MATURE_REBOUND_GUARD_V0.md
+
+Run:
+
+    python examples/build_mature_rebound_guard_v0.py
+
+The guard separates raw rebound over weak early debt from rebound over mature accumulated debt.
+
+It does not prove Collatz.
+
+It does not claim Collatz is solved.

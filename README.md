@@ -888,3 +888,29 @@ They help observe what Collatz generates.
 Next step:
 
 v3.3 Native Sentence Extractor
+
+## v3.4 Native Sentence Atlas
+
+The repository now includes a Native Sentence Atlas.
+
+The atlas does not ask first whether Collatz is solved.
+
+It asks:
+
+What sentence forms does Collatz produce before it is translated into a terminal conjecture?
+
+Run:
+
+    python examples/build_native_sentence_atlas.py
+
+Outputs:
+
+    results/native_sentence_atlas.json
+    results/native_sentence_atlas.md
+    results/native_sentence_atlas_certificate.json
+
+Core rule:
+
+    No solution before native language.
+
+This is not a proof layer.

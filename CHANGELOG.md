@@ -486,3 +486,12 @@ v1.1 tests whether the v1.0 hard case is isolated or part of a wider frontier.
 - Produces native sentence JSONL, summary, report, and certificate artifacts.
 - Keeps the mother rule explicit: No solution before native language.
 - Sets v3.4 as Native Sentence Atlas.
+
+## v3.4 - Native Sentence Atlas
+
+- Adds a native sentence atlas builder.
+- Maps sentence classes, sentence families, native words, dangerous sentences, rare profiles, and dominant profiles.
+- Treats trajectories as native utterances, not proof objects.
+- Keeps the rule: No solution before native language.
+- Adds atlas JSON, Markdown report, and certificate artifacts.
+- Sets v3.5 as Native Grammar Recurrence Map.

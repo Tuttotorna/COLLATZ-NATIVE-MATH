@@ -1,0 +1,879 @@
+{
+  "central_native_question": "What sentence forms does Collatz produce before it is translated into a terminal conjecture?",
+  "dangerous_sentence_count": 80,
+  "dominant_grammar_profiles": [
+    {
+      "count": 194,
+      "profile": "debt regeneration surplus",
+      "sample_n0_values": [
+        19,
+        25,
+        33,
+        38,
+        39,
+        57,
+        59,
+        66,
+        67,
+        71
+      ]
+    },
+    {
+      "count": 80,
+      "profile": "debt regeneration dangerous_regeneration surplus stress",
+      "sample_n0_values": [
+        27,
+        31,
+        55,
+        62,
+        63,
+        4094,
+        4098,
+        4099,
+        4103,
+        4105
+      ]
+    },
+    {
+      "count": 26,
+      "profile": "debt surplus",
+      "sample_n0_values": [
+        3,
+        6,
+        7,
+        9,
+        11,
+        12,
+        14,
+        15,
+        22,
+        23
+      ]
+    },
+    {
+      "count": 20,
+      "profile": "unclassified",
+      "sample_n0_values": [
+        1,
+        2,
+        4,
+        5,
+        8,
+        10,
+        13,
+        20,
+        21,
+        26
+      ]
+    }
+  ],
+  "layer": "native_sentence_atlas",
+  "missing_sentence_classes": [
+    "NO_DEBT_SENTENCE",
+    "LOCAL_RECOVERY_SENTENCE",
+    "REGENERATED_BUT_COMPENSATED_SENTENCE",
+    "OBSTRUCTION_CANDIDATE_SENTENCE",
+    "UNDECIDED_SENTENCE"
+  ],
+  "most_dangerous_regeneration": [
+    {
+      "dangerous_regeneration_count": 4863,
+      "debt_window_count": 10399,
+      "min_positive_surplus": 7.15128842860846e-05,
+      "n0": 9780657630,
+      "native_words": [
+        "debt",
+        "regeneration",
+        "dangerous_regeneration",
+        "surplus",
+        "stress"
+      ],
+      "obstruction_candidate_count": 0,
+      "odd_blocks": 425,
+      "recovery_score": 74280320.99431963,
+      "regeneration_count": 10397,
+      "sentence_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "sentence_family": "dangerous_regeneration_family"
+    },
+    {
+      "dangerous_regeneration_count": 4835,
+      "debt_window_count": 10383,
+      "min_positive_surplus": 7.15128842860846e-05,
+      "n0": 9780657631,
+      "native_words": [
+        "debt",
+        "regeneration",
+        "dangerous_regeneration",
+        "surplus",
+        "stress"
+      ],
+      "obstruction_candidate_count": 0,
+      "odd_blocks": 425,
+      "recovery_score": 74280320.99431963,
+      "regeneration_count": 10381,
+      "sentence_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "sentence_family": "dangerous_regeneration_family"
+    },
+    {
+      "dangerous_regeneration_count": 2294,
+      "debt_window_count": 7391,
+      "min_positive_surplus": 0.0001438822575672294,
+      "n0": 670617279,
+      "native_words": [
+        "debt",
+        "regeneration",
+        "dangerous_regeneration",
+        "surplus",
+        "stress"
+      ],
+      "obstruction_candidate_count": 0,
+      "odd_blocks": 370,
+      "recovery_score": 15179077.92751667,
+      "regeneration_count": 7389,
+      "sentence_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "sentence_family": "dangerous_regeneration_family"
+    },
+    {
+      "dangerous_regeneration_count": 1710,
+      "debt_window_count": 6727,
+      "min_positive_surplus": 0.0001438822575672294,
+      "n0": 63728127,
+      "native_words": [
+        "debt",
+        "regeneration",
+        "dangerous_regeneration",
+        "surplus",
+        "stress"
+      ],
+      "obstruction_candidate_count": 0,
+      "odd_blocks": 357,
+      "recovery_score": 15179077.92751667,
+      "regeneration_count": 6725,
+      "sentence_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "sentence_family": "dangerous_regeneration_family"
+    },
+    {
+      "dangerous_regeneration_count": 1204,
+      "debt_window_count": 4761,
+      "min_positive_surplus": 0.0006230848644295239,
+      "n0": 2298025,
+      "native_words": [
+        "debt",
+        "regeneration",
+        "dangerous_regeneration",
+        "surplus",
+        "stress"
+      ],
+      "obstruction_candidate_count": 0,
+      "odd_blocks": 208,
+      "recovery_score": 4943146.874254355,
+      "regeneration_count": 4758,
+      "sentence_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "sentence_family": "dangerous_regeneration_family"
+    },
+    {
+      "dangerous_regeneration_count": 1087,
+      "debt_window_count": 2981,
+      "min_positive_surplus": 0.00040335293738058553,
+      "n0": 626331,
+      "native_words": [
+        "debt",
+        "regeneration",
+        "dangerous_regeneration",
+        "surplus",
+        "stress"
+      ],
+      "obstruction_candidate_count": 0,
+      "odd_blocks": 189,
+      "recovery_score": 4943146.874254355,
+      "regeneration_count": 2978,
+      "sentence_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "sentence_family": "dangerous_regeneration_family"
+    },
+    {
+      "dangerous_regeneration_count": 895,
+      "debt_window_count": 2625,
+      "min_positive_surplus": 0.0012443958305681235,
+      "n0": 68719476734,
+      "native_words": [
+        "debt",
+        "regeneration",
+        "dangerous_regeneration",
+        "surplus",
+        "stress"
+      ],
+      "obstruction_candidate_count": 0,
+      "odd_blocks": 191,
+      "recovery_score": 1520416.537506571,
+      "regeneration_count": 2623,
+      "sentence_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "sentence_family": "dangerous_regeneration_family"
+    },
+    {
+      "dangerous_regeneration_count": 875,
+      "debt_window_count": 2560,
+      "min_positive_surplus": 0.0007517849931295562,
+      "n0": 68719476735,
+      "native_words": [
+        "debt",
+        "regeneration",
+        "dangerous_regeneration",
+        "surplus",
+        "stress"
+      ],
+      "obstruction_candidate_count": 0,
+      "odd_blocks": 191,
+      "recovery_score": 1629455.2447775372,
+      "regeneration_count": 2558,
+      "sentence_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "sentence_family": "dangerous_regeneration_family"
+    },
+    {
+      "dangerous_regeneration_count": 695,
+      "debt_window_count": 2946,
+      "min_positive_surplus": 0.00040335293738058553,
+      "n0": 3542887,
+      "native_words": [
+        "debt",
+        "regeneration",
+        "dangerous_regeneration",
+        "surplus",
+        "stress"
+      ],
+      "obstruction_candidate_count": 0,
+      "odd_blocks": 217,
+      "recovery_score": 4167566.030178391,
+      "regeneration_count": 2941,
+      "sentence_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "sentence_family": "dangerous_regeneration_family"
+    },
+    {
+      "dangerous_regeneration_count": 633,
+      "debt_window_count": 3629,
+      "min_positive_surplus": 0.00040335293738058553,
+      "n0": 1117065,
+      "native_words": [
+        "debt",
+        "regeneration",
+        "dangerous_regeneration",
+        "surplus",
+        "stress"
+      ],
+      "obstruction_candidate_count": 0,
+      "odd_blocks": 196,
+      "recovery_score": 1041271.7029595028,
+      "regeneration_count": 3622,
+      "sentence_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "sentence_family": "dangerous_regeneration_family"
+    }
+  ],
+  "most_debt_windows": [
+    {
+      "dangerous_regeneration_count": 4863,
+      "debt_window_count": 10399,
+      "min_positive_surplus": 7.15128842860846e-05,
+      "n0": 9780657630,
+      "native_words": [
+        "debt",
+        "regeneration",
+        "dangerous_regeneration",
+        "surplus",
+        "stress"
+      ],
+      "obstruction_candidate_count": 0,
+      "odd_blocks": 425,
+      "recovery_score": 74280320.99431963,
+      "regeneration_count": 10397,
+      "sentence_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "sentence_family": "dangerous_regeneration_family"
+    },
+    {
+      "dangerous_regeneration_count": 4835,
+      "debt_window_count": 10383,
+      "min_positive_surplus": 7.15128842860846e-05,
+      "n0": 9780657631,
+      "native_words": [
+        "debt",
+        "regeneration",
+        "dangerous_regeneration",
+        "surplus",
+        "stress"
+      ],
+      "obstruction_candidate_count": 0,
+      "odd_blocks": 425,
+      "recovery_score": 74280320.99431963,
+      "regeneration_count": 10381,
+      "sentence_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "sentence_family": "dangerous_regeneration_family"
+    },
+    {
+      "dangerous_regeneration_count": 2294,
+      "debt_window_count": 7391,
+      "min_positive_surplus": 0.0001438822575672294,
+      "n0": 670617279,
+      "native_words": [
+        "debt",
+        "regeneration",
+        "dangerous_regeneration",
+        "surplus",
+        "stress"
+      ],
+      "obstruction_candidate_count": 0,
+      "odd_blocks": 370,
+      "recovery_score": 15179077.92751667,
+      "regeneration_count": 7389,
+      "sentence_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "sentence_family": "dangerous_regeneration_family"
+    },
+    {
+      "dangerous_regeneration_count": 1710,
+      "debt_window_count": 6727,
+      "min_positive_surplus": 0.0001438822575672294,
+      "n0": 63728127,
+      "native_words": [
+        "debt",
+        "regeneration",
+        "dangerous_regeneration",
+        "surplus",
+        "stress"
+      ],
+      "obstruction_candidate_count": 0,
+      "odd_blocks": 357,
+      "recovery_score": 15179077.92751667,
+      "regeneration_count": 6725,
+      "sentence_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "sentence_family": "dangerous_regeneration_family"
+    },
+    {
+      "dangerous_regeneration_count": 1204,
+      "debt_window_count": 4761,
+      "min_positive_surplus": 0.0006230848644295239,
+      "n0": 2298025,
+      "native_words": [
+        "debt",
+        "regeneration",
+        "dangerous_regeneration",
+        "surplus",
+        "stress"
+      ],
+      "obstruction_candidate_count": 0,
+      "odd_blocks": 208,
+      "recovery_score": 4943146.874254355,
+      "regeneration_count": 4758,
+      "sentence_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "sentence_family": "dangerous_regeneration_family"
+    },
+    {
+      "dangerous_regeneration_count": 633,
+      "debt_window_count": 3629,
+      "min_positive_surplus": 0.00040335293738058553,
+      "n0": 1117065,
+      "native_words": [
+        "debt",
+        "regeneration",
+        "dangerous_regeneration",
+        "surplus",
+        "stress"
+      ],
+      "obstruction_candidate_count": 0,
+      "odd_blocks": 196,
+      "recovery_score": 1041271.7029595028,
+      "regeneration_count": 3622,
+      "sentence_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "sentence_family": "dangerous_regeneration_family"
+    },
+    {
+      "dangerous_regeneration_count": 599,
+      "debt_window_count": 3566,
+      "min_positive_surplus": 0.00040335293738058553,
+      "n0": 837799,
+      "native_words": [
+        "debt",
+        "regeneration",
+        "dangerous_regeneration",
+        "surplus",
+        "stress"
+      ],
+      "obstruction_candidate_count": 0,
+      "odd_blocks": 195,
+      "recovery_score": 1041271.7029595028,
+      "regeneration_count": 3559,
+      "sentence_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "sentence_family": "dangerous_regeneration_family"
+    },
+    {
+      "dangerous_regeneration_count": 1087,
+      "debt_window_count": 2981,
+      "min_positive_surplus": 0.00040335293738058553,
+      "n0": 626331,
+      "native_words": [
+        "debt",
+        "regeneration",
+        "dangerous_regeneration",
+        "surplus",
+        "stress"
+      ],
+      "obstruction_candidate_count": 0,
+      "odd_blocks": 189,
+      "recovery_score": 4943146.874254355,
+      "regeneration_count": 2978,
+      "sentence_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "sentence_family": "dangerous_regeneration_family"
+    },
+    {
+      "dangerous_regeneration_count": 695,
+      "debt_window_count": 2946,
+      "min_positive_surplus": 0.00040335293738058553,
+      "n0": 3542887,
+      "native_words": [
+        "debt",
+        "regeneration",
+        "dangerous_regeneration",
+        "surplus",
+        "stress"
+      ],
+      "obstruction_candidate_count": 0,
+      "odd_blocks": 217,
+      "recovery_score": 4167566.030178391,
+      "regeneration_count": 2941,
+      "sentence_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "sentence_family": "dangerous_regeneration_family"
+    },
+    {
+      "dangerous_regeneration_count": 895,
+      "debt_window_count": 2625,
+      "min_positive_surplus": 0.0012443958305681235,
+      "n0": 68719476734,
+      "native_words": [
+        "debt",
+        "regeneration",
+        "dangerous_regeneration",
+        "surplus",
+        "stress"
+      ],
+      "obstruction_candidate_count": 0,
+      "odd_blocks": 191,
+      "recovery_score": 1520416.537506571,
+      "regeneration_count": 2623,
+      "sentence_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "sentence_family": "dangerous_regeneration_family"
+    }
+  ],
+  "mother_rule": "No solution before native language.",
+  "native_interpretation": "DANGEROUS_SENTENCES_PRESENT_BUT_NO_OBSTRUCTION_SENTENCE",
+  "native_word_counts": {
+    "dangerous_regeneration": 80,
+    "debt": 300,
+    "regeneration": 274,
+    "stress": 80,
+    "surplus": 300,
+    "unclassified": 20
+  },
+  "negative_result_boundary": "No obstruction sentence detected in this atlas is not proof that obstruction sentences cannot exist.",
+  "next_recommended_version": "v3.5 Native Grammar Recurrence Map",
+  "obstruction_detected": false,
+  "obstruction_sentence_count": 0,
+  "proof_status": "not_a_proof",
+  "rare_grammar_profiles": [],
+  "secondary_rule": "No proof before native description.",
+  "sentence_class_counts": {
+    "DANGEROUS_REGENERATION_SENTENCE": 80,
+    "DEBT_COMPENSATION_SENTENCE": 26,
+    "MINIMAL_SENTENCE": 20,
+    "REGENERATION_COMPENSATION_SENTENCE": 194
+  },
+  "sentence_count": 320,
+  "sentence_family_counts": {
+    "dangerous_regeneration_family": 80,
+    "regeneration_family": 194,
+    "unclassified_family": 46
+  },
+  "source_sentence_count": 320,
+  "source_version": "v3.3",
+  "strongest_by_recovery": [
+    {
+      "dangerous_regeneration_count": 4863,
+      "debt_window_count": 10399,
+      "min_positive_surplus": 7.15128842860846e-05,
+      "n0": 9780657630,
+      "native_words": [
+        "debt",
+        "regeneration",
+        "dangerous_regeneration",
+        "surplus",
+        "stress"
+      ],
+      "obstruction_candidate_count": 0,
+      "odd_blocks": 425,
+      "recovery_score": 74280320.99431963,
+      "regeneration_count": 10397,
+      "sentence_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "sentence_family": "dangerous_regeneration_family"
+    },
+    {
+      "dangerous_regeneration_count": 4835,
+      "debt_window_count": 10383,
+      "min_positive_surplus": 7.15128842860846e-05,
+      "n0": 9780657631,
+      "native_words": [
+        "debt",
+        "regeneration",
+        "dangerous_regeneration",
+        "surplus",
+        "stress"
+      ],
+      "obstruction_candidate_count": 0,
+      "odd_blocks": 425,
+      "recovery_score": 74280320.99431963,
+      "regeneration_count": 10381,
+      "sentence_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "sentence_family": "dangerous_regeneration_family"
+    },
+    {
+      "dangerous_regeneration_count": 1710,
+      "debt_window_count": 6727,
+      "min_positive_surplus": 0.0001438822575672294,
+      "n0": 63728127,
+      "native_words": [
+        "debt",
+        "regeneration",
+        "dangerous_regeneration",
+        "surplus",
+        "stress"
+      ],
+      "obstruction_candidate_count": 0,
+      "odd_blocks": 357,
+      "recovery_score": 15179077.92751667,
+      "regeneration_count": 6725,
+      "sentence_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "sentence_family": "dangerous_regeneration_family"
+    },
+    {
+      "dangerous_regeneration_count": 2294,
+      "debt_window_count": 7391,
+      "min_positive_surplus": 0.0001438822575672294,
+      "n0": 670617279,
+      "native_words": [
+        "debt",
+        "regeneration",
+        "dangerous_regeneration",
+        "surplus",
+        "stress"
+      ],
+      "obstruction_candidate_count": 0,
+      "odd_blocks": 370,
+      "recovery_score": 15179077.92751667,
+      "regeneration_count": 7389,
+      "sentence_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "sentence_family": "dangerous_regeneration_family"
+    },
+    {
+      "dangerous_regeneration_count": 1087,
+      "debt_window_count": 2981,
+      "min_positive_surplus": 0.00040335293738058553,
+      "n0": 626331,
+      "native_words": [
+        "debt",
+        "regeneration",
+        "dangerous_regeneration",
+        "surplus",
+        "stress"
+      ],
+      "obstruction_candidate_count": 0,
+      "odd_blocks": 189,
+      "recovery_score": 4943146.874254355,
+      "regeneration_count": 2978,
+      "sentence_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "sentence_family": "dangerous_regeneration_family"
+    },
+    {
+      "dangerous_regeneration_count": 1204,
+      "debt_window_count": 4761,
+      "min_positive_surplus": 0.0006230848644295239,
+      "n0": 2298025,
+      "native_words": [
+        "debt",
+        "regeneration",
+        "dangerous_regeneration",
+        "surplus",
+        "stress"
+      ],
+      "obstruction_candidate_count": 0,
+      "odd_blocks": 208,
+      "recovery_score": 4943146.874254355,
+      "regeneration_count": 4758,
+      "sentence_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "sentence_family": "dangerous_regeneration_family"
+    },
+    {
+      "dangerous_regeneration_count": 695,
+      "debt_window_count": 2946,
+      "min_positive_surplus": 0.00040335293738058553,
+      "n0": 3542887,
+      "native_words": [
+        "debt",
+        "regeneration",
+        "dangerous_regeneration",
+        "surplus",
+        "stress"
+      ],
+      "obstruction_candidate_count": 0,
+      "odd_blocks": 217,
+      "recovery_score": 4167566.030178391,
+      "regeneration_count": 2941,
+      "sentence_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "sentence_family": "dangerous_regeneration_family"
+    },
+    {
+      "dangerous_regeneration_count": 236,
+      "debt_window_count": 1945,
+      "min_positive_surplus": 0.00040335293738058553,
+      "n0": 16777214,
+      "native_words": [
+        "debt",
+        "regeneration",
+        "dangerous_regeneration",
+        "surplus",
+        "stress"
+      ],
+      "obstruction_candidate_count": 0,
+      "odd_blocks": 174,
+      "recovery_score": 1629455.2447775372,
+      "regeneration_count": 1942,
+      "sentence_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "sentence_family": "dangerous_regeneration_family"
+    },
+    {
+      "dangerous_regeneration_count": 875,
+      "debt_window_count": 2560,
+      "min_positive_surplus": 0.0007517849931295562,
+      "n0": 68719476735,
+      "native_words": [
+        "debt",
+        "regeneration",
+        "dangerous_regeneration",
+        "surplus",
+        "stress"
+      ],
+      "obstruction_candidate_count": 0,
+      "odd_blocks": 191,
+      "recovery_score": 1629455.2447775372,
+      "regeneration_count": 2558,
+      "sentence_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "sentence_family": "dangerous_regeneration_family"
+    },
+    {
+      "dangerous_regeneration_count": 895,
+      "debt_window_count": 2625,
+      "min_positive_surplus": 0.0012443958305681235,
+      "n0": 68719476734,
+      "native_words": [
+        "debt",
+        "regeneration",
+        "dangerous_regeneration",
+        "surplus",
+        "stress"
+      ],
+      "obstruction_candidate_count": 0,
+      "odd_blocks": 191,
+      "recovery_score": 1520416.537506571,
+      "regeneration_count": 2623,
+      "sentence_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "sentence_family": "dangerous_regeneration_family"
+    }
+  ],
+  "theorem_status": "no_theorems_introduced",
+  "tightest_by_surplus": [
+    {
+      "dangerous_regeneration_count": 4863,
+      "debt_window_count": 10399,
+      "min_positive_surplus": 7.15128842860846e-05,
+      "n0": 9780657630,
+      "native_words": [
+        "debt",
+        "regeneration",
+        "dangerous_regeneration",
+        "surplus",
+        "stress"
+      ],
+      "obstruction_candidate_count": 0,
+      "odd_blocks": 425,
+      "recovery_score": 74280320.99431963,
+      "regeneration_count": 10397,
+      "sentence_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "sentence_family": "dangerous_regeneration_family"
+    },
+    {
+      "dangerous_regeneration_count": 4835,
+      "debt_window_count": 10383,
+      "min_positive_surplus": 7.15128842860846e-05,
+      "n0": 9780657631,
+      "native_words": [
+        "debt",
+        "regeneration",
+        "dangerous_regeneration",
+        "surplus",
+        "stress"
+      ],
+      "obstruction_candidate_count": 0,
+      "odd_blocks": 425,
+      "recovery_score": 74280320.99431963,
+      "regeneration_count": 10381,
+      "sentence_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "sentence_family": "dangerous_regeneration_family"
+    },
+    {
+      "dangerous_regeneration_count": 1710,
+      "debt_window_count": 6727,
+      "min_positive_surplus": 0.0001438822575672294,
+      "n0": 63728127,
+      "native_words": [
+        "debt",
+        "regeneration",
+        "dangerous_regeneration",
+        "surplus",
+        "stress"
+      ],
+      "obstruction_candidate_count": 0,
+      "odd_blocks": 357,
+      "recovery_score": 15179077.92751667,
+      "regeneration_count": 6725,
+      "sentence_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "sentence_family": "dangerous_regeneration_family"
+    },
+    {
+      "dangerous_regeneration_count": 2294,
+      "debt_window_count": 7391,
+      "min_positive_surplus": 0.0001438822575672294,
+      "n0": 670617279,
+      "native_words": [
+        "debt",
+        "regeneration",
+        "dangerous_regeneration",
+        "surplus",
+        "stress"
+      ],
+      "obstruction_candidate_count": 0,
+      "odd_blocks": 370,
+      "recovery_score": 15179077.92751667,
+      "regeneration_count": 7389,
+      "sentence_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "sentence_family": "dangerous_regeneration_family"
+    },
+    {
+      "dangerous_regeneration_count": 8,
+      "debt_window_count": 642,
+      "min_positive_surplus": 0.00040335293738058553,
+      "n0": 4098,
+      "native_words": [
+        "debt",
+        "regeneration",
+        "dangerous_regeneration",
+        "surplus",
+        "stress"
+      ],
+      "obstruction_candidate_count": 0,
+      "odd_blocks": 56,
+      "recovery_score": 282630.8908032936,
+      "regeneration_count": 636,
+      "sentence_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "sentence_family": "dangerous_regeneration_family"
+    },
+    {
+      "dangerous_regeneration_count": 8,
+      "debt_window_count": 636,
+      "min_positive_surplus": 0.00040335293738058553,
+      "n0": 4099,
+      "native_words": [
+        "debt",
+        "regeneration",
+        "dangerous_regeneration",
+        "surplus",
+        "stress"
+      ],
+      "obstruction_candidate_count": 0,
+      "odd_blocks": 56,
+      "recovery_score": 282630.8908032936,
+      "regeneration_count": 630,
+      "sentence_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "sentence_family": "dangerous_regeneration_family"
+    },
+    {
+      "dangerous_regeneration_count": 109,
+      "debt_window_count": 1618,
+      "min_positive_surplus": 0.00040335293738058553,
+      "n0": 77031,
+      "native_words": [
+        "debt",
+        "regeneration",
+        "dangerous_regeneration",
+        "surplus",
+        "stress"
+      ],
+      "obstruction_candidate_count": 0,
+      "odd_blocks": 129,
+      "recovery_score": 265293.091312249,
+      "regeneration_count": 1613,
+      "sentence_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "sentence_family": "dangerous_regeneration_family"
+    },
+    {
+      "dangerous_regeneration_count": 39,
+      "debt_window_count": 1088,
+      "min_positive_surplus": 0.00040335293738058553,
+      "n0": 77039,
+      "native_words": [
+        "debt",
+        "regeneration",
+        "dangerous_regeneration",
+        "surplus",
+        "stress"
+      ],
+      "obstruction_candidate_count": 0,
+      "odd_blocks": 112,
+      "recovery_score": 167149.38678719173,
+      "regeneration_count": 1081,
+      "sentence_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "sentence_family": "dangerous_regeneration_family"
+    },
+    {
+      "dangerous_regeneration_count": 213,
+      "debt_window_count": 831,
+      "min_positive_surplus": 0.00040335293738058553,
+      "n0": 131071,
+      "native_words": [
+        "debt",
+        "regeneration",
+        "dangerous_regeneration",
+        "surplus",
+        "stress"
+      ],
+      "obstruction_candidate_count": 0,
+      "odd_blocks": 80,
+      "recovery_score": 1041271.7029595028,
+      "regeneration_count": 829,
+      "sentence_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "sentence_family": "dangerous_regeneration_family"
+    },
+    {
+      "dangerous_regeneration_count": 1087,
+      "debt_window_count": 2981,
+      "min_positive_surplus": 0.00040335293738058553,
+      "n0": 626331,
+      "native_words": [
+        "debt",
+        "regeneration",
+        "dangerous_regeneration",
+        "surplus",
+        "stress"
+      ],
+      "obstruction_candidate_count": 0,
+      "odd_blocks": 189,
+      "recovery_score": 4943146.874254355,
+      "regeneration_count": 2978,
+      "sentence_class": "DANGEROUS_REGENERATION_SENTENCE",
+      "sentence_family": "dangerous_regeneration_family"
+    }
+  ],
+  "version": "v3.4"
+}

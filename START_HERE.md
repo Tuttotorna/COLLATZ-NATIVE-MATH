@@ -556,3 +556,23 @@ Read:
 Core rule:
 
     A trajectory is first a native utterance, not a proof target.
+
+## v3.4 native sentence atlas
+
+After extracting native sentences, build the atlas:
+
+    python examples/build_native_sentence_atlas.py
+
+Read:
+
+    docs/NATIVE_SENTENCE_ATLAS.md
+    docs/NATIVE_SENTENCE_FAMILIES.md
+    docs/NATIVE_SENTENCE_ATLAS_INTERPRETATION.md
+    docs/RARE_NATIVE_SENTENCES.md
+    docs/DANGEROUS_SENTENCE_ATLAS.md
+    docs/V34_ATLAS_LIMITS.md
+    docs/V34_NEXT_STEPS.md
+
+Core rule:
+
+    No solution before native language.

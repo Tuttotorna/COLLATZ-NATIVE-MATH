@@ -1,0 +1,23 @@
+{
+  "central_native_question": "What sentence forms does Collatz produce before it is translated into a terminal conjecture?",
+  "certificate_type": "native_sentence_atlas_certificate",
+  "dangerous_sentence_count": 80,
+  "missing_sentence_classes": [
+    "NO_DEBT_SENTENCE",
+    "LOCAL_RECOVERY_SENTENCE",
+    "REGENERATED_BUT_COMPENSATED_SENTENCE",
+    "OBSTRUCTION_CANDIDATE_SENTENCE",
+    "UNDECIDED_SENTENCE"
+  ],
+  "mother_rule": "No solution before native language.",
+  "native_interpretation": "DANGEROUS_SENTENCES_PRESENT_BUT_NO_OBSTRUCTION_SENTENCE",
+  "negative_result_boundary": "No obstruction sentence detected in this atlas is not proof that obstruction sentences cannot exist.",
+  "next_recommended_version": "v3.5 Native Grammar Recurrence Map",
+  "obstruction_detected": false,
+  "obstruction_sentence_count": 0,
+  "proof_status": "not_a_proof",
+  "sentence_count": 320,
+  "source_version": "v3.3",
+  "theorem_status": "no_theorems_introduced",
+  "version": "v3.4"
+}

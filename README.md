@@ -966,3 +966,33 @@ Core rule:
     No solution before native language.
 
 This is not a proof layer.
+
+## v3.7 Native Grammar Stability Map
+
+The repository now maps native grammar stability.
+
+It asks:
+
+    What does Collatz preserve under recurrence and mutation?
+
+Core distinction:
+
+    recurrence = return
+    mutation = transformation
+    stability = resistance to transformation
+
+Run:
+
+    python examples/build_native_grammar_stability_map.py
+
+Outputs:
+
+    results/native_grammar_stability_map.json
+    results/native_grammar_stability_map.md
+    results/native_grammar_stability_certificate.json
+
+Core rule:
+
+    No solution before native language.
+
+This is not a proof layer.

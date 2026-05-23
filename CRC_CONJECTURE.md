@@ -707,3 +707,30 @@ Boundary:
     mutation != proof
     dangerous mutation != obstruction
     no obstruction mutation detected != obstruction mutation impossible
+
+## Native grammar stability map
+
+v3.7 maps what Collatz preserves under recurrence and mutation.
+
+The native distinction is:
+
+    recurrence = return
+    mutation = transformation
+    stability = resistance to transformation
+
+The project still does not begin from termination.
+
+It asks:
+
+    What does Collatz keep?
+    Which dangerous forms are stable?
+    Which dangerous forms are unstable?
+    Which forms release?
+    Is 9780657630 stable, unstable, or transitional?
+
+Boundary:
+
+    stability != proof
+    dangerous stability != obstruction
+    dangerous instability != proof of closure
+    no obstruction-stable grammar detected != obstruction-stable grammar impossible

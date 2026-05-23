@@ -515,3 +515,13 @@ v1.1 tests whether the v1.0 hard case is isolated or part of a wider frontier.
 - Preserves the rule: No solution before native language.
 - Emits mutation atlas JSON, Markdown report, and certificate.
 - Sets v3.7 as Native Grammar Stability Map.
+
+## v3.7 - Native Grammar Stability Map
+
+- Adds a native grammar stability map builder.
+- Distinguishes recurrence, mutation, and stability.
+- Classifies stable, unstable, dangerous-stable, dangerous-unstable, release, and obstruction-relevant grammar behavior.
+- Treats n0 = 9780657630 as a grammar stability node, not a proof object.
+- Preserves the rule: No solution before native language.
+- Emits stability map JSON, Markdown report, and certificate.
+- Sets v3.8 as Native Conservation Map.

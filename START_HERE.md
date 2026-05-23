@@ -617,3 +617,24 @@ Read:
 Core rule:
 
     No solution before native language.
+
+## v3.7 native grammar stability map
+
+After building the mutation atlas, build the stability map:
+
+    python examples/build_native_grammar_stability_map.py
+
+Read:
+
+    docs/NATIVE_GRAMMAR_STABILITY_MAP.md
+    docs/STABILITY_AS_NATIVE_BEHAVIOR.md
+    docs/DANGEROUS_STABILITY.md
+    docs/DANGEROUS_INSTABILITY.md
+    docs/STABILITY_AROUND_9780657630.md
+    docs/STABILITY_MAP_LIMITS.md
+    docs/V37_EVIDENCE_STATUS.md
+    docs/V37_NEXT_STEPS.md
+
+Core rule:
+
+    No solution before native language.

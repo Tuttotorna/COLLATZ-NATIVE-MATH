@@ -1059,3 +1059,37 @@ Core rule:
     No solution before native language.
 
 This is not a proof layer.
+
+## v4.0 Native Language Summary
+
+This project does not begin by trying to solve Collatz.
+
+It begins by asking:
+
+    What is Collatz before it becomes a conjecture?
+
+Primary position:
+
+    Collatz is not treated first as a conjecture to solve, but as a native dynamical language whose grammar can be observed, mapped, and only later translated.
+
+Core rule:
+
+    No solution before native language.
+
+Run:
+
+    python examples/build_native_language_summary.py
+
+Outputs:
+
+    results/native_language_summary.json
+    results/native_language_summary.md
+    results/native_language_summary_certificate.json
+
+Current boundary:
+
+    not a proof
+    not a theorem
+    not a solution claim
+    no global closure claim
+    no global invariant claim

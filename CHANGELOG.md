@@ -547,3 +547,14 @@ v1.1 tests whether the v1.0 hard case is isolated or part of a wider frontier.
 - Preserves the rule: No solution before native language.
 - Emits invariant candidate map JSON, Markdown report, and certificate.
 - Sets v4.0 as Native Language Summary.
+
+## v4.0 - Native Language Summary
+
+- Adds a native language summary builder.
+- Summarizes the v3.1 to v3.9 native-language route.
+- States the primary position: Collatz is not treated first as a conjecture to solve, but as a native dynamical language.
+- Summarizes bounded native observations: dangerous forms, danger-release, dangerous-stability, no obstruction-relevant invariant candidate, and 9780657630 as stress node.
+- Preserves the rule: No solution before native language.
+- Preserves the non-proof boundary.
+- Emits summary JSON, Markdown report, and certificate.
+- Sets v4.1 as Native Language README Consolidation.

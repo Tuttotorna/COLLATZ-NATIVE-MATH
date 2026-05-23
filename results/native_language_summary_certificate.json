@@ -1,0 +1,22 @@
+{
+  "central_native_question": "What has Collatz said when read as a native dynamical language?",
+  "certificate_type": "native_language_summary_certificate",
+  "collatz_status": "not_claimed_solved",
+  "global_closure_status": "not_claimed",
+  "global_invariant_status": "not_claimed",
+  "learned_pattern_count": 5,
+  "mother_rule": "No solution before native language.",
+  "native_interpretation": "NATIVE_LANGUAGE_ROUTE_ESTABLISHED_WITHOUT_PROOF_CLAIM",
+  "native_language_object_count": 8,
+  "next_recommended_version": "v4.1 Native Language README Consolidation",
+  "primary_position": "Collatz is not treated first as a conjecture to solve, but as a native dynamical language whose grammar can be observed, mapped, and only later translated.",
+  "proof_status": "not_a_proof",
+  "route_version_count": 9,
+  "source_danger_release_invariant_candidate_count": 28,
+  "source_dangerous_stability_invariant_candidate_count": 8,
+  "source_invariant_candidate_count": 45,
+  "source_invariant_version": "v3.9",
+  "source_obstruction_relevant_invariant_candidate_count": 0,
+  "theorem_status": "no_theorems_introduced",
+  "version": "v4.0"
+}

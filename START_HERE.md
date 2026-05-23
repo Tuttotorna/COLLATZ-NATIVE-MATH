@@ -680,3 +680,23 @@ Read:
 Core rule:
 
     No solution before native language.
+
+## v4.0 native language summary
+
+Start from the route summary:
+
+    python examples/build_native_language_summary.py
+
+Read:
+
+    docs/NATIVE_LANGUAGE_SUMMARY.md
+    docs/NATIVE_LANGUAGE_ROUTE.md
+    docs/WHAT_COLLATZ_HAS_SAID.md
+    docs/NATIVE_LANGUAGE_BOUNDARY.md
+    docs/V40_PUBLIC_POSITIONING.md
+    docs/V40_EVIDENCE_STATUS.md
+    docs/V40_NEXT_STEPS.md
+
+Core rule:
+
+    No solution before native language.

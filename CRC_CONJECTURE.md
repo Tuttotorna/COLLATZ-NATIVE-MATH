@@ -792,3 +792,26 @@ Boundary:
     bounded invariant candidate != global invariant
     no obstruction-relevant invariant candidate detected != obstruction impossible
     native invariant candidate map != proof
+
+## Native language summary
+
+v4.0 summarizes the route correction.
+
+The project no longer starts from:
+
+    Does every trajectory reach 1?
+
+It starts from:
+
+    What is Collatz before it becomes a conjecture?
+
+Primary position:
+
+    Collatz is not treated first as a conjecture to solve, but as a native dynamical language whose grammar can be observed, mapped, and only later translated.
+
+Boundary:
+
+    native language summary != proof
+    bounded observations != theorem
+    no obstruction-relevant invariant candidate detected != obstruction impossible
+    no solution before native language

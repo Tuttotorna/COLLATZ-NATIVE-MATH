@@ -588,3 +588,32 @@ Boundary:
     positive_extended_band != theorem
     last_5_positive != invariant
     no zero crossing in tested blocks != universal closure
+
+## v5.6 Response-Time Invariance Audit V0
+
+The repository now includes a bounded Response-Time Invariance Audit.
+
+Run:
+
+    python examples/build_response_time_invariance_audit_v0.py
+
+Outputs:
+
+    results/response_time_invariance_audit_v0.json
+    results/response_time_invariance_audit_v0.md
+    results/response_time_invariance_audit_v0_certificate.json
+
+Purpose:
+
+    test whether response timing remains stable when release-mass correlation weakens
+    measure median_response_delay across seed blocks
+    measure p_delay_1, p_delay_le_2, and p_delay_le_3
+    measure no_response_rate
+    compare timing stability against mass-correlation decay
+
+Boundary:
+
+    response_time_invariance != proof
+    median_delay_1 != termination theorem
+    immediate_response_rate != global invariant
+    bounded response timing != Collatz solved

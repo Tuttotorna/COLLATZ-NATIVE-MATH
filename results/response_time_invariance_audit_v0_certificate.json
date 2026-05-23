@@ -1,0 +1,20 @@
+{
+  "artifact": "Response-Time Invariance Audit V0",
+  "boundary": {
+    "bounded_evidence_status": "measurement_only",
+    "collatz_status": "not_claimed_solved",
+    "global_closure_status": "not_claimed",
+    "global_invariant_status": "not_claimed",
+    "proof_status": "not_a_proof",
+    "theorem_status": "no_theorem_claimed"
+  },
+  "bounded_assessment": "strong_response_time_invariance_candidate",
+  "generated_at_utc": "2026-05-23T13:14:32.297473+00:00",
+  "outputs": [
+    "results/response_time_invariance_audit_v0.json",
+    "results/response_time_invariance_audit_v0.md",
+    "results/response_time_invariance_audit_v0_certificate.json"
+  ],
+  "timing_status": "strong_response_time_invariance",
+  "version": "v5.6"
+}

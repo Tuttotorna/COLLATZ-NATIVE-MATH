@@ -761,3 +761,32 @@ Boundary:
     pattern recurrence != counterexample
     no recurrence observed != no recurrence possible
     bounded recurrence search != global invariant
+
+## v6.2 Fuzzy Near-Breach Grammar Audit V0
+
+The repository now includes a bounded Fuzzy Near-Breach Grammar Audit.
+
+Run:
+
+    python examples/build_fuzzy_near_breach_grammar_audit_v0.py
+
+Outputs:
+
+    results/fuzzy_near_breach_grammar_audit_v0.json
+    results/fuzzy_near_breach_grammar_audit_v0.md
+    results/fuzzy_near_breach_grammar_audit_v0_certificate.json
+
+Purpose:
+
+    search approximate recurrence of near-breach Pattern A and Pattern B
+    measure hamming distance and normalized similarity
+    measure fuzzy_A_count and fuzzy_B_count
+    measure fuzzy_pattern_after_pattern
+    test whether fuzzy near-breach grammars are isolated, chainable, or growth-producing
+
+Boundary:
+
+    fuzzy_grammar_audit != proof
+    fuzzy recurrence != counterexample
+    no fuzzy recurrence observed != no fuzzy recurrence possible
+    bounded fuzzy grammar != global invariant

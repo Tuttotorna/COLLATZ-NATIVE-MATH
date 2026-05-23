@@ -1,0 +1,45 @@
+{
+  "artifact": "Fuzzy Near-Breach Grammar Audit V0",
+  "boundary": {
+    "bounded_evidence_status": "measurement_only",
+    "collatz_status": "not_claimed_solved",
+    "global_closure_status": "not_claimed",
+    "global_invariant_status": "not_claimed",
+    "proof_status": "not_a_proof",
+    "theorem_status": "no_theorem_claimed"
+  },
+  "bounded_assessment": "fuzzy_grammar_isolated_occurrences_detected",
+  "generated_at_utc": "2026-05-23T15:08:28.751039+00:00",
+  "outputs": [
+    "results/fuzzy_near_breach_grammar_audit_v0.json",
+    "results/fuzzy_near_breach_grammar_audit_v0.md",
+    "results/fuzzy_near_breach_grammar_audit_v0_certificate.json"
+  ],
+  "summary": {
+    "dangerous_fuzzy_chain_seed_count": 0,
+    "fuzzy_A_hit_seed_count": 34,
+    "fuzzy_A_instance_count": 34,
+    "fuzzy_B_hit_seed_count": 18,
+    "fuzzy_B_instance_count": 18,
+    "fuzzy_combined_instance_count": 52,
+    "fuzzy_hit_rate": 0.00104,
+    "fuzzy_hit_seed_count": 52,
+    "fuzzy_pattern_after_pattern_seed_count": 0,
+    "fuzzy_recurrence_hit_rate": 0.0,
+    "fuzzy_recurrence_seed_count": 0,
+    "max_post_fuzzy_pattern_debt_gain": 3.094738704636561,
+    "max_similarity": 1.0,
+    "mean_fuzzy_recurrence_distance": null,
+    "mean_post_fuzzy_pattern_debt_gain": -2.1650950497589845,
+    "mean_similarity": 0.9932126696832579,
+    "min_fuzzy_recurrence_distance": null,
+    "min_similarity": 0.8823529411764706,
+    "post_fuzzy_pattern_new_local_peak_count": 3,
+    "post_fuzzy_pattern_new_local_peak_rate_per_instance": 0.057692307692307696,
+    "raw_fuzzy_A_instance_count": 34,
+    "raw_fuzzy_B_instance_count": 18,
+    "records_measured": 50000,
+    "similarity_threshold": 0.85
+  },
+  "version": "v6.2"
+}

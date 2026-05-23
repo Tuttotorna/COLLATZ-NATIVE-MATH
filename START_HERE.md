@@ -421,3 +421,19 @@ The audit tests whether exact near-breach grammars recur or concatenate inside b
 It does not prove Collatz.
 
 It does not claim Collatz is solved.
+
+## v6.2 Fuzzy Near-Breach Grammar Audit V0
+
+Read:
+
+    docs/FUZZY_NEAR_BREACH_GRAMMAR_AUDIT_V0.md
+
+Run:
+
+    python examples/build_fuzzy_near_breach_grammar_audit_v0.py
+
+The audit tests whether approximate near-breach grammars recur or concatenate inside bounded trajectories.
+
+It does not prove Collatz.
+
+It does not claim Collatz is solved.

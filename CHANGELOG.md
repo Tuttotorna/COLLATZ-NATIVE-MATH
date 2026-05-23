@@ -505,3 +505,13 @@ v1.1 tests whether the v1.0 hard case is isolated or part of a wider frontier.
 - Keeps the rule: No solution before native language.
 - Emits recurrence map JSON, Markdown report, and certificate.
 - Sets v3.6 as Native Grammar Mutation Atlas.
+
+## v3.6 - Native Grammar Mutation Atlas
+
+- Adds a native grammar mutation atlas builder.
+- Maps how native sentence forms transform into other sentence forms.
+- Separates dangerous release, dangerous persistence, recovery-to-regeneration, regeneration-to-recovery, and toward-obstruction mutation.
+- Treats n0 = 9780657630 as a possible grammar node, not a proof object.
+- Preserves the rule: No solution before native language.
+- Emits mutation atlas JSON, Markdown report, and certificate.
+- Sets v3.7 as Native Grammar Stability Map.

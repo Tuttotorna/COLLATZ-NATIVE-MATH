@@ -686,3 +686,24 @@ Boundary:
     recurrence != proof
     dangerous recurrence != obstruction
     no obstruction recurrence detected != obstruction recurrence impossible
+
+## Native grammar mutation atlas
+
+v3.6 maps how native sentence forms mutate.
+
+The project still does not begin from:
+
+    Does every trajectory reach 1?
+
+It asks:
+
+    How does one native sentence transform into another?
+    Which dangerous forms release?
+    Which dangerous forms persist?
+    Which mutations appear near 9780657630?
+
+Boundary:
+
+    mutation != proof
+    dangerous mutation != obstruction
+    no obstruction mutation detected != obstruction mutation impossible

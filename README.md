@@ -940,3 +940,29 @@ Core rule:
     No solution before native language.
 
 This is not a proof layer.
+
+## v3.6 Native Grammar Mutation Atlas
+
+The repository now maps mutation between native sentence forms.
+
+It does not ask first whether Collatz is solved.
+
+It asks:
+
+    How does one native sentence transform into another?
+
+Run:
+
+    python examples/build_native_grammar_mutation_atlas.py
+
+Outputs:
+
+    results/native_grammar_mutation_atlas.json
+    results/native_grammar_mutation_atlas.md
+    results/native_grammar_mutation_certificate.json
+
+Core rule:
+
+    No solution before native language.
+
+This is not a proof layer.

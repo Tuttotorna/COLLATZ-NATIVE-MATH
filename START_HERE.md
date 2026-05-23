@@ -596,3 +596,24 @@ Read:
 Core rule:
 
     No solution before native language.
+
+## v3.6 native grammar mutation atlas
+
+After building the Native Grammar Recurrence Map, build the mutation atlas:
+
+    python examples/build_native_grammar_mutation_atlas.py
+
+Read:
+
+    docs/NATIVE_GRAMMAR_MUTATION_ATLAS.md
+    docs/MUTATION_AS_NATIVE_GRAMMAR.md
+    docs/DANGEROUS_TO_RECOVERY_MUTATIONS.md
+    docs/DANGEROUS_PERSISTENCE_MUTATIONS.md
+    docs/MUTATION_AROUND_9780657630.md
+    docs/MUTATION_ATLAS_LIMITS.md
+    docs/V36_EVIDENCE_STATUS.md
+    docs/V36_NEXT_STEPS.md
+
+Core rule:
+
+    No solution before native language.

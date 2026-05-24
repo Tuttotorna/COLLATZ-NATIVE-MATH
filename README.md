@@ -2,6 +2,8 @@
 
 # COLLATZ-NATIVE-MATH
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20365748.svg)](https://doi.org/10.5281/zenodo.20365748)
+
 ## Concrete entrypoint: Collatz Native Auditor
 
 This repository now has a direct operational tool:

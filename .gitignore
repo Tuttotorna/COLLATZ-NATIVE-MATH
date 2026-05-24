@@ -10,3 +10,7 @@ collatz_native_demo_report/
 collatz_native_gate_report/
 collatz_native_report/
 report/
+build/
+dist/
+ci_report/
+collatz_native_release_report/

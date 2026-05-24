@@ -1,4 +1,161 @@
+<!-- COLLATZ_NATIVE_AUDITOR_TOP_START -->
+
 # COLLATZ-NATIVE-MATH
+
+## Concrete entrypoint: Collatz Native Auditor
+
+This repository now has a direct operational tool:
+
+    python -m collatz_native_auditor.cli --start 1 --end 10000 --out-dir report
+
+It does not claim to prove the Collatz conjecture.
+
+It solves a narrower and concrete problem:
+
+    given one seed or a range of seeds,
+    produce a reproducible native audit of Collatz trajectories
+    using compression debt, 2-adic shadow, regeneration behavior,
+    near-breach detection, and recovery certificates.
+
+In short:
+
+    Collatz input -> native measurements -> audit report
+
+## What problem does it solve?
+
+It turns the native language developed in this repository into an executable audit tool.
+
+Instead of asking the reader to understand the whole research path first, the tool lets them run a concrete measurement:
+
+    Which seeds accumulate high compression debt?
+    Which seeds approach near-breach behavior?
+    Which seeds recover after peak debt?
+    Which trajectories show regeneration pressure?
+    Which cases deserve inspection?
+
+The rest of this repository explains how this native measurement language was developed.
+
+The auditor is the practical entrypoint.
+
+## Install
+
+Clone the repository:
+
+    git clone https://github.com/Tuttotorna/COLLATZ-NATIVE-MATH.git
+    cd COLLATZ-NATIVE-MATH
+
+Install locally:
+
+    pip install -e .
+
+The auditor only uses the Python standard library.
+
+## Run
+
+Audit a range:
+
+    python -m collatz_native_auditor.cli --start 1 --end 10000 --out-dir report
+
+Audit one seed:
+
+    python -m collatz_native_auditor.cli --seed 77031 --out-dir report_seed_77031
+
+Audit seeds from CSV:
+
+    python -m collatz_native_auditor.cli --input examples/sample_seeds.csv --out-dir report_csv
+
+## Input
+
+The auditor accepts three input modes.
+
+Single seed:
+
+    --seed 77031
+
+Range:
+
+    --start 1 --end 10000
+
+CSV file:
+
+    seed
+    27
+    31
+    77031
+
+## Output
+
+The auditor writes:
+
+    report.json
+    report.csv
+    report.html
+    near_breach_cases.jsonl
+    certificate.json
+
+Meaning:
+
+    report.json
+    Full structured audit.
+
+    report.csv
+    Spreadsheet-friendly per-seed summary.
+
+    report.html
+    Human-readable inspection report.
+
+    near_breach_cases.jsonl
+    One JSON object per near-breach case.
+
+    certificate.json
+    Reproducibility certificate with parameters and aggregate results.
+
+## CI gate
+
+The auditor can fail automatically when near-breach cases are detected:
+
+    python -m collatz_native_auditor.cli --start 1 --end 10000 --out-dir report --fail-on-near-breach
+
+Exit codes:
+
+    0 = audit completed, no blocking condition
+    2 = near-breach cases detected
+    3 = non-terminating-within-bound cases detected
+
+## What this is not
+
+This is not a proof of Collatz.
+
+It does not claim infinite coverage.
+
+It does not replace the full research path in this repository.
+
+It provides one concrete, reproducible operation:
+
+    run Collatz seeds
+    measure native trajectory structure
+    produce a report
+    optionally fail CI when critical cases appear
+
+## Why the rest of the repository still matters
+
+The rest of the repository documents how this operational tool was reached:
+
+    compression debt
+    2-adic shadow
+    release pressure
+    response time
+    near-breach anatomy
+    rebound guards
+    native structural interpretation
+
+The code above is the entrypoint.
+
+The repository below is the derivation path.
+
+<!-- COLLATZ_NATIVE_AUDITOR_TOP_END -->
+
+---
 
 <!-- V4.6_PUBLIC_README_SHORTFORM -->
 ## Public shortform

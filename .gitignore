@@ -4,3 +4,9 @@ __pycache__/
 .pytest_cache/
 .DS_Store
 .env
+*.py[cod]
+*.egg-info/
+collatz_native_demo_report/
+collatz_native_gate_report/
+collatz_native_report/
+report/

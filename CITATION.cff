@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata from this file."
+title: "COLLATZ-NATIVE-MATH"
+type: software
+version: "0.1.0"
+date-released: "2026-05-24"
+abstract: "A native Collatz trajectory auditor using compression debt, 2-adic shadow, regeneration behavior, near-breach detection, and recovery certificates."
+authors:
+  - family-names: "Brighindi"
+    given-names: "Massimiliano"
+repository-code: "https://github.com/Tuttotorna/COLLATZ-NATIVE-MATH"
+url: "https://github.com/Tuttotorna/COLLATZ-NATIVE-MATH"
+license: "MIT"
+keywords:
+  - Collatz conjecture
+  - Collatz trajectories
+  - computational mathematics
+  - structural audit
+  - compression debt
+  - 2-adic valuation
+  - native mathematics

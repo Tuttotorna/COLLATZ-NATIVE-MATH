@@ -1068,3 +1068,31 @@ Boundary:
     not a proof
     not Collatz solved
     bounded measurement only
+
+<!-- STRUCTURAL_OBSERVABILITY_ROLE_START -->
+## Structural Observability role
+
+This repository is one bounded measurement role inside **Structural Observability**.
+
+Role:
+
+~~~text
+native trajectory observation layer
+~~~
+
+Boundary:
+
+~~~text
+The tool measures finite trajectory behavior. It does not claim a Collatz proof.
+~~~
+
+Structural Observability foundation:
+
+- lon-mirror: https://github.com/Tuttotorna/lon-mirror
+- Foundation release: https://github.com/Tuttotorna/lon-mirror/releases/tag/v0.2.2
+- DOI: https://doi.org/10.5281/zenodo.20379374
+
+Role document:
+
+- [Structural Observability Role](docs/STRUCTURAL_OBSERVABILITY_ROLE.md)
+<!-- STRUCTURAL_OBSERVABILITY_ROLE_END -->
